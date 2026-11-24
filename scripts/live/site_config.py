@@ -86,12 +86,11 @@ TEAMS = {
     "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports", "roster": []},
     # --- Special data sets (bypass the baseline-core + 2026-09-01 rules on purpose) ---
     # UCAM (OLD): UCAM's tournament-account games 2026-05-01..2026-07-09 (old roster), any roster,
-    # from scripts/live/fetch_ucam_esports.py. Old map pool. Requested by Vincent 2026-11-24.
+    # from scripts/live/fetch_ucam_esports.py. Kickoff map pool only (Bind/Haven/Lotus). Requested by Vincent 2026-11-24.
     "ucamold":     {"prefix": "ucamold", "tag": "UCAM", "name": "UCAM (OLD)",
                     "roster": ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
                     "esports_source": os.path.join(ROOT, "data", "raw", "ucam_esports_since_2026-05_raw_responses.jsonl"),
-                    "ignore_core": True, "min_date": "2026-05-01",
-                    "maps": ["Bind", "Haven", "Lotus", "Ascent", "Fracture", "Pearl", "Split"]},
+                    "ignore_core": True, "min_date": "2026-05-01"},   # maps: Kickoff pool only (Bind/Haven/Lotus have data)
 }
 
 

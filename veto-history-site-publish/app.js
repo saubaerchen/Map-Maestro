@@ -174,8 +174,8 @@ const TEAMS_CONFIG = {
   ucamold: {
     filePrefix:   "ucamold",
     mapControl:   typeof ucamoldMapControlData !== "undefined" ? ucamoldMapControlData : {},
-    statMaps:     ["Bind", "Haven", "Lotus", "Ascent", "Fracture", "Pearl", "Split"],
-    retakeMaps:   ["Bind", "Haven", "Lotus", "Ascent", "Fracture", "Pearl", "Split"],
+    statMaps:     ["Bind", "Haven", "Lotus"],
+    retakeMaps:   ["Bind", "Haven", "Lotus"],
     playerColors: {"B1SK": "#1565C0", "BULD": "#F9A825", "Famsii": "#C62828", "Jesse": "#2E7D32", "OLIZERA": "#E91E63"},
     playerOrder:  ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
     displayName:  "UCAM (OLD)",
@@ -186,9 +186,9 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "202611241344";
-const AGENTS_DATA_VERSION = "202611241344";
-const ECONOMY_DATA_VERSION = "202611241344";
+const RETAKE_DATA_VERSION = "202611241349";
+const AGENTS_DATA_VERSION = "202611241349";
+const ECONOMY_DATA_VERSION = "202611241349";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -199,7 +199,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     }))
   )
 );
-  const MAP_IMAGE_VERSION = "202611241344";
+  const MAP_IMAGE_VERSION = "202611241349";
   const MAP_IMAGE_ASPECTS = {
     Abyss: 1,
     Summit: 1,
