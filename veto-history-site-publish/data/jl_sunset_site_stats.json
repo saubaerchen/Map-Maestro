@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 11,
+    "pct_rounds_won": 91.7,
+    "won_by_kills": 10,
+    "pct_won_by_kills": 83.3,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 26.7,
+    "sites": {
+      "A": {
+        "plant_count": 7,
+        "pct_plant": 58.3,
+        "pct_win": 100.0,
+        "avg_plant_time": 63.7,
+        "min_plant_time": 49.7,
+        "max_plant_time": 80.1,
+        "fk_to_plant_avg": 33.5,
+        "fk_to_plant_n": 7
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 41.7,
+        "pct_win": 80.0,
+        "avg_plant_time": 40.2,
+        "min_plant_time": 22.4,
+        "max_plant_time": 68.9,
+        "fk_to_plant_avg": 30.0,
+        "fk_to_plant_n": 4
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 2,
+    "rounds_won": 2,
+    "pct_rounds_won": 100.0,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 100.0,
+    "won_by_defuse": 0,
+    "pct_won_by_defuse": 0.0,
+    "avg_fk_time": 16.1,
+    "sites": {
+      "A": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      },
+      "B": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      }
+    }
+  },
+  "team": "Joblife",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-10-22",
+      "opponent": "HABO",
+      "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35"
+    }
+  ]
+}

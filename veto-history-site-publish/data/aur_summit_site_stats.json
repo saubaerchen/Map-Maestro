@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 14,
+    "pct_rounds_won": 58.3,
+    "won_by_kills": 10,
+    "pct_won_by_kills": 41.7,
+    "won_by_explosion": 4,
+    "pct_won_by_explosion": 16.7,
+    "avg_fk_time": 30.1,
+    "sites": {
+      "A": {
+        "plant_count": 9,
+        "pct_plant": 52.9,
+        "pct_win": 77.8,
+        "avg_plant_time": 53.6,
+        "min_plant_time": 29.5,
+        "max_plant_time": 80.0,
+        "fk_to_plant_avg": 26.4,
+        "fk_to_plant_n": 9
+      },
+      "B": {
+        "plant_count": 8,
+        "pct_plant": 47.1,
+        "pct_win": 87.5,
+        "avg_plant_time": 69.8,
+        "min_plant_time": 42.8,
+        "max_plant_time": 88.3,
+        "fk_to_plant_avg": 29.3,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 21,
+    "rounds_won": 12,
+    "pct_rounds_won": 57.1,
+    "won_by_kills": 9,
+    "pct_won_by_kills": 42.9,
+    "won_by_defuse": 3,
+    "pct_won_by_defuse": 14.3,
+    "avg_fk_time": 31.3,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 2,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 66.7,
+        "avg_defuse_time": 31.7,
+        "fk_after_plant_avg": 3.1,
+        "fk_after_plant_n": 4
+      },
+      "B": {
+        "plant_count": 6,
+        "defuse_count": 1,
+        "pct_defuse_win": 16.7,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 13.8,
+        "fk_after_plant_avg": 1.0,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "Aurora Gaming",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-11-08",
+      "opponent": "ycat",
+      "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "Enis",
+      "matchId": "8e732396-3c2b-4456-92cd-f69a57a41bbe"
+    }
+  ]
+}

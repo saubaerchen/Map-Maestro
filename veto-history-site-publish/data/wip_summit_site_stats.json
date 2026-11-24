@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 4,
+    "rounds_won": 4,
+    "pct_rounds_won": 100.0,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 100.0,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 18.5,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "pct_plant": 75.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 35.0,
+        "min_plant_time": 26.1,
+        "max_plant_time": 46.0,
+        "fk_to_plant_avg": 26.9,
+        "fk_to_plant_n": 2
+      },
+      "B": {
+        "plant_count": 1,
+        "pct_plant": 25.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 20.3,
+        "min_plant_time": 20.3,
+        "max_plant_time": 20.3,
+        "fk_to_plant_avg": 15.1,
+        "fk_to_plant_n": 1
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 12,
+    "rounds_won": 8,
+    "pct_rounds_won": 66.7,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 33.3,
+    "won_by_defuse": 4,
+    "pct_won_by_defuse": 33.3,
+    "avg_fk_time": 29.2,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "defuse_count": 2,
+        "pct_defuse_win": 50.0,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 20.2,
+        "fk_after_plant_avg": 4.0,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 3,
+        "defuse_count": 2,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 32.3,
+        "fk_after_plant_avg": 14.2,
+        "fk_after_plant_n": 3
+      }
+    }
+  },
+  "team": "WIP Esports",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-11-12",
+      "opponent": "Over",
+      "matchId": "81ee1266-5490-486d-9284-2f196111a42b"
+    }
+  ]
+}

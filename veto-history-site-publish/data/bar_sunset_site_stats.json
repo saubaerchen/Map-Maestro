@@ -1,0 +1,88 @@
+{
+  "t_side": {
+    "total_rounds": 35,
+    "rounds_won": 20,
+    "pct_rounds_won": 57.1,
+    "won_by_kills": 16,
+    "pct_won_by_kills": 45.7,
+    "won_by_explosion": 4,
+    "pct_won_by_explosion": 11.4,
+    "avg_fk_time": 28.1,
+    "sites": {
+      "A": {
+        "plant_count": 10,
+        "pct_plant": 40.0,
+        "pct_win": 70.0,
+        "avg_plant_time": 53.5,
+        "min_plant_time": 33.3,
+        "max_plant_time": 90.3,
+        "fk_to_plant_avg": 20.6,
+        "fk_to_plant_n": 10
+      },
+      "B": {
+        "plant_count": 15,
+        "pct_plant": 60.0,
+        "pct_win": 86.7,
+        "avg_plant_time": 46.6,
+        "min_plant_time": 23.4,
+        "max_plant_time": 73.3,
+        "fk_to_plant_avg": 23.4,
+        "fk_to_plant_n": 15
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 41,
+    "rounds_won": 27,
+    "pct_rounds_won": 65.9,
+    "won_by_kills": 19,
+    "pct_won_by_kills": 46.3,
+    "won_by_defuse": 8,
+    "pct_won_by_defuse": 19.5,
+    "avg_fk_time": 27.2,
+    "sites": {
+      "A": {
+        "plant_count": 8,
+        "defuse_count": 1,
+        "pct_defuse_win": 12.5,
+        "pct_defuse_share": 12.5,
+        "avg_defuse_time": 35.0,
+        "fk_after_plant_avg": 11.3,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 13,
+        "defuse_count": 7,
+        "pct_defuse_win": 53.8,
+        "pct_defuse_share": 87.5,
+        "avg_defuse_time": 24.2,
+        "fk_after_plant_avg": 12.1,
+        "fk_after_plant_n": 9
+      }
+    }
+  },
+  "team": "Bar\u00e7a eSports",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "WIP",
+      "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "SM",
+      "matchId": "f5e12d51-d1f1-491e-af71-cced712fffd4"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "Feuc",
+      "matchId": "9b69c2f7-dd24-4c02-81c4-34abfa5b402f"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "Reme",
+      "matchId": "7b46ef29-c0f3-43c5-a038-eeb6131f20b9"
+    }
+  ]
+}

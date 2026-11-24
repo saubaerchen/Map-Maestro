@@ -1,0 +1,329 @@
+{
+  "team": "NAVI Junior",
+  "Summit": [
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Breach",
+        "Tejo",
+        "Brimstone"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "b444168c-4e35-8076-db47-ef9bf368f384",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "EF",
+          "matchId": "9f016b6a-d57d-472d-824f-da8eedaa6794",
+          "players": [
+            "NVJ sizovskyy",
+            "NVJ Darxcio",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ Kolosha"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "matchId": "9899eb41-c584-4b29-a112-75f7e5518ce6",
+          "players": [
+            "NVJ sizovskyy",
+            "NVJ Darxcio",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ Kolosha"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "opponent": "GRG",
+          "matchId": "eb64bd8f-29ee-4b7b-b355-fb94b8385fc3",
+          "players": [
+            "NVJ sizovskyy",
+            "NVJ Darxcio",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ Kolosha"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Waylay",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-10-09",
+          "opponent": "FRG",
+          "matchId": "6bf76c8e-8107-4175-a8f4-660b27415a7b",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Darxcio",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-10",
+          "opponent": "BNK",
+          "matchId": "bf96bef2-2785-4c2f-a846-11bdc9a575d8",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "opponent": "FRG",
+          "matchId": "edd7160b-b35b-41f1-ae81-bbe0ab8d6825",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        }
+      ]
+    }
+  ],
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Cypher",
+        "Veto"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-09",
+          "opponent": "FRG",
+          "matchId": "fe7dbd94-28b2-43f0-85ff-7c5a4f819cd2",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Veto"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "BNK",
+          "matchId": "d1167ccf-6c92-4fa9-9da7-165d8abf9288",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        }
+      ]
+    }
+  ],
+  "Ascent": [
+    {
+      "agents": [
+        "Jett",
+        "Neon",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "matchId": "de857638-c7bf-46f3-8047-04b4c2e102b6",
+          "players": [
+            "NVJ Darxcio",
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "opponent": "GRG",
+          "matchId": "93896076-3129-48bc-9035-5cac0044beb1",
+          "players": [
+            "NVJ Darxcio",
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Split": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Veto"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-23",
+          "opponent": "CGN",
+          "matchId": "dd040080-ffd5-4e80-8b1d-a60ea269c914",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "opponent": "EF",
+          "matchId": "09e6981a-a67c-4d8c-b841-68d00fe01212",
+          "players": [
+            "NVJ Kolosha",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ sizovskyy",
+            "NVJ Darxcio"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Breach",
+        "Tejo",
+        "Astra"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "b444168c-4e35-8076-db47-ef9bf368f384",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf"
+      ],
+      "games": [
+        {
+          "date": "2026-10-23",
+          "opponent": "CGN",
+          "matchId": "b8c295cd-086e-4e37-9787-6652cf7b715b",
+          "players": [
+            "NVJ sizovskyy",
+            "NVJ Darxcio",
+            "NVJ Javelin",
+            "NVJ avey",
+            "NVJ Kolosha"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 7,
+    "pct_rounds_won": 58.3,
+    "won_by_kills": 6,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 26.8,
+    "sites": {
+      "A": {
+        "plant_count": 2,
+        "pct_plant": 25.0,
+        "pct_win": 50.0,
+        "avg_plant_time": 46.2,
+        "min_plant_time": 28.5,
+        "max_plant_time": 64.0,
+        "fk_to_plant_avg": 22.8,
+        "fk_to_plant_n": 2
+      },
+      "B": {
+        "plant_count": 6,
+        "pct_plant": 75.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 49.8,
+        "min_plant_time": 24.6,
+        "max_plant_time": 81.8,
+        "fk_to_plant_avg": 32.1,
+        "fk_to_plant_n": 6
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 7,
+    "rounds_won": 6,
+    "pct_rounds_won": 85.7,
+    "won_by_kills": 5,
+    "pct_won_by_kills": 71.4,
+    "won_by_defuse": 1,
+    "pct_won_by_defuse": 14.3,
+    "avg_fk_time": 18.2,
+    "sites": {
+      "A": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      },
+      "B": {
+        "plant_count": 1,
+        "defuse_count": 1,
+        "pct_defuse_win": 100.0,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 37.6,
+        "fk_after_plant_avg": 1.7,
+        "fk_after_plant_n": 1
+      }
+    }
+  },
+  "team": "Aurora Gaming",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "F9",
+      "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a"
+    }
+  ]
+}

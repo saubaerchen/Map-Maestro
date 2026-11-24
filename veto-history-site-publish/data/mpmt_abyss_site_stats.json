@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 15,
+    "pct_rounds_won": 62.5,
+    "won_by_kills": 15,
+    "pct_won_by_kills": 62.5,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 24.7,
+    "sites": {
+      "A": {
+        "plant_count": 7,
+        "pct_plant": 33.3,
+        "pct_win": 42.9,
+        "avg_plant_time": 43.8,
+        "min_plant_time": 21.7,
+        "max_plant_time": 62.0,
+        "fk_to_plant_avg": 18.2,
+        "fk_to_plant_n": 5
+      },
+      "B": {
+        "plant_count": 14,
+        "pct_plant": 66.7,
+        "pct_win": 85.7,
+        "avg_plant_time": 37.5,
+        "min_plant_time": 21.6,
+        "max_plant_time": 73.4,
+        "fk_to_plant_avg": 18.0,
+        "fk_to_plant_n": 14
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 14,
+    "rounds_won": 11,
+    "pct_rounds_won": 78.6,
+    "won_by_kills": 7,
+    "pct_won_by_kills": 50.0,
+    "won_by_defuse": 4,
+    "pct_won_by_defuse": 28.6,
+    "avg_fk_time": 15.5,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "defuse_count": 3,
+        "pct_defuse_win": 100.0,
+        "pct_defuse_share": 75.0,
+        "avg_defuse_time": 29.7,
+        "fk_after_plant_avg": 12.6,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 3,
+        "defuse_count": 1,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 25.0,
+        "avg_defuse_time": 21.9,
+        "fk_after_plant_avg": 15.0,
+        "fk_after_plant_n": 3
+      }
+    }
+  },
+  "team": "xXxMasterProMegaTeamxXx",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-11-07",
+      "opponent": "FRG",
+      "matchId": "9f486ed9-d2ae-4c8d-9f6d-2e5ca5c2add8"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "HLT",
+      "matchId": "880723c1-98d4-497a-8c0c-d8650955da48"
+    }
+  ]
+}

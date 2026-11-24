@@ -1,0 +1,203 @@
+{
+  "team": "Joblife",
+  "Lotus": [
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Clove",
+        "Viper",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "1dbf2edd-4729-0984-3115-daa5eed44993",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "matchId": "8ac870f5-9792-4323-a555-9e577e9495fa",
+          "players": [
+            "JL WanZeru",
+            "JL hoody",
+            "JL Sevire",
+            "JL soulcas",
+            "JL runneR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Skye",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6affbdfe-6af4-4d72-9022-6db76a204b86",
+          "players": [
+            "JL WanZeru",
+            "JL hoody",
+            "JL Sevire",
+            "JL soulcas",
+            "JL runneR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-21",
+          "opponent": "CGN",
+          "matchId": "decd4e3a-b1c1-47d9-b21f-04dfbdc30e09",
+          "players": [
+            "JL WanZeru",
+            "JL hoody",
+            "JL Sevire",
+            "JL soulcas",
+            "JL runneR"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Sova",
+        "Astra",
+        "Harbor"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "players": [
+            "JL WanZeru",
+            "JL runneR",
+            "JL hoody",
+            "JL soulcas",
+            "JL Sevire"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "opponent": "CGN",
+          "matchId": "70222a17-d450-4d80-bef6-74cf0e32c4cb",
+          "players": [
+            "JL WanZeru",
+            "JL runneR",
+            "JL hoody",
+            "JL soulcas",
+            "JL Sevire"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Chamber",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "players": [
+            "JL WanZeru",
+            "JL hoody",
+            "JL Sevire",
+            "JL soulcas",
+            "JL runneR"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Gekko",
+        "Brimstone",
+        "Omen"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "e370fa57-4757-3604-3648-499e1f642d3f",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "8e253930-4c05-31dd-1b6c-968525494517"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "players": [
+            "JL WanZeru",
+            "JL hoody",
+            "JL runneR",
+            "JL soulcas",
+            "JL Sevire"
+          ]
+        }
+      ]
+    }
+  ]
+}

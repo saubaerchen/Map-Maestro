@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 4,
+    "rounds_won": 4,
+    "pct_rounds_won": 100.0,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 100.0,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 24.2,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "pct_plant": 100.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 31.0,
+        "min_plant_time": 25.2,
+        "max_plant_time": 38.0,
+        "fk_to_plant_avg": 12.6,
+        "fk_to_plant_n": 3
+      },
+      "B": {
+        "plant_count": 0,
+        "pct_plant": 0.0,
+        "pct_win": null,
+        "avg_plant_time": null,
+        "min_plant_time": null,
+        "max_plant_time": null,
+        "fk_to_plant_avg": null,
+        "fk_to_plant_n": 0
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 12,
+    "rounds_won": 8,
+    "pct_rounds_won": 66.7,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 33.3,
+    "won_by_defuse": 4,
+    "pct_won_by_defuse": 33.3,
+    "avg_fk_time": 33.2,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "defuse_count": 3,
+        "pct_defuse_win": 75.0,
+        "pct_defuse_share": 75.0,
+        "avg_defuse_time": 28.0,
+        "fk_after_plant_avg": 11.6,
+        "fk_after_plant_n": 4
+      },
+      "B": {
+        "plant_count": 3,
+        "defuse_count": 1,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 25.0,
+        "avg_defuse_time": 31.2,
+        "fk_after_plant_avg": 19.8,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "xXxMasterProMegaTeamxXx",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-11-06",
+      "opponent": "CGN",
+      "matchId": "4d1a6494-44a6-4dec-8914-76bea79ed858"
+    }
+  ]
+}

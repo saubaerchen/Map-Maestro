@@ -1,0 +1,471 @@
+{
+  "team": "WIP Esports",
+  "Corrode": [
+    {
+      "agents": [
+        "Neon",
+        "Waylay",
+        "Fade",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "matchId": "7cdefd29-a015-4322-9f98-1a0504c576de",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "GG",
+          "matchId": "0b665bbc-3fb7-4549-8134-e52550f3c08d",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "AVL",
+          "matchId": "b37f128b-e9a0-4f9d-ab91-0fe466ee4f6b",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "BZL",
+          "matchId": "53f9f861-e957-4054-9e7a-a7a7e6d34aae",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "OBL",
+          "matchId": "b43f8959-0fdd-463f-b314-3b6ee784d2cc",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Jett",
+        "Yoru",
+        "Sova",
+        "Astra",
+        "Harbor"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152"
+      ],
+      "games": [
+        {
+          "date": "2026-11-06",
+          "opponent": "AVL",
+          "matchId": "72321720-f946-428e-8365-cd64d4099d2f",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP mepeezy",
+            "WIP Jesse"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "OBL",
+          "matchId": "ece5879f-971a-4f9b-899b-00e405f5833c",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP mepeezy",
+            "WIP Jesse"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "4112",
+          "matchId": "7390267c-1927-4be7-b9a5-e5a9a871de52",
+          "players": [
+            "WIP wtex",
+            "WIP TakaS",
+            "WIP Vorwenn",
+            "WIP mepeezy",
+            "WIP Jesse"
+          ]
+        }
+      ]
+    }
+  ],
+  "Bind": [
+    {
+      "agents": [
+        "Raze",
+        "Yoru",
+        "Fade",
+        "Brimstone",
+        "Viper"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "opponent": "Over",
+          "matchId": "6181da7d-cb0f-444c-b883-3188710f8073",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "opponent": "Cass",
+          "matchId": "4e885cd0-5b0a-445a-bd9b-807a790bd2c8",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "e4f54d73-a30e-49cd-ac26-f8b10d338cfd",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "4112",
+          "matchId": "f73252c9-ce7d-4422-8449-e66cd29ed8c2",
+          "players": [
+            "WIP TakaS",
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Chamber",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "b90eb156-cab4-4f1e-ab94-4494b45ef438",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0de93b15-467d-4005-bb6f-f91b45e62703",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "5e29e22a-3467-4f62-af31-4d47a7f5a2fe",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "BZL",
+          "matchId": "db4d97cf-1f50-4fe4-ad0e-e5e70c878b6f",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "matchId": "ab784179-6608-45c5-9b16-7fcd00cbf6bd",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "matchId": "082b5cf6-4538-4568-a19b-8c55af016a29",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "40101618-128f-47df-8807-23a9737f5a70",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "GG",
+          "matchId": "06cedd2e-624d-4c6e-9d98-5c6e00029d74",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "0f370545-38a1-4b14-a83b-0575f64fc9f2",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "opponent": "Cass",
+          "matchId": "bd3afc87-c684-4d1e-b795-d01ab9898a53",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "d9483cdc-d87e-444e-a404-8737434e0efb",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP TakaS",
+            "WIP mepeezy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Harbor",
+        "Cypher",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-12",
+          "opponent": "Over",
+          "matchId": "81ee1266-5490-486d-9284-2f196111a42b",
+          "players": [
+            "WIP wtex",
+            "WIP Vorwenn",
+            "WIP Jesse",
+            "WIP mepeezy",
+            "WIP TakaS"
+          ]
+        }
+      ]
+    }
+  ]
+}

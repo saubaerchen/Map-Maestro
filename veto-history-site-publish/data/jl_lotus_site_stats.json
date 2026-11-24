@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 25,
+    "rounds_won": 13,
+    "pct_rounds_won": 52.0,
+    "won_by_kills": 11,
+    "pct_won_by_kills": 44.0,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 8.0,
+    "avg_fk_time": 39.0,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "pct_plant": 35.3,
+        "pct_win": 83.3,
+        "avg_plant_time": 63.9,
+        "min_plant_time": 39.0,
+        "max_plant_time": 99.5,
+        "fk_to_plant_avg": 19.8,
+        "fk_to_plant_n": 5
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 29.4,
+        "pct_win": 80.0,
+        "avg_plant_time": 63.4,
+        "min_plant_time": 22.3,
+        "max_plant_time": 94.0,
+        "fk_to_plant_avg": 20.9,
+        "fk_to_plant_n": 4
+      },
+      "C": {
+        "plant_count": 6,
+        "pct_plant": 35.3,
+        "pct_win": 66.7,
+        "avg_plant_time": 61.2,
+        "min_plant_time": 26.5,
+        "max_plant_time": 82.5,
+        "fk_to_plant_avg": 40.3,
+        "fk_to_plant_n": 6
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 34,
+    "rounds_won": 20,
+    "pct_rounds_won": 58.8,
+    "won_by_kills": 15,
+    "pct_won_by_kills": 44.1,
+    "won_by_defuse": 5,
+    "pct_won_by_defuse": 14.7,
+    "avg_fk_time": 33.6,
+    "sites": {
+      "A": {
+        "plant_count": 8,
+        "defuse_count": 3,
+        "pct_defuse_win": 37.5,
+        "pct_defuse_share": 60.0,
+        "avg_defuse_time": 25.4,
+        "fk_after_plant_avg": 6.3,
+        "fk_after_plant_n": 6
+      },
+      "B": {
+        "plant_count": 4,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 21.5,
+        "fk_after_plant_n": 2
+      },
+      "C": {
+        "plant_count": 7,
+        "defuse_count": 2,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 14.3,
+        "fk_after_plant_avg": 8.0,
+        "fk_after_plant_n": 6
+      }
+    }
+  },
+  "team": "Joblife",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-10-22",
+      "opponent": "HABO",
+      "matchId": "8ac870f5-9792-4323-a555-9e577e9495fa"
+    },
+    {
+      "date": "2026-10-22",
+      "opponent": "SGE",
+      "matchId": "6affbdfe-6af4-4d72-9022-6db76a204b86"
+    },
+    {
+      "date": "2026-10-21",
+      "opponent": "CGN",
+      "matchId": "decd4e3a-b1c1-47d9-b21f-04dfbdc30e09"
+    }
+  ]
+}

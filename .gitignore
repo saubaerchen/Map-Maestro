@@ -1,0 +1,24 @@
+# ---- secrets: never publish ----
+/API_REFERENCE.md
+/scripts/fetch_cl3_stub_teams.py
+/scripts/fetch_sge_lotus_postplant_retake.py
+.env
+*.key
+
+# ---- private: players' main Riot accounts / raw match data (root /data only — the site's own data/ is published) ----
+/data/
+/handoffs_new/
+/.claude/
+
+# ---- bulky / old season ----
+/archive/
+/veto-history-site/
+*.7z
+
+# ---- generated / local ----
+prototypes/**/out/
+__pycache__/
+*.pyc
+.vscode/
+Thumbs.db
+desktop.ini

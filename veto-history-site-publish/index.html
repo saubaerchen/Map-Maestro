@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veto History Viewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260607a" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="brand-row">
+          <div class="brand">VETO_ARCHITECT</div>
+          <nav class="topnav" aria-label="Primary">
+            <button class="view-tab active" id="view-veto" type="button">Veto</button>
+            <button class="view-tab" id="view-map" type="button">Map-Info</button>
+            <button class="view-tab" id="view-test" type="button">Test</button>
+          </nav>
+        </div>
+      </header>
+
+      <div class="data-error-bar hidden" id="data-error-bar" role="alert">
+        <span class="data-error-icon">⚠</span>
+        <span class="data-error-msg" id="data-error-msg"></span>
+        <button class="data-error-dismiss" id="data-error-dismiss" type="button" aria-label="Dismiss errors">✕</button>
+      </div>
+
+      <header class="hero">
+        <h1 id="hero-title">Veto History</h1>
+        <p class="status-line">
+          <span class="status-dot"></span>
+          <span id="hero-copy">Historical pick/ban performance for <span class="team-accent" id="hero-team">FOKUS</span></span>
+        </p>
+      </header>
+
+      <main class="panel">
+        <section class="toolbar" id="main-toolbar">
+          <div class="toolbar-left">
+            <label class="team-select-shell" for="team-select">
+              <span class="team-select-label">Team Selection</span>
+              <select class="team-select" id="team-select"></select>
+            </label>
+          </div>
+          <div class="side-controls hidden" id="side-controls" aria-label="Side view selector">
+            <button class="side-button active" id="side-ct" type="button">CT</button>
+            <button class="side-button" id="side-t" type="button">T</button>
+          </div>
+          <div class="timeframe-controls" id="timeframe-controls">
+            <button class="timeframe-button" id="start-button" type="button">Starting</button>
+            <input class="timeframe-input" id="start-date" type="date" />
+            <button class="timeframe-reset" id="reset-date" type="button">All</button>
+          </div>
+        </section>
+
+        <section class="table-wrap" id="veto-view">
+          <div class="insight-grid" id="insight-grid">
+            <article class="insight-card">
+              <p class="insight-label">Prio First Ban</p>
+              <div class="insight-list" id="first-ban-list"></div>
+            </article>
+            <article class="insight-card">
+              <p class="insight-label">Prio First Pick</p>
+              <div class="insight-list" id="first-pick-list"></div>
+            </article>
+            <article class="insight-card">
+              <p class="insight-label">Most Played Map</p>
+              <div class="insight-list" id="most-played-list"></div>
+            </article>
+          </div>
+
+          <div class="table-headline">
+            <div>
+              <p class="eyebrow" id="table-subtitle">2026 series</p>
+              <h2 id="table-title">Veto History</h2>
+            </div>
+          </div>
+
+          <div class="table-scroll">
+            <table class="history-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Opponent</th>
+                  <th>Ban 1</th>
+                  <th>Ban 2</th>
+                  <th>Pick 1</th>
+                  <th>Pick 2</th>
+                  <th>Ban 3</th>
+                  <th>Ban 4</th>
+                  <th>Decider</th>
+                </tr>
+              </thead>
+              <tbody id="history-body"></tbody>
+            </table>
+          </div>
+
+          <div class="legend legend-bottom">
+            <span class="legend-item"><span class="legend-swatch legend-team"></span>Team Map Pick</span>
+            <span class="legend-item"><span class="legend-swatch legend-opp-pick"></span>Opponent Pick</span>
+            <span class="legend-item"><span class="legend-swatch legend-team-ban"></span>Team Ban</span>
+            <span class="legend-item"><span class="legend-swatch legend-opp-ban"></span>Opponent Ban</span>
+            <span class="legend-item"><span class="legend-swatch legend-decider"></span>Decider Map</span>
+          </div>
+        </section>
+
+        <section class="map-info-view hidden" id="map-view">
+          <div class="map-warning hidden" id="map-warning"></div>
+          <div class="map-info-toolbar" id="map-info-toolbar">
+            <div>
+              <p class="eyebrow" id="map-module-eyebrow">Sniper First-Kill Heatmaps</p>
+              <h2 class="map-info-title" id="map-info-title">Map Info</h2>
+              <p class="map-info-copy" id="map-info-copy"></p>
+            </div>
+            <div class="map-controls">
+              <div class="map-kill-legend-box"><span class="kill-legend-red">RED</span> = KILLER - <span class="kill-legend-blue">BLUE</span> = VICTIM</div>
+              <details class="player-filter-shell" id="player-filter-shell">
+                <summary class="player-filter-summary-row">
+                  <span class="map-select-label">Players</span>
+                  <span class="player-filter-summary" id="player-filter-summary">All</span>
+                </summary>
+                <div class="player-filter-menu">
+                  <div class="player-filter-actions">
+                    <button class="player-filter-action" id="player-filter-all" type="button">All</button>
+                    <button class="player-filter-action" id="player-filter-none" type="button">None</button>
+                  </div>
+                  <div class="player-filter-list" id="player-filter-list"></div>
+                </div>
+              </details>
+              <label class="map-select-shell" for="fk-type-select">
+                <span class="map-select-label">FK Type</span>
+                <select class="map-select" id="fk-type-select">
+                  <option value="operator">Sniper FK</option>
+                  <option value="all">All FK</option>
+                </select>
+              </label>
+              <label class="map-select-shell" for="map-select">
+                <span class="map-select-label">Map</span>
+                <select class="map-select" id="map-select"></select>
+              </label>
+            </div>
+          </div>
+
+          <div class="map-placeholder hidden" id="map-placeholder"></div>
+
+          <div class="heatmap-grid" id="heatmap-grid">
+            <article class="heatmap-card">
+              <div class="heatmap-card-head">
+                <div>
+                  <p class="heatmap-side-label heatmap-side-label-ct" id="ct-side-label">CT-SIDE</p>
+                  <h3 id="ct-heat-title">Sniper First-Kill Positions</h3>
+                </div>
+                <p class="heatmap-count" id="ct-count">0 samples</p>
+              </div>
+              <div class="heatmap-canvas-wrap">
+                <div class="heatmap-canvas" id="ct-heatmap"></div>
+              </div>
+            </article>
+
+            <article class="heatmap-card">
+              <div class="heatmap-card-head">
+                <div>
+                  <p class="heatmap-side-label heatmap-side-label-t" id="t-side-label">T-SIDE</p>
+                  <h3 id="t-heat-title">Sniper First-Kill Positions</h3>
+                </div>
+                <p class="heatmap-count" id="t-count">0 samples</p>
+              </div>
+              <div class="heatmap-canvas-wrap">
+                <div class="heatmap-canvas" id="t-heatmap"></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="map-sample-card" id="map-sample-card"></div>
+
+          <div class="defensive-module hidden" id="defensive-module">
+            <div class="defensive-header">
+              <div class="defensive-title-row">
+                <h2 class="map-info-title" id="defensive-title"></h2>
+                <button type="button" id="agents-btn" class="agents-btn hidden">AGENTS</button>
+              </div>
+              <div class="defensive-controls">
+                <span id="fks-new-roster-hint" class="fks-new-roster-hint hidden">NEW ROSTER shows only the data of games where cullum played</span>
+                <button type="button" id="fks-new-roster-btn" class="fks-new-roster-btn hidden">NEW ROSTER</button>
+                <label class="map-select-shell" for="defensive-map-select">
+                  <span class="map-select-label">Map</span>
+                  <select class="map-select" id="defensive-map-select"></select>
+                </label>
+              </div>
+            </div>
+            <div class="defensive-panels" id="defensive-panels"></div>
+            <div class="defensive-player-controls" id="defensive-player-controls">
+              <button class="defensive-player-action" id="defensive-player-all" type="button">All</button>
+              <button class="defensive-player-action" id="defensive-player-none" type="button">None</button>
+              <div class="defensive-player-row" id="defensive-player-row"></div>
+            </div>
+            <div class="map-sample-card" id="defensive-sample-card"></div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <script src="./data.js?v=20261124k"></script>
+    <script src="./pick-meta.js?v=20260420a"></script>
+    <script src="./extra-data.js?v=20261124k"></script>
+    <script src="./extra-pick-meta.js?v=20260420a"></script>
+    <script src="./extra-score-meta.js?v=20260420a"></script>
+    <script src="./extra-row-meta.js?v=20260420a"></script>
+    <script src="./map-info-data.js?v=20260420a"></script>
+    <script src="./extra-map-info-data.js?v=20260420a"></script>
+    <script src="./defensive-early-data.js?v=20261124k"></script>
+    <script src="./sge-map-control-data.js?v=20261124k"></script>
+    <script src="./mir-map-control-data.js?v=20261124k"></script>
+    <script src="./jl-map-control-data.js?v=20261124k"></script>
+    <script src="./nvj-map-control-data.js?v=20261124k"></script>
+    <script src="./bar-map-control-data.js?v=20261124k"></script>
+    <script src="./f9-map-control-data.js?v=20261124k"></script>
+    <script src="./wip-map-control-data.js?v=20261124k"></script>
+    <script src="./aur-map-control-data.js?v=20261124k"></script>
+    <script src="./pxl-map-control-data.js?v=20261124k"></script>
+    <script src="./mpmt-map-control-data.js?v=20261124k"></script>
+    <script src="./lam-map-control-data.js?v=20261124k"></script>
+    <button type="button" id="agent-icon-btn" class="agent-icon-fab hidden" aria-label="Toggle agent icons">AGENT ICONS</button>
+    <script src="./app.js?v=20261124k"></script>
+  </body>
+</html>

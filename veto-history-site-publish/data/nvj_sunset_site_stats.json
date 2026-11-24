@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 12,
+    "pct_rounds_won": 50.0,
+    "won_by_kills": 12,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 28.6,
+    "sites": {
+      "A": {
+        "plant_count": 7,
+        "pct_plant": 58.3,
+        "pct_win": 85.7,
+        "avg_plant_time": 57.9,
+        "min_plant_time": 20.0,
+        "max_plant_time": 84.4,
+        "fk_to_plant_avg": 35.6,
+        "fk_to_plant_n": 6
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 41.7,
+        "pct_win": 100.0,
+        "avg_plant_time": 55.7,
+        "min_plant_time": 40.9,
+        "max_plant_time": 94.2,
+        "fk_to_plant_avg": 29.5,
+        "fk_to_plant_n": 5
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 17,
+    "rounds_won": 5,
+    "pct_rounds_won": 29.4,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 11.8,
+    "won_by_defuse": 3,
+    "pct_won_by_defuse": 17.6,
+    "avg_fk_time": 39.3,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 2,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 66.7,
+        "avg_defuse_time": 15.5,
+        "fk_after_plant_avg": 10.2,
+        "fk_after_plant_n": 5
+      },
+      "B": {
+        "plant_count": 7,
+        "defuse_count": 1,
+        "pct_defuse_win": 14.3,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 30.5,
+        "fk_after_plant_avg": 11.9,
+        "fk_after_plant_n": 6
+      }
+    }
+  },
+  "team": "NAVI Junior",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-10-10",
+      "opponent": "BNK",
+      "matchId": "bf96bef2-2785-4c2f-a846-11bdc9a575d8"
+    },
+    {
+      "date": "2026-10-09",
+      "opponent": "FRG",
+      "matchId": "edd7160b-b35b-41f1-ae81-bbe0ab8d6825"
+    }
+  ]
+}

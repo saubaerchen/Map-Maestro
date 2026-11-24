@@ -1,0 +1,121 @@
+{
+  "map": "Summit",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-11-13",
+      "opponent": "Krom",
+      "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+      "score": "13-2"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 2,
+      "pointCount": 8,
+      "points": [
+        {
+          "site": "A",
+          "player": "askoo",
+          "normX": 63.2101,
+          "normY": 72.6816,
+          "roundNum": 12,
+          "plantRoundTimeMs": 51727,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "nayte",
+          "normX": 87.0301,
+          "normY": 45.6966,
+          "roundNum": 12,
+          "plantRoundTimeMs": 51727,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 89.5126,
+          "normY": 32.8566,
+          "roundNum": 12,
+          "plantRoundTimeMs": 51727,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 57.6676,
+          "normY": 54.1716,
+          "roundNum": 12,
+          "plantRoundTimeMs": 51727,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "askoo",
+          "normX": 91.2001,
+          "normY": 41.3916,
+          "roundNum": 13,
+          "plantRoundTimeMs": 31968,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "nayte",
+          "normX": 90.0901,
+          "normY": 48.8241,
+          "roundNum": 13,
+          "plantRoundTimeMs": 31968,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 86.8501,
+          "normY": 45.6141,
+          "roundNum": 13,
+          "plantRoundTimeMs": 31968,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 73.5901,
+          "normY": 32.9616,
+          "roundNum": 13,
+          "plantRoundTimeMs": 31968,
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "score": "13-2"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  }
+}

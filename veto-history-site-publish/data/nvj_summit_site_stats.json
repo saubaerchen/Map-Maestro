@@ -1,0 +1,88 @@
+{
+  "t_side": {
+    "total_rounds": 35,
+    "rounds_won": 15,
+    "pct_rounds_won": 42.9,
+    "won_by_kills": 12,
+    "pct_won_by_kills": 34.3,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 8.6,
+    "avg_fk_time": 25.4,
+    "sites": {
+      "A": {
+        "plant_count": 15,
+        "pct_plant": 68.2,
+        "pct_win": 66.7,
+        "avg_plant_time": 57.1,
+        "min_plant_time": 25.3,
+        "max_plant_time": 96.2,
+        "fk_to_plant_avg": 38.7,
+        "fk_to_plant_n": 14
+      },
+      "B": {
+        "plant_count": 7,
+        "pct_plant": 31.8,
+        "pct_win": 57.1,
+        "avg_plant_time": 46.0,
+        "min_plant_time": 19.6,
+        "max_plant_time": 95.3,
+        "fk_to_plant_avg": 36.4,
+        "fk_to_plant_n": 6
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 41,
+    "rounds_won": 13,
+    "pct_rounds_won": 31.7,
+    "won_by_kills": 9,
+    "pct_won_by_kills": 22.0,
+    "won_by_defuse": 4,
+    "pct_won_by_defuse": 9.8,
+    "avg_fk_time": 29.5,
+    "sites": {
+      "A": {
+        "plant_count": 18,
+        "defuse_count": 3,
+        "pct_defuse_win": 16.7,
+        "pct_defuse_share": 75.0,
+        "avg_defuse_time": 35.2,
+        "fk_after_plant_avg": 21.7,
+        "fk_after_plant_n": 10
+      },
+      "B": {
+        "plant_count": 13,
+        "defuse_count": 1,
+        "pct_defuse_win": 7.7,
+        "pct_defuse_share": 25.0,
+        "avg_defuse_time": 25.1,
+        "fk_after_plant_avg": 12.8,
+        "fk_after_plant_n": 8
+      }
+    }
+  },
+  "team": "NAVI Junior",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-10-22",
+      "opponent": "EF",
+      "matchId": "9f016b6a-d57d-472d-824f-da8eedaa6794"
+    },
+    {
+      "date": "2026-10-22",
+      "opponent": "BLZ",
+      "matchId": "9899eb41-c584-4b29-a112-75f7e5518ce6"
+    },
+    {
+      "date": "2026-10-21",
+      "opponent": "GRG",
+      "matchId": "eb64bd8f-29ee-4b7b-b355-fb94b8385fc3"
+    },
+    {
+      "date": "2026-10-09",
+      "opponent": "FRG",
+      "matchId": "6bf76c8e-8107-4175-a8f4-660b27415a7b"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "t_side": {
+    "total_rounds": 20,
+    "rounds_won": 19,
+    "pct_rounds_won": 95.0,
+    "won_by_kills": 17,
+    "pct_won_by_kills": 85.0,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 10.0,
+    "avg_fk_time": 23.1,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "pct_plant": 55.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 40.7,
+        "min_plant_time": 17.2,
+        "max_plant_time": 68.0,
+        "fk_to_plant_avg": 28.3,
+        "fk_to_plant_n": 9
+      },
+      "B": {
+        "plant_count": 9,
+        "pct_plant": 45.0,
+        "pct_win": 88.9,
+        "avg_plant_time": 48.8,
+        "min_plant_time": 26.8,
+        "max_plant_time": 75.7,
+        "fk_to_plant_avg": 28.6,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 25,
+    "rounds_won": 19,
+    "pct_rounds_won": 76.0,
+    "won_by_kills": 18,
+    "pct_won_by_kills": 72.0,
+    "won_by_defuse": 1,
+    "pct_won_by_defuse": 4.0,
+    "avg_fk_time": 24.8,
+    "sites": {
+      "A": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      },
+      "B": {
+        "plant_count": 6,
+        "defuse_count": 1,
+        "pct_defuse_win": 16.7,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 32.4,
+        "fk_after_plant_avg": 20.8,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "Bar\u00e7a eSports",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-11-12",
+      "opponent": "M\u00e9he",
+      "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "Reme",
+      "matchId": "bb472440-0731-489a-8cf2-d6e13eab8837"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "FL",
+      "matchId": "cdd1170f-86c9-4281-8f93-57bda6227d4e"
+    }
+  ]
+}

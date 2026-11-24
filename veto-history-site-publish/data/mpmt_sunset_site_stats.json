@@ -1,0 +1,113 @@
+{
+  "t_side": {
+    "total_rounds": 90,
+    "rounds_won": 50,
+    "pct_rounds_won": 55.6,
+    "won_by_kills": 49,
+    "pct_won_by_kills": 54.4,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 1.1,
+    "avg_fk_time": 25.6,
+    "sites": {
+      "A": {
+        "plant_count": 35,
+        "pct_plant": 56.5,
+        "pct_win": 74.3,
+        "avg_plant_time": 49.1,
+        "min_plant_time": 20.9,
+        "max_plant_time": 94.0,
+        "fk_to_plant_avg": 28.0,
+        "fk_to_plant_n": 34
+      },
+      "B": {
+        "plant_count": 27,
+        "pct_plant": 43.5,
+        "pct_win": 77.8,
+        "avg_plant_time": 37.8,
+        "min_plant_time": 15.5,
+        "max_plant_time": 92.8,
+        "fk_to_plant_avg": 16.8,
+        "fk_to_plant_n": 21
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 85,
+    "rounds_won": 51,
+    "pct_rounds_won": 60.0,
+    "won_by_kills": 27,
+    "pct_won_by_kills": 31.8,
+    "won_by_defuse": 24,
+    "pct_won_by_defuse": 28.2,
+    "avg_fk_time": 25.6,
+    "sites": {
+      "A": {
+        "plant_count": 22,
+        "defuse_count": 10,
+        "pct_defuse_win": 45.5,
+        "pct_defuse_share": 41.7,
+        "avg_defuse_time": 30.9,
+        "fk_after_plant_avg": 13.6,
+        "fk_after_plant_n": 17
+      },
+      "B": {
+        "plant_count": 35,
+        "defuse_count": 14,
+        "pct_defuse_win": 40.0,
+        "pct_defuse_share": 58.3,
+        "avg_defuse_time": 29.5,
+        "fk_after_plant_avg": 12.7,
+        "fk_after_plant_n": 27
+      }
+    }
+  },
+  "team": "xXxMasterProMegaTeamxXx",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "F9",
+      "matchId": "60c96064-5e17-49fa-9a2f-0622beda5398"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "FRG",
+      "matchId": "be0f87cb-db67-40db-80f5-d3e82bbe2423"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "VCE",
+      "matchId": "5f999cbf-dde7-4a7e-a5e6-477442321326"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "CGN",
+      "matchId": "2ca50135-a68d-49af-9abe-9f31715cbbd5"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "KRY",
+      "matchId": "351289c3-1c6d-40f2-9864-bbe6063c9af6"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "HLT",
+      "matchId": "40d40e06-489d-4ba0-95f4-3ee4e1780293"
+    },
+    {
+      "date": "2026-10-30",
+      "opponent": "RB",
+      "matchId": "ac358c81-c07d-4999-a98e-2d9b67733019"
+    },
+    {
+      "date": "2026-10-25",
+      "opponent": "BZL",
+      "matchId": "4c97355c-bb4c-4812-b65b-6b08aaa8d152"
+    },
+    {
+      "date": "2026-10-19",
+      "opponent": "Mill",
+      "matchId": "09a73173-c87c-4a57-b228-f908191177c1"
+    }
+  ]
+}

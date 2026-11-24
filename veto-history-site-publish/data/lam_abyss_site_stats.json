@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 18,
+    "pct_rounds_won": 75.0,
+    "won_by_kills": 16,
+    "pct_won_by_kills": 66.7,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 22.4,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "pct_plant": 61.1,
+        "pct_win": 100.0,
+        "avg_plant_time": 40.0,
+        "min_plant_time": 19.5,
+        "max_plant_time": 81.7,
+        "fk_to_plant_avg": 17.4,
+        "fk_to_plant_n": 11
+      },
+      "B": {
+        "plant_count": 7,
+        "pct_plant": 38.9,
+        "pct_win": 71.4,
+        "avg_plant_time": 47.3,
+        "min_plant_time": 31.6,
+        "max_plant_time": 85.2,
+        "fk_to_plant_avg": 22.7,
+        "fk_to_plant_n": 7
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 14,
+    "rounds_won": 8,
+    "pct_rounds_won": 57.1,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 28.6,
+    "won_by_defuse": 4,
+    "pct_won_by_defuse": 28.6,
+    "avg_fk_time": 37.2,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "defuse_count": 1,
+        "pct_defuse_win": 25.0,
+        "pct_defuse_share": 25.0,
+        "avg_defuse_time": 16.0,
+        "fk_after_plant_avg": 9.3,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 6,
+        "defuse_count": 3,
+        "pct_defuse_win": 50.0,
+        "pct_defuse_share": 75.0,
+        "avg_defuse_time": 30.3,
+        "fk_after_plant_avg": 19.1,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "La Masia",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "CGN",
+      "matchId": "84567ed5-28e3-4dc5-9104-c8d3a80753c2"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "HBT",
+      "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82"
+    }
+  ]
+}

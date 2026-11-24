@@ -1,0 +1,127 @@
+{
+  "t_side": {
+    "total_rounds": 91,
+    "rounds_won": 54,
+    "pct_rounds_won": 59.3,
+    "won_by_kills": 47,
+    "pct_won_by_kills": 51.6,
+    "won_by_explosion": 7,
+    "pct_won_by_explosion": 7.7,
+    "avg_fk_time": 28.9,
+    "sites": {
+      "A": {
+        "plant_count": 25,
+        "pct_plant": 32.9,
+        "pct_win": 76.0,
+        "avg_plant_time": 53.0,
+        "min_plant_time": 25.0,
+        "max_plant_time": 94.0,
+        "fk_to_plant_avg": 32.7,
+        "fk_to_plant_n": 21
+      },
+      "B": {
+        "plant_count": 25,
+        "pct_plant": 32.9,
+        "pct_win": 72.0,
+        "avg_plant_time": 50.4,
+        "min_plant_time": 14.0,
+        "max_plant_time": 98.3,
+        "fk_to_plant_avg": 39.5,
+        "fk_to_plant_n": 19
+      },
+      "C": {
+        "plant_count": 26,
+        "pct_plant": 34.2,
+        "pct_win": 61.5,
+        "avg_plant_time": 51.6,
+        "min_plant_time": 23.1,
+        "max_plant_time": 93.3,
+        "fk_to_plant_avg": 25.5,
+        "fk_to_plant_n": 22
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 91,
+    "rounds_won": 43,
+    "pct_rounds_won": 47.3,
+    "won_by_kills": 24,
+    "pct_won_by_kills": 26.4,
+    "won_by_defuse": 19,
+    "pct_won_by_defuse": 20.9,
+    "avg_fk_time": 28.1,
+    "sites": {
+      "A": {
+        "plant_count": 29,
+        "defuse_count": 12,
+        "pct_defuse_win": 41.4,
+        "pct_defuse_share": 63.2,
+        "avg_defuse_time": 35.8,
+        "fk_after_plant_avg": 16.0,
+        "fk_after_plant_n": 21
+      },
+      "B": {
+        "plant_count": 14,
+        "defuse_count": 2,
+        "pct_defuse_win": 14.3,
+        "pct_defuse_share": 10.5,
+        "avg_defuse_time": 15.6,
+        "fk_after_plant_avg": 12.2,
+        "fk_after_plant_n": 9
+      },
+      "C": {
+        "plant_count": 20,
+        "defuse_count": 5,
+        "pct_defuse_win": 25.0,
+        "pct_defuse_share": 26.3,
+        "avg_defuse_time": 33.2,
+        "fk_after_plant_avg": 13.3,
+        "fk_after_plant_n": 13
+      }
+    }
+  },
+  "team": "La Masia",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "CGN",
+      "matchId": "2da7704b-395e-430c-9223-fa65e9b14f57"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "deat",
+      "matchId": "e5bc43c2-a3e7-45dd-9e32-2a068c8a3331"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "NWA",
+      "matchId": "54479a44-d618-45bc-8105-d642662cc809"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "Pozo",
+      "matchId": "34aefb15-d89b-42eb-bc81-cd5d170d2f46"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "Bpip",
+      "matchId": "3594590d-a55b-41da-a344-1132cfe0cc17"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "Host",
+      "matchId": "ced22f99-4c14-42a4-a399-a7b81c721eb7"
+    },
+    {
+      "date": "2026-09-25",
+      "opponent": "UNI",
+      "matchId": "cd0fb325-663a-4f41-b97f-71d7bfa3cfcb"
+    },
+    {
+      "date": "2026-09-18",
+      "opponent": "DMNX",
+      "matchId": "0825a35b-3bfe-4c49-9ccd-22e2b2803599"
+    }
+  ]
+}

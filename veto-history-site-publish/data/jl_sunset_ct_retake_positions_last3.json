@@ -1,0 +1,25 @@
+{
+  "map": "Sunset",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-10-22",
+      "opponent": "HABO",
+      "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+      "score": "13-1"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  },
+  "postPlant10_20": {}
+}

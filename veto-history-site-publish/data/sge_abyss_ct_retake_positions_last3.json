@@ -1,0 +1,218 @@
+{
+  "map": "Abyss",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-10-22",
+      "opponent": "JL",
+      "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+      "score": "10-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 4,
+      "pointCount": 7,
+      "points": [
+        {
+          "site": "A",
+          "player": "azury",
+          "normX": 28.535,
+          "normY": 50.3159,
+          "roundNum": 14,
+          "plantRoundTimeMs": 68014,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Fizzy",
+          "normX": 65.795,
+          "normY": 18.4424,
+          "roundNum": 14,
+          "plantRoundTimeMs": 68014,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "azury",
+          "normX": 40.4258,
+          "normY": 70.0475,
+          "roundNum": 16,
+          "plantRoundTimeMs": 24526,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Fizzy",
+          "normX": 48.8741,
+          "normY": 25.4084,
+          "roundNum": 16,
+          "plantRoundTimeMs": 24526,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "foe",
+          "normX": 30.0578,
+          "normY": 23.1404,
+          "roundNum": 16,
+          "plantRoundTimeMs": 24526,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "azury",
+          "normX": 64.742,
+          "normY": 19.8437,
+          "roundNum": 17,
+          "plantRoundTimeMs": 88324,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "azury",
+          "normX": 43.9007,
+          "normY": 81.914,
+          "roundNum": 19,
+          "plantRoundTimeMs": 85798,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 3,
+      "pointCount": 4,
+      "points": [
+        {
+          "site": "B",
+          "player": "musashi",
+          "normX": 55.4432,
+          "normY": 61.6883,
+          "roundNum": 18,
+          "plantRoundTimeMs": 70603,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "foe",
+          "normX": 32.4392,
+          "normY": 51.1097,
+          "roundNum": 18,
+          "plantRoundTimeMs": 70603,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "musashi",
+          "normX": 59.396,
+          "normY": 54.5927,
+          "roundNum": 21,
+          "plantRoundTimeMs": 39098,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "foe",
+          "normX": 62.5874,
+          "normY": 68.387,
+          "roundNum": 22,
+          "plantRoundTimeMs": 84956,
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "score": "10-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12180,
+              "players": [
+                {
+                  "player": "azury",
+                  "normX": 33.7919,
+                  "normY": 32.1962
+                },
+                {
+                  "player": "Fizzy",
+                  "normX": 52.1384,
+                  "normY": 25.6271
+                },
+                {
+                  "player": "foe",
+                  "normX": 28.1624,
+                  "normY": 22.5572
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12197,
+              "players": [
+                {
+                  "player": "azury",
+                  "normX": 33.7919,
+                  "normY": 32.2691
+                },
+                {
+                  "player": "Fizzy",
+                  "normX": 52.1222,
+                  "normY": 25.6757
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19998,
+              "players": [
+                {
+                  "player": "azury",
+                  "normX": 26.0726,
+                  "normY": 22.0388
+                }
+              ]
+            }
+          ],
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "score": "10-13"
+        }
+      ]
+    }
+  }
+}

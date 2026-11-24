@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 6,
+    "rounds_won": 4,
+    "pct_rounds_won": 66.7,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 66.7,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 22.5,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "pct_plant": 75.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 45.1,
+        "min_plant_time": 27.3,
+        "max_plant_time": 64.9,
+        "fk_to_plant_avg": 21.0,
+        "fk_to_plant_n": 3
+      },
+      "B": {
+        "plant_count": 1,
+        "pct_plant": 25.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 57.0,
+        "min_plant_time": 57.0,
+        "max_plant_time": 57.0,
+        "fk_to_plant_avg": 48.7,
+        "fk_to_plant_n": 1
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 24,
+    "rounds_won": 21,
+    "pct_rounds_won": 87.5,
+    "won_by_kills": 13,
+    "pct_won_by_kills": 54.2,
+    "won_by_defuse": 8,
+    "pct_won_by_defuse": 33.3,
+    "avg_fk_time": 17.3,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 4,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 32.1,
+        "fk_after_plant_avg": 14.7,
+        "fk_after_plant_n": 6
+      },
+      "B": {
+        "plant_count": 4,
+        "defuse_count": 4,
+        "pct_defuse_win": 100.0,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 30.3,
+        "fk_after_plant_avg": 15.3,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "Pixel Lumina",
+  "map": "Corrode",
+  "matches": [
+    {
+      "date": "2026-11-06",
+      "opponent": "NOMA",
+      "matchId": "78e5c2fa-ff65-4e84-b239-4aec0529fe94"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "FATT",
+      "matchId": "bb1d49b7-c09d-4252-b951-1228ae8e01f1"
+    }
+  ]
+}

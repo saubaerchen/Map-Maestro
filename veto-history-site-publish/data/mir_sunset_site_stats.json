@@ -1,0 +1,98 @@
+{
+  "t_side": {
+    "total_rounds": 71,
+    "rounds_won": 40,
+    "pct_rounds_won": 56.3,
+    "won_by_kills": 35,
+    "pct_won_by_kills": 49.3,
+    "won_by_explosion": 5,
+    "pct_won_by_explosion": 7.0,
+    "avg_fk_time": 23.9,
+    "sites": {
+      "A": {
+        "plant_count": 25,
+        "pct_plant": 50.0,
+        "pct_win": 68.0,
+        "avg_plant_time": 46.8,
+        "min_plant_time": 17.7,
+        "max_plant_time": 96.3,
+        "fk_to_plant_avg": 29.7,
+        "fk_to_plant_n": 23
+      },
+      "B": {
+        "plant_count": 25,
+        "pct_plant": 50.0,
+        "pct_win": 88.0,
+        "avg_plant_time": 50.3,
+        "min_plant_time": 20.9,
+        "max_plant_time": 102.0,
+        "fk_to_plant_avg": 30.8,
+        "fk_to_plant_n": 23
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 57,
+    "rounds_won": 33,
+    "pct_rounds_won": 57.9,
+    "won_by_kills": 24,
+    "pct_won_by_kills": 42.1,
+    "won_by_defuse": 9,
+    "pct_won_by_defuse": 15.8,
+    "avg_fk_time": 26.3,
+    "sites": {
+      "A": {
+        "plant_count": 18,
+        "defuse_count": 3,
+        "pct_defuse_win": 16.7,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 36.0,
+        "fk_after_plant_avg": 18.0,
+        "fk_after_plant_n": 11
+      },
+      "B": {
+        "plant_count": 12,
+        "defuse_count": 6,
+        "pct_defuse_win": 50.0,
+        "pct_defuse_share": 66.7,
+        "avg_defuse_time": 29.2,
+        "fk_after_plant_avg": 13.3,
+        "fk_after_plant_n": 8
+      }
+    }
+  },
+  "team": "MIR",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "QM",
+      "matchId": "3fd0039f-ecc0-4e19-ab9c-bde78dde17ce"
+    },
+    {
+      "date": "2026-10-09",
+      "opponent": "SYX",
+      "matchId": "512e9053-d4d8-4176-ab70-87c109b04bcb"
+    },
+    {
+      "date": "2026-09-27",
+      "opponent": "hazt",
+      "matchId": "5bc3f96a-401c-4fb9-bc57-171f0c7ad284"
+    },
+    {
+      "date": "2026-09-27",
+      "opponent": "kolb",
+      "matchId": "8725b378-931e-430c-979d-60170688265a"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "Tea",
+      "matchId": "28e4d148-fde1-4dd9-af08-4a0a881208dc"
+    },
+    {
+      "date": "2026-09-18",
+      "opponent": "Game",
+      "matchId": "b92ccdff-1633-4d9c-9fe8-16ce5da2710c"
+    }
+  ]
+}

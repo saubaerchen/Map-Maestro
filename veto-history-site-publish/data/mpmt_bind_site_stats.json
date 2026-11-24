@@ -1,0 +1,88 @@
+{
+  "t_side": {
+    "total_rounds": 32,
+    "rounds_won": 19,
+    "pct_rounds_won": 59.4,
+    "won_by_kills": 16,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 9.4,
+    "avg_fk_time": 27.4,
+    "sites": {
+      "A": {
+        "plant_count": 15,
+        "pct_plant": 62.5,
+        "pct_win": 73.3,
+        "avg_plant_time": 54.6,
+        "min_plant_time": 16.2,
+        "max_plant_time": 86.0,
+        "fk_to_plant_avg": 25.3,
+        "fk_to_plant_n": 14
+      },
+      "B": {
+        "plant_count": 9,
+        "pct_plant": 37.5,
+        "pct_win": 77.8,
+        "avg_plant_time": 54.5,
+        "min_plant_time": 21.8,
+        "max_plant_time": 92.7,
+        "fk_to_plant_avg": 31.1,
+        "fk_to_plant_n": 9
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 47,
+    "rounds_won": 30,
+    "pct_rounds_won": 63.8,
+    "won_by_kills": 22,
+    "pct_won_by_kills": 46.8,
+    "won_by_defuse": 8,
+    "pct_won_by_defuse": 17.0,
+    "avg_fk_time": 30.0,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "defuse_count": 3,
+        "pct_defuse_win": 27.3,
+        "pct_defuse_share": 37.5,
+        "avg_defuse_time": 26.1,
+        "fk_after_plant_avg": 19.5,
+        "fk_after_plant_n": 10
+      },
+      "B": {
+        "plant_count": 11,
+        "defuse_count": 5,
+        "pct_defuse_win": 45.5,
+        "pct_defuse_share": 62.5,
+        "avg_defuse_time": 27.1,
+        "fk_after_plant_avg": 14.6,
+        "fk_after_plant_n": 10
+      }
+    }
+  },
+  "team": "xXxMasterProMegaTeamxXx",
+  "map": "Bind",
+  "matches": [
+    {
+      "date": "2026-11-05",
+      "opponent": "KRY",
+      "matchId": "f93401e2-11b4-41ce-a16f-d28bb05fe8f2"
+    },
+    {
+      "date": "2026-10-30",
+      "opponent": "RB",
+      "matchId": "4846fac9-0829-49e5-b415-b265b2aed39f"
+    },
+    {
+      "date": "2026-10-25",
+      "opponent": "BZL",
+      "matchId": "581c7c87-9137-4f70-8512-2623a4c64ccd"
+    },
+    {
+      "date": "2026-10-19",
+      "opponent": "Mill",
+      "matchId": "03ad2757-bbe8-4b5d-ae1b-c36e1a476f16"
+    }
+  ]
+}

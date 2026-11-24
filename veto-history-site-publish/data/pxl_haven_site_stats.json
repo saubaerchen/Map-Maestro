@@ -1,0 +1,112 @@
+{
+  "t_side": {
+    "total_rounds": 33,
+    "rounds_won": 23,
+    "pct_rounds_won": 69.7,
+    "won_by_kills": 18,
+    "pct_won_by_kills": 54.5,
+    "won_by_explosion": 5,
+    "pct_won_by_explosion": 15.2,
+    "avg_fk_time": 28.7,
+    "sites": {
+      "A": {
+        "plant_count": 8,
+        "pct_plant": 30.8,
+        "pct_win": 75.0,
+        "avg_plant_time": 51.7,
+        "min_plant_time": 36.9,
+        "max_plant_time": 74.5,
+        "fk_to_plant_avg": 20.5,
+        "fk_to_plant_n": 7
+      },
+      "B": {
+        "plant_count": 4,
+        "pct_plant": 15.4,
+        "pct_win": 75.0,
+        "avg_plant_time": 37.5,
+        "min_plant_time": 15.4,
+        "max_plant_time": 66.4,
+        "fk_to_plant_avg": 11.4,
+        "fk_to_plant_n": 2
+      },
+      "C": {
+        "plant_count": 14,
+        "pct_plant": 53.8,
+        "pct_win": 92.9,
+        "avg_plant_time": 41.6,
+        "min_plant_time": 20.3,
+        "max_plant_time": 69.3,
+        "fk_to_plant_avg": 19.8,
+        "fk_to_plant_n": 14
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 59,
+    "rounds_won": 35,
+    "pct_rounds_won": 59.3,
+    "won_by_kills": 21,
+    "pct_won_by_kills": 35.6,
+    "won_by_defuse": 14,
+    "pct_won_by_defuse": 23.7,
+    "avg_fk_time": 26.0,
+    "sites": {
+      "A": {
+        "plant_count": 19,
+        "defuse_count": 9,
+        "pct_defuse_win": 47.4,
+        "pct_defuse_share": 64.3,
+        "avg_defuse_time": 27.2,
+        "fk_after_plant_avg": 11.8,
+        "fk_after_plant_n": 14
+      },
+      "B": {
+        "plant_count": 7,
+        "defuse_count": 2,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 14.3,
+        "avg_defuse_time": 29.0,
+        "fk_after_plant_avg": 17.7,
+        "fk_after_plant_n": 5
+      },
+      "C": {
+        "plant_count": 11,
+        "defuse_count": 3,
+        "pct_defuse_win": 27.3,
+        "pct_defuse_share": 21.4,
+        "avg_defuse_time": 24.4,
+        "fk_after_plant_avg": 7.2,
+        "fk_after_plant_n": 5
+      }
+    }
+  },
+  "team": "Pixel Lumina",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "AURA",
+      "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "unwa",
+      "matchId": "1e1b6fd2-9d61-4de0-93f2-ed9908a3b8ec"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "NOMA",
+      "matchId": "4dbc1fae-cc75-4062-9584-40f337abe4b5"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "W-Fo",
+      "matchId": "cca5ef73-d645-47e5-9b34-d19ff6ddd673"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "FATT",
+      "matchId": "773ae00f-dfa4-449d-8364-f84b669f8b30"
+    }
+  ]
+}

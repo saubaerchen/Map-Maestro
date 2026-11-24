@@ -1,0 +1,107 @@
+{
+  "t_side": {
+    "total_rounds": 48,
+    "rounds_won": 22,
+    "pct_rounds_won": 45.8,
+    "won_by_kills": 20,
+    "pct_won_by_kills": 41.7,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 4.2,
+    "avg_fk_time": 23.6,
+    "sites": {
+      "A": {
+        "plant_count": 17,
+        "pct_plant": 50.0,
+        "pct_win": 52.9,
+        "avg_plant_time": 67.7,
+        "min_plant_time": 19.3,
+        "max_plant_time": 98.0,
+        "fk_to_plant_avg": 45.5,
+        "fk_to_plant_n": 16
+      },
+      "B": {
+        "plant_count": 2,
+        "pct_plant": 5.9,
+        "pct_win": 0.0,
+        "avg_plant_time": 61.6,
+        "min_plant_time": 40.4,
+        "max_plant_time": 82.7,
+        "fk_to_plant_avg": 20.9,
+        "fk_to_plant_n": 2
+      },
+      "C": {
+        "plant_count": 15,
+        "pct_plant": 44.1,
+        "pct_win": 73.3,
+        "avg_plant_time": 43.2,
+        "min_plant_time": 21.9,
+        "max_plant_time": 89.5,
+        "fk_to_plant_avg": 27.4,
+        "fk_to_plant_n": 15
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 44,
+    "rounds_won": 25,
+    "pct_rounds_won": 56.8,
+    "won_by_kills": 18,
+    "pct_won_by_kills": 40.9,
+    "won_by_defuse": 7,
+    "pct_won_by_defuse": 15.9,
+    "avg_fk_time": 31.6,
+    "sites": {
+      "A": {
+        "plant_count": 9,
+        "defuse_count": 3,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 42.9,
+        "avg_defuse_time": 28.0,
+        "fk_after_plant_avg": 13.1,
+        "fk_after_plant_n": 5
+      },
+      "B": {
+        "plant_count": 5,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 9.5,
+        "fk_after_plant_n": 3
+      },
+      "C": {
+        "plant_count": 11,
+        "defuse_count": 4,
+        "pct_defuse_win": 36.4,
+        "pct_defuse_share": 57.1,
+        "avg_defuse_time": 29.5,
+        "fk_after_plant_avg": 14.6,
+        "fk_after_plant_n": 9
+      }
+    }
+  },
+  "team": "MIR",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-10-10",
+      "opponent": "TSE",
+      "matchId": "f42dc59d-66e7-485b-a60a-57887e66d0b8"
+    },
+    {
+      "date": "2026-09-27",
+      "opponent": "kolb",
+      "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "Tea",
+      "matchId": "d3ba6464-6f92-4003-8a32-2fe35c12fa51"
+    },
+    {
+      "date": "2026-09-26",
+      "opponent": "FRG",
+      "matchId": "5161778b-bdca-4895-adc1-43c052a67147"
+    }
+  ]
+}

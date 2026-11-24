@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 7,
+    "rounds_won": 0,
+    "pct_rounds_won": 0.0,
+    "won_by_kills": 0,
+    "pct_won_by_kills": 0.0,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 23.9,
+    "sites": {
+      "A": {
+        "plant_count": 2,
+        "pct_plant": 100.0,
+        "pct_win": 0.0,
+        "avg_plant_time": 46.5,
+        "min_plant_time": 29.8,
+        "max_plant_time": 63.2,
+        "fk_to_plant_avg": 28.6,
+        "fk_to_plant_n": 2
+      },
+      "B": {
+        "plant_count": 0,
+        "pct_plant": 0.0,
+        "pct_win": null,
+        "avg_plant_time": null,
+        "min_plant_time": null,
+        "max_plant_time": null,
+        "fk_to_plant_avg": null,
+        "fk_to_plant_n": 0
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 12,
+    "rounds_won": 6,
+    "pct_rounds_won": 50.0,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 33.3,
+    "won_by_defuse": 2,
+    "pct_won_by_defuse": 16.7,
+    "avg_fk_time": 25.6,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "defuse_count": 1,
+        "pct_defuse_win": 25.0,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 20.3,
+        "fk_after_plant_avg": 19.3,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 4,
+        "defuse_count": 1,
+        "pct_defuse_win": 25.0,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 21.3,
+        "fk_after_plant_n": 1
+      }
+    }
+  },
+  "team": "F9 EICAR",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-11-07",
+      "opponent": "baco",
+      "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4"
+    }
+  ]
+}

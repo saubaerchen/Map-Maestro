@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 9,
+    "pct_rounds_won": 75.0,
+    "won_by_kills": 7,
+    "pct_won_by_kills": 58.3,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 16.7,
+    "avg_fk_time": 36.9,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "pct_plant": 40.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 70.6,
+        "min_plant_time": 32.9,
+        "max_plant_time": 90.5,
+        "fk_to_plant_avg": 41.5,
+        "fk_to_plant_n": 4
+      },
+      "B": {
+        "plant_count": 6,
+        "pct_plant": 60.0,
+        "pct_win": 83.3,
+        "avg_plant_time": 51.5,
+        "min_plant_time": 33.3,
+        "max_plant_time": 88.3,
+        "fk_to_plant_avg": 18.7,
+        "fk_to_plant_n": 6
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 10,
+    "rounds_won": 3,
+    "pct_rounds_won": 30.0,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 20.0,
+    "won_by_defuse": 1,
+    "pct_won_by_defuse": 10.0,
+    "avg_fk_time": 47.6,
+    "sites": {
+      "A": {
+        "plant_count": 5,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 25.6,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 2,
+        "defuse_count": 1,
+        "pct_defuse_win": 50.0,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 19.7,
+        "fk_after_plant_avg": 12.3,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "La Masia",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-14",
+      "opponent": "NWA",
+      "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6"
+    }
+  ]
+}

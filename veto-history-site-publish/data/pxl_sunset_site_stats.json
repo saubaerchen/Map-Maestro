@@ -1,0 +1,83 @@
+{
+  "t_side": {
+    "total_rounds": 36,
+    "rounds_won": 27,
+    "pct_rounds_won": 75.0,
+    "won_by_kills": 24,
+    "pct_won_by_kills": 66.7,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 25.3,
+    "sites": {
+      "A": {
+        "plant_count": 15,
+        "pct_plant": 55.6,
+        "pct_win": 86.7,
+        "avg_plant_time": 50.4,
+        "min_plant_time": 16.0,
+        "max_plant_time": 90.9,
+        "fk_to_plant_avg": 24.9,
+        "fk_to_plant_n": 15
+      },
+      "B": {
+        "plant_count": 12,
+        "pct_plant": 44.4,
+        "pct_win": 100.0,
+        "avg_plant_time": 42.1,
+        "min_plant_time": 18.0,
+        "max_plant_time": 89.8,
+        "fk_to_plant_avg": 21.6,
+        "fk_to_plant_n": 9
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 16,
+    "rounds_won": 12,
+    "pct_rounds_won": 75.0,
+    "won_by_kills": 9,
+    "pct_won_by_kills": 56.2,
+    "won_by_defuse": 3,
+    "pct_won_by_defuse": 18.8,
+    "avg_fk_time": 30.5,
+    "sites": {
+      "A": {
+        "plant_count": 2,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 16.7,
+        "fk_after_plant_n": 2
+      },
+      "B": {
+        "plant_count": 5,
+        "defuse_count": 3,
+        "pct_defuse_win": 60.0,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 35.2,
+        "fk_after_plant_avg": 17.5,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "Pixel Lumina",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-07",
+      "opponent": "unwa",
+      "matchId": "0fb4dd08-728d-450c-93f9-7437430830a9"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "Leve",
+      "matchId": "ed934863-cb28-47b8-8a50-85cbae4632c6"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "W-Fo",
+      "matchId": "a07ddebe-f8f5-4fff-942b-49db38038cd3"
+    }
+  ]
+}

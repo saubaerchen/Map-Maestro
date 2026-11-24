@@ -1,0 +1,25 @@
+{
+  "map": "Abyss",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-05",
+      "opponent": "Kryo",
+      "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+      "score": "13-0"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  },
+  "postPlant10_20": {}
+}

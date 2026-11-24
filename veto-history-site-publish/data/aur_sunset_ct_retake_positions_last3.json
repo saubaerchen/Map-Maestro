@@ -1,0 +1,113 @@
+{
+  "map": "Sunset",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-10",
+      "opponent": "F9",
+      "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+      "score": "13-6"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    },
+    "B": {
+      "roundCount": 1,
+      "pointCount": 4,
+      "points": [
+        {
+          "site": "B",
+          "player": "B1SK",
+          "normX": 27.302,
+          "normY": 38.2635,
+          "roundNum": 17,
+          "plantRoundTimeMs": 23166,
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "score": "13-6"
+        },
+        {
+          "site": "B",
+          "player": "trexx",
+          "normX": 22.3022,
+          "normY": 27.9441,
+          "roundNum": 17,
+          "plantRoundTimeMs": 23166,
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "score": "13-6"
+        },
+        {
+          "site": "B",
+          "player": "Boo",
+          "normX": 54.0794,
+          "normY": 30.9393,
+          "roundNum": 17,
+          "plantRoundTimeMs": 23166,
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "score": "13-6"
+        },
+        {
+          "site": "B",
+          "player": "Derke",
+          "normX": 34.2908,
+          "normY": 52.3269,
+          "roundNum": 17,
+          "plantRoundTimeMs": 23166,
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "score": "13-6"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 17,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15927,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 29.3846,
+                  "normY": 47.6859
+                },
+                {
+                  "player": "trexx",
+                  "normX": 26.7638,
+                  "normY": 36.1419
+                },
+                {
+                  "player": "Boo",
+                  "normX": 27.341,
+                  "normY": 34.1997
+                },
+                {
+                  "player": "Derke",
+                  "normX": 31.67,
+                  "normY": 48.9495
+                }
+              ]
+            }
+          ],
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-6"
+        }
+      ]
+    }
+  }
+}

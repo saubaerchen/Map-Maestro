@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 5,
+    "pct_rounds_won": 41.7,
+    "won_by_kills": 4,
+    "pct_won_by_kills": 33.3,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 45.0,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "pct_plant": 40.0,
+        "pct_win": 50.0,
+        "avg_plant_time": 85.1,
+        "min_plant_time": 78.8,
+        "max_plant_time": 90.9,
+        "fk_to_plant_avg": 10.4,
+        "fk_to_plant_n": 4
+      },
+      "B": {
+        "plant_count": 6,
+        "pct_plant": 60.0,
+        "pct_win": 50.0,
+        "avg_plant_time": 34.6,
+        "min_plant_time": 18.5,
+        "max_plant_time": 93.0,
+        "fk_to_plant_avg": 27.7,
+        "fk_to_plant_n": 3
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 10,
+    "rounds_won": 4,
+    "pct_rounds_won": 40.0,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 20.0,
+    "won_by_defuse": 2,
+    "pct_won_by_defuse": 20.0,
+    "avg_fk_time": 35.8,
+    "sites": {
+      "A": {
+        "plant_count": 1,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 6.2,
+        "fk_after_plant_n": 1
+      },
+      "B": {
+        "plant_count": 7,
+        "defuse_count": 2,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 32.0,
+        "fk_after_plant_avg": 22.4,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "NAVI Junior",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-10-23",
+      "opponent": "CGN",
+      "matchId": "b8c295cd-086e-4e37-9787-6652cf7b715b"
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "team": "F9 EICAR",
+  "Corrode": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Vyse",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "6d258619-346b-40ee-9253-7cebdbca6e60",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "ab027e87-6711-495a-84d8-91712e4fa5b6",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "GG",
+          "matchId": "a45cdb14-b030-449e-bbfd-f8945cb70ebd",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Priv",
+          "matchId": "c389db7e-d9ac-45aa-b1a6-faac88d7512d",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "FL",
+          "matchId": "02f88193-b6a7-4fb1-b476-5e2151189b50",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "DMNX",
+          "matchId": "312065c3-9101-49f0-8072-1f25575e9516",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Cypher",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "MPMT",
+          "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "3d074d78-f062-480e-bad8-a9eea9388347",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "739d85be-2f48-42de-b854-501e97e4ff49",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "GG",
+          "matchId": "9a9519b6-8646-4da7-b76a-b2a08dd827b7",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Priv",
+          "matchId": "0c2c7854-8eb7-470d-99df-553bc8cfc778",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "FL",
+          "matchId": "94beddb6-6bad-4a78-b1ee-f83cb1740d5e",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "DMNX",
+          "matchId": "f169e02c-859f-4bd6-8241-ff8bd5a5fc10",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Cypher",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "MPMT",
+          "matchId": "da067b6f-b6db-4a1e-87df-bb4a22af9b27",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "matchId": "c417f502-1a1b-4371-84eb-e423cd475baa",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Priv",
+          "matchId": "af030e7d-4cb2-4cf9-afa6-d634a1457b9d",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Veto",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "Bind": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Brimstone",
+        "Viper",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Cypher",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "MPMT",
+          "matchId": "60c96064-5e17-49fa-9a2f-0622beda5398",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "players": [
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth",
+            "F9 Yohpa"
+          ]
+        }
+      ]
+    }
+  ]
+}

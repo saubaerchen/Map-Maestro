@@ -1,0 +1,651 @@
+{
+  "team": "Bar\u00e7a eSports",
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Fade",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "WIP",
+          "matchId": "ab784179-6608-45c5-9b16-7fcd00cbf6bd",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "matchId": "39779bb2-8b63-421b-b7f4-59caac713e61",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-11-14",
+          "opponent": "baco",
+          "matchId": "b1b17763-2d6a-456f-bf82-93c0c2d65e51",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "opponent": "HONK",
+          "matchId": "1f938f93-2ec2-4a5f-a2b0-e34edab35055",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "SM",
+          "matchId": "6a088a0b-31d8-47f9-b6a4-d14e5903c220",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "Fran",
+          "matchId": "65cea9a8-c47a-4dac-984b-c47c0df35d7c",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "matchId": "99adf8f3-0757-4e63-b8a1-f24faf9dbade",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "FL",
+          "matchId": "381496fc-e9d8-4e4d-b266-7b4160ceb501",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Pozo",
+          "matchId": "d252c917-ac8d-4157-8db0-bf09c45c5f95",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "MONA",
+          "matchId": "7e609408-38e5-47f3-8a4b-520f408f6fd9",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "O2G",
+          "matchId": "955a3653-0bb8-466d-9230-4ea7fe225381",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        }
+      ]
+    }
+  ],
+  "Corrode": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "WIP",
+          "matchId": "7cdefd29-a015-4322-9f98-1a0504c576de",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Waylay",
+        "Fade",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "matchId": "e1b701c6-fc0c-405e-b29d-76a7028dfbf4",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-11-14",
+          "opponent": "HONK",
+          "matchId": "0da835cd-450c-474e-8422-9fa2e841c668",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "matchId": "d769b4d7-5a9f-4c0d-922f-9554d64224fb",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "F9",
+          "matchId": "ab027e87-6711-495a-84d8-91712e4fa5b6",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-06",
+          "opponent": "Pozo",
+          "matchId": "ffefe4dc-731a-45e6-ac3c-4065cd693e40",
+          "players": [
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0",
+            "BAR Pa1ze"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "MONA",
+          "matchId": "344acfc1-5250-488d-858d-393bfe022ca2",
+          "players": [
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0",
+            "BAR Pa1ze"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "O2G",
+          "matchId": "8f6c2a09-0afb-4862-abe5-c98685d96e0f",
+          "players": [
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0",
+            "BAR Pa1ze"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "Reme",
+          "matchId": "bb472440-0731-489a-8cf2-d6e13eab8837",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-06",
+          "opponent": "FL",
+          "matchId": "cdd1170f-86c9-4281-8f93-57bda6227d4e",
+          "players": [
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR purp0",
+            "BAR Pa1ze"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "WIP",
+          "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Chamber",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-11-13",
+          "opponent": "SM",
+          "matchId": "f5e12d51-d1f1-491e-af71-cced712fffd4",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR purp0",
+            "BAR MONSTEERR"
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "matchId": "9b69c2f7-dd24-4c02-81c4-34abfa5b402f",
+          "players": [
+            "BAR Pa1ze",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR purp0",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Skye",
+        "Omen",
+        "Viper",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "Reme",
+          "matchId": "7b46ef29-c0f3-43c5-a038-eeb6131f20b9",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR Fit1nho"
+          ]
+        }
+      ]
+    }
+  ],
+  "Bind": [
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Fade",
+        "Brimstone",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-14",
+          "opponent": "baco",
+          "matchId": "c7fb431a-4af4-40a7-8249-c5e8dcdc3266",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Brimstone",
+        "Viper",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+      ],
+      "games": [
+        {
+          "date": "2026-11-13",
+          "opponent": "Fran",
+          "matchId": "0fd0088e-bbac-4a91-90ba-fd54dea2665d",
+          "players": [
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR Pa1ze"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "F9",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "players": [
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR",
+            "BAR Pa1ze"
+          ]
+        }
+      ]
+    }
+  ],
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "F9",
+          "matchId": "739d85be-2f48-42de-b854-501e97e4ff49",
+          "players": [
+            "BAR Pa1ze",
+            "BAR purp0",
+            "BAR Fit1nho",
+            "BAR Proxh",
+            "BAR MONSTEERR"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "map": "Bind",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-14",
+      "opponent": "GSH",
+      "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+      "score": "15-17"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "Cuba",
+      "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+      "score": "16-14"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "vyro",
+      "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+      "score": "13-8"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 11,
+      "pointCount": 24,
+      "points": [
+        {
+          "site": "A",
+          "player": "TakaS",
+          "normX": 72.9161,
+          "normY": 33.2726,
+          "roundNum": 3,
+          "plantRoundTimeMs": 40160,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 42.3895,
+          "normY": 19.5905,
+          "roundNum": 3,
+          "plantRoundTimeMs": 40160,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "wtex",
+          "normX": 77.4414,
+          "normY": 33.7859,
+          "roundNum": 3,
+          "plantRoundTimeMs": 40160,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "TakaS",
+          "normX": 71.9131,
+          "normY": 30.5291,
+          "roundNum": 6,
+          "plantRoundTimeMs": 65460,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "Jesse",
+          "normX": 74.6153,
+          "normY": 70.0768,
+          "roundNum": 26,
+          "plantRoundTimeMs": 70178,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "wtex",
+          "normX": 56.9389,
+          "normY": 11.3482,
+          "roundNum": 26,
+          "plantRoundTimeMs": 70178,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 25.1202,
+          "normY": 36.3288,
+          "roundNum": 26,
+          "plantRoundTimeMs": 70178,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "A",
+          "player": "Jesse",
+          "normX": 39.8525,
+          "normY": 56.8608,
+          "roundNum": 12,
+          "plantRoundTimeMs": 25139,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "TakaS",
+          "normX": 43.1624,
+          "normY": 67.2743,
+          "roundNum": 12,
+          "plantRoundTimeMs": 25139,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "TakaS",
+          "normX": 85.4772,
+          "normY": 50.7484,
+          "roundNum": 13,
+          "plantRoundTimeMs": 51997,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 17.0608,
+          "normY": 41.8807,
+          "roundNum": 13,
+          "plantRoundTimeMs": 51997,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 28.2413,
+          "normY": 26.464,
+          "roundNum": 13,
+          "plantRoundTimeMs": 51997,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 76.4856,
+          "normY": 33.3847,
+          "roundNum": 15,
+          "plantRoundTimeMs": 88121,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "wtex",
+          "normX": 61.1928,
+          "normY": 22.9771,
+          "roundNum": 15,
+          "plantRoundTimeMs": 88121,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "Jesse",
+          "normX": 52.7027,
+          "normY": 16.3337,
+          "roundNum": 16,
+          "plantRoundTimeMs": 86676,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 67.8362,
+          "normY": 21.1009,
+          "roundNum": 16,
+          "plantRoundTimeMs": 86676,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "wtex",
+          "normX": 39.6224,
+          "normY": 51.0139,
+          "roundNum": 16,
+          "plantRoundTimeMs": 86676,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 33.0557,
+          "normY": 67.1799,
+          "roundNum": 18,
+          "plantRoundTimeMs": 69116,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 66.8745,
+          "normY": 26.7,
+          "roundNum": 18,
+          "plantRoundTimeMs": 69116,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 20.2704,
+          "normY": 49.8339,
+          "roundNum": 21,
+          "plantRoundTimeMs": 72299,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 59.352,
+          "normY": 19.1775,
+          "roundNum": 27,
+          "plantRoundTimeMs": 27112,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "A",
+          "player": "mepeezy",
+          "normX": 60.9568,
+          "normY": 23.6851,
+          "roundNum": 15,
+          "plantRoundTimeMs": 63755,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "wtex",
+          "normX": 65.4467,
+          "normY": 26.3755,
+          "roundNum": 15,
+          "plantRoundTimeMs": 63755,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "Vorwenn",
+          "normX": 31.5689,
+          "normY": 65.5692,
+          "roundNum": 15,
+          "plantRoundTimeMs": 63755,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 5,
+      "pointCount": 14,
+      "points": [
+        {
+          "site": "B",
+          "player": "TakaS",
+          "normX": 62.0306,
+          "normY": 24.4285,
+          "roundNum": 9,
+          "plantRoundTimeMs": 45483,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 15.3144,
+          "normY": 30.2813,
+          "roundNum": 9,
+          "plantRoundTimeMs": 45483,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "B",
+          "player": "mepeezy",
+          "normX": 40.1121,
+          "normY": 21.9446,
+          "roundNum": 9,
+          "plantRoundTimeMs": 45483,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "B",
+          "player": "Vorwenn",
+          "normX": 45.8882,
+          "normY": 19.2365,
+          "roundNum": 9,
+          "plantRoundTimeMs": 45483,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "B",
+          "player": "TakaS",
+          "normX": 43.6521,
+          "normY": 59.1205,
+          "roundNum": 24,
+          "plantRoundTimeMs": 94143,
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "score": "15-17"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 46.9679,
+          "normY": 18.853,
+          "roundNum": 20,
+          "plantRoundTimeMs": 58704,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "TakaS",
+          "normX": 36.7078,
+          "normY": 21.3015,
+          "roundNum": 20,
+          "plantRoundTimeMs": 58704,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "wtex",
+          "normX": 70.4971,
+          "normY": 35.1488,
+          "roundNum": 20,
+          "plantRoundTimeMs": 58704,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 49.1332,
+          "normY": 17.3013,
+          "roundNum": 23,
+          "plantRoundTimeMs": 46742,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "TakaS",
+          "normX": 62.0011,
+          "normY": 72.9324,
+          "roundNum": 23,
+          "plantRoundTimeMs": 46742,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "Vorwenn",
+          "normX": 61.4642,
+          "normY": 25.0716,
+          "roundNum": 23,
+          "plantRoundTimeMs": 46742,
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "score": "16-14"
+        },
+        {
+          "site": "B",
+          "player": "TakaS",
+          "normX": 52.3074,
+          "normY": 13.6256,
+          "roundNum": 16,
+          "plantRoundTimeMs": 95856,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "wtex",
+          "normX": 35.6517,
+          "normY": 66.2536,
+          "roundNum": 16,
+          "plantRoundTimeMs": 95856,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "Vorwenn",
+          "normX": 37.2447,
+          "normY": 20.1805,
+          "roundNum": 16,
+          "plantRoundTimeMs": 95856,
+          "date": "2026-11-12",
+          "opponent": "vyro",
+          "matchId": "21f70826-be9e-4f55-9c90-5ba4c4b433ae",
+          "score": "13-8"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14411,
+              "players": [
+                {
+                  "player": "TakaS",
+                  "normX": 30.3417,
+                  "normY": 20.3929
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 21.9106,
+                  "normY": 24.4875
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 35.8169,
+                  "normY": 19.5846
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 38.348,
+                  "normY": 19.1775
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19015,
+              "players": [
+                {
+                  "player": "TakaS",
+                  "normX": 33.5631,
+                  "normY": 19.6908
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 20.7778,
+                  "normY": 24.3518
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 34.2711,
+                  "normY": 19.1303
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 36.4246,
+                  "normY": 20.4283
+                }
+              ]
+            }
+          ],
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "score": "15-17"
+        },
+        {
+          "roundNum": 20,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14756,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 34.9909,
+                  "normY": 24.2102
+                },
+                {
+                  "player": "TakaS",
+                  "normX": 29.3446,
+                  "normY": 25.756
+                },
+                {
+                  "player": "wtex",
+                  "normX": 34.9909,
+                  "normY": 23.5199
+                }
+              ]
+            }
+          ],
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "score": "16-14"
+        },
+        {
+          "roundNum": 23,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11085,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 23.1909,
+                  "normY": 21.1835
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 38.3126,
+                  "normY": 20.2926
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16589,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 16.577,
+                  "normY": 28.1278
+                }
+              ]
+            }
+          ],
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "score": "16-14"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 26,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16596,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 83.3473,
+                  "normY": 44.3351
+                },
+                {
+                  "player": "wtex",
+                  "normX": 66.5146,
+                  "normY": 20.9357
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19450,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 79.3648,
+                  "normY": 43.3911
+                },
+                {
+                  "player": "wtex",
+                  "normX": 61.9067,
+                  "normY": 24.5937
+                }
+              ]
+            }
+          ],
+          "matchId": "1b1d201f-d3c1-4e5b-b5b9-f2a4fc97d0ed",
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "score": "15-17"
+        },
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15070,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 64.9039,
+                  "normY": 27.0009
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 75.8012,
+                  "normY": 23.1659
+                },
+                {
+                  "player": "wtex",
+                  "normX": 60.9981,
+                  "normY": 50.0699
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16782,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 66.9984,
+                  "normY": 26.3165
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 76.2909,
+                  "normY": 23.278
+                },
+                {
+                  "player": "wtex",
+                  "normX": 62.8389,
+                  "normY": 47.5388
+                }
+              ]
+            }
+          ],
+          "matchId": "0eba0da8-f47d-4409-9c20-0fd24e6cc264",
+          "date": "2026-11-13",
+          "opponent": "Cuba",
+          "score": "16-14"
+        }
+      ]
+    }
+  }
+}

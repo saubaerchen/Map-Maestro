@@ -1,0 +1,463 @@
+{
+  "team": "MIR",
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Omen",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-11-13",
+          "opponent": "ycat",
+          "matchId": "5344ca63-353e-4e35-9bec-69e073a2a230",
+          "players": [
+            "MIR innersavage",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR Raz"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-13",
+          "opponent": "LCK",
+          "matchId": "1f0f9ea1-9d9c-4601-b350-1bd192fc05c5",
+          "players": [
+            "MIR innersavage",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "matchId": "306bab59-0df4-4cec-8925-ac06857c2143",
+          "players": [
+            "MIR Raz",
+            "MIR kospa1n",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "opponent": "SYX",
+          "matchId": "93a9698a-76a1-4480-a563-dfbd7a970179",
+          "players": [
+            "MIR Raz",
+            "MIR kospa1n",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "opponent": "hazt",
+          "matchId": "668b581b-8167-4608-9819-c73666fcb711",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "matchId": "f75badab-e230-49e6-ae7e-10b18ab466cd",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-21",
+          "opponent": "BRAT",
+          "matchId": "e93fecf2-3d9e-4372-9580-bbe16f664256",
+          "players": [
+            "MIR feithjay",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-18",
+          "opponent": "Game",
+          "matchId": "a6bdb26f-ba68-4d6d-9e9a-96298dd3d45b",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Omen",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "QM",
+          "matchId": "3fd0039f-ecc0-4e19-ab9c-bde78dde17ce",
+          "players": [
+            "MIR innersavage",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "opponent": "SYX",
+          "matchId": "512e9053-d4d8-4176-ab70-87c109b04bcb",
+          "players": [
+            "MIR Raz",
+            "MIR kospa1n",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "opponent": "hazt",
+          "matchId": "5bc3f96a-401c-4fb9-bc57-171f0c7ad284",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "matchId": "8725b378-931e-430c-979d-60170688265a",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "opponent": "Tea",
+          "matchId": "28e4d148-fde1-4dd9-af08-4a0a881208dc",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-18",
+          "opponent": "Game",
+          "matchId": "b92ccdff-1633-4d9c-9fe8-16ce5da2710c",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    }
+  ],
+  "Split": [
+    {
+      "agents": [
+        "Neon",
+        "Waylay",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "matchId": "20eed5a6-6757-424d-854c-db23d8789fbf",
+          "players": [
+            "MIR Raz",
+            "MIR kospa1n",
+            "MIR Bishepss",
+            "MIR feithjay",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Jett",
+        "Raze",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-09-21",
+          "opponent": "BRAT",
+          "matchId": "5bbf9ecd-56c9-4639-9966-4c9e91656267",
+          "players": [
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Jett",
+        "Neon",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-09-18",
+          "opponent": "Game",
+          "matchId": "3ab8b902-ae35-4fc2-b769-dd34b434ea87",
+          "players": [
+            "MIR innersavage",
+            "MIR Raz",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    }
+  ],
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Tejo",
+        "Astra",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "b444168c-4e35-8076-db47-ef9bf368f384",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "matchId": "f42dc59d-66e7-485b-a60a-57887e66d0b8",
+          "players": [
+            "MIR Raz",
+            "MIR kospa1n",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Sova",
+        "Astra",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "opponent": "Tea",
+          "matchId": "d3ba6464-6f92-4003-8a32-2fe35c12fa51",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "matchId": "5161778b-bdca-4895-adc1-43c052a67147",
+          "players": [
+            "MIR Raz",
+            "MIR innersavage",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Sova",
+        "Astra",
+        "Veto"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-15",
+          "opponent": "QM",
+          "matchId": "27a233fd-d543-45e9-a2a9-8bdf5c914371",
+          "players": [
+            "MIR innersavage",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "opponent": "LCK",
+          "matchId": "b9182f33-bbed-40df-95af-2fa1a65fef22",
+          "players": [
+            "MIR innersavage",
+            "MIR kospa1n",
+            "MIR xserten",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "matchId": "319de985-d55d-46fd-9f85-863132505c4c",
+          "players": [
+            "MIR innersavage",
+            "MIR Raz",
+            "MIR feithjay",
+            "MIR Bishepss",
+            "MIR reblyik"
+          ]
+        }
+      ]
+    }
+  ]
+}

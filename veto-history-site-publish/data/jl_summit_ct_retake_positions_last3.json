@@ -1,0 +1,135 @@
+{
+  "map": "Summit",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-10-22",
+      "opponent": "SGE",
+      "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+      "score": "4-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 2,
+      "pointCount": 5,
+      "points": [
+        {
+          "site": "A",
+          "player": "soulcas",
+          "normX": 80.4376,
+          "normY": 23.2866,
+          "roundNum": 12,
+          "plantRoundTimeMs": 76011,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "A",
+          "player": "soulcas",
+          "normX": 52.5901,
+          "normY": 16.4316,
+          "roundNum": 13,
+          "plantRoundTimeMs": 54951,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "A",
+          "player": "WanZeru",
+          "normX": 61.9951,
+          "normY": 20.9616,
+          "roundNum": 13,
+          "plantRoundTimeMs": 54951,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "A",
+          "player": "runneR",
+          "normX": 42.6226,
+          "normY": 32.6616,
+          "roundNum": 13,
+          "plantRoundTimeMs": 54951,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "A",
+          "player": "hoody",
+          "normX": 53.8651,
+          "normY": 56.4966,
+          "roundNum": 13,
+          "plantRoundTimeMs": 54951,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 2,
+      "pointCount": 4,
+      "points": [
+        {
+          "site": "B",
+          "player": "WanZeru",
+          "normX": 38.6926,
+          "normY": 61.3866,
+          "roundNum": 14,
+          "plantRoundTimeMs": 74731,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "hoody",
+          "normX": 54.1426,
+          "normY": 16.3116,
+          "roundNum": 14,
+          "plantRoundTimeMs": 74731,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "soulcas",
+          "normX": 29.2951,
+          "normY": 14.5566,
+          "roundNum": 16,
+          "plantRoundTimeMs": 60605,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Sevire",
+          "normX": 43.2526,
+          "normY": 33.1041,
+          "roundNum": 16,
+          "plantRoundTimeMs": 60605,
+          "date": "2026-10-22",
+          "opponent": "SGE",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "score": "4-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {}
+}

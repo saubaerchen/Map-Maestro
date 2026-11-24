@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 7,
+    "pct_rounds_won": 58.3,
+    "won_by_kills": 6,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 27.6,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "pct_plant": 37.5,
+        "pct_win": 66.7,
+        "avg_plant_time": 56.2,
+        "min_plant_time": 33.6,
+        "max_plant_time": 88.0,
+        "fk_to_plant_avg": 27.8,
+        "fk_to_plant_n": 3
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 62.5,
+        "pct_win": 100.0,
+        "avg_plant_time": 67.4,
+        "min_plant_time": 35.8,
+        "max_plant_time": 95.6,
+        "fk_to_plant_avg": 36.9,
+        "fk_to_plant_n": 5
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 11,
+    "rounds_won": 3,
+    "pct_rounds_won": 27.3,
+    "won_by_kills": 3,
+    "pct_won_by_kills": 27.3,
+    "won_by_defuse": 0,
+    "pct_won_by_defuse": 0.0,
+    "avg_fk_time": 39.4,
+    "sites": {
+      "A": {
+        "plant_count": 4,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 9.3,
+        "fk_after_plant_n": 2
+      },
+      "B": {
+        "plant_count": 4,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 2.0,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "Eintracht Frankfurt",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-10-22",
+      "opponent": "JL",
+      "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3"
+    }
+  ]
+}

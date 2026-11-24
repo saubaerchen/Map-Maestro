@@ -1,0 +1,93 @@
+{
+  "t_side": {
+    "total_rounds": 54,
+    "rounds_won": 38,
+    "pct_rounds_won": 70.4,
+    "won_by_kills": 33,
+    "pct_won_by_kills": 61.1,
+    "won_by_explosion": 5,
+    "pct_won_by_explosion": 9.3,
+    "avg_fk_time": 20.8,
+    "sites": {
+      "A": {
+        "plant_count": 15,
+        "pct_plant": 34.1,
+        "pct_win": 86.7,
+        "avg_plant_time": 38.1,
+        "min_plant_time": 19.2,
+        "max_plant_time": 77.7,
+        "fk_to_plant_avg": 22.8,
+        "fk_to_plant_n": 14
+      },
+      "B": {
+        "plant_count": 29,
+        "pct_plant": 65.9,
+        "pct_win": 79.3,
+        "avg_plant_time": 42.3,
+        "min_plant_time": 12.2,
+        "max_plant_time": 86.2,
+        "fk_to_plant_avg": 22.6,
+        "fk_to_plant_n": 28
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 48,
+    "rounds_won": 27,
+    "pct_rounds_won": 56.2,
+    "won_by_kills": 19,
+    "pct_won_by_kills": 39.6,
+    "won_by_defuse": 8,
+    "pct_won_by_defuse": 16.7,
+    "avg_fk_time": 25.1,
+    "sites": {
+      "A": {
+        "plant_count": 14,
+        "defuse_count": 4,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 30.3,
+        "fk_after_plant_avg": 10.6,
+        "fk_after_plant_n": 12
+      },
+      "B": {
+        "plant_count": 14,
+        "defuse_count": 4,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 26.5,
+        "fk_after_plant_avg": 13.2,
+        "fk_after_plant_n": 7
+      }
+    }
+  },
+  "team": "WIP Esports",
+  "map": "Corrode",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "BAR",
+      "matchId": "7cdefd29-a015-4322-9f98-1a0504c576de"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "GG",
+      "matchId": "0b665bbc-3fb7-4549-8134-e52550f3c08d"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "AVL",
+      "matchId": "b37f128b-e9a0-4f9d-ab91-0fe466ee4f6b"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "BZL",
+      "matchId": "53f9f861-e957-4054-9e7a-a7a7e6d34aae"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "OBL",
+      "matchId": "b43f8959-0fdd-463f-b314-3b6ee784d2cc"
+    }
+  ]
+}

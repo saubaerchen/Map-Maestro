@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 26,
+    "rounds_won": 16,
+    "pct_rounds_won": 61.5,
+    "won_by_kills": 16,
+    "pct_won_by_kills": 61.5,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 21.4,
+    "sites": {
+      "A": {
+        "plant_count": 5,
+        "pct_plant": 23.8,
+        "pct_win": 80.0,
+        "avg_plant_time": 40.4,
+        "min_plant_time": 23.0,
+        "max_plant_time": 56.5,
+        "fk_to_plant_avg": 27.8,
+        "fk_to_plant_n": 5
+      },
+      "B": {
+        "plant_count": 6,
+        "pct_plant": 28.6,
+        "pct_win": 66.7,
+        "avg_plant_time": 41.1,
+        "min_plant_time": 19.8,
+        "max_plant_time": 54.3,
+        "fk_to_plant_avg": 28.5,
+        "fk_to_plant_n": 5
+      },
+      "C": {
+        "plant_count": 10,
+        "pct_plant": 47.6,
+        "pct_win": 80.0,
+        "avg_plant_time": 49.4,
+        "min_plant_time": 27.4,
+        "max_plant_time": 88.7,
+        "fk_to_plant_avg": 28.3,
+        "fk_to_plant_n": 10
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 36,
+    "rounds_won": 19,
+    "pct_rounds_won": 52.8,
+    "won_by_kills": 9,
+    "pct_won_by_kills": 25.0,
+    "won_by_defuse": 10,
+    "pct_won_by_defuse": 27.8,
+    "avg_fk_time": 25.4,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "defuse_count": 4,
+        "pct_defuse_win": 36.4,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 34.3,
+        "fk_after_plant_avg": 16.2,
+        "fk_after_plant_n": 10
+      },
+      "B": {
+        "plant_count": 5,
+        "defuse_count": 2,
+        "pct_defuse_win": 40.0,
+        "pct_defuse_share": 20.0,
+        "avg_defuse_time": 13.6,
+        "fk_after_plant_avg": 1.5,
+        "fk_after_plant_n": 5
+      },
+      "C": {
+        "plant_count": 11,
+        "defuse_count": 4,
+        "pct_defuse_win": 36.4,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 28.5,
+        "fk_after_plant_avg": 21.5,
+        "fk_after_plant_n": 7
+      }
+    }
+  },
+  "team": "La Masia",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-11-13",
+      "opponent": "Krom",
+      "matchId": "bbe724d9-b035-4e0c-9169-9446fb16ed28"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "Bpip",
+      "matchId": "92c8ed50-71dd-4899-88e1-e7a0d0ca7d8b"
+    },
+    {
+      "date": "2026-09-18",
+      "opponent": "DMNX",
+      "matchId": "46599825-3bce-4132-abda-474090dfd37b"
+    }
+  ]
+}

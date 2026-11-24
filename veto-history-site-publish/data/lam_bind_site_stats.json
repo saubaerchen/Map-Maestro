@@ -1,0 +1,98 @@
+{
+  "t_side": {
+    "total_rounds": 61,
+    "rounds_won": 39,
+    "pct_rounds_won": 63.9,
+    "won_by_kills": 30,
+    "pct_won_by_kills": 49.2,
+    "won_by_explosion": 9,
+    "pct_won_by_explosion": 14.8,
+    "avg_fk_time": 32.8,
+    "sites": {
+      "A": {
+        "plant_count": 26,
+        "pct_plant": 59.1,
+        "pct_win": 73.1,
+        "avg_plant_time": 55.1,
+        "min_plant_time": 21.6,
+        "max_plant_time": 98.5,
+        "fk_to_plant_avg": 24.8,
+        "fk_to_plant_n": 26
+      },
+      "B": {
+        "plant_count": 18,
+        "pct_plant": 40.9,
+        "pct_win": 88.9,
+        "avg_plant_time": 69.1,
+        "min_plant_time": 24.3,
+        "max_plant_time": 98.6,
+        "fk_to_plant_avg": 40.1,
+        "fk_to_plant_n": 17
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 57,
+    "rounds_won": 30,
+    "pct_rounds_won": 52.6,
+    "won_by_kills": 19,
+    "pct_won_by_kills": 33.3,
+    "won_by_defuse": 11,
+    "pct_won_by_defuse": 19.3,
+    "avg_fk_time": 30.0,
+    "sites": {
+      "A": {
+        "plant_count": 21,
+        "defuse_count": 7,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 63.6,
+        "avg_defuse_time": 30.3,
+        "fk_after_plant_avg": 11.6,
+        "fk_after_plant_n": 16
+      },
+      "B": {
+        "plant_count": 12,
+        "defuse_count": 4,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 36.4,
+        "avg_defuse_time": 32.3,
+        "fk_after_plant_avg": 8.6,
+        "fk_after_plant_n": 8
+      }
+    }
+  },
+  "team": "La Masia",
+  "map": "Bind",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "CGN",
+      "matchId": "d76e01d0-9b4b-4479-85ff-160813543b41"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "deat",
+      "matchId": "fe0e1fec-06e0-4ac9-b0f5-3eca90c44a80"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "NWA",
+      "matchId": "9890cee4-4ed7-44e7-90f2-ab7d06fdb030"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "Pozo",
+      "matchId": "0436a9b9-12dc-4854-b674-eb0f8911e8bf"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "HBT",
+      "matchId": "3d32966c-1e81-4a20-b322-cf5b0e002c7c"
+    },
+    {
+      "date": "2026-11-12",
+      "opponent": "Bpip",
+      "matchId": "b3d09dd9-6b39-4e7a-95ef-7ce0b2c7ceca"
+    }
+  ]
+}

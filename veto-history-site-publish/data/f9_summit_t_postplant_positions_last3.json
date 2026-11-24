@@ -1,0 +1,109 @@
+{
+  "map": "Summit",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-11-07",
+      "opponent": "baco",
+      "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+      "score": "6-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 2,
+      "pointCount": 7,
+      "points": [
+        {
+          "site": "A",
+          "player": "TITOUNE",
+          "normX": 91.1251,
+          "normY": 38.3316,
+          "roundNum": 16,
+          "plantRoundTimeMs": 63188,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "Yohpa",
+          "normX": 92.9401,
+          "normY": 36.6441,
+          "roundNum": 16,
+          "plantRoundTimeMs": 63188,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "H1ber",
+          "normX": 90.5551,
+          "normY": 39.6366,
+          "roundNum": 16,
+          "plantRoundTimeMs": 63188,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "Kajuks",
+          "normX": 91.3801,
+          "normY": 29.9616,
+          "roundNum": 16,
+          "plantRoundTimeMs": 63188,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "poeth",
+          "normX": 74.0626,
+          "normY": 45.5991,
+          "roundNum": 18,
+          "plantRoundTimeMs": 29839,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "Yohpa",
+          "normX": 87.1576,
+          "normY": 43.4616,
+          "roundNum": 18,
+          "plantRoundTimeMs": 29839,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        },
+        {
+          "site": "A",
+          "player": "Kajuks",
+          "normX": 76.8451,
+          "normY": 51.0741,
+          "roundNum": 18,
+          "plantRoundTimeMs": 29839,
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "score": "6-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  }
+}

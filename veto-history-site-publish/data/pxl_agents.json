@@ -1,0 +1,283 @@
+{
+  "team": "Pixel Lumina",
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "1e1b6fd2-9d61-4de0-93f2-ed9908a3b8ec",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "NOMA",
+          "matchId": "4dbc1fae-cc75-4062-9584-40f337abe4b5",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "W-Fo",
+          "matchId": "cca5ef73-d645-47e5-9b34-d19ff6ddd673",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "FATT",
+          "matchId": "773ae00f-dfa4-449d-8364-f84b669f8b30",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Chamber",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "0fb4dd08-728d-450c-93f9-7437430830a9",
+          "players": [
+            "PXL Chadi",
+            "PXL MOLSI",
+            "PXL Kamisseq",
+            "PXL Saiz",
+            "PXL nataNk"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Leve",
+          "matchId": "ed934863-cb28-47b8-8a50-85cbae4632c6",
+          "players": [
+            "PXL Chadi",
+            "PXL MOLSI",
+            "PXL Kamisseq",
+            "PXL Saiz",
+            "PXL nataNk"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "W-Fo",
+          "matchId": "a07ddebe-f8f5-4fff-942b-49db38038cd3",
+          "players": [
+            "PXL Chadi",
+            "PXL MOLSI",
+            "PXL Kamisseq",
+            "PXL Saiz",
+            "PXL nataNk"
+          ]
+        }
+      ]
+    }
+  ],
+  "Corrode": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Fade",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-06",
+          "opponent": "NOMA",
+          "matchId": "78e5c2fa-ff65-4e84-b239-4aec0529fe94",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "FATT",
+          "matchId": "bb1d49b7-c09d-4252-b951-1228ae8e01f1",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Fade",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "matchId": "05a9fd0c-310c-4b24-82a7-33619e1fdf9c",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "matchId": "1ba49e1d-1acb-40f0-8a4a-009e03c05807",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "matchId": "398c68e6-eb5b-4532-8cc8-23748838a8cd",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "Leve",
+          "matchId": "5e9c3fb7-d807-4a13-9740-c0d8889e3ff2",
+          "players": [
+            "PXL Chadi",
+            "PXL Kamisseq",
+            "PXL nataNk",
+            "PXL MOLSI",
+            "PXL Saiz"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Chamber",
+        "Sage"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "569fdd95-4d10-43ab-ca70-79becc718b46"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "matchId": "60d4008e-20ca-4a07-abb2-7eb8c43eda2d",
+          "players": [
+            "PXL Chadi",
+            "PXL MOLSI",
+            "PXL Kamisseq",
+            "PXL Saiz",
+            "PXL nataNk"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "team": "Eintracht Frankfurt",
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Skye",
+        "Harbor",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "CGN",
+          "matchId": "fa7c94f5-69ff-4a9a-a1c8-0848abb4e1c2",
+          "players": [
+            "SGE foe",
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Skye",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "6affbdfe-6af4-4d72-9022-6db76a204b86",
+          "players": [
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury",
+            "SGE foe"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-10-21",
+          "opponent": "HABO",
+          "matchId": "6e97185e-87e4-4d33-abc6-4b8f72cab480",
+          "players": [
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury",
+            "SGE foe"
+          ]
+        }
+      ]
+    }
+  ],
+  "Split": [
+    {
+      "agents": [
+        "Raze",
+        "Waylay",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-10-24",
+          "opponent": "CGN",
+          "matchId": "04a89d8b-e67e-43fc-be25-ad301af13973",
+          "players": [
+            "SGE H1ber",
+            "SGE foe",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "opponent": "EF",
+          "matchId": "371adebb-782a-4049-b66e-bd12c6718309",
+          "players": [
+            "SGE H1ber",
+            "SGE foe",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Fade",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "CGN",
+          "matchId": "de8ea6a5-cd51-4e2a-9002-06c23c25ab06",
+          "players": [
+            "SGE H1ber",
+            "SGE foe",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Waylay",
+        "Skye",
+        "Astra",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-21",
+          "opponent": "HABO",
+          "matchId": "687aa584-508c-4062-866c-a2800686defa",
+          "players": [
+            "SGE foe",
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "KAY/O",
+        "Brimstone",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-23",
+          "opponent": "EF",
+          "matchId": "6209a7e1-f9f2-4283-af93-81abd9ba705f",
+          "players": [
+            "SGE foe",
+            "SGE musashi",
+            "SGE H1ber",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093",
+          "players": [
+            "SGE foe",
+            "SGE musashi",
+            "SGE H1ber",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "KAY/O",
+        "Sova",
+        "Brimstone",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "CGN",
+          "matchId": "de8132dd-4dcb-4f9c-94d7-08580b39697d",
+          "players": [
+            "SGE foe",
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Waylay",
+        "Yoru",
+        "Sova",
+        "Astra",
+        "Harbor"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152"
+      ],
+      "games": [
+        {
+          "date": "2026-10-22",
+          "opponent": "JL",
+          "matchId": "38df80f5-2690-48d0-b5af-bf43b4e048b3",
+          "players": [
+            "SGE H1ber",
+            "SGE foe",
+            "SGE musashi",
+            "SGE azury",
+            "SGE Fizzy"
+          ]
+        }
+      ]
+    }
+  ],
+  "Ascent": [
+    {
+      "agents": [
+        "Jett",
+        "Phoenix",
+        "Sova",
+        "Astra",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-10-24",
+          "opponent": "CGN",
+          "matchId": "e70f8543-bb1c-46e4-a88c-398ed9b848cf",
+          "players": [
+            "SGE foe",
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Jett",
+        "Phoenix",
+        "Sova",
+        "Omen",
+        "Killjoy"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "1e58de9c-4950-5125-93e9-a0aee9f98746"
+      ],
+      "games": [
+        {
+          "date": "2026-10-23",
+          "opponent": "EF",
+          "matchId": "54b9c85d-e0dc-408b-a28f-cad22ea49d39",
+          "players": [
+            "SGE foe",
+            "SGE H1ber",
+            "SGE musashi",
+            "SGE Fizzy",
+            "SGE azury"
+          ]
+        }
+      ]
+    }
+  ]
+}

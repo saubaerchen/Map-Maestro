@@ -1,0 +1,459 @@
+{
+  "team": "xXxMasterProMegaTeamxXx",
+  "Bind": [
+    {
+      "agents": [
+        "Raze",
+        "Yoru",
+        "Fade",
+        "Brimstone",
+        "Viper"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-05",
+          "opponent": "KRY",
+          "matchId": "f93401e2-11b4-41ce-a16f-d28bb05fe8f2",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "opponent": "RB",
+          "matchId": "4846fac9-0829-49e5-b415-b265b2aed39f",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "opponent": "BZL",
+          "matchId": "581c7c87-9137-4f70-8512-2623a4c64ccd",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "opponent": "Mill",
+          "matchId": "03ad2757-bbe8-4b5d-ae1b-c36e1a476f16",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ],
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "60c96064-5e17-49fa-9a2f-0622beda5398",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "FRG",
+          "matchId": "be0f87cb-db67-40db-80f5-d3e82bbe2423",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "VCE",
+          "matchId": "5f999cbf-dde7-4a7e-a5e6-477442321326",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "CGN",
+          "matchId": "2ca50135-a68d-49af-9abe-9f31715cbbd5",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "KRY",
+          "matchId": "351289c3-1c6d-40f2-9864-bbe6063c9af6",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "HLT",
+          "matchId": "40d40e06-489d-4ba0-95f4-3ee4e1780293",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "opponent": "RB",
+          "matchId": "ac358c81-c07d-4999-a98e-2d9b67733019",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "opponent": "BZL",
+          "matchId": "4c97355c-bb4c-4812-b65b-6b08aaa8d152",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Sova",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-10-19",
+          "opponent": "Mill",
+          "matchId": "09a73173-c87c-4a57-b228-f908191177c1",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Jett",
+        "Yoru",
+        "Sova",
+        "Astra",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-07",
+          "opponent": "FRG",
+          "matchId": "9f486ed9-d2ae-4c8d-9f6d-2e5ca5c2add8",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "opponent": "HLT",
+          "matchId": "880723c1-98d4-497a-8c0c-d8650955da48",
+          "players": [
+            "MPMT adore",
+            "MPMT Michel",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Fade",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "da067b6f-b6db-4a1e-87df-bb4a22af9b27",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "opponent": "CMN",
+          "matchId": "5798f938-3f57-424c-8836-2c8f4f7dcf33",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "GRG",
+          "matchId": "2a19e4e2-ab9c-4289-bb1b-5dfc53680ecc",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "VCE",
+          "matchId": "5f8bace3-19af-48b7-9354-0f95c82720d3",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Phoenix",
+        "Fade",
+        "Harbor",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-06",
+          "opponent": "CGN",
+          "matchId": "4d1a6494-44a6-4dec-8914-76bea79ed858",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ],
+  "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Sova",
+        "Omen",
+        "Killjoy"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "1e58de9c-4950-5125-93e9-a0aee9f98746"
+      ],
+      "games": [
+        {
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "opponent": "CMN",
+          "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "FRG",
+          "matchId": "ca43ab54-fc09-486d-aeaa-6a94204beecf",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "opponent": "GRG",
+          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "opponent": "CGN",
+          "matchId": "e2814b91-37cb-4a11-a379-ec4f79247d34",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    }
+  ]
+}

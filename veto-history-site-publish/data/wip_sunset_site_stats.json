@@ -1,0 +1,98 @@
+{
+  "t_side": {
+    "total_rounds": 59,
+    "rounds_won": 36,
+    "pct_rounds_won": 61.0,
+    "won_by_kills": 29,
+    "pct_won_by_kills": 49.2,
+    "won_by_explosion": 7,
+    "pct_won_by_explosion": 11.9,
+    "avg_fk_time": 27.8,
+    "sites": {
+      "A": {
+        "plant_count": 21,
+        "pct_plant": 48.8,
+        "pct_win": 90.5,
+        "avg_plant_time": 53.3,
+        "min_plant_time": 19.9,
+        "max_plant_time": 95.3,
+        "fk_to_plant_avg": 32.0,
+        "fk_to_plant_n": 19
+      },
+      "B": {
+        "plant_count": 22,
+        "pct_plant": 51.2,
+        "pct_win": 63.6,
+        "avg_plant_time": 50.8,
+        "min_plant_time": 25.4,
+        "max_plant_time": 92.9,
+        "fk_to_plant_avg": 26.3,
+        "fk_to_plant_n": 19
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 54,
+    "rounds_won": 32,
+    "pct_rounds_won": 59.3,
+    "won_by_kills": 21,
+    "pct_won_by_kills": 38.9,
+    "won_by_defuse": 11,
+    "pct_won_by_defuse": 20.4,
+    "avg_fk_time": 25.7,
+    "sites": {
+      "A": {
+        "plant_count": 12,
+        "defuse_count": 8,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 72.7,
+        "avg_defuse_time": 23.5,
+        "fk_after_plant_avg": 10.9,
+        "fk_after_plant_n": 11
+      },
+      "B": {
+        "plant_count": 19,
+        "defuse_count": 3,
+        "pct_defuse_win": 15.8,
+        "pct_defuse_share": 27.3,
+        "avg_defuse_time": 31.7,
+        "fk_after_plant_avg": 17.1,
+        "fk_after_plant_n": 11
+      }
+    }
+  },
+  "team": "WIP Esports",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-15",
+      "opponent": "BAR",
+      "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "Priv",
+      "matchId": "73329016-4146-45cf-a820-f270c1647802"
+    },
+    {
+      "date": "2026-11-14",
+      "opponent": "GSH",
+      "matchId": "b90eb156-cab4-4f1e-ab94-4494b45ef438"
+    },
+    {
+      "date": "2026-11-13",
+      "opponent": "Cuba",
+      "matchId": "0de93b15-467d-4005-bb6f-f91b45e62703"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "unwa",
+      "matchId": "5e29e22a-3467-4f62-af31-4d47a7f5a2fe"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "BZL",
+      "matchId": "db4d97cf-1f50-4fe4-ad0e-e5e70c878b6f"
+    }
+  ]
+}

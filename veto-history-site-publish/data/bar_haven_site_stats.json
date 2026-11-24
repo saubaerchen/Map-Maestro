@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 35,
+    "rounds_won": 24,
+    "pct_rounds_won": 68.6,
+    "won_by_kills": 19,
+    "pct_won_by_kills": 54.3,
+    "won_by_explosion": 5,
+    "pct_won_by_explosion": 14.3,
+    "avg_fk_time": 29.9,
+    "sites": {
+      "A": {
+        "plant_count": 12,
+        "pct_plant": 46.2,
+        "pct_win": 100.0,
+        "avg_plant_time": 43.7,
+        "min_plant_time": 19.7,
+        "max_plant_time": 76.4,
+        "fk_to_plant_avg": 17.3,
+        "fk_to_plant_n": 10
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 19.2,
+        "pct_win": 100.0,
+        "avg_plant_time": 33.7,
+        "min_plant_time": 20.1,
+        "max_plant_time": 50.2,
+        "fk_to_plant_avg": 11.0,
+        "fk_to_plant_n": 5
+      },
+      "C": {
+        "plant_count": 9,
+        "pct_plant": 34.6,
+        "pct_win": 66.7,
+        "avg_plant_time": 45.3,
+        "min_plant_time": 21.6,
+        "max_plant_time": 85.9,
+        "fk_to_plant_avg": 29.4,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 22,
+    "rounds_won": 12,
+    "pct_rounds_won": 54.5,
+    "won_by_kills": 6,
+    "pct_won_by_kills": 27.3,
+    "won_by_defuse": 6,
+    "pct_won_by_defuse": 27.3,
+    "avg_fk_time": 41.7,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 2,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 16.9,
+        "fk_after_plant_avg": 8.2,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 3,
+        "defuse_count": 2,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 21.7,
+        "fk_after_plant_avg": 7.2,
+        "fk_after_plant_n": 3
+      },
+      "C": {
+        "plant_count": 7,
+        "defuse_count": 2,
+        "pct_defuse_win": 28.6,
+        "pct_defuse_share": 33.3,
+        "avg_defuse_time": 18.8,
+        "fk_after_plant_avg": 2.4,
+        "fk_after_plant_n": 3
+      }
+    }
+  },
+  "team": "Bar\u00e7a eSports",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-11-12",
+      "opponent": "Feuc",
+      "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234"
+    },
+    {
+      "date": "2026-11-11",
+      "opponent": "Just",
+      "matchId": "54150867-edef-4623-97c6-121cff025e6a"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "F9",
+      "matchId": "739d85be-2f48-42de-b854-501e97e4ff49"
+    }
+  ]
+}

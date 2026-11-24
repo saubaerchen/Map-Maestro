@@ -1,0 +1,74 @@
+{
+  "map": "Bind",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-05",
+      "opponent": "Tant",
+      "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+      "score": "13-1"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 1,
+      "pointCount": 4,
+      "points": [
+        {
+          "site": "A",
+          "player": "Derke",
+          "normX": 45.0681,
+          "normY": 19.9268,
+          "roundNum": 12,
+          "plantRoundTimeMs": 50805,
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "score": "13-1"
+        },
+        {
+          "site": "A",
+          "player": "B1SK",
+          "normX": 45.3218,
+          "normY": 19.207,
+          "roundNum": 12,
+          "plantRoundTimeMs": 50805,
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "score": "13-1"
+        },
+        {
+          "site": "A",
+          "player": "trexx",
+          "normX": 66.727,
+          "normY": 21.0832,
+          "roundNum": 12,
+          "plantRoundTimeMs": 50805,
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "score": "13-1"
+        },
+        {
+          "site": "A",
+          "player": "Boo",
+          "normX": 33.5336,
+          "normY": 26.464,
+          "roundNum": 12,
+          "plantRoundTimeMs": 50805,
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "score": "13-1"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  },
+  "postPlant10_20": {}
+}

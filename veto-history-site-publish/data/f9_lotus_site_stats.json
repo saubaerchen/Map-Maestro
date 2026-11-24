@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 30,
+    "rounds_won": 18,
+    "pct_rounds_won": 60.0,
+    "won_by_kills": 15,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 10.0,
+    "avg_fk_time": 31.2,
+    "sites": {
+      "A": {
+        "plant_count": 9,
+        "pct_plant": 37.5,
+        "pct_win": 66.7,
+        "avg_plant_time": 57.8,
+        "min_plant_time": 29.6,
+        "max_plant_time": 76.3,
+        "fk_to_plant_avg": 20.9,
+        "fk_to_plant_n": 8
+      },
+      "B": {
+        "plant_count": 6,
+        "pct_plant": 25.0,
+        "pct_win": 83.3,
+        "avg_plant_time": 57.6,
+        "min_plant_time": 39.9,
+        "max_plant_time": 90.9,
+        "fk_to_plant_avg": 31.9,
+        "fk_to_plant_n": 6
+      },
+      "C": {
+        "plant_count": 9,
+        "pct_plant": 37.5,
+        "pct_win": 77.8,
+        "avg_plant_time": 50.2,
+        "min_plant_time": 24.8,
+        "max_plant_time": 64.3,
+        "fk_to_plant_avg": 26.2,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 36,
+    "rounds_won": 21,
+    "pct_rounds_won": 58.3,
+    "won_by_kills": 11,
+    "pct_won_by_kills": 30.6,
+    "won_by_defuse": 10,
+    "pct_won_by_defuse": 27.8,
+    "avg_fk_time": 25.5,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "defuse_count": 3,
+        "pct_defuse_win": 27.3,
+        "pct_defuse_share": 30.0,
+        "avg_defuse_time": 29.5,
+        "fk_after_plant_avg": 14.9,
+        "fk_after_plant_n": 10
+      },
+      "B": {
+        "plant_count": 6,
+        "defuse_count": 4,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 30.4,
+        "fk_after_plant_avg": 8.3,
+        "fk_after_plant_n": 5
+      },
+      "C": {
+        "plant_count": 7,
+        "defuse_count": 3,
+        "pct_defuse_win": 42.9,
+        "pct_defuse_share": 30.0,
+        "avg_defuse_time": 20.1,
+        "fk_after_plant_avg": 6.0,
+        "fk_after_plant_n": 4
+      }
+    }
+  },
+  "team": "F9 EICAR",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "MPMT",
+      "matchId": "da067b6f-b6db-4a1e-87df-bb4a22af9b27"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "AURA",
+      "matchId": "c417f502-1a1b-4371-84eb-e423cd475baa"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "Priv",
+      "matchId": "af030e7d-4cb2-4cf9-afa6-d634a1457b9d"
+    }
+  ]
+}

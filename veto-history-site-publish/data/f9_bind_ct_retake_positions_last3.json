@@ -1,0 +1,271 @@
+{
+  "map": "Bind",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-07",
+      "opponent": "BAR",
+      "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+      "score": "8-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 4,
+      "pointCount": 7,
+      "points": [
+        {
+          "site": "A",
+          "player": "poeth",
+          "normX": 30.501,
+          "normY": 19.679,
+          "roundNum": 13,
+          "plantRoundTimeMs": 62447,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "H1ber",
+          "normX": 71.2169,
+          "normY": 26.5407,
+          "roundNum": 13,
+          "plantRoundTimeMs": 62447,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Kajuks",
+          "normX": 65.5411,
+          "normY": 26.8003,
+          "roundNum": 13,
+          "plantRoundTimeMs": 62447,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "H1ber",
+          "normX": 43.4397,
+          "normY": 19.3132,
+          "roundNum": 14,
+          "plantRoundTimeMs": 59688,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Yohpa",
+          "normX": 79.0167,
+          "normY": 26.5761,
+          "roundNum": 19,
+          "plantRoundTimeMs": 76316,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Kajuks",
+          "normX": 26.0701,
+          "normY": 37.7743,
+          "roundNum": 19,
+          "plantRoundTimeMs": 76316,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "poeth",
+          "normX": 41.6107,
+          "normY": 58.8019,
+          "roundNum": 20,
+          "plantRoundTimeMs": 66841,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 4,
+      "pointCount": 9,
+      "points": [
+        {
+          "site": "B",
+          "player": "Yohpa",
+          "normX": 37.2447,
+          "normY": 21.2189,
+          "roundNum": 12,
+          "plantRoundTimeMs": 64912,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "Kajuks",
+          "normX": 66.3435,
+          "normY": 36.4763,
+          "roundNum": 12,
+          "plantRoundTimeMs": 64912,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "TITOUNE",
+          "normX": 22.4947,
+          "normY": 22.4284,
+          "roundNum": 15,
+          "plantRoundTimeMs": 90906,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "poeth",
+          "normX": 14.925,
+          "normY": 32.777,
+          "roundNum": 15,
+          "plantRoundTimeMs": 90906,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "Yohpa",
+          "normX": 32.7725,
+          "normY": 20.8354,
+          "roundNum": 15,
+          "plantRoundTimeMs": 90906,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "TITOUNE",
+          "normX": 45.4693,
+          "normY": 59.0792,
+          "roundNum": 16,
+          "plantRoundTimeMs": 47151,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "poeth",
+          "normX": 37.4571,
+          "normY": 20.3575,
+          "roundNum": 16,
+          "plantRoundTimeMs": 47151,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "Yohpa",
+          "normX": 49.2453,
+          "normY": 58.9435,
+          "roundNum": 16,
+          "plantRoundTimeMs": 47151,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        },
+        {
+          "site": "B",
+          "player": "poeth",
+          "normX": 54.6615,
+          "normY": 54.3238,
+          "roundNum": 18,
+          "plantRoundTimeMs": 88165,
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "score": "8-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13216,
+              "players": [
+                {
+                  "player": "Yohpa",
+                  "normX": 40.1416,
+                  "normY": 22.0331
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 45.6168,
+                  "normY": 19.8088
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 13,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18053,
+              "players": [
+                {
+                  "player": "poeth",
+                  "normX": 66.6562,
+                  "normY": 30.7356
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        }
+      ]
+    }
+  }
+}

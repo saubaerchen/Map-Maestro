@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 12,
+    "rounds_won": 12,
+    "pct_rounds_won": 100.0,
+    "won_by_kills": 12,
+    "pct_won_by_kills": 100.0,
+    "won_by_explosion": 0,
+    "pct_won_by_explosion": 0.0,
+    "avg_fk_time": 25.1,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "pct_plant": 54.5,
+        "pct_win": 100.0,
+        "avg_plant_time": 47.6,
+        "min_plant_time": 27.9,
+        "max_plant_time": 72.3,
+        "fk_to_plant_avg": 24.1,
+        "fk_to_plant_n": 6
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 45.5,
+        "pct_win": 100.0,
+        "avg_plant_time": 38.1,
+        "min_plant_time": 20.9,
+        "max_plant_time": 70.1,
+        "fk_to_plant_avg": 13.5,
+        "fk_to_plant_n": 4
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 1,
+    "rounds_won": 1,
+    "pct_rounds_won": 100.0,
+    "won_by_kills": 1,
+    "pct_won_by_kills": 100.0,
+    "won_by_defuse": 0,
+    "pct_won_by_defuse": 0.0,
+    "avg_fk_time": 34.1,
+    "sites": {
+      "A": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      },
+      "B": {
+        "plant_count": 0,
+        "defuse_count": 0,
+        "pct_defuse_win": null,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": null,
+        "fk_after_plant_n": 0
+      }
+    }
+  },
+  "team": "Aurora Gaming",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-11-05",
+      "opponent": "Kryo",
+      "matchId": "310b2a56-4188-429e-a92e-fdd28864a834"
+    }
+  ]
+}

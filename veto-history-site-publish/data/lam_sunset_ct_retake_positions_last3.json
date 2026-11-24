@@ -1,0 +1,267 @@
+{
+  "map": "Sunset",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-14",
+      "opponent": "NWA",
+      "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+      "score": "13-9"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 5,
+      "pointCount": 11,
+      "points": [
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 60.4598,
+          "normY": 56.8587,
+          "roundNum": 13,
+          "plantRoundTimeMs": 62369,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 37.3718,
+          "normY": 25.6665,
+          "roundNum": 15,
+          "plantRoundTimeMs": 60308,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 86.8316,
+          "normY": 21.5637,
+          "roundNum": 15,
+          "plantRoundTimeMs": 60308,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "lux9",
+          "normX": 73.0646,
+          "normY": 33.2949,
+          "roundNum": 15,
+          "plantRoundTimeMs": 60308,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 20.3912,
+          "normY": 50.6733,
+          "roundNum": 16,
+          "plantRoundTimeMs": 58977,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 35.0162,
+          "normY": 47.3271,
+          "roundNum": 16,
+          "plantRoundTimeMs": 58977,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 10.3916,
+          "normY": 59.4015,
+          "roundNum": 18,
+          "plantRoundTimeMs": 85006,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 42.7772,
+          "normY": 31.7271,
+          "roundNum": 18,
+          "plantRoundTimeMs": 85006,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "izana",
+          "normX": 32.6996,
+          "normY": 25.8459,
+          "roundNum": 19,
+          "plantRoundTimeMs": 68390,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "soren",
+          "normX": 40.3124,
+          "normY": 15.1833,
+          "roundNum": 19,
+          "plantRoundTimeMs": 68390,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "A",
+          "player": "lux9",
+          "normX": 84.8582,
+          "normY": 16.0803,
+          "roundNum": 19,
+          "plantRoundTimeMs": 68390,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 2,
+      "pointCount": 3,
+      "points": [
+        {
+          "site": "B",
+          "player": "nayte",
+          "normX": 49.0874,
+          "normY": 38.0997,
+          "roundNum": 12,
+          "plantRoundTimeMs": 23971,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "B",
+          "player": "lux9",
+          "normX": 34.79,
+          "normY": 27.9207,
+          "roundNum": 12,
+          "plantRoundTimeMs": 23971,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        },
+        {
+          "site": "B",
+          "player": "nayte",
+          "normX": 35.0708,
+          "normY": 47.1555,
+          "roundNum": 14,
+          "plantRoundTimeMs": 41483,
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "score": "13-9"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18521,
+              "players": [
+                {
+                  "player": "lux9",
+                  "normX": 29.9384,
+                  "normY": 42.9123
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19051,
+              "players": [
+                {
+                  "player": "lux9",
+                  "normX": 31.3502,
+                  "normY": 44.2461
+                }
+              ]
+            }
+          ],
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "score": "13-9"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11507,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 58.931,
+                  "normY": 5.0745
+                },
+                {
+                  "player": "lux9",
+                  "normX": 34.9616,
+                  "normY": 25.6197
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14942,
+              "players": [
+                {
+                  "player": "lux9",
+                  "normX": 40.1876,
+                  "normY": 28.4355
+                }
+              ]
+            }
+          ],
+          "matchId": "427eb26d-df85-4fb4-93c0-3c86c17880f6",
+          "date": "2026-11-14",
+          "opponent": "NWA",
+          "score": "13-9"
+        }
+      ]
+    }
+  }
+}

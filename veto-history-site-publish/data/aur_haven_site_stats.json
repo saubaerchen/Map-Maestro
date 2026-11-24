@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 36,
+    "rounds_won": 21,
+    "pct_rounds_won": 58.3,
+    "won_by_kills": 20,
+    "pct_won_by_kills": 55.6,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 2.8,
+    "avg_fk_time": 25.3,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "pct_plant": 45.8,
+        "pct_win": 72.7,
+        "avg_plant_time": 53.2,
+        "min_plant_time": 29.3,
+        "max_plant_time": 90.0,
+        "fk_to_plant_avg": 36.1,
+        "fk_to_plant_n": 9
+      },
+      "B": {
+        "plant_count": 7,
+        "pct_plant": 29.2,
+        "pct_win": 85.7,
+        "avg_plant_time": 41.4,
+        "min_plant_time": 19.1,
+        "max_plant_time": 73.0,
+        "fk_to_plant_avg": 23.2,
+        "fk_to_plant_n": 4
+      },
+      "C": {
+        "plant_count": 6,
+        "pct_plant": 25.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 54.6,
+        "min_plant_time": 19.5,
+        "max_plant_time": 80.3,
+        "fk_to_plant_avg": 35.6,
+        "fk_to_plant_n": 6
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 23,
+    "rounds_won": 18,
+    "pct_rounds_won": 78.3,
+    "won_by_kills": 11,
+    "pct_won_by_kills": 47.8,
+    "won_by_defuse": 7,
+    "pct_won_by_defuse": 30.4,
+    "avg_fk_time": 27.7,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 2,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 28.6,
+        "avg_defuse_time": 26.1,
+        "fk_after_plant_avg": 12.1,
+        "fk_after_plant_n": 4
+      },
+      "B": {
+        "plant_count": 2,
+        "defuse_count": 2,
+        "pct_defuse_win": 100.0,
+        "pct_defuse_share": 28.6,
+        "avg_defuse_time": 30.3,
+        "fk_after_plant_avg": 6.0,
+        "fk_after_plant_n": 2
+      },
+      "C": {
+        "plant_count": 4,
+        "defuse_count": 3,
+        "pct_defuse_win": 75.0,
+        "pct_defuse_share": 42.9,
+        "avg_defuse_time": 18.6,
+        "fk_after_plant_avg": 2.9,
+        "fk_after_plant_n": 3
+      }
+    }
+  },
+  "team": "Aurora Gaming",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "PXL",
+      "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "F9",
+      "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b"
+    },
+    {
+      "date": "2026-11-08",
+      "opponent": "Proj",
+      "matchId": "e072dcb6-251f-454a-bce5-dcaabee819d3"
+    }
+  ]
+}

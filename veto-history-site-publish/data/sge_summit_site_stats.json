@@ -1,0 +1,83 @@
+{
+  "t_side": {
+    "total_rounds": 26,
+    "rounds_won": 15,
+    "pct_rounds_won": 57.7,
+    "won_by_kills": 13,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 7.7,
+    "avg_fk_time": 32.9,
+    "sites": {
+      "A": {
+        "plant_count": 9,
+        "pct_plant": 52.9,
+        "pct_win": 66.7,
+        "avg_plant_time": 63.0,
+        "min_plant_time": 25.0,
+        "max_plant_time": 77.6,
+        "fk_to_plant_avg": 24.1,
+        "fk_to_plant_n": 9
+      },
+      "B": {
+        "plant_count": 8,
+        "pct_plant": 47.1,
+        "pct_win": 87.5,
+        "avg_plant_time": 51.1,
+        "min_plant_time": 22.8,
+        "max_plant_time": 81.5,
+        "fk_to_plant_avg": 20.6,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 35,
+    "rounds_won": 16,
+    "pct_rounds_won": 45.7,
+    "won_by_kills": 10,
+    "pct_won_by_kills": 28.6,
+    "won_by_defuse": 6,
+    "pct_won_by_defuse": 17.1,
+    "avg_fk_time": 38.3,
+    "sites": {
+      "A": {
+        "plant_count": 13,
+        "defuse_count": 3,
+        "pct_defuse_win": 23.1,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 28.1,
+        "fk_after_plant_avg": 16.4,
+        "fk_after_plant_n": 7
+      },
+      "B": {
+        "plant_count": 8,
+        "defuse_count": 3,
+        "pct_defuse_win": 37.5,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 35.3,
+        "fk_after_plant_avg": 12.6,
+        "fk_after_plant_n": 8
+      }
+    }
+  },
+  "team": "Eintracht Frankfurt",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-10-23",
+      "opponent": "EF",
+      "matchId": "6209a7e1-f9f2-4283-af93-81abd9ba705f"
+    },
+    {
+      "date": "2026-10-22",
+      "opponent": "CGN",
+      "matchId": "de8132dd-4dcb-4f9c-94d7-08580b39697d"
+    },
+    {
+      "date": "2026-10-22",
+      "opponent": "JL",
+      "matchId": "6fbf84e9-d5d1-41ec-bb63-080df5d63093"
+    }
+  ]
+}
