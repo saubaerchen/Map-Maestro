@@ -42,7 +42,7 @@ def build_team(key, cfg):
     tag = cfg["tag"]
     rows, skipped = [], []
     for m in vlr["matches"]:
-        if not any(passes(info, mp["gameId"], m.get("listDate")) for mp in m["maps"]):
+        if not cfg.get("ignore_core") and not any(passes(info, mp["gameId"], m.get("listDate")) for mp in m["maps"]):
             continue   # baseline-core / date rule: veto only from matches the core played
         own_name, opp_name = m["listTeams"][0], m["listTeams"][1]
         opp_tag = m["listTags"][1] if len(m.get("listTags", [])) > 1 else opp_name[:4].upper()
@@ -74,7 +74,9 @@ def build_team(key, cfg):
                               "teamStartSide": ""})
             row[slot] = entry
         rows.append(row)
-    return {"name": cfg["name"], "ownerLabel": tag, "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
+    sub = (f"Old roster — official vetoes since {cfg['min_date']} (VLR)" if cfg.get("ignore_core")
+           else "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)")
+    return {"name": cfg["name"], "ownerLabel": tag, "subtitle": sub,
             "rows": rows}, skipped
 
 

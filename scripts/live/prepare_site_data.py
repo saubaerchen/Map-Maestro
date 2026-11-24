@@ -9,6 +9,7 @@ Writes data/site/{prefix}_2026_raw_responses.jsonl (official games only, chronol
 """
 import argparse
 import copy
+import datetime
 import json
 import os
 import sys
@@ -17,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import VLR_DIR, load_registry, match_detail  # noqa: E402
 from discover_accounts import try_match, vlr_maps  # noqa: E402
 from core import core_info, passes  # noqa: E402
-from site_config import NAME_ALIASES, SITE_RAW_DIR, TEAMS, site_jsonl  # noqa: E402
+from site_config import NAME_ALIASES, SITE_RAW_DIR, TEAMS, site_jsonl, team_min_date  # noqa: E402
 
 
 def main():
@@ -29,6 +30,21 @@ def main():
     for key in a.team or list(TEAMS):
         cfg = TEAMS[key]
         pre, tag = cfg["prefix"], cfg["tag"]
+        if cfg.get("esports_source"):
+            # tournament-account data: names are already '{TAG} {name}', no core/date rule
+            lo = team_min_date(cfg)
+            rows = []
+            for line in open(cfg["esports_source"], encoding="utf-8"):
+                d = json.loads(line)
+                ts = d["matchInfo"]["gameStartMillis"]
+                if datetime.datetime.fromtimestamp(ts / 1000, datetime.timezone.utc).strftime("%Y-%m-%d") >= lo:
+                    rows.append((ts, d))
+            rows.sort(key=lambda r: r[0])
+            with open(site_jsonl(pre), "w", encoding="utf-8") as f:
+                for _, d in rows:
+                    f.write(json.dumps(d) + "\n")
+            print(f"{key:10} {len(rows)} games (esports source) -> {site_jsonl(pre)}")
+            continue
         vpath = os.path.join(VLR_DIR, f"{pre}.json")
         vm = vlr_maps(json.load(open(vpath, encoding="utf-8"))) if os.path.exists(vpath) else []
         rows, problems = [], []

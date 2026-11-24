@@ -15,7 +15,7 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from site_config import KICKOFF_POOL, MAP_TRANSFORMS, ROOT, TEAMS, site_jsonl  # noqa: E402
+from site_config import MAP_TRANSFORMS, ROOT, TEAMS, site_jsonl, team_pool  # noqa: E402
 
 _spec = importlib.util.spec_from_file_location(
     "legacy_analyze", os.path.join(ROOT, "scripts", "analyze_nvj_early_positioning_batch.py"))
@@ -46,7 +46,7 @@ def run(team_key):
     out_dir = legacy.OUTPUT_DIR
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
-    for map_name in KICKOFF_POOL:
+    for map_name in team_pool(cfg):
         if not maps_present.get(map_name):
             continue
         for side_code, side_key in legacy.SIDES:

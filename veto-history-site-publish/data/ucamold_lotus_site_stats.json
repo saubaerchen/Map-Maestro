@@ -1,0 +1,122 @@
+{
+  "t_side": {
+    "total_rounds": 74,
+    "rounds_won": 29,
+    "pct_rounds_won": 39.2,
+    "won_by_kills": 23,
+    "pct_won_by_kills": 31.1,
+    "won_by_explosion": 6,
+    "pct_won_by_explosion": 8.1,
+    "avg_fk_time": 31.2,
+    "sites": {
+      "A": {
+        "plant_count": 16,
+        "pct_plant": 36.4,
+        "pct_win": 68.8,
+        "avg_plant_time": 52.2,
+        "min_plant_time": 20.6,
+        "max_plant_time": 99.8,
+        "fk_to_plant_avg": 32.1,
+        "fk_to_plant_n": 13
+      },
+      "B": {
+        "plant_count": 13,
+        "pct_plant": 29.5,
+        "pct_win": 46.2,
+        "avg_plant_time": 55.5,
+        "min_plant_time": 17.4,
+        "max_plant_time": 102.1,
+        "fk_to_plant_avg": 18.2,
+        "fk_to_plant_n": 12
+      },
+      "C": {
+        "plant_count": 15,
+        "pct_plant": 34.1,
+        "pct_win": 73.3,
+        "avg_plant_time": 52.4,
+        "min_plant_time": 25.1,
+        "max_plant_time": 81.4,
+        "fk_to_plant_avg": 32.0,
+        "fk_to_plant_n": 13
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 68,
+    "rounds_won": 29,
+    "pct_rounds_won": 42.6,
+    "won_by_kills": 11,
+    "pct_won_by_kills": 16.2,
+    "won_by_defuse": 18,
+    "pct_won_by_defuse": 26.5,
+    "avg_fk_time": 33.7,
+    "sites": {
+      "A": {
+        "plant_count": 22,
+        "defuse_count": 5,
+        "pct_defuse_win": 22.7,
+        "pct_defuse_share": 27.8,
+        "avg_defuse_time": 29.3,
+        "fk_after_plant_avg": 13.6,
+        "fk_after_plant_n": 11
+      },
+      "B": {
+        "plant_count": 18,
+        "defuse_count": 5,
+        "pct_defuse_win": 27.8,
+        "pct_defuse_share": 27.8,
+        "avg_defuse_time": 26.9,
+        "fk_after_plant_avg": 12.6,
+        "fk_after_plant_n": 12
+      },
+      "C": {
+        "plant_count": 14,
+        "defuse_count": 8,
+        "pct_defuse_win": 57.1,
+        "pct_defuse_share": 44.4,
+        "avg_defuse_time": 31.2,
+        "fk_after_plant_avg": 14.3,
+        "fk_after_plant_n": 10
+      }
+    }
+  },
+  "team": "UCAM (OLD)",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-07-08",
+      "opponent": "MSA",
+      "matchId": "d76f5fcd-99bc-4f3f-814f-b029b3172912"
+    },
+    {
+      "date": "2026-07-07",
+      "opponent": "SGE",
+      "matchId": "94a751c9-0b72-4869-a179-9920619e96a0"
+    },
+    {
+      "date": "2026-06-24",
+      "opponent": "VCT",
+      "matchId": "3ad083cb-0f09-4ea0-8d03-25746c064cff"
+    },
+    {
+      "date": "2026-06-22",
+      "opponent": "PXL",
+      "matchId": "7bcb1aae-7685-482f-866f-76649fc005a9"
+    },
+    {
+      "date": "2026-05-27",
+      "opponent": "VCT",
+      "matchId": "d7fc4f6d-f4c6-4373-b1a9-f21e6b6c8aec"
+    },
+    {
+      "date": "2026-05-25",
+      "opponent": "VCT",
+      "matchId": "753f8fcd-be0b-4b16-8f5d-f52ae797c166"
+    },
+    {
+      "date": "2026-05-12",
+      "opponent": "BAR",
+      "matchId": "59fc777c-fa1d-4260-a952-16519b8fedb9"
+    }
+  ]
+}

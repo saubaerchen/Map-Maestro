@@ -1,0 +1,850 @@
+{
+  "map": "Haven",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-07-09",
+      "opponent": "MDR",
+      "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+      "score": "6-13"
+    },
+    {
+      "date": "2026-07-08",
+      "opponent": "MSA",
+      "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+      "score": "13-5"
+    },
+    {
+      "date": "2026-07-07",
+      "opponent": "SGE",
+      "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+      "score": "4-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    },
+    "B": {
+      "roundCount": 6,
+      "pointCount": 23,
+      "points": [
+        {
+          "site": "B",
+          "player": "BULD",
+          "normX": 39.385,
+          "normY": 45.9578,
+          "roundNum": 17,
+          "plantRoundTimeMs": 31323,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "Famsii",
+          "normX": 36.9175,
+          "normY": 36.1253,
+          "roundNum": 17,
+          "plantRoundTimeMs": 31323,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 43.015,
+          "normY": 55.4828,
+          "roundNum": 17,
+          "plantRoundTimeMs": 31323,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "OLIZERA",
+          "normX": 40.8175,
+          "normY": 38.2628,
+          "roundNum": 17,
+          "plantRoundTimeMs": 31323,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "B1SK",
+          "normX": 39.58,
+          "normY": 41.2178,
+          "roundNum": 17,
+          "plantRoundTimeMs": 31323,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "BULD",
+          "normX": 67.4875,
+          "normY": 45.8903,
+          "roundNum": 18,
+          "plantRoundTimeMs": 54149,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "Famsii",
+          "normX": 42.0325,
+          "normY": 36.2453,
+          "roundNum": 18,
+          "plantRoundTimeMs": 54149,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 38.98,
+          "normY": 45.9578,
+          "roundNum": 18,
+          "plantRoundTimeMs": 54149,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 45.3925,
+          "normY": 51.2453,
+          "roundNum": 12,
+          "plantRoundTimeMs": 39659,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Famsii",
+          "normX": 41.4175,
+          "normY": 51.8453,
+          "roundNum": 12,
+          "plantRoundTimeMs": 39659,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "B1SK",
+          "normX": 30.8425,
+          "normY": 49.7603,
+          "roundNum": 12,
+          "plantRoundTimeMs": 39659,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "OLIZERA",
+          "normX": 41.7925,
+          "normY": 43.6328,
+          "roundNum": 12,
+          "plantRoundTimeMs": 39659,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 41.4175,
+          "normY": 51.8453,
+          "roundNum": 13,
+          "plantRoundTimeMs": 33710,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Famsii",
+          "normX": 51.415,
+          "normY": 49.0928,
+          "roundNum": 13,
+          "plantRoundTimeMs": 33710,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "BULD",
+          "normX": 57.205,
+          "normY": 38.0828,
+          "roundNum": 13,
+          "plantRoundTimeMs": 33710,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "OLIZERA",
+          "normX": 56.215,
+          "normY": 59.3978,
+          "roundNum": 13,
+          "plantRoundTimeMs": 33710,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Jesse",
+          "normX": 44.3575,
+          "normY": 57.1628,
+          "roundNum": 15,
+          "plantRoundTimeMs": 50684,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "Famsii",
+          "normX": 41.4175,
+          "normY": 51.8453,
+          "roundNum": 15,
+          "plantRoundTimeMs": 50684,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "BULD",
+          "normX": 68.4775,
+          "normY": 35.5178,
+          "roundNum": 15,
+          "plantRoundTimeMs": 50684,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "B1SK",
+          "normX": 31.495,
+          "normY": 48.3053,
+          "roundNum": 15,
+          "plantRoundTimeMs": 50684,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "OLIZERA",
+          "normX": 73.39,
+          "normY": 54.5153,
+          "roundNum": 15,
+          "plantRoundTimeMs": 50684,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "BULD",
+          "normX": 48.4975,
+          "normY": 49.0103,
+          "roundNum": 16,
+          "plantRoundTimeMs": 91557,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "B",
+          "player": "OLIZERA",
+          "normX": 41.4175,
+          "normY": 51.8453,
+          "roundNum": 16,
+          "plantRoundTimeMs": 91557,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        }
+      ]
+    },
+    "C": {
+      "roundCount": 6,
+      "pointCount": 19,
+      "points": [
+        {
+          "site": "C",
+          "player": "BULD",
+          "normX": 40.6675,
+          "normY": 82.3778,
+          "roundNum": 14,
+          "plantRoundTimeMs": 63414,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "C",
+          "player": "Jesse",
+          "normX": 65.8375,
+          "normY": 43.6403,
+          "roundNum": 14,
+          "plantRoundTimeMs": 63414,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "C",
+          "player": "OLIZERA",
+          "normX": 56.455,
+          "normY": 85.5203,
+          "roundNum": 14,
+          "plantRoundTimeMs": 63414,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "C",
+          "player": "B1SK",
+          "normX": 33.0025,
+          "normY": 91.7003,
+          "roundNum": 14,
+          "plantRoundTimeMs": 63414,
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "score": "6-13"
+        },
+        {
+          "site": "C",
+          "player": "BULD",
+          "normX": 42.7825,
+          "normY": 55.6928,
+          "roundNum": 12,
+          "plantRoundTimeMs": 36565,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Famsii",
+          "normX": 48.16,
+          "normY": 83.0678,
+          "roundNum": 12,
+          "plantRoundTimeMs": 36565,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Jesse",
+          "normX": 40.5625,
+          "normY": 83.2853,
+          "roundNum": 12,
+          "plantRoundTimeMs": 36565,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "OLIZERA",
+          "normX": 73.405,
+          "normY": 75.9503,
+          "roundNum": 12,
+          "plantRoundTimeMs": 36565,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "BULD",
+          "normX": 72.1675,
+          "normY": 60.9578,
+          "roundNum": 14,
+          "plantRoundTimeMs": 51305,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Famsii",
+          "normX": 40.735,
+          "normY": 82.7228,
+          "roundNum": 14,
+          "plantRoundTimeMs": 51305,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "B1SK",
+          "normX": 50.53,
+          "normY": 76.6628,
+          "roundNum": 14,
+          "plantRoundTimeMs": 51305,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "BULD",
+          "normX": 41.155,
+          "normY": 74.3978,
+          "roundNum": 15,
+          "plantRoundTimeMs": 54316,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Famsii",
+          "normX": 58.5625,
+          "normY": 80.5628,
+          "roundNum": 15,
+          "plantRoundTimeMs": 54316,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Jesse",
+          "normX": 41.665,
+          "normY": 84.5078,
+          "roundNum": 15,
+          "plantRoundTimeMs": 54316,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "OLIZERA",
+          "normX": 49.8775,
+          "normY": 81.4028,
+          "roundNum": 15,
+          "plantRoundTimeMs": 54316,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "B1SK",
+          "normX": 35.65,
+          "normY": 90.6203,
+          "roundNum": 15,
+          "plantRoundTimeMs": 54316,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "BULD",
+          "normX": 38.53,
+          "normY": 77.4578,
+          "roundNum": 17,
+          "plantRoundTimeMs": 48788,
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "score": "13-5"
+        },
+        {
+          "site": "C",
+          "player": "Famsii",
+          "normX": 40.93,
+          "normY": 82.8278,
+          "roundNum": 14,
+          "plantRoundTimeMs": 36227,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        },
+        {
+          "site": "C",
+          "player": "B1SK",
+          "normX": 49.5625,
+          "normY": 85.5353,
+          "roundNum": 14,
+          "plantRoundTimeMs": 36227,
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "score": "4-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 17,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10270,
+              "players": [
+                {
+                  "player": "BULD",
+                  "normX": 46.5625,
+                  "normY": 42.8453
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 46.735,
+                  "normY": 55.6628
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 39.91,
+                  "normY": 37.2353
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 32.5675,
+                  "normY": 33.4328
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 11306,
+              "players": [
+                {
+                  "player": "BULD",
+                  "normX": 46.5775,
+                  "normY": 42.8453
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 46.735,
+                  "normY": 55.6403
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 39.235,
+                  "normY": 36.3728
+                }
+              ]
+            }
+          ],
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "score": "6-13"
+        },
+        {
+          "roundNum": 18,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16783,
+              "players": [
+                {
+                  "player": "Famsii",
+                  "normX": 31.54,
+                  "normY": 31.8953
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 31.84,
+                  "normY": 33.8453
+                }
+              ]
+            }
+          ],
+          "matchId": "ca3e82e3-ce20-491e-9d10-13060fbdfbd5",
+          "date": "2026-07-09",
+          "opponent": "MDR",
+          "score": "6-13"
+        },
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19385,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 41.5975,
+                  "normY": 39.1853
+                },
+                {
+                  "player": "Famsii",
+                  "normX": 32.8675,
+                  "normY": 52.5128
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 46.735,
+                  "normY": 44.3453
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 31.9,
+                  "normY": 47.7053
+                }
+              ]
+            }
+          ],
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 13,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14509,
+              "players": [
+                {
+                  "player": "Famsii",
+                  "normX": 60.01,
+                  "normY": 43.9403
+                },
+                {
+                  "player": "BULD",
+                  "normX": 30.625,
+                  "normY": 28.9103
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16430,
+              "players": [
+                {
+                  "player": "Famsii",
+                  "normX": 59.365,
+                  "normY": 44.2253
+                },
+                {
+                  "player": "BULD",
+                  "normX": 34.9075,
+                  "normY": 32.4053
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16546,
+              "players": [
+                {
+                  "player": "BULD",
+                  "normX": 35.17,
+                  "normY": 32.5703
+                }
+              ]
+            }
+          ],
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18340,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 45.79,
+                  "normY": 57.0578
+                },
+                {
+                  "player": "Famsii",
+                  "normX": 45.6475,
+                  "normY": 55.5203
+                },
+                {
+                  "player": "BULD",
+                  "normX": 69.925,
+                  "normY": 34.7753
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 46.63,
+                  "normY": 55.7078
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 73.3675,
+                  "normY": 54.5228
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18691,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 45.7825,
+                  "normY": 57.0578
+                },
+                {
+                  "player": "BULD",
+                  "normX": 69.985,
+                  "normY": 34.7978
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 46.45,
+                  "normY": 55.6553
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 73.48,
+                  "normY": 54.4928
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18908,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 45.6325,
+                  "normY": 57.1103
+                },
+                {
+                  "player": "BULD",
+                  "normX": 69.7975,
+                  "normY": 34.6778
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 46.1425,
+                  "normY": 55.5128
+                },
+                {
+                  "player": "OLIZERA",
+                  "normX": 73.3225,
+                  "normY": 54.5303
+                }
+              ]
+            }
+          ],
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "score": "4-13"
+        }
+      ]
+    },
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15981,
+              "players": [
+                {
+                  "player": "BULD",
+                  "normX": 50.755,
+                  "normY": 62.0603
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 37.3825,
+                  "normY": 81.2378
+                }
+              ]
+            }
+          ],
+          "matchId": "ab34232d-e685-48c0-be42-f85e16a046f1",
+          "date": "2026-07-08",
+          "opponent": "MSA",
+          "score": "13-5"
+        },
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18938,
+              "players": [
+                {
+                  "player": "Famsii",
+                  "normX": 35.1625,
+                  "normY": 89.6903
+                }
+              ]
+            }
+          ],
+          "matchId": "783882b3-7d33-45cd-b428-3d8e125afb0f",
+          "date": "2026-07-07",
+          "opponent": "SGE",
+          "score": "4-13"
+        }
+      ]
+    }
+  }
+}

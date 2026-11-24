@@ -84,7 +84,24 @@ TEAMS = {
     "mandatory":   {"prefix": "mdr", "tag": "MDR", "name": "Mandatory",
                     "roster": ["Veqaj", "starxo", "runneR", "Kicks", "MiniBoo"]},
     "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports", "roster": []},
+    # --- Special data sets (bypass the baseline-core + 2026-09-01 rules on purpose) ---
+    # UCAM (OLD): UCAM's tournament-account games 2026-05-01..2026-07-09 (old roster), any roster,
+    # from scripts/live/fetch_ucam_esports.py. Old map pool. Requested by Vincent 2026-11-24.
+    "ucamold":     {"prefix": "ucamold", "tag": "UCAM", "name": "UCAM (OLD)",
+                    "roster": ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
+                    "esports_source": os.path.join(ROOT, "data", "raw", "ucam_esports_since_2026-05_raw_responses.jsonl"),
+                    "ignore_core": True, "min_date": "2026-05-01",
+                    "maps": ["Bind", "Haven", "Lotus", "Ascent", "Fracture", "Pearl", "Split"]},
 }
+
+
+def team_pool(cfg):
+    """Maps a team is built for: the Kickoff pool unless the team sets its own 'maps'."""
+    return cfg.get("maps", KICKOFF_POOL)
+
+
+def team_min_date(cfg):
+    return cfg.get("min_date", "2026-09-01")
 
 
 def site_jsonl(prefix):

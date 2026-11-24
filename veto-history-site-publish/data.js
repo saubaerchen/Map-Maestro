@@ -1011,5 +1011,174 @@ const vetoHistoryData = {
     "ownerLabel": "EP",
     "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
     "rows": []
+  },
+  "ucamold": {
+    "name": "UCAM (OLD)",
+    "ownerLabel": "UCAM",
+    "subtitle": "Old roster — official vetoes since 2026-05-01 (VLR)",
+    "rows": [
+      {
+        "date": "2026-07-09",
+        "opponent": "Mandatory",
+        "opponentAbbr": "MDR",
+        "score": "1 - 2",
+        "source": "https://www.vlr.gg/710286/mandatory-vs-ucam-esports-club-challengers-2026-emea-last-chance-qualifier-decider-c",
+        "event": "Challengers 2026: EMEA Last Chance Qualifier Group Stage: Decider (C)",
+        "decider": "Ascent",
+        "deciderScore": "9:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team",
+          "score": "13:8",
+          "pickLabel": "UCAM PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp",
+          "score": "6:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-07-08",
+        "opponent": "La Masia",
+        "opponentAbbr": "MSA",
+        "score": "2 - 1",
+        "source": "https://www.vlr.gg/710285/la-masia-vs-ucam-esports-club-challengers-2026-emea-last-chance-qualifier-elim-c",
+        "event": "Challengers 2026: EMEA Last Chance Qualifier Group Stage: Elimination (C)",
+        "decider": "Ascent",
+        "deciderScore": "13:6",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "MSA",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MSA",
+          "ownerKind": "opp",
+          "score": "13:5",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team",
+          "score": "7:13",
+          "pickLabel": "UCAM PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "MSA",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-07-07",
+        "opponent": "Eintracht Frankfurt",
+        "opponentAbbr": "SGE",
+        "score": "1 - 2",
+        "source": "https://www.vlr.gg/710283/ucam-esports-club-vs-eintracht-frankfurt-challengers-2026-emea-last-chance-qualifier-opening-c",
+        "event": "Challengers 2026: EMEA Last Chance Qualifier Group Stage: Opening (C)",
+        "decider": "Haven",
+        "deciderScore": "4:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team",
+          "score": "13:5",
+          "pickLabel": "UCAM PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp",
+          "score": "10:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp"
+        }
+      }
+    ]
   }
 };

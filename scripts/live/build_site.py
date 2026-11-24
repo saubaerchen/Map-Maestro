@@ -21,7 +21,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from site_config import (KICKOFF_POOL, MAP_SITES, MAP_TRANSFORMS, PUBLISH_DIR, ROOT, TEAMS,  # noqa: E402
-                         site_jsonl, transforms_short)
+                         site_jsonl, team_min_date, team_pool, transforms_short)
 
 SCRIPTS = os.path.join(ROOT, "scripts")
 sys.path.insert(0, SCRIPTS)
@@ -39,7 +39,8 @@ def team_maps(prefix):
     c = Counter()
     for line in open(site_jsonl(prefix), encoding="utf-8"):
         c[json.loads(line)["matchInfo"]["map"]] += 1
-    return [m for m in KICKOFF_POOL if c.get(m)]
+    cfg = next((t for t in TEAMS.values() if t["prefix"] == prefix), {})
+    return [m for m in team_pool(cfg) if c.get(m)]
 
 
 def run_main(mod, args):
@@ -82,6 +83,7 @@ def build_per_team(key):
     pre, tag = cfg["prefix"], cfg["tag"]
     maps = team_maps(pre)
     jsonl = Path(site_jsonl(pre))
+    MIN_DATE = team_min_date(cfg)
 
     m = load_module("build_team_site_stats_bundle")
     m.TEAM_CONFIG = {pre: {"name": cfg["name"], "prefix": pre, "jsonl": jsonl, "player_prefix": tag + " ",
@@ -104,7 +106,7 @@ def build_per_team(key):
     for name in ("build_economy_bundle", "build_agents_bundle"):
         m = load_module(name)
         if hasattr(m, "COMPETITIVE_MAPS"):
-            m.COMPETITIVE_MAPS = set(KICKOFF_POOL) | {"Ascent", "Split"}
+            m.COMPETITIVE_MAPS = set(KICKOFF_POOL) | set(team_pool(cfg)) | {"Ascent", "Split"}
         m.TEAM_CONFIG = {pre: {"name": cfg["name"], "prefix": pre, "player_prefix": tag + " ", "jsonl": jsonl}}
         run_main(m, ["--team", pre])
     return maps
