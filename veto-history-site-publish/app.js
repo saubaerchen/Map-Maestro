@@ -234,7 +234,12 @@ const calibrationOverrides = {
 };
 
 const ACTIVE_TEAMS = new Set(["eintracht", "mir", "joblife", "nvjunior", "barca", "f9eicar", "wip", "aurora", "pixellumina", "mpmt", "lamasia", "giantx", "ucam", "mandatory", "enterprise"]);
-const teamOrder = Object.keys(TEAMS_CONFIG).filter((key) => allVetoHistoryData[key] && ACTIVE_TEAMS.has(key));
+// Alphabetical (case/accent-insensitive); teams without data at the bottom
+const teamOrder = Object.keys(TEAMS_CONFIG)
+  .filter((key) => allVetoHistoryData[key] && ACTIVE_TEAMS.has(key))
+  .sort((a, b) =>
+    (Number(!!TEAMS_CONFIG[a].noData) - Number(!!TEAMS_CONFIG[b].noData)) ||
+    allVetoHistoryData[a].name.localeCompare(allVetoHistoryData[b].name, undefined, { sensitivity: "base" }));
 let activeTeam = teamOrder[0];
 let activeView = "veto";
 let startDateFilter = "";
@@ -568,7 +573,7 @@ function renderTable(team) {
 
 function renderTeamSelect() {
   teamSelect.innerHTML = teamOrder
-    .map((key) => `<option value="${key}">${allVetoHistoryData[key].name}</option>`)
+    .map((key) => `<option value="${key}">${allVetoHistoryData[key].name}${TEAMS_CONFIG[key].noData ? " (0)" : ""}</option>`)
     .join("");
   teamSelect.value = activeTeam;
 }
