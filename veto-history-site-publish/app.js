@@ -1496,7 +1496,7 @@ function renderDefensivePanels(info) {
       if (!retakeActiveSites.has(site)) continue;
       const rounds = ppData[site]?.rounds ?? [];
       for (const rnd of rounds) {
-        if (!passesEconomyFilter(rnd.matchId, rnd.roundNum)) continue;
+        if (!passesEconomyFilter(rnd.matchId, rnd.roundNum) || !isMatchActive(rnd.matchId)) continue;
         ppRoundSet.add(`${rnd.matchId}|${rnd.roundNum}`);
         const snaps = rnd.snapshots ?? [];
         // Build per-player ordered trail for this round
@@ -1529,8 +1529,8 @@ function renderDefensivePanels(info) {
             const title = `${pName} | Site ${site} | +${tSec}s | R${rnd.roundNum + 1} | ${rnd.date} vs ${rnd.opponent}`;
             const agent = agentIconMode ? currentAgentLookup[rnd.matchId]?.[pl.player] : null;
             const dotHtml = agent
-              ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
-              : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${siteColor[site] ?? "#888"};" title="${title}"></span>`;
+              ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
+              : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${siteColor[site] ?? "#888"};" title="${title}"></span>`;
             ppSnapshotDots += dotHtml + `<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
           }
         }
@@ -1642,7 +1642,7 @@ function renderDefensivePanels(info) {
       for (const site of ["A", "B", "C"]) {
         if (!ppInlineActiveSites.has(site)) continue;
         for (const rnd of ppInlineData.postPlant10_20[site]?.rounds ?? []) {
-          if (!passesEconomyFilter(rnd.matchId, rnd.roundNum)) continue;
+          if (!passesEconomyFilter(rnd.matchId, rnd.roundNum) || !isMatchActive(rnd.matchId)) continue;
           ppTRounds.add(`${rnd.matchId}|${rnd.roundNum}`);
           const trail = {};
           for (const snap of rnd.snapshots ?? []) {
@@ -1655,8 +1655,8 @@ function renderDefensivePanels(info) {
               const title = `${pName} | Site ${site} | +${(snap.timeSincePlantMs / 1000).toFixed(1)}s after plant | R${rnd.roundNum + 1} | ${rnd.date} vs ${rnd.opponent}`;
               const agent = agentIconMode ? currentAgentLookup[rnd.matchId]?.[pl.player] : null;
               ppTDots += agent
-                ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
-                : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${ppSiteColor[site] ?? "#888"};" title="${title}"></span>`;
+                ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
+                : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${ppSiteColor[site] ?? "#888"};" title="${title}"></span>`;
               ppTDots += `<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
             }
           }

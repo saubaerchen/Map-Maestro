@@ -962,6 +962,11 @@ body {
   pointer-events: none;
 }
 
+/* keep site letters upright on maps drawn rotated 90° CW */
+.heat-layer-frame.rotate-cw .retake-site-tag {
+  transform: rotate(-90deg);
+}
+
 .retake-site-tag-A {
   color: #ffb6b6;
 }
