@@ -105,5 +105,60 @@
       "pointCount": 0,
       "points": []
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12644,
+              "players": [
+                {
+                  "player": "TITOUNE",
+                  "normX": 95.9101,
+                  "normY": 32.9316
+                },
+                {
+                  "player": "Yohpa",
+                  "normX": 95.3701,
+                  "normY": 26.1066
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 93.5926,
+                  "normY": 27.4341
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15593,
+              "players": [
+                {
+                  "player": "TITOUNE",
+                  "normX": 95.8501,
+                  "normY": 35.6541
+                },
+                {
+                  "player": "Yohpa",
+                  "normX": 91.4026,
+                  "normY": 32.4291
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 93.8626,
+                  "normY": 26.9691
+                }
+              ]
+            }
+          ],
+          "matchId": "687e4ea7-ec4f-4db8-9473-f45443c8eaa4",
+          "date": "2026-11-07",
+          "opponent": "baco",
+          "score": "6-13"
+        }
+      ]
+    }
   }
 }

@@ -622,5 +622,248 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12022,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 31.1382,
+                  "normY": 21.4313
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 26.0996,
+                  "normY": 27.4021
+                },
+                {
+                  "player": "Boo",
+                  "normX": 31.8521,
+                  "normY": 43.2495
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 2,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12554,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 19.3264,
+                  "normY": 32.2401
+                },
+                {
+                  "player": "Boo",
+                  "normX": 16.0814,
+                  "normY": 33.0956
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13460,
+              "players": [
+                {
+                  "player": "Boo",
+                  "normX": 15.9693,
+                  "normY": 32.3758
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11262,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 27.3563,
+                  "normY": 30.1043
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 32.9731,
+                  "normY": 41.4441
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19662,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 22.5006,
+                  "normY": 42.4471
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 33.8758,
+                  "normY": 21.3133
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 24.9432,
+                  "normY": 38.1047
+                },
+                {
+                  "player": "trexx",
+                  "normX": 21.1908,
+                  "normY": 37.0073
+                },
+                {
+                  "player": "Boo",
+                  "normX": 34.9909,
+                  "normY": 23.7736
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18880,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 72.1373,
+                  "normY": 21.8502
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 65.9187,
+                  "normY": 31.1191
+                },
+                {
+                  "player": "trexx",
+                  "normX": 63.246,
+                  "normY": 46.8544
+                },
+                {
+                  "player": "Boo",
+                  "normX": 68.0958,
+                  "normY": 29.1367
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17396,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 81.0404,
+                  "normY": 35.7565
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 51.3811,
+                  "normY": 52.6423
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 87.4714,
+                  "normY": 45.2791
+                },
+                {
+                  "player": "trexx",
+                  "normX": 58.5378,
+                  "normY": 45.1316
+                },
+                {
+                  "player": "Boo",
+                  "normX": 66.7978,
+                  "normY": 56.2177
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10092,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 76.9163,
+                  "normY": 23.7736
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 65.5057,
+                  "normY": 54.4418
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 61.6117,
+                  "normY": 33.1723
+                },
+                {
+                  "player": "trexx",
+                  "normX": 70.9278,
+                  "normY": 32.7121
+                }
+              ]
+            }
+          ],
+          "matchId": "3bf983ac-a7dc-4782-8037-a95b27a912be",
+          "date": "2026-11-05",
+          "opponent": "Tant",
+          "score": "13-1"
+        }
+      ]
+    }
   }
 }

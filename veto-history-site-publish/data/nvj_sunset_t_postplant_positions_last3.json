@@ -604,5 +604,124 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14117,
+              "players": [
+                {
+                  "player": "Darxcio",
+                  "normX": 60.062,
+                  "normY": 27.4761
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 82.4246,
+                  "normY": 54.7449
+                },
+                {
+                  "player": "avey",
+                  "normX": 78.7196,
+                  "normY": 20.3079
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 67.7762,
+                  "normY": 29.2467
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16943,
+              "players": [
+                {
+                  "player": "Darxcio",
+                  "normX": 53.6894,
+                  "normY": 27.0159
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 74.6168,
+                  "normY": 62.0457
+                },
+                {
+                  "player": "avey",
+                  "normX": 70.4282,
+                  "normY": 17.8977
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 58.5722,
+                  "normY": 27.6087
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19062,
+              "players": [
+                {
+                  "player": "sizovskyy",
+                  "normX": 64.6562,
+                  "normY": 57.8103
+                },
+                {
+                  "player": "avey",
+                  "normX": 61.8716,
+                  "normY": 22.0395
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 57.0044,
+                  "normY": 27.6633
+                }
+              ]
+            }
+          ],
+          "matchId": "bf96bef2-2785-4c2f-a846-11bdc9a575d8",
+          "date": "2026-10-10",
+          "opponent": "BNK",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19953,
+              "players": [
+                {
+                  "player": "Darxcio",
+                  "normX": 71.2316,
+                  "normY": 33.7863
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 68.8448,
+                  "normY": 32.6163
+                },
+                {
+                  "player": "Kolosha",
+                  "normX": 81.6992,
+                  "normY": 42.5535
+                },
+                {
+                  "player": "avey",
+                  "normX": 89.0078,
+                  "normY": 52.0929
+                }
+              ]
+            }
+          ],
+          "matchId": "edd7160b-b35b-41f1-ae81-bbe0ab8d6825",
+          "date": "2026-10-09",
+          "opponent": "FRG",
+          "score": "13-11"
+        }
+      ]
+    }
   }
 }

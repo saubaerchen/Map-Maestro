@@ -1372,5 +1372,876 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10848,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 40.69,
+                  "normY": 19.5353
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 49.03,
+                  "normY": 35.9528
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 35.1925,
+                  "normY": 14.6603
+                },
+                {
+                  "player": "purp0",
+                  "normX": 41.71,
+                  "normY": 19.2803
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 31.3075,
+                  "normY": 16.7078
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13047,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 40.915,
+                  "normY": 20.3453
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 47.5525,
+                  "normY": 28.1978
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.115,
+                  "normY": 13.0328
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 31.915,
+                  "normY": 16.7078
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14919,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 40.6375,
+                  "normY": 18.2903
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 45.745,
+                  "normY": 22.7078
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 36.085,
+                  "normY": 17.1053
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 32.515,
+                  "normY": 16.7078
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16160,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 41.02,
+                  "normY": 20.7653
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.7525,
+                  "normY": 16.3853
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 32.8,
+                  "normY": 16.6553
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16379,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 40.99,
+                  "normY": 21.5378
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 32.575,
+                  "normY": 15.7103
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 33.4225,
+                  "normY": 17.0453
+                }
+              ]
+            }
+          ],
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16031,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 28.9075,
+                  "normY": 16.7078
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 44.215,
+                  "normY": 24.6128
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.265,
+                  "normY": 10.6328
+                },
+                {
+                  "player": "purp0",
+                  "normX": 43.54,
+                  "normY": 26.9978
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 57.97,
+                  "normY": 10.3853
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16646,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 28.735,
+                  "normY": 16.0478
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 44.2075,
+                  "normY": 24.6053
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.67,
+                  "normY": 10.6703
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.3625,
+                  "normY": 27.7553
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 58.4425,
+                  "normY": 11.3303
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16717,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 44.2075,
+                  "normY": 24.6053
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.6175,
+                  "normY": 10.7003
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.1825,
+                  "normY": 27.7328
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 58.48,
+                  "normY": 11.6603
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17184,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 43.7875,
+                  "normY": 24.9728
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.3175,
+                  "normY": 11.0078
+                },
+                {
+                  "player": "purp0",
+                  "normX": 41.1925,
+                  "normY": 27.7853
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 58.5175,
+                  "normY": 11.9378
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17410,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 43.2475,
+                  "normY": 25.7153
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 33.49,
+                  "normY": 10.9853
+                },
+                {
+                  "player": "purp0",
+                  "normX": 40.6375,
+                  "normY": 27.7028
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 58.5175,
+                  "normY": 11.9678
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17496,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 43.2025,
+                  "normY": 25.9178
+                },
+                {
+                  "player": "purp0",
+                  "normX": 40.435,
+                  "normY": 27.7178
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 58.525,
+                  "normY": 12.1028
+                }
+              ]
+            }
+          ],
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11191,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 48.91,
+                  "normY": 22.9853
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 55.465,
+                  "normY": 11.6753
+                },
+                {
+                  "player": "purp0",
+                  "normX": 47.92,
+                  "normY": 29.7053
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 31.975,
+                  "normY": 13.1003
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16700,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 45.37,
+                  "normY": 9.5228
+                },
+                {
+                  "player": "purp0",
+                  "normX": 35.0575,
+                  "normY": 19.8803
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 45.3175,
+                  "normY": 39.5228
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16964,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 45.715,
+                  "normY": 9.1403
+                },
+                {
+                  "player": "purp0",
+                  "normX": 34.7725,
+                  "normY": 19.4603
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 45.19,
+                  "normY": 39.8528
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11691,
+              "players": [
+                {
+                  "player": "Pa1ze",
+                  "normX": 34.72,
+                  "normY": 18.8678
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 44.56,
+                  "normY": 46.9628
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 46.3675,
+                  "normY": 20.6153
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 17,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11250,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 40.5475,
+                  "normY": 15.3428
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 35.05,
+                  "normY": 27.9353
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 29.2375,
+                  "normY": 13.7903
+                },
+                {
+                  "player": "purp0",
+                  "normX": 54.505,
+                  "normY": 17.0303
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 55.06,
+                  "normY": 16.6628
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14560,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 42.7975,
+                  "normY": 14.0378
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 29.4925,
+                  "normY": 14.8178
+                },
+                {
+                  "player": "purp0",
+                  "normX": 53.815,
+                  "normY": 11.8553
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 55.5175,
+                  "normY": 12.8528
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15547,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 42.31,
+                  "normY": 11.9453
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 27.355,
+                  "normY": 16.4153
+                },
+                {
+                  "player": "purp0",
+                  "normX": 53.32,
+                  "normY": 14.0903
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 55.5475,
+                  "normY": 13.0328
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15635,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 42.28,
+                  "normY": 11.9003
+                },
+                {
+                  "player": "purp0",
+                  "normX": 53.23,
+                  "normY": 14.1503
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 55.5475,
+                  "normY": 13.0328
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17358,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 48.775,
+                  "normY": 14.2103
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 52.0675,
+                  "normY": 12.1178
+                }
+              ]
+            }
+          ],
+          "matchId": "739d85be-2f48-42de-b854-501e97e4ff49",
+          "date": "2026-11-07",
+          "opponent": "F9",
+          "score": "10-13"
+        }
+      ]
+    },
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14342,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 38.35,
+                  "normY": 76.9328
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.97,
+                  "normY": 78.3278
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 52.0075,
+                  "normY": 83.3528
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16109,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 37.12,
+                  "normY": 76.2203
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.4375,
+                  "normY": 77.1503
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 53.5375,
+                  "normY": 84.1853
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16929,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 37.12,
+                  "normY": 75.3428
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.2425,
+                  "normY": 76.1378
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 56.275,
+                  "normY": 83.5178
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16980,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 42.2425,
+                  "normY": 76.1303
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 56.515,
+                  "normY": 83.4053
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19966,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 40.675,
+                  "normY": 79.7153
+                }
+              ]
+            }
+          ],
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19675,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 38.1925,
+                  "normY": 85.4978
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 39.0925,
+                  "normY": 62.9603
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 64.8775,
+                  "normY": 87.4103
+                },
+                {
+                  "player": "purp0",
+                  "normX": 43.24,
+                  "normY": 80.3228
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 62.29,
+                  "normY": 80.1428
+                }
+              ]
+            }
+          ],
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16073,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 27.9475,
+                  "normY": 71.8928
+                }
+              ]
+            }
+          ],
+          "matchId": "739d85be-2f48-42de-b854-501e97e4ff49",
+          "date": "2026-11-07",
+          "opponent": "F9",
+          "score": "10-13"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13328,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 43.0075,
+                  "normY": 57.1478
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 46.84,
+                  "normY": 67.1003
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 48.34,
+                  "normY": 56.2178
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14736,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 41.7925,
+                  "normY": 57.1253
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 49.4425,
+                  "normY": 65.1728
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18620,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 46.135,
+                  "normY": 57.1703
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 41.47,
+                  "normY": 67.2278
+                }
+              ]
+            }
+          ],
+          "matchId": "b2320a27-e918-4a35-9c1b-a96d2c089234",
+          "date": "2026-11-12",
+          "opponent": "Feuc",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10029,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 33.55,
+                  "normY": 44.2703
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 28.195,
+                  "normY": 49.3778
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 59.8975,
+                  "normY": 64.3253
+                },
+                {
+                  "player": "purp0",
+                  "normX": 36.625,
+                  "normY": 43.2878
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 34.2325,
+                  "normY": 46.8278
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12893,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 33.4975,
+                  "normY": 53.1203
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 50.035,
+                  "normY": 47.6753
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17648,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 37.8775,
+                  "normY": 44.1503
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 49.7425,
+                  "normY": 52.0703
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11077,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 27.9775,
+                  "normY": 69.0353
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 36.6475,
+                  "normY": 43.9403
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 42.94,
+                  "normY": 47.1353
+                },
+                {
+                  "player": "purp0",
+                  "normX": 45.25,
+                  "normY": 52.7753
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 48.7525,
+                  "normY": 48.8978
+                }
+              ]
+            }
+          ],
+          "matchId": "54150867-edef-4623-97c6-121cff025e6a",
+          "date": "2026-11-11",
+          "opponent": "Just",
+          "score": "13-0"
+        }
+      ]
+    }
   }
 }

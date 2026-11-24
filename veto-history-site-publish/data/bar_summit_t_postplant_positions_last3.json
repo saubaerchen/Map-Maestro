@@ -1078,5 +1078,487 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13184,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 27.2776,
+                  "normY": 30.3216
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 50.4976,
+                  "normY": 33.9966
+                },
+                {
+                  "player": "purp0",
+                  "normX": 43.3651,
+                  "normY": 14.3916
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 16.3876,
+                  "normY": 38.6991
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 18.9076,
+                  "normY": 25.6866
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15727,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 25.2001,
+                  "normY": 36.0891
+                },
+                {
+                  "player": "purp0",
+                  "normX": 41.9401,
+                  "normY": 25.0941
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 25.1776,
+                  "normY": 39.5691
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 23.8801,
+                  "normY": 25.9191
+                }
+              ]
+            }
+          ],
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14146,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 25.3726,
+                  "normY": 32.1891
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 8.6026,
+                  "normY": 36.9366
+                },
+                {
+                  "player": "purp0",
+                  "normX": 22.3276,
+                  "normY": 40.6641
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 5.9251,
+                  "normY": 40.3266
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14193,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 8.6026,
+                  "normY": 36.9366
+                },
+                {
+                  "player": "purp0",
+                  "normX": 22.3651,
+                  "normY": 40.6641
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 5.9401,
+                  "normY": 40.3641
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15119,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 8.6026,
+                  "normY": 36.9366
+                },
+                {
+                  "player": "purp0",
+                  "normX": 23.5801,
+                  "normY": 41.1066
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 5.8651,
+                  "normY": 39.7491
+                }
+              ]
+            }
+          ],
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12809,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 10.3876,
+                  "normY": 45.5316
+                },
+                {
+                  "player": "Proxh",
+                  "normX": 7.0501,
+                  "normY": 20.2116
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 21.2551,
+                  "normY": 41.7066
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16286,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 10.4551,
+                  "normY": 44.0166
+                },
+                {
+                  "player": "Proxh",
+                  "normX": 4.3276,
+                  "normY": 24.6141
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 16.2001,
+                  "normY": 37.5891
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16858,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 10.2376,
+                  "normY": 43.3566
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 15.3526,
+                  "normY": 37.5366
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19227,
+              "players": [
+                {
+                  "player": "Fit1nho",
+                  "normX": 17.1676,
+                  "normY": 32.2416
+                }
+              ]
+            }
+          ],
+          "matchId": "cdd1170f-86c9-4281-8f93-57bda6227d4e",
+          "date": "2026-11-06",
+          "opponent": "FL",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12477,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 29.9026,
+                  "normY": 36.7116
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 27.4351,
+                  "normY": 39.2541
+                },
+                {
+                  "player": "purp0",
+                  "normX": 12.5251,
+                  "normY": 32.3691
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 23.2501,
+                  "normY": 32.6091
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15829,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 30.8551,
+                  "normY": 36.7341
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 18.3376,
+                  "normY": 40.5741
+                },
+                {
+                  "player": "purp0",
+                  "normX": 6.2701,
+                  "normY": 37.2741
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 20.3101,
+                  "normY": 28.5891
+                }
+              ]
+            }
+          ],
+          "matchId": "cdd1170f-86c9-4281-8f93-57bda6227d4e",
+          "date": "2026-11-06",
+          "opponent": "FL",
+          "score": "13-6"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 2,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17597,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 83.0176,
+                  "normY": 42.0666
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 89.0551,
+                  "normY": 29.9766
+                },
+                {
+                  "player": "purp0",
+                  "normX": 81.9451,
+                  "normY": 41.3466
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 90.1501,
+                  "normY": 43.4841
+                }
+              ]
+            }
+          ],
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16699,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 91.8001,
+                  "normY": 31.1916
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 55.1251,
+                  "normY": 56.2266
+                },
+                {
+                  "player": "purp0",
+                  "normX": 80.0026,
+                  "normY": 51.3741
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 86.0926,
+                  "normY": 45.2316
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 80.9926,
+                  "normY": 22.2216
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19267,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 95.9026,
+                  "normY": 32.5491
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 57.9751,
+                  "normY": 50.2266
+                },
+                {
+                  "player": "purp0",
+                  "normX": 76.4551,
+                  "normY": 50.6241
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 91.0051,
+                  "normY": 43.5966
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 88.0276,
+                  "normY": 24.9441
+                }
+              ]
+            }
+          ],
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11346,
+              "players": [
+                {
+                  "player": "purp0",
+                  "normX": 82.9201,
+                  "normY": 33.7116
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 78.0676,
+                  "normY": 33.3816
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 83.4901,
+                  "normY": 36.6441
+                }
+              ]
+            }
+          ],
+          "matchId": "fea50ad1-6e69-4f69-8561-c0f0d77c2ef5",
+          "date": "2026-11-12",
+          "opponent": "M\u00e9he",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15143,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 97.0801,
+                  "normY": 30.6741
+                },
+                {
+                  "player": "Proxh",
+                  "normX": 90.9826,
+                  "normY": 31.1916
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 77.4976,
+                  "normY": 54.6516
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17056,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 95.5801,
+                  "normY": 32.7816
+                },
+                {
+                  "player": "Proxh",
+                  "normX": 89.3251,
+                  "normY": 34.2366
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 78.9076,
+                  "normY": 53.9616
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18005,
+              "players": [
+                {
+                  "player": "MONSTEERR",
+                  "normX": 95.7676,
+                  "normY": 34.6491
+                },
+                {
+                  "player": "Proxh",
+                  "normX": 89.2426,
+                  "normY": 33.8841
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 80.4601,
+                  "normY": 53.3391
+                }
+              ]
+            }
+          ],
+          "matchId": "cdd1170f-86c9-4281-8f93-57bda6227d4e",
+          "date": "2026-11-06",
+          "opponent": "FL",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

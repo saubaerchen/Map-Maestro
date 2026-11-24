@@ -478,5 +478,177 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11786,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 15.6601,
+                  "normY": 37.4841
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 15.8701,
+                  "normY": 32.3316
+                }
+              ]
+            }
+          ],
+          "matchId": "60d4008e-20ca-4a07-abb2-7eb8c43eda2d",
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10769,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 17.1901,
+                  "normY": 38.2491
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 17.0401,
+                  "normY": 40.0341
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 7.1101,
+                  "normY": 28.9491
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 21.4876,
+                  "normY": 47.7816
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17854,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 11.4826,
+                  "normY": 33.6741
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 16.5901,
+                  "normY": 38.0241
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 7.4176,
+                  "normY": 28.9341
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 11.5276,
+                  "normY": 45.3366
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18161,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 15.8926,
+                  "normY": 37.9341
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 7.3951,
+                  "normY": 28.9416
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 11.1601,
+                  "normY": 44.7966
+                }
+              ]
+            }
+          ],
+          "matchId": "60d4008e-20ca-4a07-abb2-7eb8c43eda2d",
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "score": "13-6"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 2,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13330,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 82.5001,
+                  "normY": 37.8516
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 88.7626,
+                  "normY": 44.2416
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 89.2951,
+                  "normY": 33.4716
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 49.1176,
+                  "normY": 60.8841
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13629,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 82.5526,
+                  "normY": 37.6416
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 88.7551,
+                  "normY": 44.2416
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 89.3401,
+                  "normY": 33.5991
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 48.6451,
+                  "normY": 60.3366
+                }
+              ]
+            }
+          ],
+          "matchId": "60d4008e-20ca-4a07-abb2-7eb8c43eda2d",
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

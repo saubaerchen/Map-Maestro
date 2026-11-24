@@ -550,5 +550,185 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19347,
+              "players": [
+                {
+                  "player": "WanZeru",
+                  "normX": 85.7786,
+                  "normY": 40.1355
+                },
+                {
+                  "player": "runneR",
+                  "normX": 92.7128,
+                  "normY": 35.5881
+                },
+                {
+                  "player": "Sevire",
+                  "normX": 95.6924,
+                  "normY": 44.9169
+                },
+                {
+                  "player": "hoody",
+                  "normX": 46.841,
+                  "normY": 26.9379
+                }
+              ]
+            }
+          ],
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 2,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14428,
+              "players": [
+                {
+                  "player": "runneR",
+                  "normX": 81.1844,
+                  "normY": 35.3541
+                },
+                {
+                  "player": "hoody",
+                  "normX": 84.7802,
+                  "normY": 40.0887
+                },
+                {
+                  "player": "soulcas",
+                  "normX": 70.9742,
+                  "normY": 52.9509
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15913,
+              "players": [
+                {
+                  "player": "runneR",
+                  "normX": 83.8754,
+                  "normY": 34.7301
+                },
+                {
+                  "player": "hoody",
+                  "normX": 86.0282,
+                  "normY": 39.3633
+                },
+                {
+                  "player": "soulcas",
+                  "normX": 71.1614,
+                  "normY": 49.5189
+                }
+              ]
+            }
+          ],
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11025,
+              "players": [
+                {
+                  "player": "WanZeru",
+                  "normX": 80.8568,
+                  "normY": 41.5083
+                },
+                {
+                  "player": "Sevire",
+                  "normX": 64.2818,
+                  "normY": 56.5779
+                }
+              ]
+            }
+          ],
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "score": "13-1"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14116,
+              "players": [
+                {
+                  "player": "Sevire",
+                  "normX": 16.5536,
+                  "normY": 32.1327
+                },
+                {
+                  "player": "hoody",
+                  "normX": 47.5664,
+                  "normY": 61.6245
+                },
+                {
+                  "player": "soulcas",
+                  "normX": 40.2344,
+                  "normY": 13.6857
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18447,
+              "players": [
+                {
+                  "player": "Sevire",
+                  "normX": 15.8048,
+                  "normY": 29.5899
+                },
+                {
+                  "player": "hoody",
+                  "normX": 47.9408,
+                  "normY": 52.2723
+                }
+              ]
+            }
+          ],
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16190,
+              "players": [
+                {
+                  "player": "soulcas",
+                  "normX": 9.6896,
+                  "normY": 47.5065
+                }
+              ]
+            }
+          ],
+          "matchId": "cfa99770-bd67-4e47-a143-8904628a6f35",
+          "date": "2026-10-22",
+          "opponent": "HABO",
+          "score": "13-1"
+        }
+      ]
+    }
   }
 }

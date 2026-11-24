@@ -196,5 +196,117 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15158,
+              "players": [
+                {
+                  "player": "Fit1nho",
+                  "normX": 9.1837,
+                  "normY": 53.3416
+                }
+              ]
+            }
+          ],
+          "matchId": "39779bb2-8b63-421b-b7f4-59caac713e61",
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "score": "1-13"
+        },
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17066,
+              "players": [
+                {
+                  "player": "Fit1nho",
+                  "normX": 8.7373,
+                  "normY": 52.6648
+                }
+              ]
+            }
+          ],
+          "matchId": "1f938f93-2ec2-4a5f-a2b0-e34edab35055",
+          "date": "2026-11-14",
+          "opponent": "HONK",
+          "score": "13-3"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12020,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 59.2381,
+                  "normY": 43.672
+                },
+                {
+                  "player": "Pa1ze",
+                  "normX": 53.0749,
+                  "normY": 55.6024
+                },
+                {
+                  "player": "purp0",
+                  "normX": 49.7917,
+                  "normY": 68.8936
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 57.3013,
+                  "normY": 50.1592
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 51.6133,
+                  "normY": 45.5512
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15167,
+              "players": [
+                {
+                  "player": "Proxh",
+                  "normX": 59.3605,
+                  "normY": 43.672
+                },
+                {
+                  "player": "purp0",
+                  "normX": 42.9229,
+                  "normY": 81.2632
+                },
+                {
+                  "player": "MONSTEERR",
+                  "normX": 57.1933,
+                  "normY": 49.504
+                },
+                {
+                  "player": "Fit1nho",
+                  "normX": 51.0877,
+                  "normY": 44.7376
+                }
+              ]
+            }
+          ],
+          "matchId": "1f938f93-2ec2-4a5f-a2b0-e34edab35055",
+          "date": "2026-11-14",
+          "opponent": "HONK",
+          "score": "13-3"
+        }
+      ]
+    }
   }
 }

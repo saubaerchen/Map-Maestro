@@ -117,5 +117,109 @@
       "pointCount": 0,
       "points": []
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13607,
+              "players": [
+                {
+                  "player": "askoo",
+                  "normX": 82.2676,
+                  "normY": 39.6891
+                },
+                {
+                  "player": "izana",
+                  "normX": 56.5426,
+                  "normY": 51.2316
+                }
+              ]
+            }
+          ],
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "score": "13-2"
+        },
+        {
+          "roundNum": 13,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11648,
+              "players": [
+                {
+                  "player": "askoo",
+                  "normX": 91.2451,
+                  "normY": 40.1241
+                },
+                {
+                  "player": "nayte",
+                  "normX": 92.7901,
+                  "normY": 39.4641
+                },
+                {
+                  "player": "soren",
+                  "normX": 83.1676,
+                  "normY": 41.4666
+                },
+                {
+                  "player": "izana",
+                  "normX": 73.8301,
+                  "normY": 34.1691
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 11779,
+              "players": [
+                {
+                  "player": "askoo",
+                  "normX": 91.3501,
+                  "normY": 40.1466
+                },
+                {
+                  "player": "nayte",
+                  "normX": 92.7901,
+                  "normY": 39.4641
+                },
+                {
+                  "player": "soren",
+                  "normX": 83.1676,
+                  "normY": 41.4666
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15828,
+              "players": [
+                {
+                  "player": "askoo",
+                  "normX": 90.8326,
+                  "normY": 35.0091
+                },
+                {
+                  "player": "nayte",
+                  "normX": 92.3851,
+                  "normY": 35.0616
+                },
+                {
+                  "player": "soren",
+                  "normX": 82.9726,
+                  "normY": 36.2841
+                }
+              ]
+            }
+          ],
+          "matchId": "3db1a739-38df-447b-869b-43bd91fcf741",
+          "date": "2026-11-13",
+          "opponent": "Krom",
+          "score": "13-2"
+        }
+      ]
+    }
   }
 }

@@ -370,5 +370,114 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17819,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 25.8512,
+                  "normY": 49.5267
+                },
+                {
+                  "player": "trexx",
+                  "normX": 12.1934,
+                  "normY": 45.6735
+                },
+                {
+                  "player": "Boo",
+                  "normX": 7.7396,
+                  "normY": 61.5075
+                },
+                {
+                  "player": "Derke",
+                  "normX": 25.82,
+                  "normY": 34.8627
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18639,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 25.742,
+                  "normY": 48.9027
+                },
+                {
+                  "player": "trexx",
+                  "normX": 15.0404,
+                  "normY": 45.6579
+                },
+                {
+                  "player": "Derke",
+                  "normX": 25.3052,
+                  "normY": 31.5867
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19086,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 25.6562,
+                  "normY": 48.5049
+                },
+                {
+                  "player": "Derke",
+                  "normX": 23.9792,
+                  "normY": 29.9409
+                }
+              ]
+            }
+          ],
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11149,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 24.377,
+                  "normY": 51.2427
+                },
+                {
+                  "player": "trexx",
+                  "normX": 15.6332,
+                  "normY": 49.2849
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12807,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 15.5864,
+                  "normY": 49.9245
+                }
+              ]
+            }
+          ],
+          "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

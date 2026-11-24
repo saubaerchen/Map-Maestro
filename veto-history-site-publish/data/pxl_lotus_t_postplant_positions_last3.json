@@ -1048,5 +1048,460 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14950,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 57.3445,
+                  "normY": 46.8544
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 53.1397,
+                  "normY": 50.3752
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15217,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 57.3805,
+                  "normY": 47.0992
+                }
+              ]
+            }
+          ],
+          "matchId": "05a9fd0c-310c-4b24-82a7-33619e1fdf9c",
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17403,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 39.3085,
+                  "normY": 42.2104
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 48.8197,
+                  "normY": 44.9536
+                }
+              ]
+            }
+          ],
+          "matchId": "05a9fd0c-310c-4b24-82a7-33619e1fdf9c",
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "score": "4-13"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12064,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 85.2949,
+                  "normY": 23.908
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 89.7517,
+                  "normY": 34.8952
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 70.8949,
+                  "normY": 66.2944
+                },
+                {
+                  "player": "Chadi",
+                  "normX": 78.4189,
+                  "normY": 30.352
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13008,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 89.3269,
+                  "normY": 36.0976
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 70.9885,
+                  "normY": 66.2944
+                },
+                {
+                  "player": "Chadi",
+                  "normX": 79.1245,
+                  "normY": 29.9344
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16187,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 90.9037,
+                  "normY": 28.9984
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 79.0669,
+                  "normY": 64.7248
+                },
+                {
+                  "player": "Chadi",
+                  "normX": 79.9525,
+                  "normY": 29.3224
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17373,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 91.9261,
+                  "normY": 26.2264
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 83.7037,
+                  "normY": 61.5568
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18476,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 91.9261,
+                  "normY": 26.2768
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 84.7981,
+                  "normY": 56.4448
+                }
+              ]
+            }
+          ],
+          "matchId": "05a9fd0c-310c-4b24-82a7-33619e1fdf9c",
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10217,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 79.2541,
+                  "normY": 41.9152
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 84.2437,
+                  "normY": 41.9368
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 72.5941,
+                  "normY": 57.424
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 11835,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 79.2757,
+                  "normY": 41.9368
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 81.7957,
+                  "normY": 41.4976
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14110,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 79.9957,
+                  "normY": 41.4256
+                }
+              ]
+            }
+          ],
+          "matchId": "05a9fd0c-310c-4b24-82a7-33619e1fdf9c",
+          "date": "2026-11-10",
+          "opponent": "AURA",
+          "score": "4-13"
+        },
+        {
+          "roundNum": 24,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13960,
+              "players": [
+                {
+                  "player": "Chadi",
+                  "normX": 81.8749,
+                  "normY": 32.62
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 92.3725,
+                  "normY": 28.5304
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 90.9181,
+                  "normY": 38.6392
+                },
+                {
+                  "player": "MOLSI",
+                  "normX": 92.3725,
+                  "normY": 27.8536
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 74.6965,
+                  "normY": 41.2384
+                }
+              ]
+            }
+          ],
+          "matchId": "398c68e6-eb5b-4532-8cc8-23748838a8cd",
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19267,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 91.7389,
+                  "normY": 25.8448
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 92.1421,
+                  "normY": 37.66
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 90.2989,
+                  "normY": 36.7096
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 73.6957,
+                  "normY": 45.0472
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19668,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 91.9189,
+                  "normY": 25.384
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 92.2429,
+                  "normY": 38.8264
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 90.7957,
+                  "normY": 38.4664
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 73.3429,
+                  "normY": 44.6152
+                }
+              ]
+            }
+          ],
+          "matchId": "1ba49e1d-1acb-40f0-8a4a-009e03c05807",
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "score": "13-6"
+        }
+      ]
+    },
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11580,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 15.9013,
+                  "normY": 46.4008
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13244,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 16.9885,
+                  "normY": 49.72
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14468,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 16.3909,
+                  "normY": 52.1248
+                }
+              ]
+            }
+          ],
+          "matchId": "398c68e6-eb5b-4532-8cc8-23748838a8cd",
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 26,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15283,
+              "players": [
+                {
+                  "player": "nataNk",
+                  "normX": 7.5061,
+                  "normY": 57.2728
+                },
+                {
+                  "player": "MOLSI",
+                  "normX": 11.2285,
+                  "normY": 51.412
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 30.1285,
+                  "normY": 63.7816
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16741,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 11.2429,
+                  "normY": 51.7
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 29.9485,
+                  "normY": 63.904
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18865,
+              "players": [
+                {
+                  "player": "Saiz",
+                  "normX": 29.8117,
+                  "normY": 64.0264
+                }
+              ]
+            }
+          ],
+          "matchId": "398c68e6-eb5b-4532-8cc8-23748838a8cd",
+          "date": "2026-11-07",
+          "opponent": "unwa",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17612,
+              "players": [
+                {
+                  "player": "MOLSI",
+                  "normX": 9.6877,
+                  "normY": 54.3136
+                },
+                {
+                  "player": "Kamisseq",
+                  "normX": 13.9789,
+                  "normY": 57.4384
+                },
+                {
+                  "player": "Saiz",
+                  "normX": 20.9341,
+                  "normY": 55.9768
+                },
+                {
+                  "player": "nataNk",
+                  "normX": 12.8197,
+                  "normY": 56.5024
+                }
+              ]
+            }
+          ],
+          "matchId": "1ba49e1d-1acb-40f0-8a4a-009e03c05807",
+          "date": "2026-11-07",
+          "opponent": "HONK",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

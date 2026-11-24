@@ -141,5 +141,70 @@
       "pointCount": 0,
       "points": []
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17663,
+              "players": [
+                {
+                  "player": "shawN",
+                  "normX": 88.1251,
+                  "normY": 48.5391
+                },
+                {
+                  "player": "Michel",
+                  "normX": 93.9526,
+                  "normY": 36.0591
+                },
+                {
+                  "player": "adore",
+                  "normX": 74.5876,
+                  "normY": 41.8266
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18425,
+              "players": [
+                {
+                  "player": "shawN",
+                  "normX": 88.5301,
+                  "normY": 48.6891
+                },
+                {
+                  "player": "adore",
+                  "normX": 74.4976,
+                  "normY": 40.8441
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19662,
+              "players": [
+                {
+                  "player": "shawN",
+                  "normX": 88.4326,
+                  "normY": 47.1366
+                },
+                {
+                  "player": "adore",
+                  "normX": 76.6651,
+                  "normY": 39.0966
+                }
+              ]
+            }
+          ],
+          "matchId": "4d1a6494-44a6-4dec-8914-76bea79ed858",
+          "date": "2026-11-06",
+          "opponent": "CGN",
+          "score": "13-3"
+        }
+      ]
+    }
   }
 }

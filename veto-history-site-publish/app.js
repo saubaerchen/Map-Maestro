@@ -178,7 +178,7 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "20261124k";
+const RETAKE_DATA_VERSION = "20261124r";
 const AGENTS_DATA_VERSION = "20261124k";
 const ECONOMY_DATA_VERSION = "20261124k";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
@@ -220,7 +220,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     Split: `./maps/Split.png?v=${MAP_IMAGE_VERSION}`,
     Corrode: `./maps/Corrode.png?v=${MAP_IMAGE_VERSION}`
   };
-const ROTATED_MAPS_CW = new Set(["Haven", "Split"]);
+const ROTATED_MAPS_CW = new Set(["Haven", "Split", "Abyss", "Corrode"]);
 const MAP_ROTATE_COORDS_CW = new Set([]);
 function rotCW90(x, y) { return [y, 100 - x]; }
 const calibrationOverrides = {
@@ -583,7 +583,7 @@ function pluralizeSamples(count) {
 }
 
 function makeSampleChip(item) {
-  return `<span class="sample-chip">${item.date.slice(5)} ${item.map} vs ${item.opponent}</span>`;
+  return `<span class="sample-chip">${item.date.slice(5)} vs ${item.opponent}</span>`;
 }
 
 function applyHeatmapBackground(target, mapName) {
@@ -1634,17 +1634,65 @@ function renderDefensivePanels(info) {
         ).join("")}</div>`
       : "";
 
+    // +10-20s mode (T side): where the planting team moves 10–20s after its own plant (shares retakePostPlantMode)
+    const ppTToggleBtn = `<span class="retake-site-chip retake-pp-toggle${retakePostPlantMode ? " retake-pp-toggle--active" : ""}" onclick="toggleRetakePostPlantMode()" title="Show player positions 10–20s after the spike plant">+10-20s</span>`;
+    let ppTSvg = "", ppTDots = "";
+    const ppTRounds = new Set(), ppTPlayers = new Set();
+    if (retakePostPlantMode && ppInlineData.postPlant10_20) {
+      for (const site of ["A", "B", "C"]) {
+        if (!ppInlineActiveSites.has(site)) continue;
+        for (const rnd of ppInlineData.postPlant10_20[site]?.rounds ?? []) {
+          if (!passesEconomyFilter(rnd.matchId, rnd.roundNum)) continue;
+          ppTRounds.add(`${rnd.matchId}|${rnd.roundNum}`);
+          const trail = {};
+          for (const snap of rnd.snapshots ?? []) {
+            for (const pl of snap.players ?? []) {
+              const pName = canonicalPlayerName(pl.player);
+              ppTPlayers.add(pName);
+              const proj = projectHeatmapPoint({ normX: pl.normX, normY: pl.normY }, mapName);
+              (trail[pName] = trail[pName] || []).push(proj);
+              const color = getPlayerColor(pName);
+              const title = `${pName} | Site ${site} | +${(snap.timeSincePlantMs / 1000).toFixed(1)}s after plant | R${rnd.roundNum + 1} | ${rnd.date} vs ${rnd.opponent}`;
+              const agent = agentIconMode ? currentAgentLookup[rnd.matchId]?.[pl.player] : null;
+              ppTDots += agent
+                ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
+                : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${ppSiteColor[site] ?? "#888"};" title="${title}"></span>`;
+              ppTDots += `<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
+            }
+          }
+          for (const [pName, pts] of Object.entries(trail)) {
+            if (pts.length < 2) continue;
+            ppTSvg += `<polyline points="${pts.map(p => `${p.x},${p.y}`).join(" ")}" fill="none" stroke="${getPlayerColor(pName)}" stroke-width="0.35" opacity="0.7"/>`;
+          }
+        }
+      }
+    }
+    const ppTMode = retakePostPlantMode;
+    const ppTLayer = ppTMode
+      ? (ppTDots
+          ? `<svg style="position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;" viewBox="0 0 100 100" preserveAspectRatio="none">${ppTSvg}</svg>${ppTDots}`
+          : `<div class="heatmap-empty"><p>No +10-20s data for selected sites.</p></div>`)
+      : ppDotsMarkup;
+    const ppTLegendPlayers = sortByPlayerOrder([...ppTPlayers]);
+    const ppTLegend = ppTMode
+      ? (ppTLegendPlayers.length ? `<div class="retake-player-legend">${ppTLegendPlayers.map(p =>
+          `<span class="retake-legend-item"><span class="retake-legend-dot" style="background:${ppGetColor(p)};"></span><span class="retake-legend-name">${ppShortName(p)}</span></span>`).join("")}</div>` : "")
+      : ppLegendMarkup;
+    const ppTMeta = ppTMode
+      ? `Rounds: ${ppTRounds.size} | positions 10–20s after plant`
+      : `Rounds: ${ppInlineRoundCount} | Points: ${allPpPts.length}`;
+
     ppInlineMarkup = `
       <article class="defensive-card">
-        <div class="retake-site-chip-row">${ppSiteChips}</div>
-        <p class="defensive-card-meta">Rounds: ${ppInlineRoundCount} | Points: ${allPpPts.length}</p>
+        <div class="retake-site-chip-row">${ppSiteChips}${ppTToggleBtn}</div>
+        <p class="defensive-card-meta">${ppTMeta}</p>
         <div class="defensive-map-wrap">
           <div class="defensive-map">
             <div class="${frameClass}" style="${frameStyle}">
               ${imgMarkup}
-              <div class="heat-layer">${ppDotsMarkup}</div>
+              <div class="heat-layer">${ppTLayer}</div>
             </div>
-            ${ppLegendMarkup}
+            ${ppTLegend}
           </div>
         </div>
       </article>
@@ -1945,7 +1993,7 @@ function renderMapInfo() {
         ${sampleMaps
           .map((item) => {
             const on = activeSampleMatches.has(item.matchId);
-            return `<button class="sample-chip sample-chip--toggle${on ? "" : " off"}" data-match-id="${item.matchId}" aria-pressed="${on}">${item.date.slice(5)} ${mapName} vs ${item.opponent}</button>`;
+            return `<button class="sample-chip sample-chip--toggle${on ? "" : " off"}" data-match-id="${item.matchId}" aria-pressed="${on}">${item.date.slice(5)} vs ${item.opponent}</button>`;
           })
           .join("")}
       </div>

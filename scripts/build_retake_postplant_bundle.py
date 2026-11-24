@@ -242,8 +242,13 @@ def build_postplant_10_20(
     matches_by_id: dict,
     selected_maps: list,
     player_prefix: tuple[str, ...],
+    team_planted: bool = False,
 ) -> dict:
-    """Build per-site 10-20s post-plant snapshot data for the CT retake JSON."""
+    """Build per-site 10-20s post-plant snapshots of the team's players.
+
+    team_planted=False: rounds where the ENEMY planted (CT retake view, original behaviour).
+    team_planted=True:  rounds where the TEAM planted (T post-plant view: where they go to hold).
+    """
     postplant_by_site: dict[str, list] = defaultdict(list)
     sample_meta = {s["matchId"]: s for s in selected_maps}
 
@@ -268,7 +273,7 @@ def build_postplant_10_20(
             if not plant_time:
                 continue
             planter = rr.get("bombPlanter")
-            if not planter or planter in team_puuids:
+            if not planter or (planter in team_puuids) != team_planted:
                 continue
             site = str(rr.get("plantSite") or "").upper()
             if site not in ("A", "B", "C"):
@@ -477,6 +482,9 @@ def main() -> None:
                     print(f"  WARNING: 0 +10-20s rounds despite {ct_plant_rounds} CT plant rounds — check POST_PLANT_MIN/MAX_MS or raw JSONL completeness")
                 filename = f"{prefix}_{map_name.lower()}_ct_retake_positions_last3.json"
             else:
+                pp = build_postplant_10_20(map_name, matches_by_id, selected_maps, player_prefix, team_planted=True)
+                dataset["postPlant10_20"] = pp
+                print(f"  postPlant10_20 (T, own plants): {sum(len(v['rounds']) for v in pp.values())} rounds across sites {list(pp.keys())}")
                 filename = f"{prefix}_{map_name.lower()}_t_postplant_positions_last3.json"
 
             output_path = OUTPUT_DIR / filename

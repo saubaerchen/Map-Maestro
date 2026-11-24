@@ -538,5 +538,347 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10333,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 10.6381,
+                  "normY": 58.972
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 34.7149,
+                  "normY": 55.7752
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 15.5917,
+                  "normY": 57.4168
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12407,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 6.2029,
+                  "normY": 50.6128
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 29.4373,
+                  "normY": 59.3176
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 10.8181,
+                  "normY": 59.044
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13045,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 6.2029,
+                  "normY": 50.5264
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 27.6373,
+                  "normY": 61.1248
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 9.1477,
+                  "normY": 58.9432
+                }
+              ]
+            }
+          ],
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13117,
+              "players": [
+                {
+                  "player": "Javelin",
+                  "normX": 18.5869,
+                  "normY": 53.3488
+                }
+              ]
+            }
+          ],
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 13,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13755,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 32.5621,
+                  "normY": 69.8656
+                },
+                {
+                  "player": "avey",
+                  "normX": 23.2093,
+                  "normY": 58.1008
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 9.7957,
+                  "normY": 51.8584
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14894,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 32.5621,
+                  "normY": 69.8656
+                },
+                {
+                  "player": "avey",
+                  "normX": 23.9797,
+                  "normY": 59.5552
+                }
+              ]
+            }
+          ],
+          "matchId": "d1167ccf-6c92-4fa9-9da7-165d8abf9288",
+          "date": "2026-10-10",
+          "opponent": "BNK",
+          "score": "2-13"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19126,
+              "players": [
+                {
+                  "player": "avey",
+                  "normX": 71.7013,
+                  "normY": 43.0168
+                },
+                {
+                  "player": "Kolosha",
+                  "normX": 82.0117,
+                  "normY": 24.2896
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 76.9285,
+                  "normY": 40.7272
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19508,
+              "players": [
+                {
+                  "player": "avey",
+                  "normX": 72.6373,
+                  "normY": 42.664
+                },
+                {
+                  "player": "Kolosha",
+                  "normX": 82.0621,
+                  "normY": 22.8928
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 76.6981,
+                  "normY": 41.8288
+                }
+              ]
+            }
+          ],
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17297,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 87.5629,
+                  "normY": 28.0552
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 83.6245,
+                  "normY": 27.3568
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18989,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 88.7293,
+                  "normY": 27.2416
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 82.5301,
+                  "normY": 27.2848
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19559,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 88.3909,
+                  "normY": 27.2056
+                }
+              ]
+            }
+          ],
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "score": "13-7"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13533,
+              "players": [
+                {
+                  "player": "Javelin",
+                  "normX": 45.0901,
+                  "normY": 40.5184
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 47.8765,
+                  "normY": 36.2848
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13935,
+              "players": [
+                {
+                  "player": "Javelin",
+                  "normX": 45.3277,
+                  "normY": 41.0656
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 48.1717,
+                  "normY": 36.3208
+                }
+              ]
+            }
+          ],
+          "matchId": "0d4fd95a-b902-412b-b38e-a8033884daa0",
+          "date": "2026-10-22",
+          "opponent": "BLZ",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16379,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 29.9701,
+                  "normY": 42.8296
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 48.7333,
+                  "normY": 43.6648
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 51.8077,
+                  "normY": 66.5176
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 50.6341,
+                  "normY": 20.7544
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18088,
+              "players": [
+                {
+                  "player": "Kolosha",
+                  "normX": 36.6013,
+                  "normY": 38.9272
+                },
+                {
+                  "player": "Darxcio",
+                  "normX": 50.9149,
+                  "normY": 44.6584
+                },
+                {
+                  "player": "sizovskyy",
+                  "normX": 52.5133,
+                  "normY": 60.7504
+                },
+                {
+                  "player": "Javelin",
+                  "normX": 55.4581,
+                  "normY": 20.7616
+                }
+              ]
+            }
+          ],
+          "matchId": "d1167ccf-6c92-4fa9-9da7-165d8abf9288",
+          "date": "2026-10-10",
+          "opponent": "BNK",
+          "score": "2-13"
+        }
+      ]
+    }
   }
 }

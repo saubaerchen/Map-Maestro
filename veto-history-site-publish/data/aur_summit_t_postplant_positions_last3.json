@@ -820,5 +820,362 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14596,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 75.9001,
+                  "normY": 28.6416
+                },
+                {
+                  "player": "trexx",
+                  "normX": 85.4551,
+                  "normY": 43.4616
+                },
+                {
+                  "player": "Boo",
+                  "normX": 86.0701,
+                  "normY": 25.1466
+                }
+              ]
+            }
+          ],
+          "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad",
+          "date": "2026-11-08",
+          "opponent": "ycat",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15958,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 71.7001,
+                  "normY": 35.2041
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 89.2501,
+                  "normY": 31.5291
+                },
+                {
+                  "player": "trexx",
+                  "normX": 82.7776,
+                  "normY": 49.9716
+                },
+                {
+                  "player": "Boo",
+                  "normX": 95.5351,
+                  "normY": 44.0391
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18197,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 72.6826,
+                  "normY": 35.8041
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 89.7526,
+                  "normY": 32.6541
+                },
+                {
+                  "player": "trexx",
+                  "normX": 82.7776,
+                  "normY": 49.9716
+                },
+                {
+                  "player": "Boo",
+                  "normX": 94.8376,
+                  "normY": 48.2916
+                }
+              ]
+            }
+          ],
+          "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad",
+          "date": "2026-11-08",
+          "opponent": "ycat",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10107,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 73.1551,
+                  "normY": 43.4691
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 95.8351,
+                  "normY": 41.2716
+                },
+                {
+                  "player": "trexx",
+                  "normX": 90.5701,
+                  "normY": 48.8241
+                },
+                {
+                  "player": "Boo",
+                  "normX": 82.3501,
+                  "normY": 40.0491
+                }
+              ]
+            }
+          ],
+          "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad",
+          "date": "2026-11-08",
+          "opponent": "ycat",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 23,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13455,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 85.0201,
+                  "normY": 44.4066
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 92.6776,
+                  "normY": 39.4716
+                },
+                {
+                  "player": "trexx",
+                  "normX": 87.7651,
+                  "normY": 36.0366
+                },
+                {
+                  "player": "Boo",
+                  "normX": 85.4176,
+                  "normY": 55.0341
+                }
+              ]
+            }
+          ],
+          "matchId": "8e732396-3c2b-4456-92cd-f69a57a41bbe",
+          "date": "2026-11-06",
+          "opponent": "Enis",
+          "score": "13-11"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12822,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 10.9726,
+                  "normY": 44.4141
+                },
+                {
+                  "player": "trexx",
+                  "normX": 5.9251,
+                  "normY": 35.9166
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16080,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 12.2401,
+                  "normY": 41.6016
+                },
+                {
+                  "player": "trexx",
+                  "normX": 6.5926,
+                  "normY": 37.9566
+                }
+              ]
+            }
+          ],
+          "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad",
+          "date": "2026-11-08",
+          "opponent": "ycat",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15922,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 27.2851,
+                  "normY": 50.9841
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 41.8501,
+                  "normY": 82.8366
+                },
+                {
+                  "player": "trexx",
+                  "normX": 18.7126,
+                  "normY": 47.6016
+                },
+                {
+                  "player": "Boo",
+                  "normX": 40.4851,
+                  "normY": 16.6266
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15980,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 41.7976,
+                  "normY": 82.8591
+                },
+                {
+                  "player": "trexx",
+                  "normX": 18.8026,
+                  "normY": 47.5866
+                },
+                {
+                  "player": "Boo",
+                  "normX": 40.3876,
+                  "normY": 16.6491
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18827,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 38.2951,
+                  "normY": 82.7091
+                },
+                {
+                  "player": "trexx",
+                  "normX": 26.5876,
+                  "normY": 47.4366
+                },
+                {
+                  "player": "Boo",
+                  "normX": 28.7326,
+                  "normY": 20.4291
+                }
+              ]
+            }
+          ],
+          "matchId": "a41f303b-1f87-4324-9e41-acc808f350ad",
+          "date": "2026-11-08",
+          "opponent": "ycat",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10384,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 38.9926,
+                  "normY": 22.6641
+                },
+                {
+                  "player": "Boo",
+                  "normX": 20.6251,
+                  "normY": 40.7541
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17034,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 26.0701,
+                  "normY": 21.1041
+                },
+                {
+                  "player": "Boo",
+                  "normX": 18.9451,
+                  "normY": 37.7691
+                }
+              ]
+            }
+          ],
+          "matchId": "8e732396-3c2b-4456-92cd-f69a57a41bbe",
+          "date": "2026-11-06",
+          "opponent": "Enis",
+          "score": "13-11"
+        },
+        {
+          "roundNum": 19,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15571,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 38.9626,
+                  "normY": 44.4441
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 6.9601,
+                  "normY": 27.3966
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 6.0976,
+                  "normY": 27.9216
+                },
+                {
+                  "player": "trexx",
+                  "normX": 13.6426,
+                  "normY": 29.7816
+                },
+                {
+                  "player": "Boo",
+                  "normX": 16.2076,
+                  "normY": 42.6591
+                }
+              ]
+            }
+          ],
+          "matchId": "8e732396-3c2b-4456-92cd-f69a57a41bbe",
+          "date": "2026-11-06",
+          "opponent": "Enis",
+          "score": "13-11"
+        }
+      ]
+    }
   }
 }

@@ -322,5 +322,156 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15188,
+              "players": [
+                {
+                  "player": "TITOUNE",
+                  "normX": 73.3645,
+                  "normY": 34.3346
+                },
+                {
+                  "player": "poeth",
+                  "normX": 54.8798,
+                  "normY": 51.8871
+                },
+                {
+                  "player": "Yohpa",
+                  "normX": 59.4464,
+                  "normY": 33.7446
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 78.291,
+                  "normY": 33.1074
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        },
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10174,
+              "players": [
+                {
+                  "player": "poeth",
+                  "normX": 58.5378,
+                  "normY": 43.9103
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 68.5914,
+                  "normY": 42.0046
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13723,
+              "players": [
+                {
+                  "player": "poeth",
+                  "normX": 58.9154,
+                  "normY": 45.9989
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 68.4616,
+                  "normY": 41.8807
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19718,
+              "players": [
+                {
+                  "player": "poeth",
+                  "normX": 52.9505,
+                  "normY": 14.5696
+                },
+                {
+                  "player": "Yohpa",
+                  "normX": 30.8078,
+                  "normY": 29.4789
+                },
+                {
+                  "player": "H1ber",
+                  "normX": 26.5952,
+                  "normY": 37.0014
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        },
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14835,
+              "players": [
+                {
+                  "player": "TITOUNE",
+                  "normX": 21.8575,
+                  "normY": 37.1135
+                },
+                {
+                  "player": "poeth",
+                  "normX": 27.2088,
+                  "normY": 41.8158
+                },
+                {
+                  "player": "Yohpa",
+                  "normX": 20.7837,
+                  "normY": 35.963
+                },
+                {
+                  "player": "H1ber",
+                  "normX": 30.2296,
+                  "normY": 27.3313
+                },
+                {
+                  "player": "Kajuks",
+                  "normX": 36.0352,
+                  "normY": 30.3816
+                }
+              ]
+            }
+          ],
+          "matchId": "d674ae3b-1f1b-43da-accf-b5f1284cc5e0",
+          "date": "2026-11-07",
+          "opponent": "BAR",
+          "score": "8-13"
+        }
+      ]
+    }
   }
 }

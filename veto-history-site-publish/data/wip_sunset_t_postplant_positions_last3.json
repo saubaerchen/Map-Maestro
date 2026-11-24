@@ -1222,5 +1222,549 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14235,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 16.1324,
+                  "normY": 45.6579
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 21.4364,
+                  "normY": 44.3553
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16194,
+              "players": [
+                {
+                  "player": "mepeezy",
+                  "normX": 21.14,
+                  "normY": 44.2695
+                }
+              ]
+            }
+          ],
+          "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a",
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11500,
+              "players": [
+                {
+                  "player": "TakaS",
+                  "normX": 6.7568,
+                  "normY": 52.5453
+                },
+                {
+                  "player": "Jesse",
+                  "normX": 19.0652,
+                  "normY": 46.5237
+                },
+                {
+                  "player": "wtex",
+                  "normX": 23.0354,
+                  "normY": 40.2213
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 12.8096,
+                  "normY": 55.7277
+                }
+              ]
+            }
+          ],
+          "matchId": "b90eb156-cab4-4f1e-ab94-4494b45ef438",
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "score": "13-9"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12970,
+              "players": [
+                {
+                  "player": "wtex",
+                  "normX": 22.5284,
+                  "normY": 44.4879
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 10.2434,
+                  "normY": 45.1197
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14017,
+              "players": [
+                {
+                  "player": "wtex",
+                  "normX": 18.4022,
+                  "normY": 48.8949
+                }
+              ]
+            }
+          ],
+          "matchId": "b90eb156-cab4-4f1e-ab94-4494b45ef438",
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "score": "13-9"
+        },
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11311,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 42.4574,
+                  "normY": 62.4279
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 24.494,
+                  "normY": 64.6275
+                },
+                {
+                  "player": "wtex",
+                  "normX": 20.5862,
+                  "normY": 50.8605
+                }
+              ]
+            }
+          ],
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11553,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 20.5784,
+                  "normY": 35.1435
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 25.8122,
+                  "normY": 29.2857
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 15.1652,
+                  "normY": 31.6647
+                },
+                {
+                  "player": "wtex",
+                  "normX": 34.8368,
+                  "normY": 61.7103
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12305,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 19.7906,
+                  "normY": 34.9875
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 27.1382,
+                  "normY": 27.9441
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 14.4398,
+                  "normY": 30.6741
+                },
+                {
+                  "player": "wtex",
+                  "normX": 34.8368,
+                  "normY": 60.4935
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18025,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 20.8124,
+                  "normY": 28.3419
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 35.2502,
+                  "normY": 28.3731
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 25.469,
+                  "normY": 27.7881
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19391,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 23.1134,
+                  "normY": 26.8599
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 35.141,
+                  "normY": 31.3683
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 25.1726,
+                  "normY": 26.9223
+                }
+              ]
+            }
+          ],
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "score": "13-6"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12635,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 42.2,
+                  "normY": 28.8645
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 50.4836,
+                  "normY": 28.2639
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 26.8028,
+                  "normY": 37.4133
+                }
+              ]
+            }
+          ],
+          "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a",
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17646,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 77.5496,
+                  "normY": 31.7973
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 84.8582,
+                  "normY": 39.9639
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 72.5498,
+                  "normY": 50.1663
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18199,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 78.3062,
+                  "normY": 31.9143
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 86.1062,
+                  "normY": 39.6831
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 71.7542,
+                  "normY": 49.0041
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18878,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 78.2984,
+                  "normY": 31.9143
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 87.1046,
+                  "normY": 39.3711
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 70.0928,
+                  "normY": 46.7967
+                }
+              ]
+            }
+          ],
+          "matchId": "1ba86289-ce77-481e-81d7-aa9d248c1c0a",
+          "date": "2026-11-15",
+          "opponent": "BAR",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16359,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 73.6028,
+                  "normY": 50.9229
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 84.6008,
+                  "normY": 31.2591
+                },
+                {
+                  "player": "wtex",
+                  "normX": 81.7538,
+                  "normY": 30.5571
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 82.3076,
+                  "normY": 62.5059
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17455,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 75.7868,
+                  "normY": 48.3411
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 84.2108,
+                  "normY": 30.6585
+                },
+                {
+                  "player": "wtex",
+                  "normX": 79.3124,
+                  "normY": 29.4729
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 81.083,
+                  "normY": 63.9801
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17965,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 78.3842,
+                  "normY": 47.9511
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 84.008,
+                  "normY": 30.7131
+                },
+                {
+                  "player": "wtex",
+                  "normX": 79.5854,
+                  "normY": 29.6445
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 79.8818,
+                  "normY": 64.4325
+                }
+              ]
+            }
+          ],
+          "matchId": "b90eb156-cab4-4f1e-ab94-4494b45ef438",
+          "date": "2026-11-14",
+          "opponent": "GSH",
+          "score": "13-9"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10448,
+              "players": [
+                {
+                  "player": "mepeezy",
+                  "normX": 68.9228,
+                  "normY": 29.9955
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 71.762,
+                  "normY": 32.3979
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 10814,
+              "players": [
+                {
+                  "player": "mepeezy",
+                  "normX": 69.2114,
+                  "normY": 29.5821
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 71.7698,
+                  "normY": 32.3901
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14423,
+              "players": [
+                {
+                  "player": "TakaS",
+                  "normX": 62.3708,
+                  "normY": 30.9549
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 68.4938,
+                  "normY": 32.5071
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 67.667,
+                  "normY": 35.3931
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15898,
+              "players": [
+                {
+                  "player": "TakaS",
+                  "normX": 63.9308,
+                  "normY": 29.9643
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 70.1552,
+                  "normY": 33.9969
+                }
+              ]
+            }
+          ],
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12568,
+              "players": [
+                {
+                  "player": "Vorwenn",
+                  "normX": 71.3096,
+                  "normY": 33.5835
+                }
+              ]
+            }
+          ],
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17099,
+              "players": [
+                {
+                  "player": "Jesse",
+                  "normX": 96.215,
+                  "normY": 31.6725
+                },
+                {
+                  "player": "mepeezy",
+                  "normX": 75.1628,
+                  "normY": 39.7923
+                },
+                {
+                  "player": "Vorwenn",
+                  "normX": 75.272,
+                  "normY": 51.6483
+                }
+              ]
+            }
+          ],
+          "matchId": "73329016-4146-45cf-a820-f270c1647802",
+          "date": "2026-11-14",
+          "opponent": "Priv",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

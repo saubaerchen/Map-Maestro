@@ -952,5 +952,491 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17797,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 61.0889,
+                  "normY": 92.2091
+                },
+                {
+                  "player": "askoo",
+                  "normX": 63.1382,
+                  "normY": 81.5009
+                },
+                {
+                  "player": "lux9",
+                  "normX": 33.3383,
+                  "normY": 92.9462
+                }
+              ]
+            }
+          ],
+          "matchId": "84567ed5-28e3-4dc5-9104-c8d3a80753c2",
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "score": "13-11"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19607,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 33.7352,
+                  "normY": 2.9957
+                },
+                {
+                  "player": "soren",
+                  "normX": 61.6316,
+                  "normY": 16.2797
+                },
+                {
+                  "player": "nayte",
+                  "normX": 43.8683,
+                  "normY": 13.8011
+                },
+                {
+                  "player": "askoo",
+                  "normX": 44.0708,
+                  "normY": 13.1531
+                },
+                {
+                  "player": "lux9",
+                  "normX": 39.8507,
+                  "normY": 10.9418
+                }
+              ]
+            }
+          ],
+          "matchId": "84567ed5-28e3-4dc5-9104-c8d3a80753c2",
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "score": "13-11"
+        },
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15289,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 48.9308,
+                  "normY": 21.8363
+                },
+                {
+                  "player": "soren",
+                  "normX": 19.5359,
+                  "normY": 29.8958
+                },
+                {
+                  "player": "nayte",
+                  "normX": 27.5549,
+                  "normY": 12.8129
+                },
+                {
+                  "player": "askoo",
+                  "normX": 52.9565,
+                  "normY": 9.8888
+                },
+                {
+                  "player": "lux9",
+                  "normX": 27.9032,
+                  "normY": 17.7296
+                }
+              ]
+            }
+          ],
+          "matchId": "84567ed5-28e3-4dc5-9104-c8d3a80753c2",
+          "date": "2026-11-15",
+          "opponent": "CGN",
+          "score": "13-11"
+        },
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19819,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 10.0427,
+                  "normY": 35.7683
+                },
+                {
+                  "player": "izana",
+                  "normX": 86.2475,
+                  "normY": 29.6447
+                },
+                {
+                  "player": "nayte",
+                  "normX": 35.0798,
+                  "normY": 36.2786
+                },
+                {
+                  "player": "lux9",
+                  "normX": 34.4966,
+                  "normY": 41.4626
+                },
+                {
+                  "player": "askoo",
+                  "normX": 33.8405,
+                  "normY": 33.8648
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18129,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 24.0719,
+                  "normY": 30.1226
+                },
+                {
+                  "player": "izana",
+                  "normX": 33.2249,
+                  "normY": 31.2242
+                },
+                {
+                  "player": "nayte",
+                  "normX": 36.4082,
+                  "normY": 61.3481
+                },
+                {
+                  "player": "lux9",
+                  "normX": 43.9331,
+                  "normY": 12.8777
+                },
+                {
+                  "player": "askoo",
+                  "normX": 32.6579,
+                  "normY": 30.0173
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11341,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 45.1724,
+                  "normY": 34.9664
+                },
+                {
+                  "player": "nayte",
+                  "normX": 61.6802,
+                  "normY": 15.494
+                },
+                {
+                  "player": "askoo",
+                  "normX": 58.8452,
+                  "normY": 13.2908
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10308,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 48.1127,
+                  "normY": 28.2596
+                },
+                {
+                  "player": "izana",
+                  "normX": 39.2027,
+                  "normY": 7.7504
+                },
+                {
+                  "player": "nayte",
+                  "normX": 35.6387,
+                  "normY": 2.9228
+                },
+                {
+                  "player": "lux9",
+                  "normX": 47.9426,
+                  "normY": 20.6051
+                },
+                {
+                  "player": "askoo",
+                  "normX": 38.7248,
+                  "normY": 16.5308
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 10785,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 48.6635,
+                  "normY": 28.13
+                },
+                {
+                  "player": "izana",
+                  "normX": 39.3647,
+                  "normY": 8.1392
+                },
+                {
+                  "player": "nayte",
+                  "normX": 35.6387,
+                  "normY": 2.9228
+                },
+                {
+                  "player": "askoo",
+                  "normX": 37.8338,
+                  "normY": 15.5264
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13493,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 51.1988,
+                  "normY": 25.2059
+                },
+                {
+                  "player": "izana",
+                  "normX": 36.0437,
+                  "normY": 11.9138
+                },
+                {
+                  "player": "nayte",
+                  "normX": 36.4163,
+                  "normY": 3.7004
+                },
+                {
+                  "player": "askoo",
+                  "normX": 36.8132,
+                  "normY": 14.5868
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13629,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 51.1988,
+                  "normY": 25.133
+                },
+                {
+                  "player": "izana",
+                  "normX": 36.0356,
+                  "normY": 11.9138
+                },
+                {
+                  "player": "nayte",
+                  "normX": 36.2624,
+                  "normY": 3.5627
+                },
+                {
+                  "player": "askoo",
+                  "normX": 37.0481,
+                  "normY": 14.2142
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12230,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 38.6438,
+                  "normY": 10.4801
+                },
+                {
+                  "player": "nayte",
+                  "normX": 52.1465,
+                  "normY": 28.4054
+                },
+                {
+                  "player": "lux9",
+                  "normX": 39.9236,
+                  "normY": 10.3343
+                },
+                {
+                  "player": "askoo",
+                  "normX": 50.0,
+                  "normY": 20.2001
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15974,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 38.6924,
+                  "normY": 12.416
+                },
+                {
+                  "player": "nayte",
+                  "normX": 52.511,
+                  "normY": 26.5019
+                },
+                {
+                  "player": "lux9",
+                  "normX": 39.9398,
+                  "normY": 12.4808
+                },
+                {
+                  "player": "askoo",
+                  "normX": 49.9919,
+                  "normY": 24.4445
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16281,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 38.6924,
+                  "normY": 12.416
+                },
+                {
+                  "player": "nayte",
+                  "normX": 52.5758,
+                  "normY": 26.1374
+                },
+                {
+                  "player": "lux9",
+                  "normX": 39.9398,
+                  "normY": 12.4808
+                },
+                {
+                  "player": "askoo",
+                  "normX": 49.919,
+                  "normY": 23.2862
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12349,
+              "players": [
+                {
+                  "player": "soren",
+                  "normX": 34.8692,
+                  "normY": 1.9508
+                },
+                {
+                  "player": "izana",
+                  "normX": 47.732,
+                  "normY": 44.573
+                },
+                {
+                  "player": "nayte",
+                  "normX": 53.4506,
+                  "normY": 3.8543
+                },
+                {
+                  "player": "lux9",
+                  "normX": 49.3925,
+                  "normY": 25.7891
+                },
+                {
+                  "player": "askoo",
+                  "normX": 37.3073,
+                  "normY": 16.6766
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16146,
+              "players": [
+                {
+                  "player": "izana",
+                  "normX": 35.1122,
+                  "normY": 46.2497
+                },
+                {
+                  "player": "nayte",
+                  "normX": 52.1627,
+                  "normY": 1.9427
+                },
+                {
+                  "player": "lux9",
+                  "normX": 49.7813,
+                  "normY": 28.5836
+                },
+                {
+                  "player": "askoo",
+                  "normX": 36.5783,
+                  "normY": 15.0485
+                }
+              ]
+            }
+          ],
+          "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
+          "date": "2026-11-12",
+          "opponent": "HBT",
+          "score": "13-1"
+        }
+      ]
+    }
   }
 }

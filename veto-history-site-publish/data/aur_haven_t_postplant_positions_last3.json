@@ -1072,5 +1072,599 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12880,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 73.0675,
+                  "normY": 47.4203
+                },
+                {
+                  "player": "trexx",
+                  "normX": 61.6375,
+                  "normY": 43.5953
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 59.59,
+                  "normY": 57.5228
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.61,
+                  "normY": 54.7703
+                },
+                {
+                  "player": "Derke",
+                  "normX": 29.23,
+                  "normY": 47.5553
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15854,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 73.03,
+                  "normY": 43.5053
+                },
+                {
+                  "player": "trexx",
+                  "normX": 61.6375,
+                  "normY": 43.5953
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 56.605,
+                  "normY": 59.3453
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.1675,
+                  "normY": 57.0878
+                },
+                {
+                  "player": "Derke",
+                  "normX": 31.9375,
+                  "normY": 52.2728
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19998,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 69.8575,
+                  "normY": 44.6378
+                },
+                {
+                  "player": "trexx",
+                  "normX": 55.75,
+                  "normY": 48.1553
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.1675,
+                  "normY": 57.1853
+                },
+                {
+                  "player": "Derke",
+                  "normX": 30.6925,
+                  "normY": 52.2653
+                }
+              ]
+            }
+          ],
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12452,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 37.5625,
+                  "normY": 59.8178
+                },
+                {
+                  "player": "trexx",
+                  "normX": 41.6575,
+                  "normY": 55.5203
+                },
+                {
+                  "player": "Boo",
+                  "normX": 33.2575,
+                  "normY": 54.9203
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13910,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 34.6,
+                  "normY": 56.7278
+                },
+                {
+                  "player": "trexx",
+                  "normX": 43.57,
+                  "normY": 52.1603
+                },
+                {
+                  "player": "Boo",
+                  "normX": 32.815,
+                  "normY": 54.6353
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15160,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 33.4075,
+                  "normY": 56.0678
+                },
+                {
+                  "player": "trexx",
+                  "normX": 45.2275,
+                  "normY": 48.6578
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15954,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 32.4775,
+                  "normY": 55.1378
+                },
+                {
+                  "player": "trexx",
+                  "normX": 42.1525,
+                  "normY": 47.7503
+                }
+              ]
+            }
+          ],
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16780,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 75.46,
+                  "normY": 72.4928
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 48.6175,
+                  "normY": 57.1703
+                },
+                {
+                  "player": "trexx",
+                  "normX": 64.345,
+                  "normY": 46.5503
+                },
+                {
+                  "player": "Boo",
+                  "normX": 61.9525,
+                  "normY": 43.5953
+                }
+              ]
+            }
+          ],
+          "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f",
+          "date": "2026-11-10",
+          "opponent": "PXL",
+          "score": "13-6"
+        }
+      ]
+    },
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13625,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 47.23,
+                  "normY": 75.0728
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.1375,
+                  "normY": 72.6653
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17014,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 48.835,
+                  "normY": 80.6453
+                }
+              ]
+            }
+          ],
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10178,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 30.625,
+                  "normY": 73.6328
+                },
+                {
+                  "player": "trexx",
+                  "normX": 37.42,
+                  "normY": 81.5378
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 27.9175,
+                  "normY": 68.6978
+                },
+                {
+                  "player": "Derke",
+                  "normX": 42.82,
+                  "normY": 67.8953
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17092,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 31.6675,
+                  "normY": 88.4528
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 35.215,
+                  "normY": 79.2578
+                },
+                {
+                  "player": "Derke",
+                  "normX": 41.9425,
+                  "normY": 61.3478
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17160,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 31.6675,
+                  "normY": 88.4528
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 35.215,
+                  "normY": 79.2578
+                },
+                {
+                  "player": "Derke",
+                  "normX": 41.95,
+                  "normY": 61.3478
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17823,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 31.69,
+                  "normY": 88.6478
+                },
+                {
+                  "player": "Derke",
+                  "normX": 40.9375,
+                  "normY": 62.4953
+                }
+              ]
+            }
+          ],
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12455,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 44.0875,
+                  "normY": 60.9578
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 47.935,
+                  "normY": 68.4278
+                },
+                {
+                  "player": "trexx",
+                  "normX": 65.35,
+                  "normY": 86.4128
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13479,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 44.0875,
+                  "normY": 60.9578
+                },
+                {
+                  "player": "trexx",
+                  "normX": 66.5575,
+                  "normY": 88.2803
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19705,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 42.6775,
+                  "normY": 66.2303
+                },
+                {
+                  "player": "trexx",
+                  "normX": 66.685,
+                  "normY": 87.4628
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19812,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 42.6775,
+                  "normY": 66.2303
+                },
+                {
+                  "player": "trexx",
+                  "normX": 66.8125,
+                  "normY": 87.5453
+                }
+              ]
+            }
+          ],
+          "matchId": "e072dcb6-251f-454a-bce5-dcaabee819d3",
+          "date": "2026-11-08",
+          "opponent": "Proj",
+          "score": "13-7"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10808,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 55.915,
+                  "normY": 12.2078
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 41.665,
+                  "normY": 19.4228
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15033,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 58.255,
+                  "normY": 12.7853
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17302,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 58.3225,
+                  "normY": 12.2828
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18466,
+              "players": [
+                {
+                  "player": "trexx",
+                  "normX": 58.0675,
+                  "normY": 15.7478
+                }
+              ]
+            }
+          ],
+          "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "13-7"
+        },
+        {
+          "roundNum": 1,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15269,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 40.765,
+                  "normY": 18.0128
+                },
+                {
+                  "player": "trexx",
+                  "normX": 32.86,
+                  "normY": 15.9428
+                },
+                {
+                  "player": "Boo",
+                  "normX": 57.6925,
+                  "normY": 10.9853
+                },
+                {
+                  "player": "Derke",
+                  "normX": 22.4425,
+                  "normY": 30.0503
+                }
+              ]
+            }
+          ],
+          "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f",
+          "date": "2026-11-10",
+          "opponent": "PXL",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16463,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 27.985,
+                  "normY": 32.0603
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 53.3725,
+                  "normY": 14.7578
+                },
+                {
+                  "player": "Derke",
+                  "normX": 48.2875,
+                  "normY": 38.8628
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18237,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 26.245,
+                  "normY": 33.3803
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 53.2225,
+                  "normY": 13.0028
+                },
+                {
+                  "player": "Derke",
+                  "normX": 47.545,
+                  "normY": 40.3328
+                }
+              ]
+            }
+          ],
+          "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f",
+          "date": "2026-11-10",
+          "opponent": "PXL",
+          "score": "13-6"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11584,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 48.6925,
+                  "normY": 40.5278
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 60.37,
+                  "normY": 35.7803
+                },
+                {
+                  "player": "trexx",
+                  "normX": 46.9,
+                  "normY": 39.5078
+                },
+                {
+                  "player": "Boo",
+                  "normX": 47.5825,
+                  "normY": 51.9653
+                },
+                {
+                  "player": "Derke",
+                  "normX": 68.5825,
+                  "normY": 59.9528
+                }
+              ]
+            }
+          ],
+          "matchId": "2f79029e-20f0-49a1-9a02-4bc0fc7c498f",
+          "date": "2026-11-10",
+          "opponent": "PXL",
+          "score": "13-6"
+        }
+      ]
+    }
   }
 }

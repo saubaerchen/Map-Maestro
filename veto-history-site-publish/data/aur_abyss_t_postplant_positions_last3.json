@@ -562,5 +562,274 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14612,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 75.4664,
+                  "normY": 79.3544
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 34.9259,
+                  "normY": 93.1892
+                },
+                {
+                  "player": "trexx",
+                  "normX": 68.0063,
+                  "normY": 83.5097
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.5582,
+                  "normY": 93.5618
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15419,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 73.9598,
+                  "normY": 79.8728
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 34.9664,
+                  "normY": 93.2216
+                },
+                {
+                  "player": "trexx",
+                  "normX": 67.4555,
+                  "normY": 87.2195
+                },
+                {
+                  "player": "Boo",
+                  "normX": 48.4124,
+                  "normY": 91.8689
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11344,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 32.9252,
+                  "normY": 70.7117
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 62.1743,
+                  "normY": 79.9052
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 59.4446,
+                  "normY": 67.496
+                },
+                {
+                  "player": "trexx",
+                  "normX": 61.0808,
+                  "normY": 81.5981
+                },
+                {
+                  "player": "Boo",
+                  "normX": 32.5364,
+                  "normY": 39.0569
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13401,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 32.6822,
+                  "normY": 70.6874
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 62.636,
+                  "normY": 78.5363
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 59.5499,
+                  "normY": 67.6013
+                },
+                {
+                  "player": "trexx",
+                  "normX": 61.2023,
+                  "normY": 75.8471
+                },
+                {
+                  "player": "Boo",
+                  "normX": 32.5364,
+                  "normY": 39.0812
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19054,
+              "players": [
+                {
+                  "player": "Derke",
+                  "normX": 31.694,
+                  "normY": 50.4212
+                },
+                {
+                  "player": "chiwa",
+                  "normX": 59.3717,
+                  "normY": 50.3402
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 35.3714,
+                  "normY": 61.6964
+                },
+                {
+                  "player": "trexx",
+                  "normX": 29.7581,
+                  "normY": 52.8917
+                },
+                {
+                  "player": "Boo",
+                  "normX": 21.65,
+                  "normY": 30.4628
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12838,
+              "players": [
+                {
+                  "player": "chiwa",
+                  "normX": 68.4923,
+                  "normY": 80.375
+                },
+                {
+                  "player": "B1SK",
+                  "normX": 39.8183,
+                  "normY": 94.0883
+                },
+                {
+                  "player": "trexx",
+                  "normX": 61.2266,
+                  "normY": 97.2959
+                },
+                {
+                  "player": "Boo",
+                  "normX": 43.2527,
+                  "normY": 94.8497
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 3,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14024,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 29.0453,
+                  "normY": 11.4602
+                },
+                {
+                  "player": "trexx",
+                  "normX": 51.6848,
+                  "normY": 24.6227
+                },
+                {
+                  "player": "Boo",
+                  "normX": 51.377,
+                  "normY": 2.9633
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        },
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10308,
+              "players": [
+                {
+                  "player": "B1SK",
+                  "normX": 42.5804,
+                  "normY": 13.8578
+                },
+                {
+                  "player": "trexx",
+                  "normX": 41.9891,
+                  "normY": 16.3283
+                },
+                {
+                  "player": "Boo",
+                  "normX": 35.8331,
+                  "normY": 3.5303
+                }
+              ]
+            }
+          ],
+          "matchId": "310b2a56-4188-429e-a92e-fdd28864a834",
+          "date": "2026-11-05",
+          "opponent": "Kryo",
+          "score": "13-0"
+        }
+      ]
+    }
   }
 }

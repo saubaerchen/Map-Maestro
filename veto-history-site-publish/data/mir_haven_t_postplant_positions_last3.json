@@ -808,5 +808,508 @@
         }
       ]
     }
+  },
+  "postPlant10_20": {
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19335,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 57.955,
+                  "normY": 82.3778
+                },
+                {
+                  "player": "Bishepss",
+                  "normX": 42.5125,
+                  "normY": 78.1103
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 65.305,
+                  "normY": 88.0253
+                }
+              ]
+            }
+          ],
+          "matchId": "f42dc59d-66e7-485b-a60a-57887e66d0b8",
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "score": "9-13"
+        },
+        {
+          "roundNum": 20,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10742,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 17.6125,
+                  "normY": 42.2603
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 44.56,
+                  "normY": 75.8678
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12308,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 18.0625,
+                  "normY": 48.0428
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 44.05,
+                  "normY": 77.5703
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12461,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 18.1225,
+                  "normY": 48.5228
+                }
+              ]
+            }
+          ],
+          "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb",
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 25,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14167,
+              "players": [
+                {
+                  "player": "feithjay",
+                  "normX": 70.51,
+                  "normY": 88.6853
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 58.3825,
+                  "normY": 78.9203
+                }
+              ]
+            }
+          ],
+          "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb",
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 0,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 15844,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 35.08,
+                  "normY": 53.5778
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 46.3,
+                  "normY": 85.5353
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 16726,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 36.37,
+                  "normY": 55.4678
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 45.1825,
+                  "normY": 84.9278
+                }
+              ]
+            }
+          ],
+          "matchId": "5161778b-bdca-4895-adc1-43c052a67147",
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 11,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12621,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 38.5225,
+                  "normY": 79.9028
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 21.7075,
+                  "normY": 54.9728
+                },
+                {
+                  "player": "reblyik",
+                  "normX": 37.78,
+                  "normY": 73.6403
+                },
+                {
+                  "player": "Raz",
+                  "normX": 33.5275,
+                  "normY": 73.1078
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14122,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 38.53,
+                  "normY": 80.5928
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 21.925,
+                  "normY": 60.7628
+                },
+                {
+                  "player": "reblyik",
+                  "normX": 38.005,
+                  "normY": 73.5953
+                },
+                {
+                  "player": "Raz",
+                  "normX": 35.7175,
+                  "normY": 72.9128
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19686,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 35.6875,
+                  "normY": 81.0578
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 34.225,
+                  "normY": 72.8378
+                },
+                {
+                  "player": "reblyik",
+                  "normX": 37.1125,
+                  "normY": 78.0728
+                }
+              ]
+            }
+          ],
+          "matchId": "5161778b-bdca-4895-adc1-43c052a67147",
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "score": "13-8"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 19,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14440,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 48.8725,
+                  "normY": 23.7578
+                },
+                {
+                  "player": "Bishepss",
+                  "normX": 40.5625,
+                  "normY": 18.4328
+                },
+                {
+                  "player": "kospa1n",
+                  "normX": 34.8025,
+                  "normY": 27.9503
+                },
+                {
+                  "player": "Raz",
+                  "normX": 33.265,
+                  "normY": 16.1828
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14977,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 40.4425,
+                  "normY": 18.6128
+                },
+                {
+                  "player": "kospa1n",
+                  "normX": 34.8325,
+                  "normY": 27.9503
+                },
+                {
+                  "player": "Raz",
+                  "normX": 32.6875,
+                  "normY": 16.3103
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19400,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 41.08,
+                  "normY": 20.4953
+                },
+                {
+                  "player": "kospa1n",
+                  "normX": 39.28,
+                  "normY": 27.9128
+                },
+                {
+                  "player": "Raz",
+                  "normX": 31.2025,
+                  "normY": 16.5278
+                }
+              ]
+            }
+          ],
+          "matchId": "f42dc59d-66e7-485b-a60a-57887e66d0b8",
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "score": "9-13"
+        },
+        {
+          "roundNum": 20,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19920,
+              "players": [
+                {
+                  "player": "feithjay",
+                  "normX": 53.53,
+                  "normY": 11.9078
+                }
+              ]
+            }
+          ],
+          "matchId": "f42dc59d-66e7-485b-a60a-57887e66d0b8",
+          "date": "2026-10-10",
+          "opponent": "TSE",
+          "score": "9-13"
+        },
+        {
+          "roundNum": 13,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14394,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 49.5175,
+                  "normY": 35.8478
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 48.025,
+                  "normY": 25.6103
+                }
+              ]
+            }
+          ],
+          "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb",
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10248,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 46.585,
+                  "normY": 15.0503
+                },
+                {
+                  "player": "Bishepss",
+                  "normX": 41.02,
+                  "normY": 20.2553
+                },
+                {
+                  "player": "Raz",
+                  "normX": 47.7175,
+                  "normY": 24.5378
+                },
+                {
+                  "player": "innersavage",
+                  "normX": 48.9475,
+                  "normY": 26.1428
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13693,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 53.4775,
+                  "normY": 9.2303
+                },
+                {
+                  "player": "Bishepss",
+                  "normX": 40.1875,
+                  "normY": 17.6153
+                },
+                {
+                  "player": "Raz",
+                  "normX": 45.6925,
+                  "normY": 19.8803
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15228,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 51.6475,
+                  "normY": 12.8603
+                },
+                {
+                  "player": "Bishepss",
+                  "normX": 40.2925,
+                  "normY": 15.6203
+                },
+                {
+                  "player": "Raz",
+                  "normX": 44.08,
+                  "normY": 15.9878
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17557,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 45.1075,
+                  "normY": 11.0303
+                },
+                {
+                  "player": "Raz",
+                  "normX": 40.0225,
+                  "normY": 10.1978
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17585,
+              "players": [
+                {
+                  "player": "reblyik",
+                  "normX": 45.0925,
+                  "normY": 11.0003
+                },
+                {
+                  "player": "Raz",
+                  "normX": 39.8725,
+                  "normY": 10.0928
+                }
+              ]
+            }
+          ],
+          "matchId": "4bf52607-1797-4c76-b966-507a1b865fcb",
+          "date": "2026-09-27",
+          "opponent": "kolb",
+          "score": "13-15"
+        },
+        {
+          "roundNum": 2,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12259,
+              "players": [
+                {
+                  "player": "Bishepss",
+                  "normX": 35.1475,
+                  "normY": 13.7828
+                },
+                {
+                  "player": "feithjay",
+                  "normX": 42.655,
+                  "normY": 9.2453
+                },
+                {
+                  "player": "reblyik",
+                  "normX": 47.245,
+                  "normY": 24.4253
+                }
+              ]
+            }
+          ],
+          "matchId": "5161778b-bdca-4895-adc1-43c052a67147",
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "score": "13-8"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 7,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14647,
+              "players": [
+                {
+                  "player": "innersavage",
+                  "normX": 29.335,
+                  "normY": 47.7503
+                }
+              ]
+            }
+          ],
+          "matchId": "5161778b-bdca-4895-adc1-43c052a67147",
+          "date": "2026-09-26",
+          "opponent": "FRG",
+          "score": "13-8"
+        }
+      ]
+    }
   }
 }
