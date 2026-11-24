@@ -186,9 +186,9 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "202611241349";
-const AGENTS_DATA_VERSION = "202611241349";
-const ECONOMY_DATA_VERSION = "202611241349";
+const RETAKE_DATA_VERSION = "202611241351";
+const AGENTS_DATA_VERSION = "202611241351";
+const ECONOMY_DATA_VERSION = "202611241351";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -199,7 +199,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     }))
   )
 );
-  const MAP_IMAGE_VERSION = "202611241349";
+  const MAP_IMAGE_VERSION = "202611241351";
   const MAP_IMAGE_ASPECTS = {
     Abyss: 1,
     Summit: 1,

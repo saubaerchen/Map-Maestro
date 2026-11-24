@@ -38,6 +38,9 @@ def main():
                 d = json.loads(line)
                 ts = d["matchInfo"]["gameStartMillis"]
                 if datetime.datetime.fromtimestamp(ts / 1000, datetime.timezone.utc).strftime("%Y-%m-%d") >= lo:
+                    # tournament lobbies list admins/observers ('VCT Observer 11', isObserver, teamId Neutral);
+                    # drop them, otherwise they outvote the 5 enemy players when the opponent tag is derived
+                    d["players"] = [p for p in d["players"] if not p.get("isObserver") and p.get("teamId") in ("Red", "Blue")]
                     rows.append((ts, d))
             rows.sort(key=lambda r: r[0])
             with open(site_jsonl(pre), "w", encoding="utf-8") as f:
