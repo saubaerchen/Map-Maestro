@@ -11,6 +11,8 @@ Read [`permission_rules.md`](./permission_rules.md) at the start of every sessio
 - `data/staging/` holds main-account data fetched before the new script exists.
 - **Baseline-core rule (applies to every team):** a team's core = its five players in the VCT 2027 EMEA Kickoff – Europe Open Qualifier. Only games with ≥3 of those 5 count; all others are excluded even if official. Implemented in `scripts/live/core.py`. Invited teams (no Open Qualifier) have no derived core yet.
 - **Date rule:** never use games before 2026-09-01, even with the core (`core.CUTOFF_DATE`). **CGN is excluded** from analysis (`core.EXCLUDED_TEAMS`).
+- **Hosting (2026-11-24):** this folder is the git repo **`saubaerchen/Map-Maestro`** (public). Live site: https://saubaerchen.github.io/Map-Maestro/ — pushing to `main` redeploys `veto-history-site-publish/` via `.github/workflows/pages.yml`. Use the `saubaerchen` gh account for this repo. Never commit the API key, `/data/` (players' private main accounts) or raw data — `.gitignore` covers them; scan before pushing. The old site (zescht.github.io/Veto-Stage2) is no longer updated from here.
+- **Site build (15 Kickoff teams):** `scripts/live/prepare_site_data.py` → `analyze_early_positioning.py` → `build_site.py` → `build_vetoes.py` → `wire_site.py`; teams live in `scripts/live/site_config.py`.
 - Sections below about teams, rosters, map pool and the esports fetch route describe the **old season** and are being replaced: new data comes from players' main accounts (`/europe/` account, `/eu/` matchlist + detail), matched against VLR official maps. See the latest handoff in `handoffs_new/`.
 
 ---
