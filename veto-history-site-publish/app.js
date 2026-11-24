@@ -1472,9 +1472,9 @@ function renderDefensivePanels(info) {
       const agent = agentIconMode ? currentAgentLookup[point.matchId]?.[point.player] : null;
       const retakeTitle = `${rName} | Site ${site || "?"} | ${point.date} vs ${point.opponent} | R${point.roundNum + 1}`;
       const dotSpan = agent
-        ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(rName)}" data-match-id="${point.matchId}" style="left:${p.x}%; top:${p.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${retakeTitle} (${agent})"></span>`
-        : `<span class="heat-point retake-point" data-player="${encodeURIComponent(rName)}" data-match-id="${point.matchId}" style="left:${p.x}%; top:${p.y}%; background:${color}; box-shadow: 0 0 0 1.4px ${ring};" title="${retakeTitle}"></span>`;
-      return `${dotSpan}<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${p.x}% + 6px); top:calc(${p.y}% - 8px);">${site || "?"}</span>`;
+        ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(rName)}" data-match-id="${point.matchId}" data-rk="${point.matchId}|${point.roundNum}" data-rl="R${point.roundNum + 1} · ${point.date} vs ${point.opponent} · Site ${site || "?"}" style="left:${p.x}%; top:${p.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${retakeTitle} (${agent})"></span>`
+        : `<span class="heat-point retake-point" data-player="${encodeURIComponent(rName)}" data-match-id="${point.matchId}" data-rk="${point.matchId}|${point.roundNum}" data-rl="R${point.roundNum + 1} · ${point.date} vs ${point.opponent} · Site ${site || "?"}" style="left:${p.x}%; top:${p.y}%; background:${color}; box-shadow: 0 0 0 1.4px ${ring};" title="${retakeTitle}"></span>`;
+      return `${dotSpan}<span class="retake-site-tag retake-site-tag-${site}" data-rk="${point.matchId}|${point.roundNum}" style="left:calc(${p.x}% + 6px); top:calc(${p.y}% - 8px);">${site || "?"}</span>`;
     })
     .join("");
   const retakeLegendPlayers = sortByPlayerOrder([...new Set(retakePoints.map(pt => canonicalPlayerName(pt.player)))]);
@@ -1517,7 +1517,7 @@ function renderDefensivePanels(info) {
             const proj = projectHeatmapPoint(pos, mapName);
             return `${proj.x},${proj.y}`;
           }).join(" ");
-          ppSnapshotSvg += `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="0.35" opacity="0.7"/>`;
+          ppSnapshotSvg += `<polyline data-rk="${rnd.matchId}|${rnd.roundNum}" points="${pts}" fill="none" stroke="${color}" stroke-width="0.35" opacity="0.7"/>`;
         }
         // Dots
         for (const snap of snaps) {
@@ -1529,9 +1529,9 @@ function renderDefensivePanels(info) {
             const title = `${pName} | Site ${site} | +${tSec}s | R${rnd.roundNum + 1} | ${rnd.date} vs ${rnd.opponent}`;
             const agent = agentIconMode ? currentAgentLookup[rnd.matchId]?.[pl.player] : null;
             const dotHtml = agent
-              ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
-              : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${siteColor[site] ?? "#888"};" title="${title}"></span>`;
-            ppSnapshotDots += dotHtml + `<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
+              ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" data-rk="${rnd.matchId}|${rnd.roundNum}" data-rl="R${rnd.roundNum + 1} · ${rnd.date} vs ${rnd.opponent} · Site ${site} · +10-20s" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
+              : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" data-rk="${rnd.matchId}|${rnd.roundNum}" data-rl="R${rnd.roundNum + 1} · ${rnd.date} vs ${rnd.opponent} · Site ${site} · +10-20s" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${siteColor[site] ?? "#888"};" title="${title}"></span>`;
+            ppSnapshotDots += dotHtml + `<span class="retake-site-tag retake-site-tag-${site}" data-rk="${rnd.matchId}|${rnd.roundNum}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
           }
         }
       }
@@ -1620,9 +1620,9 @@ function renderDefensivePanels(info) {
           const ppAgent = agentIconMode ? currentAgentLookup[pt.matchId]?.[pt.player] : null;
           const ppTitle = `${ppShortName(ppName)} | Site ${site} | R${pt.roundNum + 1} | ${pt.date} vs ${pt.opponent}`;
           const ppDot = ppAgent
-            ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(ppName)}" data-match-id="${pt.matchId}" style="left:${rx}%;top:${ry}%;background-image:url('${agentIconUrl(ppAgent)}');outline:2px solid ${color};" title="${ppTitle} (${ppAgent})"></span>`
-            : `<span class="heat-point retake-point" data-player="${encodeURIComponent(ppName)}" data-match-id="${pt.matchId}" style="left:${rx}%;top:${ry}%;background:${color};box-shadow:0 0 0 1.4px ${ring};" title="${ppTitle}"></span>`;
-          return `${ppDot}<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${rx}% + 6px);top:calc(${ry}% - 8px);">${site}</span>`;
+            ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(ppName)}" data-match-id="${pt.matchId}" data-rk="${pt.matchId}|${pt.roundNum}" data-rl="R${pt.roundNum + 1} · ${pt.date} vs ${pt.opponent} · Site ${site}" style="left:${rx}%;top:${ry}%;background-image:url('${agentIconUrl(ppAgent)}');outline:2px solid ${color};" title="${ppTitle} (${ppAgent})"></span>`
+            : `<span class="heat-point retake-point" data-player="${encodeURIComponent(ppName)}" data-match-id="${pt.matchId}" data-rk="${pt.matchId}|${pt.roundNum}" data-rl="R${pt.roundNum + 1} · ${pt.date} vs ${pt.opponent} · Site ${site}" style="left:${rx}%;top:${ry}%;background:${color};box-shadow:0 0 0 1.4px ${ring};" title="${ppTitle}"></span>`;
+          return `${ppDot}<span class="retake-site-tag retake-site-tag-${site}" data-rk="${pt.matchId}|${pt.roundNum}" style="left:calc(${rx}% + 6px);top:calc(${ry}% - 8px);">${site}</span>`;
         }).join("")
       : '<div class="heatmap-empty"><p>No samples.</p></div>';
 
@@ -1655,14 +1655,14 @@ function renderDefensivePanels(info) {
               const title = `${pName} | Site ${site} | +${(snap.timeSincePlantMs / 1000).toFixed(1)}s after plant | R${rnd.roundNum + 1} | ${rnd.date} vs ${rnd.opponent}`;
               const agent = agentIconMode ? currentAgentLookup[rnd.matchId]?.[pl.player] : null;
               ppTDots += agent
-                ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
-                : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${ppSiteColor[site] ?? "#888"};" title="${title}"></span>`;
-              ppTDots += `<span class="retake-site-tag retake-site-tag-${site}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
+                ? `<span class="heat-point heat-point--icon retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" data-rk="${rnd.matchId}|${rnd.roundNum}" data-rl="R${rnd.roundNum + 1} · ${rnd.date} vs ${rnd.opponent} · Site ${site} · +10-20s" style="left:${proj.x}%;top:${proj.y}%;background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`
+                : `<span class="heat-point retake-point" data-player="${encodeURIComponent(pName)}" data-match-id="${rnd.matchId}" data-rk="${rnd.matchId}|${rnd.roundNum}" data-rl="R${rnd.roundNum + 1} · ${rnd.date} vs ${rnd.opponent} · Site ${site} · +10-20s" style="left:${proj.x}%;top:${proj.y}%;background:${color};box-shadow:0 0 0 1.5px ${ppSiteColor[site] ?? "#888"};" title="${title}"></span>`;
+              ppTDots += `<span class="retake-site-tag retake-site-tag-${site}" data-rk="${rnd.matchId}|${rnd.roundNum}" style="left:calc(${proj.x}% + 6px); top:calc(${proj.y}% - 8px);">${site}</span>`;
             }
           }
           for (const [pName, pts] of Object.entries(trail)) {
             if (pts.length < 2) continue;
-            ppTSvg += `<polyline points="${pts.map(p => `${p.x},${p.y}`).join(" ")}" fill="none" stroke="${getPlayerColor(pName)}" stroke-width="0.35" opacity="0.7"/>`;
+            ppTSvg += `<polyline data-rk="${rnd.matchId}|${rnd.roundNum}" points="${pts.map(p => `${p.x},${p.y}`).join(" ")}" fill="none" stroke="${getPlayerColor(pName)}" stroke-width="0.35" opacity="0.7"/>`;
           }
         }
       }
@@ -2893,3 +2893,26 @@ preloadPostPlantData();
 teamOrder.forEach(teamKey => preloadSiteStats(teamKey));
 teamOrder.forEach(teamKey => preloadAgentsData(teamKey));
 teamOrder.forEach(teamKey => preloadEconomyData(teamKey));
+
+// ── Retake / Post-Plant: click a dot to isolate its round (like Rotation Patterns) ──
+document.addEventListener("click", (e) => {
+  const dot = e.target.closest(".retake-point[data-rk]");
+  if (!dot) return;
+  const card = dot.closest(".defensive-card");
+  if (!card) return;
+  const key = dot.dataset.rk;
+  const sel = card.dataset.selRound === key ? "" : key;
+  card.dataset.selRound = sel;
+  card.querySelectorAll("[data-rk]").forEach((el) => {
+    const on = !sel || el.dataset.rk === sel;
+    el.style.opacity = on ? "" : "0.08";
+    el.classList.toggle("pp-round-sel", !!sel && el.dataset.rk === sel);
+  });
+  let info = card.querySelector(".pp-round-info");
+  if (!info) {
+    info = document.createElement("p");
+    info.className = "defensive-card-meta pp-round-info";
+    (card.querySelector(".defensive-card-meta") || card.firstElementChild).after(info);
+  }
+  info.textContent = sel ? `Selected: ${dot.dataset.rl} — click the dot again to show all rounds` : "";
+});

@@ -962,6 +962,17 @@ body {
   pointer-events: none;
 }
 
+/* Retake / Post-Plant: round picked by clicking a dot */
+.heat-point.pp-round-sel {
+  width: 14px;
+  height: 14px;
+  z-index: 7;
+}
+polyline.pp-round-sel {
+  stroke-width: 0.7;
+  opacity: 1;
+}
+
 /* keep site letters upright on maps drawn rotated 90° CW */
 .heat-layer-frame.rotate-cw .retake-site-tag {
   transform: rotate(-90deg);
