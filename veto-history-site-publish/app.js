@@ -231,6 +231,12 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
 const ROTATED_MAPS_CW = new Set(["Haven", "Split", "Abyss", "Corrode"]);
 const MAP_ROTATE_COORDS_CW = new Set([]);
 function rotCW90(x, y) { return [y, 100 - x]; }
+// normX/normY (0-100) -> canvas % for a map: rotation where needed, then pinned inside the canvas
+// (a player mid-air over the void on Abyss can sit a few % past the image edge).
+function toCanvasXY(mapName, nx, ny) {
+  const [x, y] = MAP_ROTATE_COORDS_CW.has(mapName) ? rotCW90(nx, ny) : [nx, ny];
+  return [Math.min(99.5, Math.max(0.5, x)), Math.min(99.5, Math.max(0.5, y))];
+}
 const calibrationOverrides = {
   "dortmund|Haven|ct": [
     { x: 29.842180774748922, y: 54.85201460119412 },
@@ -868,8 +874,7 @@ function getDefensiveMapPack(sidePack) {
 }
 
   function projectHeatmapPoint(point, mapName) {
-    let x = point.normX, y = point.normY;
-    if (MAP_ROTATE_COORDS_CW.has(mapName)) [x, y] = rotCW90(x, y);
+    const [x, y] = toCanvasXY(mapName, point.normX, point.normY);
     return { x, y };
   }
 
@@ -1081,7 +1086,7 @@ function buildMapControlMarkup(mapName, side, frameClassList, frameStyle, mapIma
     const roundCount = new Set(allPoints.map(pt => `${pt.matchId}|${pt.roundNum}`)).size;
     const dotsMarkup = allPoints.map(pt => {
       const ptName = canonicalPlayerName(pt.player);
-      const [rx, ry] = MAP_ROTATE_COORDS_CW.has(mapName) ? rotCW90(pt.normX, pt.normY) : [pt.normX, pt.normY];
+      const [rx, ry] = toCanvasXY(mapName, pt.normX, pt.normY);
       const color = getPlayerColor(ptName);
       const visible = selectedPlayers.has(ptName);
       const agent = agentIconMode ? currentAgentLookup[pt.matchId]?.[pt.player] : null;
@@ -1173,13 +1178,13 @@ function computeRotationLayers(mapName, side, selectedPlayers) {
 
       if (snaps.length >= 2) {
         const pts = snaps.map(s => {
-          const [rx, ry] = MAP_ROTATE_COORDS_CW.has(mapName) ? rotCW90(s.normX, s.normY) : [s.normX, s.normY];
+          const [rx, ry] = toCanvasXY(mapName, s.normX, s.normY);
           return `${rx},${ry}`;
         }).join(" ");
         svgLines += `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="${strokeW}" opacity="${lineOpacity}"/>`;
       }
       for (const snap of snaps) {
-        const [rx, ry] = MAP_ROTATE_COORDS_CW.has(mapName) ? rotCW90(snap.normX, snap.normY) : [snap.normX, snap.normY];
+        const [rx, ry] = toCanvasXY(mapName, snap.normX, snap.normY);
         const rotAgent = agentIconMode ? currentAgentLookup[trail.matchId]?.[trail.player] : null;
         const rotTitle = `${trail.player} | R${trail.roundNum + 1} | ${fmtRoundTime(snap.timeMs)} | ${trail.date} vs ${trail.opponent}`;
         if (rotAgent) {
@@ -1654,7 +1659,7 @@ function renderDefensivePanels(info) {
           const color = ppGetColor(ppName);
           const ring = ppSiteColor[pt.site] ?? "#888";
           const site = pt.site ?? "";
-          const [rx, ry] = MAP_ROTATE_COORDS_CW.has(mapName) ? rotCW90(pt.normX, pt.normY) : [pt.normX, pt.normY];
+          const [rx, ry] = toCanvasXY(mapName, pt.normX, pt.normY);
           const ppAgent = agentIconMode ? currentAgentLookup[pt.matchId]?.[pt.player] : null;
           const ppTitle = `${ppShortName(ppName)} | Site ${site} | R${pt.roundNum + 1} | ${pt.date} vs ${pt.opponent}`;
           const ppDot = ppAgent
@@ -2214,10 +2219,16 @@ function stripTeamPrefix(name) {
   return String(name ?? "").replace(_TEAM_PREFIX_RE, "");
 }
 
+// Players move between teams (e.g. B1SK: UCAM (OLD) and Aurora) - the active team's colours win.
+function teamConfigsActiveFirst() {
+  const own = TEAMS_CONFIG[activeTeam];
+  return own ? [own, ...Object.values(TEAMS_CONFIG).filter((cfg) => cfg !== own)] : Object.values(TEAMS_CONFIG);
+}
+
 function canonicalPlayerName(name) {
   const short = stripTeamPrefix(name);
   const lower = short.toLowerCase();
-  for (const cfg of Object.values(TEAMS_CONFIG)) {
+  for (const cfg of teamConfigsActiveFirst()) {
     const found = Object.keys(cfg.playerColors).find(k => k.toLowerCase() === lower);
     if (found) return found;
   }
@@ -2244,7 +2255,7 @@ function sortByPlayerOrder(players) {
 
 function getPlayerColor(name) {
   const canonical = canonicalPlayerName(name);
-  for (const cfg of Object.values(TEAMS_CONFIG)) {
+  for (const cfg of teamConfigsActiveFirst()) {
     if (cfg.playerColors[canonical]) return cfg.playerColors[canonical];
   }
   return "#888888";
@@ -2285,7 +2296,8 @@ function renderPpDots(containerId, points) {
   }
   container.innerHTML = points.map((pt, i) => {
     const color = ppGetColor(pt.player);
-    const [rx, ry] = MAP_ROTATE_COORDS_CW.has(activeDefensiveMap) ? [pt.normY, 1 - pt.normX] : [pt.normX, pt.normY];
+    const [rx, ry] = (MAP_ROTATE_COORDS_CW.has(activeDefensiveMap) ? [pt.normY, 1 - pt.normX] : [pt.normX, pt.normY])
+      .map((v) => Math.min(0.995, Math.max(0.005, v)));
     return `<span class="pp-dot"
       style="left:${rx * 100}%;top:${ry * 100}%;background:${color};"
       data-pp-i="${i}"

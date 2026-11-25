@@ -182,12 +182,24 @@ def match_score(match_obj: dict, team_id: str) -> str:
     return f"{team_score}-{opp_score}"
 
 
+def is_real_kill(kill: dict) -> bool:
+    """False for fall deaths and self-kills (e.g. a team jumping into the void on Abyss)."""
+    if kill.get("killer") and kill.get("killer") == kill.get("victim"):
+        return False
+    return (kill.get("finishingDamage") or {}).get("damageType") != "Fall"
+
+
+def is_on_map(norm_x: float, norm_y: float, margin: float = 10.0) -> bool:
+    """Rejects broken coordinates (e.g. -50000); a few % past the edge (mid-air over the void) is kept."""
+    return -margin <= norm_x <= 100 + margin and -margin <= norm_y <= 100 + margin
+
+
 def collect_first_kill(round_result: dict) -> dict | None:
     first = None
     for player_stats in round_result.get("playerStats", []):
         for kill in player_stats.get("kills", []):
             ts = kill.get("timeSinceRoundStartMillis")
-            if ts is None:
+            if ts is None or not is_real_kill(kill):
                 continue
             if first is None or ts < first.get("timeSinceRoundStartMillis", 10**9):
                 first = kill
@@ -342,6 +354,8 @@ def build_dataset_for_map_side(fetched_matches: dict[str, dict], match_times: di
                 if x is None or y is None:
                     continue
                 norm_x, norm_y = normalize_xy(map_name, x, y)
+                if not is_on_map(norm_x, norm_y):
+                    continue
                 round_points.append(
                     {
                         "player": puuid_to_name.get(puuid, puuid),

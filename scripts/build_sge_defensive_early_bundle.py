@@ -513,8 +513,12 @@ def build_sge_all_fk_points_for_dataset(dataset: dict, side_code: str, matches_b
                 killer_puuid = player_stats.get("puuid")
                 for kill in player_stats.get("kills", []):
                     t = kill.get("timeSinceRoundStartMillis")
-                    if t is not None:
-                        all_kills.append((t, killer_puuid, kill))
+                    if t is None:
+                        continue
+                    # fall deaths / self-kills (e.g. a team jumping into the void on Abyss) are not first kills
+                    if killer_puuid == kill.get("victim") or (kill.get("finishingDamage") or {}).get("damageType") == "Fall":
+                        continue
+                    all_kills.append((t, killer_puuid, kill))
             if not all_kills:
                 continue
             all_kills.sort(key=lambda e: e[0])
@@ -532,6 +536,8 @@ def build_sge_all_fk_points_for_dataset(dataset: dict, side_code: str, matches_b
             if kx is None or ky is None:
                 continue
             norm_x, norm_y = normalize_xy(map_name, kx, ky)
+            if not (-10 <= norm_x <= 110 and -10 <= norm_y <= 110):
+                continue   # broken coordinates (e.g. -50000)
 
             payload = {
                 "x": kx, "y": ky,
