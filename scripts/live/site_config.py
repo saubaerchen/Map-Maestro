@@ -90,7 +90,9 @@ TEAMS = {
     "ucamold":     {"prefix": "ucamold", "tag": "UCAM", "name": "UCAM (OLD)",
                     "roster": ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
                     "esports_source": os.path.join(ROOT, "data", "raw", "ucam_esports_since_2026-05_raw_responses.jsonl"),
-                    "ignore_core": True, "min_date": "2026-05-01"},   # maps: Kickoff pool only (Bind/Haven/Lotus have data)
+                    "ignore_core": True, "min_date": "2026-05-01",   # maps: Kickoff pool only
+                    # + the 3 Abyss maps of March 2026 (vs JL 03-22, EP 03-27, MDR 03-28); requested by Vincent 2026-11-25
+                    "extra_windows": [{"from": "2026-03-01", "to": "2026-03-31", "maps": ["Abyss"]}]},
 }
 
 
@@ -100,7 +102,16 @@ def team_pool(cfg):
 
 
 def team_min_date(cfg):
-    return cfg.get("min_date", "2026-09-01")
+    """Earliest game date a team's site data may contain (main window or any extra window)."""
+    return min([cfg.get("min_date", "2026-09-01")] + [w["from"] for w in cfg.get("extra_windows", [])])
+
+
+def in_team_window(cfg, day, map_name):
+    """True if a game on `day` (YYYY-MM-DD) on `map_name` belongs to the team's data set."""
+    if day >= cfg.get("min_date", "2026-09-01"):
+        return True
+    return any(w["from"] <= day <= w["to"] and map_name in w.get("maps", [map_name])
+               for w in cfg.get("extra_windows", []))
 
 
 def site_jsonl(prefix):

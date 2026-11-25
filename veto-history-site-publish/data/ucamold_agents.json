@@ -1,5 +1,61 @@
 {
   "team": "UCAM (OLD)",
+  "Abyss": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Sova",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-03-28",
+          "opponent": "MDR",
+          "matchId": "8d6577bf-da57-457f-b30f-b17bded07e32",
+          "players": [
+            "UCAM Famsii",
+            "UCAM B1SK",
+            "UCAM BULD",
+            "UCAM Jesse",
+            "UCAM OLIZERA"
+          ]
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "EP",
+          "matchId": "f77ddba8-1e59-4dcd-a363-09fdb0eb0380",
+          "players": [
+            "UCAM Famsii",
+            "UCAM B1SK",
+            "UCAM BULD",
+            "UCAM Jesse",
+            "UCAM OLIZERA"
+          ]
+        },
+        {
+          "date": "2026-03-22",
+          "opponent": "JL",
+          "matchId": "9abce8ee-7847-4f91-abc3-17d68e077229",
+          "players": [
+            "UCAM Famsii",
+            "UCAM B1SK",
+            "UCAM BULD",
+            "UCAM Jesse",
+            "UCAM OLIZERA"
+          ]
+        }
+      ]
+    }
+  ],
   "Bind": [
     {
       "agents": [

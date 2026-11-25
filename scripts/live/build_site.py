@@ -107,6 +107,8 @@ def build_per_team(key):
         m = load_module(name)
         if hasattr(m, "COMPETITIVE_MAPS"):
             m.COMPETITIVE_MAPS = set(KICKOFF_POOL) | set(team_pool(cfg)) | {"Ascent", "Split"}
+        if hasattr(m, "APRIL_CUTOFF"):
+            m.APRIL_CUTOFF = MIN_DATE   # site JSONL is already date-filtered; don't drop extra-window games
         m.TEAM_CONFIG = {pre: {"name": cfg["name"], "prefix": pre, "player_prefix": tag + " ", "jsonl": jsonl}}
         run_main(m, ["--team", pre])
     return maps
