@@ -456,27 +456,26 @@ function countMaps(values) {
   });
 }
 
+// Slots hold steps in chronological order; Bo2/Bo5 rows (Liquipedia) put bans/picks in other
+// columns than Bo3, so these read each step's own type instead of its slot key.
+const VETO_SLOT_ORDER = ["ban1", "ban2", "pick1", "pick2", "ban3", "ban4"];
+
+function rowSteps(row, type) {
+  return VETO_SLOT_ORDER.map((key) => row[key]).filter((step) => step?.type === type && step.map && step.map !== "-");
+}
+
 function collectFirstTeamBan(row) {
-  for (const key of ["ban1", "ban2"]) {
-    const step = row[key];
-    if (step?.ownerKind === "team" && step.map !== "-") return step.map;
-  }
-  return null;
+  return rowSteps(row, "ban").find((step) => step.ownerKind === "team")?.map ?? null;
 }
 
 function collectFirstTeamPick(row) {
-  for (const key of ["pick1", "pick2"]) {
-    const step = row[key];
-    if (step?.ownerKind === "team" && step.map !== "-") return step.map;
-  }
-  return null;
+  return rowSteps(row, "pick").find((step) => step.ownerKind === "team")?.map ?? null;
 }
 
 function collectPlayedMaps(row) {
   const played = [];
-  for (const key of ["pick1", "pick2"]) {
-    const step = row[key];
-    if (step?.map && step.map !== "-") played.push(step.map);
+  for (const step of rowSteps(row, "pick")) {
+    if (step.score || !row.format) played.push(step.map);   // Liquipedia rows: only maps actually played
   }
   if (row.decider && getStepScore(row, "decider", row.deciderScore)) {
     played.push(row.decider);
@@ -511,6 +510,35 @@ function renderInsights(team) {
   renderInsightList(firstBanList, firstBanCounts);
   renderInsightList(firstPickList, firstPickCounts);
   renderInsightList(mostPlayedList, playedCounts);
+}
+
+// One fixed colour per map, so a map is recognisable at a glance in the map-pool boxes.
+const MAP_POOL_COLORS = {
+  Abyss: "#1f2937",     // near-black
+  Ascent: "#0ea5e9",    // sky blue
+  Bind: "#8b5a2b",      // brown
+  Breeze: "#14b8a6",    // teal
+  Corrode: "#65a30d",   // lime green
+  Fracture: "#dc2626",  // red
+  Haven: "#eab308",     // yellow
+  Icebox: "#64748b",    // slate
+  Lotus: "#ec4899",     // pink
+  Pearl: "#4338ca",     // indigo
+  Split: "#f97316",     // orange
+  Sunset: "#9333ea"     // purple
+};
+
+function makeMapPoolMarkup(row) {
+  if (!row.mapPool?.length) return "";
+  const title = [`Map pool (${row.event ?? "tournament"})`, row.mapPoolNote].filter(Boolean).join(" — ");
+  return `
+    <div class="map-pool" title="${title.replace(/"/g, "&quot;")}">
+      ${row.mapPool
+        .map((map) => `<span class="map-pool-chip" style="--pool-color:${MAP_POOL_COLORS[map] ?? "#475569"}">${map}</span>`)
+        .join("")}
+      ${row.mapPoolNote ? `<span class="map-pool-note">*</span>` : ""}
+    </div>
+  `;
 }
 
 function makeStepCell(step, row, stepKey) {
@@ -556,12 +584,14 @@ function renderTable(team) {
             <div class="date-cell">
               <span class="date-label">${month} ${day}</span>
               <span class="year-tag">${row.date.slice(0, 4)}</span>
+              ${makeMapPoolMarkup(row)}
             </div>
           </td>
           <td class="opponent-cell">
             <div class="opponent-cell-wrap">
               <p class="opponent-name" title="${row.opponent}">${row.opponentAbbr ?? row.opponent}</p>
               ${sourceMarkup}
+              ${row.format && row.format !== "Bo3" ? `<span class="format-tag" title="${row.format}: steps are shown in the order they happened, so column headers don't apply">${row.format}</span>` : ""}
             </div>
           </td>
           ${stepConfig.map(({ key }) => makeStepCell(row[key], row, key)).join("")}

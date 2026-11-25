@@ -92,7 +92,12 @@ TEAMS = {
                     "esports_source": os.path.join(ROOT, "data", "raw", "ucam_esports_since_2026-05_raw_responses.jsonl"),
                     "ignore_core": True, "min_date": "2026-05-01",   # maps: Kickoff pool only
                     # + the 3 Abyss maps of March 2026 (vs JL 03-22, EP 03-27, MDR 03-28); requested by Vincent 2026-11-25
-                    "extra_windows": [{"from": "2026-03-01", "to": "2026-03-31", "maps": ["Abyss"]}]},
+                    "extra_windows": [{"from": "2026-03-01", "to": "2026-03-31", "maps": ["Abyss"]}],
+                    # Veto view: every 2026 veto from Liquipedia (+ tournament map pool), requested 2026-11-25.
+                    # Refresh: python scripts/fetch_liquipedia_team_vetoes.py --page UCAM_Esports_Club --year 2026
+                    #          --out data/staging/ucam_vetoes_2026
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "ucam_vetoes_2026.json"),
+                    "veto_subtitle": "Old roster — all 2026 official vetoes (Liquipedia), map pool per tournament"},
 }
 
 

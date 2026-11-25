@@ -80,10 +80,108 @@ def build_team(key, cfg):
             "rows": rows}, skipped
 
 
+def _local_games(ids):
+    """Map-game details for the given Riot match ids from local data only (cache + raw JSONL)."""
+    from common import ROOT
+    games, want = {}, set(ids)
+    cache = os.path.join(ROOT, "data", "cache", "esports_matches")
+    for mid in want:
+        p = os.path.join(cache, f"{mid}.json")
+        if os.path.exists(p):
+            games[mid] = json.load(open(p, encoding="utf-8"))
+    missing = want - set(games)
+    if missing:
+        for folder in (os.path.join(ROOT, "data", "raw"), os.path.join(ROOT, "archive", "data", "raw")):
+            for fn in sorted(os.listdir(folder)) if os.path.isdir(folder) else []:
+                if not fn.endswith(".jsonl"):
+                    continue
+                for line in open(os.path.join(folder, fn), encoding="utf-8"):
+                    m = re.search(r'"matchId":\s*"([0-9a-f\-]{36})"', line[:4000])
+                    if m and m.group(1) in missing:
+                        games[m.group(1)] = json.loads(line)
+                        missing.discard(m.group(1))
+    return games
+
+
+def _map_scores(game_ids, games, tag, opp_tag):
+    """{map name: 'own:opp'} for one series; own side = players named '<tag> ...'."""
+    scores = {}
+    for gid in game_ids:
+        g = games.get(gid)
+        if not g:
+            continue
+        sides = {}
+        for p in g.get("players", []):
+            prefix = (p.get("gameName") or "").split(" ")[0].upper()
+            sides.setdefault(p.get("teamId"), set()).add(prefix)
+        own = next((t for t, pre in sides.items() if tag.upper() in pre), None)
+        if own is None:
+            opp = next((t for t, pre in sides.items() if opp_tag.upper() in pre), None)
+            own = {"Red": "Blue", "Blue": "Red"}.get(opp)
+        won = {t["teamId"]: t.get("roundsWon") for t in g.get("teams", [])}
+        if own in won:
+            other = "Blue" if own == "Red" else "Red"
+            scores[g["matchInfo"]["map"]] = f"{won[own]}:{won.get(other)}"
+    return scores
+
+
+def build_team_liquipedia(cfg):
+    """Rows from scripts/fetch_liquipedia_team_vetoes.py output (any format: Bo2/Bo3/Bo5).
+
+    Steps fill the six slots in chronological order; each cell renders by its own type, so a Bo5's
+    picks 3+4 sit in the 'Ban 3/4' columns and a Bo2's bans 3+4 in 'Pick 1/2' (row shows the format).
+    """
+    src = json.load(open(cfg["liquipedia_vetoes"], encoding="utf-8"))
+    tag = cfg["tag"]
+    games = _local_games([i for r in src if r["veto"] for i in r["veto"].get("mapIds", [])])
+    rows, skipped = [], []
+    for r in src:
+        v = r["veto"]
+        if not v or v["focusSlot"] is None:
+            skipped.append((r["date"], r["opponentAbbr"], "no veto on Liquipedia" if not v else "team not found"))
+            continue
+        opp_tag = r["opponentAbbr"]
+        scores = _map_scores(v.get("mapIds", []), games, tag, opp_tag)
+        steps = [s for s in v["steps"] if s["action"] in ("ban", "pick")]
+        n_picks = sum(s["action"] == "pick" for s in steps)
+        decider = v["decider"]
+        label = "DECIDER"
+        if not decider:
+            left = [m for m in r.get("mapPool", []) if m not in {s["map"] for s in steps}]
+            decider = left[0] if len(left) == 1 else "-"
+            label = "REMAINING"
+        row = {
+            "date": r["date"], "opponent": r["opponent"], "opponentAbbr": opp_tag,
+            "score": r["score"].replace(":", " - "),
+            "source": f"https://liquipedia.net/valorant/{r['matchPage']}", "sourceLabel": "liquipedia",
+            "event": r["tournament"], "format": f"Bo{n_picks + (1 if v['decider'] else 0)}",
+            "mapPool": r.get("mapPool", []), "mapPoolNote": r.get("mapPoolNote", ""),
+            "mapPoolSource": r.get("mapPoolSource", ""),
+            "decider": decider, "deciderScore": scores.get(decider, "") if v["decider"] else "",
+            "deciderLabel": label, "deciderTeamStartSide": "",
+        }
+        for slot, s in zip(SLOTS, steps):
+            is_team = s["by"] == "team"
+            entry = {"map": s["map"], "type": s["action"], "ownerLabel": tag if is_team else opp_tag,
+                     "ownerKind": "team" if is_team else "opp"}
+            if s["action"] == "pick":
+                entry.update({"score": scores.get(s["map"], ""),
+                              "pickLabel": f"{tag} PICK" if is_team else "OPPONENT PICK", "teamStartSide": ""})
+            row[slot] = entry
+        if len(steps) > len(SLOTS):
+            skipped.append((r["date"], opp_tag, f"{len(steps)} steps, only {len(SLOTS)} shown"))
+        rows.append(row)
+    return {"name": cfg["name"], "ownerLabel": tag, "subtitle": cfg.get("veto_subtitle", "Official vetoes (Liquipedia)"),
+            "rows": rows}, skipped
+
+
 def main():
     data = {}
     for key, cfg in TEAMS.items():
-        data[key], skipped = build_team(key, cfg)
+        if cfg.get("liquipedia_vetoes") and os.path.exists(cfg["liquipedia_vetoes"]):
+            data[key], skipped = build_team_liquipedia(cfg)
+        else:
+            data[key], skipped = build_team(key, cfg)
         print(f"{key:10} vetoes: {len(data[key]['rows'])}" + (f"  skipped: {skipped}" if skipped else ""))
     open(os.path.join(PUBLISH_DIR, "data.js"), "w", encoding="utf-8").write(
         "const vetoHistoryData = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n")
