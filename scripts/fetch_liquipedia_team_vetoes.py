@@ -4,7 +4,7 @@ Request budget: 1x action=parse (team Matches page) + 1x action=query per 50 mat
 All responses are cached by liquipedia_polite, so re-runs cost zero requests.
 
 Usage:
-  python scripts/fetch_liquipedia_team_vetoes.py --page UCAM_Esports_Club --year 2026 --out data/staging/ucam_vetoes_2026
+  python scripts/fetch_liquipedia_team_vetoes.py --page UCAM_Esports_Club --year 2026 --tag UCAM --out data/staging/ucam_vetoes_2026
 """
 from __future__ import annotations
 
@@ -46,7 +46,8 @@ def match_list(page: str, year: int) -> list[dict]:
             "date": when.strftime("%Y-%m-%d"),
             "tournament": html_lib.unescape(tour[0]) if tour else "",
             "score": f"{sc.group(1)}:{sc.group(2)}" if sc else "",
-            "opponent": html_lib.unescape(opp[-1][0]) if opp else "",
+            # strip " (page does not exist)" (red link) and disambiguation such as " (European team)"
+            "opponent": re.sub(r" \([^()]*\)$", "", html_lib.unescape(opp[-1][0])) if opp else "",
             "opponentAbbr": html_lib.unescape(opp[-1][1]) if opp else "",
             "matchPage": f"Match:ID_{mid.group(1)}" if mid else None,
         })
@@ -90,7 +91,7 @@ def parse_veto(raw: str, team_names: list[str]) -> dict | None:
         for team in (firstpick, 3 - firstpick):
             m = re.search(rf"\|t{team}map{rnd}=([^\n|]*)", block)
             mp = m.group(1).strip() if m else ""
-            if not mp:
+            if not mp or mp == "-":   # '-' = empty slot (e.g. a Bo5 ban that was not used)
                 continue
             steps.append({
                 "action": typ,
@@ -149,14 +150,21 @@ def tournament_pools(rows: list[dict]) -> None:
             tp = tp.rsplit("/", 1)[0] if tp.count("/") > 3 else ""
         return [], ""
 
+    # Vetoed maps per tournament page and per stage on it (e.g. Play-Ins vs Playoffs share a page
+    # but can have different pools); a stage with all 7 maps seen is the better reference.
     vetoed: dict[str, set] = {}
+    vetoed_stage: dict[tuple, set] = {}
     for r in rows:
         if r["veto"]:
-            vetoed.setdefault(r["tournamentPage"], set()).update(s["map"] for s in r["veto"]["steps"])
+            maps = {s["map"] for s in r["veto"]["steps"]}
+            vetoed.setdefault(r["tournamentPage"], set()).update(maps)
+            vetoed_stage.setdefault((r["tournamentPage"], r["tournament"]), set()).update(maps)
 
     for r in rows:
         pool, src = page_pool(r["tournamentPage"])
-        used = vetoed.get(r["tournamentPage"], set())
+        used = vetoed_stage.get((r["tournamentPage"], r["tournament"]), set())
+        if len(used) < 7:
+            used = vetoed.get(r["tournamentPage"], set())
         note = ""
         if pool and (not used <= set(pool) or len(pool) > 7):
             extra = [m for m in pool if m not in used] if len(used) >= 7 else []
@@ -167,7 +175,8 @@ def tournament_pools(rows: list[dict]) -> None:
                 parts.append(f"{', '.join(missing)} vetoed but not listed")
             if extra:
                 parts.append(f"{', '.join(extra)} listed but never vetoed")
-            note = f"Liquipedia page lists {', '.join(pool)} - corrected from the vetoes ({'; '.join(parts)})"
+            if sorted(fixed) != sorted(pool):
+                note = f"Liquipedia page lists {', '.join(pool)} - corrected from the vetoes ({'; '.join(parts)})"
             pool = fixed
         r["mapPool"] = sorted(pool)
         r["mapPoolSource"] = f"https://liquipedia.net/valorant/{src}" if src else ""
@@ -180,6 +189,7 @@ def main() -> None:
     ap.add_argument("--year", type=int, required=True)
     ap.add_argument("--names", nargs="*", default=None,
                     help="Team names as used in match wikitext (defaults to page name variants)")
+    ap.add_argument("--tag", default=None, help="Team tag for the CSV (defaults to the page's initials)")
     ap.add_argument("--out", required=True, help="Output path without extension")
     args = ap.parse_args()
 
@@ -188,7 +198,8 @@ def main() -> None:
     wikitext = fetch_wikitext(titles)
 
     base = args.page.replace("_", " ")
-    names = args.names or [base, re.sub(r"\s+(Esports Club|Club)$", "", base), "UCAM Esports"]
+    short = re.sub(r"\s+(Esports Club|Club|Esports|eSports|Gaming)$", "", base)
+    names = args.names or list(dict.fromkeys([base, short, f"{short} Esports"]))
 
     rows = []
     for m in matches:
@@ -220,7 +231,7 @@ def main() -> None:
                 w.writerow([r["date"], r["tournament"], r["opponentAbbr"], r["score"], "", "NO VETO", "", "", "", "",
                             "", f"https://liquipedia.net/valorant/{r['matchPage']}"])
                 continue
-            tag = "UCAM"
+            tag = args.tag or "".join(w[0] for w in short.split()).upper()
             seq = " > ".join(
                 f"{tag if s['by'] == 'team' else r['opponentAbbr']} {s['action']} {s['map']}" if s["by"]
                 else f"{s['map']} decider" for s in v["steps"])

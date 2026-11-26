@@ -150,6 +150,14 @@ def build_team_liquipedia(cfg):
             left = [m for m in r.get("mapPool", []) if m not in {s["map"] for s in steps}]
             decider = left[0] if len(left) == 1 else "-"
             label = "REMAINING"
+        # Maps played = picks then decider, cut to the number of maps in the series score (e.g. 2:1 -> 3).
+        # Works without per-map scores (not every game is in local data); None for forfeits etc.
+        try:
+            n_played = sum(int(x) for x in r["score"].split(":"))
+        except ValueError:
+            n_played = None
+        order = [s["map"] for s in steps if s["action"] == "pick"] + ([v["decider"]] if v["decider"] else [])
+        played = order[:n_played] if n_played is not None else None
         row = {
             "date": r["date"], "opponent": r["opponent"], "opponentAbbr": opp_tag,
             "score": r["score"].replace(":", " - "),
@@ -160,6 +168,9 @@ def build_team_liquipedia(cfg):
             "decider": decider, "deciderScore": scores.get(decider, "") if v["decider"] else "",
             "deciderLabel": label, "deciderTeamStartSide": "",
         }
+        if played is not None:
+            row["playedMaps"] = played
+            row["deciderPlayed"] = bool(v["decider"]) and v["decider"] in played
         for slot, s in zip(SLOTS, steps):
             is_team = s["by"] == "team"
             entry = {"map": s["map"], "type": s["action"], "ownerLabel": tag if is_team else opp_tag,

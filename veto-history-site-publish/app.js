@@ -479,6 +479,7 @@ function collectFirstTeamPick(row) {
 }
 
 function collectPlayedMaps(row) {
+  if (Array.isArray(row.playedMaps)) return row.playedMaps;   // Liquipedia rows: derived from the series score
   const played = [];
   for (const step of rowSteps(row, "pick")) {
     if (step.score || !row.format) played.push(step.map);   // Liquipedia rows: only maps actually played
@@ -605,7 +606,7 @@ function renderTable(team) {
             <div class="map-pill decider">
               ${deciderScore ? `<p class="map-score">${deciderScore}</p>` : ""}
               <p class="map-name">${row.decider}</p>
-              <div class="step-meta">${deciderScore ? "DECIDER" : "REMAINING"}</div>
+              <div class="step-meta">${deciderScore || row.deciderPlayed ? "DECIDER" : "REMAINING"}</div>
               ${deciderMeta.teamStartSide ? `<div class="step-side">${deciderMeta.teamStartSide}</div>` : ""}
             </div>
           </td>

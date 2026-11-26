@@ -1395,20 +1395,110 @@ const vetoHistoryData = {
   "enterprise": {
     "name": "Enterprise Esports",
     "ownerLabel": "EP",
-    "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
+    "subtitle": "All 2026 official vetoes (Liquipedia), map pool per tournament",
     "rows": [
       {
+        "date": "2026-11-26",
+        "opponent": "UCAM Esports Club",
+        "opponentAbbr": "UCAM",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_SfWcgeE2Hf_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - High (1-0)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        }
+      },
+      {
         "date": "2026-11-25",
-        "opponent": "xXxMasterProMegaTeamxXx",
+        "opponent": "XXxMasterProMegaTeamxXx",
         "opponentAbbr": "MPMT",
         "score": "2 - 0",
-        "source": "",
-        "sourceLabel": "screenshot",
-        "event": "",
+        "source": "https://liquipedia.net/valorant/Match:ID_vxROdQ0rom_0006",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Round 1 (0-0)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
         "decider": "Summit",
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Corrode",
           "type": "ban",
@@ -1451,6 +1541,3957 @@ const vetoHistoryData = {
           "ownerLabel": "EP",
           "ownerKind": "team"
         }
+      },
+      {
+        "date": "2026-08-23",
+        "opponent": "Team Liquid",
+        "opponentAbbr": "TL",
+        "score": "0 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_TsZ0lNrM8v_R02-M003",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Ascent",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Breeze listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Summit",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Abyss"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "TL",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "TL",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "TL",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-08-21",
+        "opponent": "Karmine Corp",
+        "opponentAbbr": "KC",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_TsZ0lNrM8v_R02-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Ascent",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Breeze listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Lotus",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Abyss",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "KC",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "KC",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "KC",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-08-20",
+        "opponent": "Team Vitality",
+        "opponentAbbr": "VIT",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_TsZ0lNrM8v_R01-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Ascent",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Breeze listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Lotus",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Summit",
+          "Abyss",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "VIT",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "VIT",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "VIT",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-08-15",
+        "opponent": "Fire Flux Esports",
+        "opponentAbbr": "FF",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_c4WwLUS94v_R04-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Play-Ins",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Abyss listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Summit",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Split"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "FF",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "FF",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "FF",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-08-09",
+        "opponent": "Gentle Mates",
+        "opponentAbbr": "M8",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_c4WwLUS94v_R02-M004",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Play-Ins",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Abyss listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Ascent",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Summit",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "M8",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "M8",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "M8",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-08-07",
+        "opponent": "Fnatic",
+        "opponentAbbr": "FNC",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_c4WwLUS94v_R01-M004",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Stage 2 - Play-Ins",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Haven",
+          "Lotus",
+          "Split",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "Liquipedia page lists Ascent, Haven, Sunset, Split, Lotus, Breeze, Summit, Abyss - corrected from the vetoes (Abyss listed but never vetoed)",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Stage_2",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Split",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "FNC",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "FNC",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "FNC",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-07-05",
+        "opponent": "REBORN",
+        "opponentAbbr": "RBN",
+        "score": "3 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_aIgG3BmDE8_R05-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Ascent",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Haven",
+          "Fracture"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-07-02",
+        "opponent": "REBORN",
+        "opponentAbbr": "RBN",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_aIgG3BmDE8_R04-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Lotus",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Ascent",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Ascent",
+          "type": "pick",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-07-01",
+        "opponent": "Natus Vincere Junior",
+        "opponentAbbr": "NAVI.J",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_aIgG3BmDE8_R02-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Ascent",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Ascent",
+          "type": "pick",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-06-30",
+        "opponent": "Mandatory",
+        "opponentAbbr": "MDR",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_aIgG3BmDE8_R01-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:8",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp",
+          "score": "13:7",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-06-24",
+        "opponent": "Joblife",
+        "opponentAbbr": "JL",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_e2P4tcattk_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Fracture",
+        "deciderScore": "13:1",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Lotus",
+          "Fracture"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "JL",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "16:14",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "JL",
+          "ownerKind": "opp",
+          "score": "9:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "JL",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-06-22",
+        "opponent": "Barça eSports",
+        "opponentAbbr": "BAR",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_e2P4tcattk_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 3 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_3",
+        "decider": "Split",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Ascent"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "14:12",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Ascent",
+          "type": "pick",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-05-20",
+        "opponent": "FOKUS",
+        "opponentAbbr": "FKS",
+        "score": "0 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_jSBlvWPIO5_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 2 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_2",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Ascent",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Ascent",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "10:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp",
+          "score": "11:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-05-18",
+        "opponent": "REBORN",
+        "opponentAbbr": "RBN",
+        "score": "0 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_jSBlvWPIO5_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 2 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Ascent",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_2",
+        "decider": "Lotus",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Split"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "12:14",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp",
+          "score": "13:15",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Ascent",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "RBN",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-05-14",
+        "opponent": "Team Liquid Academy",
+        "opponentAbbr": "TL.A",
+        "score": "3 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R06-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Fracture",
+        "deciderScore": "13:6",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Haven",
+          "Bind",
+          "Lotus",
+          "Fracture"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "6:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "13:10",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "9:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-05-11",
+        "opponent": "Natus Vincere Junior",
+        "opponentAbbr": "NAVI.J",
+        "score": "3 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R05-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Fracture",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Split",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp",
+          "score": "13:4",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:4",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-05-07",
+        "opponent": "MIR",
+        "opponentAbbr": "MIR",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R04-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Fracture"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:2",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp",
+          "score": "13:6",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-05-05",
+        "opponent": "Team Liquid Academy",
+        "opponentAbbr": "TL.A",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R03-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Fracture",
+        "deciderScore": "14:12",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Lotus",
+          "Fracture"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "7:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:9",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-27",
+        "opponent": "BONK",
+        "opponentAbbr": "BONK",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R02-M004",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Split"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp",
+          "score": "14:12",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:2",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-21",
+        "opponent": "MIR",
+        "opponentAbbr": "MIR",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R02-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Pearl",
+        "deciderScore": "10:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp",
+          "score": "11:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:6",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-18",
+        "opponent": "EVOPLAY",
+        "opponentAbbr": "EVO",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_7KMRtUcQ7H_R01-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Fracture"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp",
+          "score": "13:11",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:11",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-14",
+        "opponent": "Lost Puppies",
+        "opponentAbbr": "LP",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_KzQvKhMGrg_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 7",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Split",
+        "deciderScore": "13:4",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "LP",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "LP",
+          "ownerKind": "opp",
+          "score": "13:5",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "7:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "LP",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-13",
+        "opponent": "Baigiau",
+        "opponentAbbr": "BAIG",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_AvOtgduD7A_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 6",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "BAIG",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "BAIG",
+          "ownerKind": "opp",
+          "score": "13:4",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "BAIG",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-12",
+        "opponent": "Formulation Gaming",
+        "opponentAbbr": "FMG",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_0NHnGt7KPB_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 5",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:2",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp",
+          "score": "13:10",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-04-11",
+        "opponent": "LEO",
+        "opponentAbbr": "LEO",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_r5QdOJP1qt_0004",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 4",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Split"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "LEO",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "LEO",
+          "ownerKind": "opp",
+          "score": "13:2",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:10",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "LEO",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-06",
+        "opponent": "BONK",
+        "opponentAbbr": "BONK",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_cmadtfcavE_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 3",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Fracture",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Split"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp",
+          "score": "13:6",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:1",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-04-05",
+        "opponent": "Natus Vincere Junior",
+        "opponentAbbr": "NAVI.J",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_mN8xJkH8LA_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 2",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Split",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Fracture",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:11",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp",
+          "score": "13:7",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "NAVI.J",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-04-04",
+        "opponent": "Pixel Lumina",
+        "opponentAbbr": "PXL",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_CKFczx07Yi_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 2 - Round 1",
+        "format": "Bo3",
+        "mapPool": [
+          "Bind",
+          "Breeze",
+          "Fracture",
+          "Haven",
+          "Lotus",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_2",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Fracture",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "13:10",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:1",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-03-29",
+        "opponent": "Mandatory",
+        "opponentAbbr": "MDR",
+        "score": "3 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_FniMAeAZDq_R03-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 1 - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_1",
+        "decider": "Abyss",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Haven",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:8",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp",
+          "score": "13:7",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "MDR",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-03-27",
+        "opponent": "UCAM Esports Club",
+        "opponentAbbr": "UCAM",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_FniMAeAZDq_R02-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_1",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Abyss"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "17:15",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp",
+          "score": "19:17",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-03-26",
+        "opponent": "Misa Esports",
+        "opponentAbbr": "MISA",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_FniMAeAZDq_R01-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_1",
+        "decider": "Split",
+        "deciderScore": "13:8",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Abyss",
+          "Haven",
+          "Split"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MISA",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "15:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MISA",
+          "ownerKind": "opp",
+          "score": "9:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MISA",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-03-20",
+        "opponent": "FOKUS",
+        "opponentAbbr": "FKS",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_dPQ6IbYwd5_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 1 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_1",
+        "decider": "Split",
+        "deciderScore": "13:3",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Pearl",
+          "Split"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp",
+          "score": "13:2",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "9:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "FKS",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-03-19",
+        "opponent": "Barça eSports",
+        "opponentAbbr": "BAR",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_dPQ6IbYwd5_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL EMEA: Stage 1 - Group B",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/EMEA/Stage_1",
+        "decider": "Split",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "14:12",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp",
+          "score": "13:2",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "BAR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-03-08",
+        "opponent": "Team Liquid Academy",
+        "opponentAbbr": "TL.A",
+        "score": "3 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_otQwsUy6hA_R05-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Breeze",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Corrode",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:4",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "14:12",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:9",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-03-07",
+        "opponent": "Pixel Lumina",
+        "opponentAbbr": "PXL",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_otQwsUy6hA_R04-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "13:5",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-03-06",
+        "opponent": "Team Liquid Academy",
+        "opponentAbbr": "TL.A",
+        "score": "0 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_otQwsUy6hA_R04-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "7:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp",
+          "score": "9:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "TL.A",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-03-02",
+        "opponent": "VR2",
+        "opponentAbbr": "VR2",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_otQwsUy6hA_R02-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp",
+          "score": "13:6",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-03-01",
+        "opponent": "BONK",
+        "opponentAbbr": "BONK",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_otQwsUy6hA_R01-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Haven",
+        "deciderScore": "13:4",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Pearl",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp",
+          "score": "8:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:7",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "BONK",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-25",
+        "opponent": "FUT Esports",
+        "opponentAbbr": "FUT",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_6dYElGoJcY_R05-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA Clash - Alpha Bracket",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Clash",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "FUT",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:5",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "FUT",
+          "ownerKind": "opp",
+          "score": "13:9",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "FUT",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-02-24",
+        "opponent": "GIANTX",
+        "opponentAbbr": "GX",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_MJOrD0cEVl_R04-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA Clash - Omega Bracket",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Clash",
+        "decider": "Pearl",
+        "deciderScore": "13:1",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "GX",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "6:13",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "GX",
+          "ownerKind": "opp",
+          "score": "13:2",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "GX",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-02-22",
+        "opponent": "Joblife",
+        "opponentAbbr": "JL",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_MJOrD0cEVl_R03-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA Clash - Omega Bracket",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Clash",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "JL",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:9",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "JL",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "JL",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-02-21",
+        "opponent": "Karmine Corp",
+        "opponentAbbr": "KC",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_MJOrD0cEVl_R02-M003",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA Clash - Omega Bracket",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Clash",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "KC",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "KC",
+          "ownerKind": "opp",
+          "score": "13:11",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:3",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "KC",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-19",
+        "opponent": "Stallions Esports",
+        "opponentAbbr": "STS",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_MJOrD0cEVl_R01-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA Clash - Omega Bracket",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2026/EMEA_League/Clash",
+        "decider": "Bind",
+        "deciderScore": "14:16",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Split",
+          "Bind"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "STS",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "14:12",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "STS",
+          "ownerKind": "opp",
+          "score": "11:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "STS",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-02-18",
+        "opponent": "VR2",
+        "opponentAbbr": "VR2",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_Ycm3JZVr97_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 7",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp",
+          "score": "13:3",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:6",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "VR2",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-15",
+        "opponent": "Twisted Saints Esports",
+        "opponentAbbr": "TSE",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_9aQbsyMniW_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 6",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Abyss",
+          "Bind"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "TSE",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "TSE",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "TSE",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-14",
+        "opponent": "FULL BOX 200",
+        "opponentAbbr": "FB2",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_ao49x61kCU_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 5",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Split",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Abyss",
+          "Pearl",
+          "Split"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "FB2",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "FB2",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "FB2",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-12",
+        "opponent": "EVOPLAY",
+        "opponentAbbr": "EVO",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_ym2bC97VxS_0004",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 4",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Pearl",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Corrode",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EVO",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-11",
+        "opponent": "Pixel Lumina",
+        "opponentAbbr": "PXL",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_V3qUu23LkA_0003",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 3",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Pearl",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-08",
+        "opponent": "Coalesce",
+        "opponentAbbr": "CLS",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_00aYQvGhgp_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 2",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Split",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Haven",
+          "Split"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-07",
+        "opponent": "Boars Gaming",
+        "opponentAbbr": "BRS",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_7Hbw26ft12_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Stage 1 - Round 1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Stage_1",
+        "decider": "Bind",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "BRS",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "BRS",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "BRS",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-02-02",
+        "opponent": "Pixel Lumina",
+        "opponentAbbr": "PXL",
+        "score": "3 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_TNu7z3dhoj_R04-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Kickoff - Playoffs",
+        "format": "Bo5",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Kickoff",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        }
+      },
+      {
+        "date": "2026-02-01",
+        "opponent": "Formulation Gaming",
+        "opponentAbbr": "FMG",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_TNu7z3dhoj_R03-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Kickoff - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Kickoff",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Split",
+          "type": "pick",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Pearl",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "FMG",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-01-31",
+        "opponent": "MIR",
+        "opponentAbbr": "MIR",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_TNu7z3dhoj_R02-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Kickoff - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Kickoff",
+        "decider": "Abyss",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-01-29",
+        "opponent": "Coalesce",
+        "opponentAbbr": "CLS",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_TNu7z3dhoj_R01-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCL N//E: Kickoff - Playoffs",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Breeze",
+          "Corrode",
+          "Haven",
+          "Pearl",
+          "Split"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCL/2026/NORTH_EAST/Kickoff",
+        "decider": "Corrode",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Abyss"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Pearl",
+          "type": "ban",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Breeze",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp",
+          "score": "",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "CLS",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Split",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
       }
     ]
   },
@@ -1483,6 +5524,12 @@ const vetoHistoryData = {
         "deciderScore": "9:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Haven",
+          "Ascent"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -1528,7 +5575,7 @@ const vetoHistoryData = {
       },
       {
         "date": "2026-07-08",
-        "opponent": "La Masia (page does not exist)",
+        "opponent": "La Masia",
         "opponentAbbr": "MSA",
         "score": "2 - 1",
         "source": "https://liquipedia.net/valorant/Match:ID_Z24uvkwxdL_0004",
@@ -1550,6 +5597,12 @@ const vetoHistoryData = {
         "deciderScore": "13:6",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Lotus",
+          "Ascent"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Split",
           "type": "ban",
@@ -1617,6 +5670,12 @@ const vetoHistoryData = {
         "deciderScore": "4:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Lotus",
+          "Haven"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -1684,6 +5743,12 @@ const vetoHistoryData = {
         "deciderScore": "12:14",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Haven",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Fracture",
           "type": "ban",
@@ -1751,6 +5816,12 @@ const vetoHistoryData = {
         "deciderScore": "3:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Fracture",
+          "Lotus",
+          "Split"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -1818,6 +5889,12 @@ const vetoHistoryData = {
         "deciderScore": "14:12",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Ascent",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -1885,6 +5962,12 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Ascent",
+          "Split",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -1958,6 +6041,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Haven"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2025,6 +6113,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2092,6 +6185,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Fracture"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2159,6 +6257,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Pearl"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2226,6 +6329,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Haven"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2293,6 +6401,13 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Fracture",
+          "Bind",
+          "Split"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Haven",
           "type": "ban",
@@ -2366,6 +6481,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Split"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2433,6 +6553,12 @@ const vetoHistoryData = {
         "deciderScore": "13:3",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Fracture",
+          "Bind"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2500,6 +6626,12 @@ const vetoHistoryData = {
         "deciderScore": "13:11",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Haven",
+          "Split"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Bind",
           "type": "ban",
@@ -2567,6 +6699,12 @@ const vetoHistoryData = {
         "deciderScore": "3:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Split",
+          "Fracture"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2634,6 +6772,12 @@ const vetoHistoryData = {
         "deciderScore": "9:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Fracture",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Bind",
           "type": "ban",
@@ -2701,6 +6845,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Lotus"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -2768,6 +6917,14 @@ const vetoHistoryData = {
         "deciderScore": "4:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Abyss",
+          "Haven",
+          "Split",
+          "Corrode",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -2841,6 +6998,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Abyss"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Corrode",
           "type": "ban",
@@ -2908,6 +7070,12 @@ const vetoHistoryData = {
         "deciderScore": "13:11",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Bind",
+          "Pearl"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Abyss",
           "type": "ban",
@@ -2975,6 +7143,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Abyss",
+          "Haven"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Corrode",
           "type": "ban",
@@ -3042,6 +7215,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Split",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Abyss",
           "type": "ban",
@@ -3109,6 +7287,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Bind"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3176,6 +7359,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -3243,6 +7431,12 @@ const vetoHistoryData = {
         "deciderScore": "11:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Haven",
+          "Split"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3310,6 +7504,12 @@ const vetoHistoryData = {
         "deciderScore": "13:4",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Haven",
+          "Corrode"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -3377,6 +7577,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3444,6 +7649,12 @@ const vetoHistoryData = {
         "deciderScore": "14:12",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Split",
+          "Haven"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3511,6 +7722,12 @@ const vetoHistoryData = {
         "deciderScore": "13:10",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Split",
+          "Bind"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3578,6 +7795,12 @@ const vetoHistoryData = {
         "deciderScore": "13:9",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Bind",
+          "Haven"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Breeze",
           "type": "ban",
@@ -3645,6 +7868,12 @@ const vetoHistoryData = {
         "deciderScore": "9:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Haven",
+          "Abyss"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -3712,6 +7941,12 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Haven",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Bind",
           "type": "ban",
@@ -3785,6 +8020,14 @@ const vetoHistoryData = {
         "deciderScore": "13:10",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Pearl",
+          "Split",
+          "Corrode",
+          "Haven",
+          "Breeze"
+        ],
+        "deciderPlayed": true,
         "ban1": {
           "map": "Bind",
           "type": "ban",
@@ -3858,6 +8101,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Breeze"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Abyss",
           "type": "ban",
@@ -3925,6 +8173,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Haven"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Split",
           "type": "ban",
@@ -3992,6 +8245,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Abyss"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Pearl",
           "type": "ban",
@@ -4059,6 +8317,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Bind"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Split",
           "type": "ban",
@@ -4126,6 +8389,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Bind",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Split",
           "type": "ban",
@@ -4193,6 +8461,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Bind"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Corrode",
           "type": "ban",
@@ -4260,6 +8533,11 @@ const vetoHistoryData = {
         "deciderScore": "",
         "deciderLabel": "REMAINING",
         "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Bind"
+        ],
+        "deciderPlayed": false,
         "ban1": {
           "map": "Pearl",
           "type": "ban",

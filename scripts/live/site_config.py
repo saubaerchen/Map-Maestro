@@ -83,7 +83,12 @@ TEAMS = {
                     "roster": ["BULD", "Filu", "Flickless", "kamyk", "waddle"]},
     "mandatory":   {"prefix": "mdr", "tag": "MDR", "name": "Mandatory",
                     "roster": ["Veqaj", "starxo", "runneR", "Kicks", "MiniBoo"]},
-    "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports", "roster": []},
+    "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports", "roster": [],
+                    # Veto view: every 2026 veto from Liquipedia (+ tournament map pool), requested 2026-11-26.
+                    # Refresh: python scripts/fetch_liquipedia_team_vetoes.py --page Enterprise_Esports --year 2026
+                    #          --tag EP --out data/staging/ep_vetoes_2026
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "ep_vetoes_2026.json"),
+                    "veto_subtitle": "All 2026 official vetoes (Liquipedia), map pool per tournament"},
     # --- Special data sets (bypass the baseline-core + 2026-09-01 rules on purpose) ---
     # UCAM (OLD): UCAM's tournament-account games 2026-05-01..2026-07-09 (old roster), any roster,
     # from scripts/live/fetch_ucam_esports.py. Kickoff map pool only (Bind/Haven/Lotus). Requested by Vincent 2026-11-24.
