@@ -294,6 +294,18 @@
       ],
       "games": [
         {
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "299bc066-641c-405a-8cbf-61cca829bc92",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        },
+        {
           "date": "2026-11-10",
           "opponent": "F9",
           "matchId": "da067b6f-b6db-4a1e-87df-bb4a22af9b27",
@@ -377,6 +389,36 @@
     }
   ],
   "Haven": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Sova",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "players": [
+            "MPMT Michel",
+            "MPMT adore",
+            "MPMT ORI4K",
+            "MPMT shawN",
+            "MPMT moner"
+          ]
+        }
+      ]
+    },
     {
       "agents": [
         "Neon",

@@ -55,7 +55,11 @@ def main():
         for mid, meta in reg["teams"].get(pre, {}).get("official", {}).items():
             if not passes(info, meta["gameId"], meta.get("date")):
                 continue
-            d = match_detail(mid)
+            route = meta.get("route", "eu")
+            d = match_detail(mid, route)
+            if route == "esports":
+                # tournament lobbies list referees/observers (teamId Neutral); keep only the 10 players
+                d["players"] = [p for p in d["players"] if not p.get("isObserver") and p.get("teamId") in ("Red", "Blue")]
             res = try_match(d, vm)
             if not res:
                 problems.append(mid)

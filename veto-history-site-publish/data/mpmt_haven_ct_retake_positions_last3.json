@@ -3,6 +3,12 @@
   "side": "ct",
   "selectedMaps": [
     {
+      "date": "2026-11-25",
+      "opponent": "EP",
+      "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+      "score": "8-13"
+    },
+    {
       "date": "2026-11-10",
       "opponent": "F9",
       "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785",
@@ -13,19 +19,121 @@
       "opponent": "CMN",
       "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
       "score": "13-5"
-    },
-    {
-      "date": "2026-11-07",
-      "opponent": "GRG",
-      "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-      "score": "13-2"
     }
   ],
   "sites": {
     "A": {
-      "roundCount": 4,
-      "pointCount": 7,
+      "roundCount": 6,
+      "pointCount": 16,
       "points": [
+        {
+          "site": "A",
+          "player": "ORI4K",
+          "normX": 29.56,
+          "normY": 33.9578,
+          "roundNum": 12,
+          "plantRoundTimeMs": 54200,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "shawN",
+          "normX": 65.3575,
+          "normY": 49.3553,
+          "roundNum": 12,
+          "plantRoundTimeMs": 54200,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "adore",
+          "normX": 65.8375,
+          "normY": 48.5153,
+          "roundNum": 12,
+          "plantRoundTimeMs": 54200,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Michel",
+          "normX": 46.4425,
+          "normY": 49.7303,
+          "roundNum": 12,
+          "plantRoundTimeMs": 54200,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "moner",
+          "normX": 57.1675,
+          "normY": 63.0728,
+          "roundNum": 12,
+          "plantRoundTimeMs": 54200,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "ORI4K",
+          "normX": 29.875,
+          "normY": 16.4753,
+          "roundNum": 18,
+          "plantRoundTimeMs": 34858,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "adore",
+          "normX": 38.2525,
+          "normY": 37.1828,
+          "roundNum": 18,
+          "plantRoundTimeMs": 34858,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Michel",
+          "normX": 62.8675,
+          "normY": 52.9103,
+          "roundNum": 18,
+          "plantRoundTimeMs": 34858,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "moner",
+          "normX": 25.045,
+          "normY": 63.9128,
+          "roundNum": 18,
+          "plantRoundTimeMs": 34858,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
         {
           "site": "A",
           "player": "moner",
@@ -113,8 +221,8 @@
       ]
     },
     "B": {
-      "roundCount": 10,
-      "pointCount": 37,
+      "roundCount": 7,
+      "pointCount": 24,
       "points": [
         {
           "site": "B",
@@ -403,169 +511,253 @@
           "opponent": "CMN",
           "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
           "score": "13-5"
-        },
-        {
-          "site": "B",
-          "player": "ORI4K",
-          "normX": 29.1025,
-          "normY": 26.8703,
-          "roundNum": 4,
-          "plantRoundTimeMs": 18823,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "Michel",
-          "normX": 64.78,
-          "normY": 54.1253,
-          "roundNum": 4,
-          "plantRoundTimeMs": 18823,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "adore",
-          "normX": 56.155,
-          "normY": 60.1328,
-          "roundNum": 4,
-          "plantRoundTimeMs": 18823,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "moner",
-          "normX": 24.0775,
-          "normY": 61.7603,
-          "roundNum": 4,
-          "plantRoundTimeMs": 18823,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "shawN",
-          "normX": 58.7275,
-          "normY": 57.8528,
-          "roundNum": 4,
-          "plantRoundTimeMs": 18823,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "ORI4K",
-          "normX": 33.85,
-          "normY": 32.0753,
-          "roundNum": 6,
-          "plantRoundTimeMs": 98169,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "Michel",
-          "normX": 56.4775,
-          "normY": 49.4453,
-          "roundNum": 6,
-          "plantRoundTimeMs": 98169,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "moner",
-          "normX": 62.2825,
-          "normY": 32.1503,
-          "roundNum": 6,
-          "plantRoundTimeMs": 98169,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "shawN",
-          "normX": 24.325,
-          "normY": 22.2203,
-          "roundNum": 6,
-          "plantRoundTimeMs": 98169,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "ORI4K",
-          "normX": 27.9175,
-          "normY": 68.2778,
-          "roundNum": 11,
-          "plantRoundTimeMs": 57959,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "adore",
-          "normX": 60.3625,
-          "normY": 33.1178,
-          "roundNum": 11,
-          "plantRoundTimeMs": 57959,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "moner",
-          "normX": 25.5025,
-          "normY": 64.1903,
-          "roundNum": 11,
-          "plantRoundTimeMs": 57959,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "B",
-          "player": "shawN",
-          "normX": 37.6975,
-          "normY": 84.7853,
-          "roundNum": 11,
-          "plantRoundTimeMs": 57959,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
         }
       ]
     },
     "C": {
-      "roundCount": 11,
-      "pointCount": 31,
+      "roundCount": 12,
+      "pointCount": 39,
       "points": [
+        {
+          "site": "C",
+          "player": "ORI4K",
+          "normX": 23.5225,
+          "normY": 33.9278,
+          "roundNum": 13,
+          "plantRoundTimeMs": 18972,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "shawN",
+          "normX": 35.6725,
+          "normY": 67.3028,
+          "roundNum": 13,
+          "plantRoundTimeMs": 18972,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "adore",
+          "normX": 33.9775,
+          "normY": 59.7278,
+          "roundNum": 13,
+          "plantRoundTimeMs": 18972,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "Michel",
+          "normX": 27.9175,
+          "normY": 74.9528,
+          "roundNum": 13,
+          "plantRoundTimeMs": 18972,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "moner",
+          "normX": 42.4225,
+          "normY": 60.1253,
+          "roundNum": 13,
+          "plantRoundTimeMs": 18972,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "ORI4K",
+          "normX": 28.81,
+          "normY": 70.8128,
+          "roundNum": 14,
+          "plantRoundTimeMs": 35930,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "adore",
+          "normX": 30.8725,
+          "normY": 73.1378,
+          "roundNum": 14,
+          "plantRoundTimeMs": 35930,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "moner",
+          "normX": 50.71,
+          "normY": 65.9828,
+          "roundNum": 14,
+          "plantRoundTimeMs": 35930,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "ORI4K",
+          "normX": 76.8175,
+          "normY": 68.4053,
+          "roundNum": 15,
+          "plantRoundTimeMs": 91552,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "adore",
+          "normX": 24.58,
+          "normY": 63.4253,
+          "roundNum": 15,
+          "plantRoundTimeMs": 91552,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "moner",
+          "normX": 50.5225,
+          "normY": 82.6628,
+          "roundNum": 15,
+          "plantRoundTimeMs": 91552,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "ORI4K",
+          "normX": 62.185,
+          "normY": 32.6003,
+          "roundNum": 16,
+          "plantRoundTimeMs": 88878,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "shawN",
+          "normX": 42.1375,
+          "normY": 55.4678,
+          "roundNum": 16,
+          "plantRoundTimeMs": 88878,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "adore",
+          "normX": 58.5925,
+          "normY": 79.0253,
+          "roundNum": 16,
+          "plantRoundTimeMs": 88878,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "adore",
+          "normX": 31.69,
+          "normY": 65.1278,
+          "roundNum": 17,
+          "plantRoundTimeMs": 25492,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "Michel",
+          "normX": 34.6375,
+          "normY": 66.2753,
+          "roundNum": 17,
+          "plantRoundTimeMs": 25492,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "moner",
+          "normX": 42.43,
+          "normY": 65.2028,
+          "roundNum": 17,
+          "plantRoundTimeMs": 25492,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "ORI4K",
+          "normX": 24.5125,
+          "normY": 59.9078,
+          "roundNum": 20,
+          "plantRoundTimeMs": 61245,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "Michel",
+          "normX": 26.53,
+          "normY": 31.6178,
+          "roundNum": 20,
+          "plantRoundTimeMs": 61245,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
+        {
+          "site": "C",
+          "player": "moner",
+          "normX": 22.81,
+          "normY": 60.6428,
+          "roundNum": 20,
+          "plantRoundTimeMs": 61245,
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "8-13"
+        },
         {
           "site": "C",
           "player": "ORI4K",
@@ -793,157 +985,158 @@
           "opponent": "CMN",
           "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
           "score": "13-5"
-        },
-        {
-          "site": "C",
-          "player": "ORI4K",
-          "normX": 18.1375,
-          "normY": 47.0303,
-          "roundNum": 0,
-          "plantRoundTimeMs": 22897,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "adore",
-          "normX": 43.915,
-          "normY": 49.5428,
-          "roundNum": 0,
-          "plantRoundTimeMs": 22897,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "ORI4K",
-          "normX": 54.13,
-          "normY": 53.6978,
-          "roundNum": 1,
-          "plantRoundTimeMs": 58294,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "shawN",
-          "normX": 75.625,
-          "normY": 71.0228,
-          "roundNum": 1,
-          "plantRoundTimeMs": 58294,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "ORI4K",
-          "normX": 25.7875,
-          "normY": 65.7503,
-          "roundNum": 5,
-          "plantRoundTimeMs": 37780,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "moner",
-          "normX": 24.7,
-          "normY": 63.5903,
-          "roundNum": 5,
-          "plantRoundTimeMs": 37780,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "ORI4K",
-          "normX": 25.6225,
-          "normY": 65.5328,
-          "roundNum": 7,
-          "plantRoundTimeMs": 23311,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "adore",
-          "normX": 43.03,
-          "normY": 67.4303,
-          "roundNum": 7,
-          "plantRoundTimeMs": 23311,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "moner",
-          "normX": 36.9475,
-          "normY": 63.1178,
-          "roundNum": 7,
-          "plantRoundTimeMs": 23311,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "ORI4K",
-          "normX": 51.0325,
-          "normY": 37.4078,
-          "roundNum": 10,
-          "plantRoundTimeMs": 45478,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "Michel",
-          "normX": 24.9025,
-          "normY": 62.9153,
-          "roundNum": 10,
-          "plantRoundTimeMs": 45478,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
-        },
-        {
-          "site": "C",
-          "player": "adore",
-          "normX": 22.24,
-          "normY": 55.4903,
-          "roundNum": 10,
-          "plantRoundTimeMs": 45478,
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "score": "13-2"
         }
       ]
     }
   },
   "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 19892,
+              "players": [
+                {
+                  "player": "ORI4K",
+                  "normX": 29.83,
+                  "normY": 16.3628
+                },
+                {
+                  "player": "shawN",
+                  "normX": 58.4275,
+                  "normY": 23.7878
+                },
+                {
+                  "player": "adore",
+                  "normX": 56.545,
+                  "normY": 18.8228
+                },
+                {
+                  "player": "Michel",
+                  "normX": 30.19,
+                  "normY": 31.0628
+                },
+                {
+                  "player": "moner",
+                  "normX": 60.4225,
+                  "normY": 36.5228
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "score": "8-13"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13142,
+              "players": [
+                {
+                  "player": "shawN",
+                  "normX": 24.415,
+                  "normY": 37.0328
+                },
+                {
+                  "player": "moner",
+                  "normX": 19.9975,
+                  "normY": 34.2578
+                }
+              ]
+            }
+          ],
+          "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785",
+          "date": "2026-11-10",
+          "opponent": "F9",
+          "score": "5-13"
+        },
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 17121,
+              "players": [
+                {
+                  "player": "moner",
+                  "normX": 35.365,
+                  "normY": 24.3953
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17752,
+              "players": [
+                {
+                  "player": "moner",
+                  "normX": 36.835,
+                  "normY": 25.8653
+                }
+              ]
+            }
+          ],
+          "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
+          "date": "2026-11-08",
+          "opponent": "CMN",
+          "score": "13-5"
+        }
+      ]
+    },
     "C": {
       "rounds": [
+        {
+          "roundNum": 20,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11368,
+              "players": [
+                {
+                  "player": "ORI4K",
+                  "normX": 30.865,
+                  "normY": 71.5403
+                },
+                {
+                  "player": "Michel",
+                  "normX": 34.51,
+                  "normY": 81.5303
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15236,
+              "players": [
+                {
+                  "player": "ORI4K",
+                  "normX": 36.91,
+                  "normY": 73.2728
+                },
+                {
+                  "player": "Michel",
+                  "normX": 39.7825,
+                  "normY": 76.0403
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15742,
+              "players": [
+                {
+                  "player": "ORI4K",
+                  "normX": 36.9025,
+                  "normY": 73.3253
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "EP",
+          "score": "8-13"
+        },
         {
           "roundNum": 1,
           "snapshots": [
@@ -1055,104 +1248,6 @@
           "date": "2026-11-08",
           "opponent": "CMN",
           "score": "13-5"
-        },
-        {
-          "roundNum": 7,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 17900,
-              "players": [
-                {
-                  "player": "ORI4K",
-                  "normX": 43.045,
-                  "normY": 83.5478
-                },
-                {
-                  "player": "adore",
-                  "normX": 50.5075,
-                  "normY": 81.2003
-                },
-                {
-                  "player": "moner",
-                  "normX": 41.455,
-                  "normY": 82.7678
-                }
-              ]
-            },
-            {
-              "timeSincePlantMs": 18884,
-              "players": [
-                {
-                  "player": "ORI4K",
-                  "normX": 43.1725,
-                  "normY": 82.4903
-                },
-                {
-                  "player": "adore",
-                  "normX": 47.2675,
-                  "normY": 80.5928
-                },
-                {
-                  "player": "moner",
-                  "normX": 41.2225,
-                  "normY": 82.3253
-                }
-              ]
-            },
-            {
-              "timeSincePlantMs": 19452,
-              "players": [
-                {
-                  "player": "adore",
-                  "normX": 48.0925,
-                  "normY": 81.0653
-                },
-                {
-                  "player": "moner",
-                  "normX": 41.11,
-                  "normY": 83.1953
-                }
-              ]
-            },
-            {
-              "timeSincePlantMs": 19452,
-              "players": [
-                {
-                  "player": "adore",
-                  "normX": 48.1375,
-                  "normY": 81.0953
-                },
-                {
-                  "player": "moner",
-                  "normX": 41.11,
-                  "normY": 83.1953
-                }
-              ]
-            }
-          ],
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "score": "13-2"
-        },
-        {
-          "roundNum": 10,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 17708,
-              "players": [
-                {
-                  "player": "adore",
-                  "normX": 32.9425,
-                  "normY": 65.8628
-                }
-              ]
-            }
-          ],
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "score": "13-2"
         }
       ]
     },
@@ -1222,161 +1317,6 @@
                   "player": "moner",
                   "normX": 40.3825,
                   "normY": 37.1078
-                }
-              ]
-            }
-          ],
-          "matchId": "d4551e9b-2b5b-49b4-9c69-e98798f596d7",
-          "date": "2026-11-08",
-          "opponent": "CMN",
-          "score": "13-5"
-        },
-        {
-          "roundNum": 4,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 12770,
-              "players": [
-                {
-                  "player": "ORI4K",
-                  "normX": 30.16,
-                  "normY": 33.7178
-                },
-                {
-                  "player": "Michel",
-                  "normX": 48.7375,
-                  "normY": 53.9528
-                },
-                {
-                  "player": "adore",
-                  "normX": 53.365,
-                  "normY": 53.8253
-                },
-                {
-                  "player": "moner",
-                  "normX": 26.695,
-                  "normY": 66.1853
-                },
-                {
-                  "player": "shawN",
-                  "normX": 55.7875,
-                  "normY": 49.5353
-                }
-              ]
-            },
-            {
-              "timeSincePlantMs": 13740,
-              "players": [
-                {
-                  "player": "Michel",
-                  "normX": 48.6325,
-                  "normY": 52.1228
-                },
-                {
-                  "player": "adore",
-                  "normX": 50.7925,
-                  "normY": 55.6028
-                },
-                {
-                  "player": "moner",
-                  "normX": 28.8625,
-                  "normY": 66.8153
-                },
-                {
-                  "player": "shawN",
-                  "normX": 52.99,
-                  "normY": 47.9153
-                }
-              ]
-            }
-          ],
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "score": "13-2"
-        },
-        {
-          "roundNum": 11,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 15456,
-              "players": [
-                {
-                  "player": "ORI4K",
-                  "normX": 28.7725,
-                  "normY": 66.9278
-                },
-                {
-                  "player": "adore",
-                  "normX": 69.595,
-                  "normY": 43.8053
-                },
-                {
-                  "player": "moner",
-                  "normX": 28.6975,
-                  "normY": 65.1953
-                },
-                {
-                  "player": "shawN",
-                  "normX": 51.6325,
-                  "normY": 65.1953
-                }
-              ]
-            }
-          ],
-          "matchId": "563ebe65-0eab-4a67-9eb4-04e25a2bcd07",
-          "date": "2026-11-07",
-          "opponent": "GRG",
-          "score": "13-2"
-        }
-      ]
-    },
-    "A": {
-      "rounds": [
-        {
-          "roundNum": 8,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 13142,
-              "players": [
-                {
-                  "player": "shawN",
-                  "normX": 24.415,
-                  "normY": 37.0328
-                },
-                {
-                  "player": "moner",
-                  "normX": 19.9975,
-                  "normY": 34.2578
-                }
-              ]
-            }
-          ],
-          "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785",
-          "date": "2026-11-10",
-          "opponent": "F9",
-          "score": "5-13"
-        },
-        {
-          "roundNum": 10,
-          "snapshots": [
-            {
-              "timeSincePlantMs": 17121,
-              "players": [
-                {
-                  "player": "moner",
-                  "normX": 35.365,
-                  "normY": 24.3953
-                }
-              ]
-            },
-            {
-              "timeSincePlantMs": 17752,
-              "players": [
-                {
-                  "player": "moner",
-                  "normX": 36.835,
-                  "normY": 25.8653
                 }
               ]
             }

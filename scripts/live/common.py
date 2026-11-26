@@ -33,29 +33,50 @@ def _api_key():
 _HEADERS = None
 
 
+RATE_LIMIT_BUDGET = 30 * 60   # total seconds one call may spend waiting on 429s before failing loudly
+_last_call = 0.0
+
+
+class ApiUnavailable(RuntimeError):
+    """The API kept refusing (429 / network) past the wait budget. Never treat this as 'not found'."""
+
+
 def api_get(path):
-    """GET a Valolytics path. Returns parsed JSON, or None on 404/400. Retries on 429."""
-    global _HEADERS
+    """GET a Valolytics path. Returns parsed JSON, or None only on a real 400/404.
+
+    Gentle with the shared rate limit (100 requests/window per key): calls are spaced API_DELAY apart,
+    a 429 waits exactly its Retry-After (+2 s), and after RATE_LIMIT_BUDGET seconds of waiting the call
+    raises ApiUnavailable instead of returning None.
+    """
+    global _HEADERS, _last_call
     if _HEADERS is None:
         _HEADERS = {"x-api-key": _api_key(), "Accept": "application/json", "User-Agent": "curl/8.0.0"}
-    for attempt in range(4):
+    waited = 0.0
+    while True:
+        gap = API_DELAY - (time.time() - _last_call)
+        if gap > 0:
+            time.sleep(gap)
+        _last_call = time.time()
         try:
             req = urllib.request.Request(API_BASE + path, headers=_HEADERS)
             with urllib.request.urlopen(req, timeout=60) as r:
-                data = json.loads(r.read())
-            time.sleep(API_DELAY)
-            return data
+                return json.loads(r.read())
         except urllib.error.HTTPError as e:
-            time.sleep(API_DELAY)
-            if e.code == 429:
-                time.sleep(60)
-                continue
             if e.code in (400, 404):
                 return None
-            raise
+            if e.code != 429:
+                raise
+            try:
+                wait = float(e.headers.get("Retry-After") or 20) + 2
+            except ValueError:
+                wait = 22
         except urllib.error.URLError:
-            time.sleep(10)
-    return None
+            wait = 10
+        if waited + wait > RATE_LIMIT_BUDGET:
+            raise ApiUnavailable(f"{path}: still rate-limited after {waited:.0f}s of waiting")
+        print(f"  [api] rate-limited, waiting {wait:.0f}s (waited {waited:.0f}s so far)", flush=True)
+        time.sleep(wait)
+        waited += wait
 
 
 def resolve_account(riot_id):
@@ -67,17 +88,34 @@ def resolve_account(riot_id):
     )
 
 
-def match_history(puuid):
-    data = api_get("/api/riot/match/v1/matchlists/by-puuid/eu/" + puuid)
+# Two account routes. 'eu' = players' private main accounts (Kickoff Open Qualifier was played on these).
+# 'esports' = Riot tournament accounts ('{TAG} {name}#epval'), handed out for later qualifier stages.
+# PUUIDs differ between the routes; a match ID only resolves on the route it was played on.
+ROUTES = ("eu", "esports")
+ESPORTS_CACHE_DIR = os.path.join(ROOT, "data", "cache", "esports_matches")
+os.makedirs(ESPORTS_CACHE_DIR, exist_ok=True)
+
+
+def resolve_tournament_account(riot_id):
+    """'TAG Name#epval' -> account dict via the esports (tournament-account) route, or None."""
+    name, tag = riot_id.rsplit("#", 1)
+    return api_get(
+        "/api/riot/account/v1/accounts/by-riot-id/esports/"
+        + urllib.parse.quote(name) + "/" + urllib.parse.quote(tag)
+    )
+
+
+def match_history(puuid, route="eu"):
+    data = api_get(f"/api/riot/match/v1/matchlists/by-puuid/{route}/" + puuid)
     return (data or {}).get("history", [])
 
 
-def match_detail(match_id):
-    """Full match detail, cached on disk under data/cache/matches/."""
-    path = os.path.join(CACHE_DIR, match_id + ".json")
+def match_detail(match_id, route="eu"):
+    """Full match detail, cached on disk (data/cache/matches/ or data/cache/esports_matches/)."""
+    path = os.path.join(ESPORTS_CACHE_DIR if route == "esports" else CACHE_DIR, match_id + ".json")
     if os.path.exists(path):
         return json.load(open(path, encoding="utf-8"))
-    data = api_get("/api/matches/eu/" + match_id)
+    data = api_get(f"/api/matches/{route}/" + match_id)
     if data:
         json.dump(data, open(path, "w", encoding="utf-8"))
     return data

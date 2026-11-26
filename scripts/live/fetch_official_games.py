@@ -35,7 +35,7 @@ def main():
     info = core_info(a.prefix)
     rows, excluded = [], []
     for mid, meta in official.items():
-        d = match_detail(mid)
+        d = match_detail(mid, meta.get("route", "eu"))
         if not d:
             continue
         if not passes(info, meta["gameId"], meta.get("date")):

@@ -1,5 +1,9 @@
 """Steps 2-5: seed account -> customs -> match against VLR -> registry.
 
+Two passes: private main accounts (route 'eu', customs) first; then, if VLR maps are still missing,
+Riot tournament accounts (route 'esports', '{TAG} {name}#epval') used in later qualifier stages.
+Registry entries record the route ('official'[matchId].route, accounts[puuid].route).
+
 Usage:
   python scripts/live/discover_accounts.py --prefix sge [--seed "Name#TAG"] [--since 2026-09-01]
 
@@ -17,7 +21,7 @@ from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (ROOT, VLR_DIR, import_jsonl_to_cache, load_registry, match_detail,  # noqa: E402
-                    match_history, norm, resolve_account, save_registry)
+                    match_history, norm, resolve_account, resolve_tournament_account, save_registry)
 
 DAY_MS = 86400000
 
@@ -115,25 +119,41 @@ def main():
     for pu, acc in reg["accounts"].items():
         if own_tag and acc.get("team") == f"vlr:{own_tag}" and acc.get("status") == "confirmed":
             acc["team"] = a.prefix
-        if acc.get("team") == a.prefix and acc.get("status") == "confirmed":
+        if acc.get("team") == a.prefix and acc.get("status") == "confirmed" and acc.get("route", "eu") == "eu":
             queue.append(pu)
 
     matched_games = {}
-    while queue:
-        pu = queue.pop(0)
-        if pu in scanned:
-            continue
-        scanned.add(pu)
-        hist = match_history(pu)
-        customs = [h["matchId"] for h in hist if h.get("queueId") == "" and h["gameStartTimeMillis"] >= since_ms]
-        who = reg["accounts"].get(pu, {}).get("riotId", pu[:10])
-        print(f"scan {who}: {len(customs)} customs since {a.since}")
-        for mid in customs:
+
+    def missing_maps():
+        found = {v["gameId"] for v in team["official"].values()}
+        return [vm for vm in vmaps if vm["gameId"] not in found]
+
+    def scan(route, queue):
+        # 'eu': private main accounts, official games are customs (queueId '').
+        # 'esports': tournament accounts, which only play tournament games — every game is a candidate.
+        while queue:
+            pu = queue.pop(0)
+            if pu in scanned:
+                continue
+            scanned.add(pu)
+            hist = match_history(pu, route)
+            games = [h["matchId"] for h in hist if h["gameStartTimeMillis"] >= since_ms
+                     and (route == "esports" or h.get("queueId") == "")]
+            who = reg["accounts"].get(pu, {}).get("riotId", pu[:10])
+            print(f"scan [{route}] {who}: {len(games)} {'games' if route == 'esports' else 'customs'} since {a.since}")
+            scan_games(route, games, queue)
+            save_registry(reg)
+
+    def scan_games(route, games, queue):
+        for mid in games:
             if mid in matched_games:
                 continue
-            d = match_detail(mid)
+            d = match_detail(mid, route)
             if not d:
                 continue
+            if route == "esports":
+                # tournament lobbies list referees/observers (teamId Neutral); keep only the 10 players
+                d = dict(d, players=[p for p in d["players"] if not p.get("isObserver") and p.get("teamId") in ("Red", "Blue")])
             res = try_match(d, vmaps)
             if not res:
                 continue
@@ -151,6 +171,7 @@ def main():
                     if acc["riotId"] not in acc["seenAs"]:
                         acc["seenAs"].append(acc["riotId"])
                     acc["vlrTag"] = tag
+                    acc["route"] = route
                     if pro:
                         acc["proName"] = pro
                     acc["status"] = "confirmed"
@@ -165,11 +186,31 @@ def main():
                         queue.append(puuid)
             if any(tag == own_tag for tag, _ in assign.values()):
                 team["official"][mid] = {"vlr": vm["url"], "gameId": vm["gameId"], "map": vm["map"],
-                                         "event": vm["event"], "teams": vm["teams"],
+                                         "event": vm["event"], "teams": vm["teams"], "route": route,
                                          "date": datetime.datetime.fromtimestamp(d["matchInfo"]["gameStartMillis"] / 1000, datetime.UTC).strftime("%Y-%m-%d")}
-        save_registry(reg)
 
-    found = {v["gameId"] for v in team["official"].values()}
+    scan("eu", queue)
+
+    # Tournament accounts: later qualifier stages are played on Riot tournament accounts, not main accounts.
+    # Seeds = this team's confirmed tournament accounts (also ones learned as opponents in other teams' games);
+    # if there are none, try '{TAG} {VLR name}#epval' for the names on the team's VLR scoreboards.
+    if missing_maps():
+        tq = [pu for pu, acc in reg["accounts"].items()
+              if acc.get("team") == a.prefix and acc.get("status") == "confirmed" and acc.get("route") == "esports"]
+        if not tq and own_tag:
+            names = []
+            for vm in sorted(missing_maps(), key=lambda v: -v["ts"]):
+                for r in vm["groups"].get(own_tag, []):
+                    if r["name"] not in names:
+                        names.append(r["name"])
+            for n in names:
+                acc = resolve_tournament_account(f"{own_tag} {n}#epval")
+                print(f"tournament account {own_tag} {n}#epval:", "found" if acc else "not found")
+                if acc:
+                    tq.append(acc["puuid"])   # names that don't follow the pattern are found through the games
+        scan("esports", tq)
+
+    found ={v["gameId"] for v in team["official"].values()}
     print(f"\nofficial maps matched: {len(found)} / {len(vmaps)}")
     for vm in vmaps:
         if vm["gameId"] not in found:
