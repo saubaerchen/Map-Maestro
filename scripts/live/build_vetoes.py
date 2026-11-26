@@ -175,6 +175,56 @@ def build_team_liquipedia(cfg):
             "rows": rows}, skipped
 
 
+MANUAL_VETOES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual_vetoes.json")
+
+
+def _flip(r, src_cfg):
+    """The same manual veto seen from the opponent's side (for opponents that are site teams)."""
+    flip = {"team": "opp", "opp": "team"}
+    a, b = r["score"].split(" - ")
+    return {**r, "opponent": src_cfg["name"], "opponentAbbr": src_cfg["tag"], "score": f"{b} - {a}",
+            "steps": [[flip[w], k, m] for w, k, m in r["steps"]],
+            "scores": {m: ":".join(s.split(":")[::-1]) for m, s in r["scores"].items()}}
+
+
+def manual_rows(key, cfg):
+    """Hand-entered vetoes (manual_vetoes.json) for matches VLR does not list.
+
+    A team also gets every manual veto entered under another team whose opponentAbbr is its tag (flipped).
+    """
+    if not os.path.exists(MANUAL_VETOES):
+        return []
+    src = json.load(open(MANUAL_VETOES, encoding="utf-8"))
+    entries = list(src.get(key, []))
+    for other, lst in src.items():
+        if other != key and other in TEAMS:
+            entries += [_flip(r, TEAMS[other]) for r in lst if r["opponentAbbr"] == cfg["tag"]]
+    tag, rows = cfg["tag"], []
+    for r in entries:
+        row = {"date": r["date"], "opponent": r["opponent"], "opponentAbbr": r["opponentAbbr"],
+               "score": r["score"], "source": r.get("source", ""), "sourceLabel": r.get("sourceLabel", "screenshot"),
+               "event": r.get("event", ""), "decider": r["decider"],
+               "deciderScore": r["scores"].get(r["decider"], ""), "deciderLabel": "DECIDER",
+               "deciderTeamStartSide": ""}
+        for slot, (who, kind, mp) in zip(SLOTS, r["steps"]):
+            is_team = who == "team"
+            entry = {"map": mp, "type": kind, "ownerLabel": tag if is_team else r["opponentAbbr"],
+                     "ownerKind": "team" if is_team else "opp"}
+            if kind == "pick":
+                entry.update({"score": r["scores"].get(mp, ""), "pickLabel": f"{tag} PICK" if is_team else "OPPONENT PICK",
+                              "teamStartSide": ""})
+            row[slot] = entry
+        rows.append(row)
+    return rows
+
+
+def merge_manual(team, extra):
+    """Add manual rows not already present (same date + opponent), newest first; stable for same-day rows."""
+    have = {(r["date"], r["opponent"].lower()) for r in team["rows"]}
+    team["rows"] += [r for r in extra if (r["date"], r["opponent"].lower()) not in have]
+    team["rows"].sort(key=lambda r: r["date"], reverse=True)
+
+
 def main():
     data = {}
     for key, cfg in TEAMS.items():
@@ -182,6 +232,7 @@ def main():
             data[key], skipped = build_team_liquipedia(cfg)
         else:
             data[key], skipped = build_team(key, cfg)
+        merge_manual(data[key], manual_rows(key, cfg))
         print(f"{key:10} vetoes: {len(data[key]['rows'])}" + (f"  skipped: {skipped}" if skipped else ""))
     open(os.path.join(PUBLISH_DIR, "data.js"), "w", encoding="utf-8").write(
         "const vetoHistoryData = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n")

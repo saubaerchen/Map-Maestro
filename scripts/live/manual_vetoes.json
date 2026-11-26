@@ -1,0 +1,23 @@
+{
+  "_comment": "Vetoes entered by hand (e.g. from bracket screenshots) for matches VLR does not list. Merged into data.js by build_vetoes.py; a VLR row with the same date + opponent wins. Steps are in veto order; scores are 'team:opponent'.",
+  "mpmt": [
+    {"date": "2026-11-25", "opponent": "Enterprise Esports", "opponentAbbr": "EP", "score": "0 - 2",
+     "steps": [["team", "ban", "Corrode"], ["opp", "ban", "Sunset"], ["team", "pick", "Haven"], ["opp", "pick", "Lotus"], ["team", "ban", "Abyss"], ["opp", "ban", "Bind"]],
+     "decider": "Summit", "scores": {"Haven": "8:13", "Lotus": "2:13"}},
+    {"date": "2026-11-10", "opponent": "F9 EICAR", "opponentAbbr": "F9", "score": "1 - 2",
+     "steps": [["team", "ban", "Corrode"], ["opp", "ban", "Abyss"], ["team", "pick", "Haven"], ["opp", "pick", "Sunset"], ["team", "ban", "Bind"], ["opp", "ban", "Summit"]],
+     "decider": "Lotus", "scores": {"Haven": "5:13", "Sunset": "13:8", "Lotus": "5:13"}},
+    {"date": "2026-11-07", "opponent": "Team George", "opponentAbbr": "TG", "score": "2 - 0",
+     "steps": [["opp", "ban", "Bind"], ["team", "ban", "Corrode"], ["opp", "pick", "Lotus"], ["team", "pick", "Haven"], ["opp", "ban", "Abyss"], ["team", "ban", "Summit"]],
+     "decider": "Sunset", "scores": {"Lotus": "13:3", "Haven": "13:2"}},
+    {"date": "2026-11-07", "opponent": "FRG", "opponentAbbr": "FRG", "score": "2 - 1",
+     "steps": [["opp", "ban", "Bind"], ["team", "ban", "Corrode"], ["opp", "pick", "Abyss"], ["team", "pick", "Sunset"], ["opp", "ban", "Summit"], ["team", "ban", "Lotus"]],
+     "decider": "Haven", "scores": {"Abyss": "13:7", "Sunset": "5:13", "Haven": "13:9"}},
+    {"date": "2026-11-06", "opponent": "CGN Esports", "opponentAbbr": "CGN", "score": "2 - 1",
+     "steps": [["opp", "ban", "Lotus"], ["team", "ban", "Corrode"], ["opp", "pick", "Summit"], ["team", "pick", "Sunset"], ["opp", "ban", "Bind"], ["team", "ban", "Abyss"]],
+     "decider": "Haven", "scores": {"Summit": "13:3", "Sunset": "4:13", "Haven": "13:4"}},
+    {"date": "2026-11-06", "opponent": "VentuCorp eSports", "opponentAbbr": "VC", "score": "2 - 0",
+     "steps": [["team", "ban", "Corrode"], ["opp", "ban", "Abyss"], ["team", "pick", "Sunset"], ["opp", "pick", "Lotus"], ["team", "ban", "Summit"], ["opp", "ban", "Bind"]],
+     "decider": "Haven", "scores": {"Sunset": "13:6", "Lotus": "13:0"}}
+  ]
+}

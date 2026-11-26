@@ -847,7 +847,63 @@ const vetoHistoryData = {
     "name": "F9 EICAR",
     "ownerLabel": "F9",
     "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
-    "rows": []
+    "rows": [
+      {
+        "date": "2026-11-10",
+        "opponent": "xXxMasterProMegaTeamxXx",
+        "opponentAbbr": "MPMT",
+        "score": "2 - 1",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Lotus",
+        "deciderScore": "13:5",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp",
+          "score": "13:5",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "8:13",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      }
+    ]
   },
   "wip": {
     "name": "WIP Esports",
@@ -872,6 +928,116 @@ const vetoHistoryData = {
     "ownerLabel": "MPMT",
     "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
     "rows": [
+      {
+        "date": "2026-11-25",
+        "opponent": "Enterprise Esports",
+        "opponentAbbr": "EP",
+        "score": "0 - 2",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Summit",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "8:13",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "opp",
+          "score": "2:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "opponent": "F9 EICAR",
+        "opponentAbbr": "F9",
+        "score": "1 - 2",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Lotus",
+        "deciderScore": "5:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "5:13",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "opp"
+        }
+      },
       {
         "date": "2026-11-08",
         "opponent": "CRIMSON Esport",
@@ -923,6 +1089,226 @@ const vetoHistoryData = {
           "map": "Sunset",
           "type": "ban",
           "ownerLabel": "CMN",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-11-07",
+        "opponent": "Team George",
+        "opponentAbbr": "TG",
+        "score": "2 - 0",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Sunset",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "TG",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "TG",
+          "ownerKind": "opp",
+          "score": "13:3",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "13:2",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "TG",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-07",
+        "opponent": "FRG",
+        "opponentAbbr": "FRG",
+        "score": "2 - 1",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Haven",
+        "deciderScore": "13:9",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "FRG",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "FRG",
+          "ownerKind": "opp",
+          "score": "13:7",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "5:13",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "FRG",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "opponent": "CGN Esports",
+        "opponentAbbr": "CGN",
+        "score": "2 - 1",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Haven",
+        "deciderScore": "13:4",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "CGN",
+          "ownerKind": "opp",
+          "score": "13:3",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "4:13",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "opponent": "VentuCorp eSports",
+        "opponentAbbr": "VC",
+        "score": "2 - 0",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "VC",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team",
+          "score": "13:6",
+          "pickLabel": "MPMT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "VC",
+          "ownerKind": "opp",
+          "score": "13:0",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "VC",
           "ownerKind": "opp"
         }
       },
@@ -1010,7 +1396,63 @@ const vetoHistoryData = {
     "name": "Enterprise Esports",
     "ownerLabel": "EP",
     "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (VLR)",
-    "rows": []
+    "rows": [
+      {
+        "date": "2026-11-25",
+        "opponent": "xXxMasterProMegaTeamxXx",
+        "opponentAbbr": "MPMT",
+        "score": "2 - 0",
+        "source": "",
+        "sourceLabel": "screenshot",
+        "event": "",
+        "decider": "Summit",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "team",
+          "score": "13:2",
+          "pickLabel": "EP PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "team"
+        }
+      }
+    ]
   },
   "ucamold": {
     "name": "UCAM (OLD)",
