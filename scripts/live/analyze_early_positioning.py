@@ -41,6 +41,8 @@ def run(team_key):
     legacy.TEAM_PREFIXES = (cfg["tag"] + " ",)
     legacy.MAP_TRANSFORMS = MAP_TRANSFORMS
     legacy.MAP_DATE_CUTOFFS = {}
+    # sample = last 3 games per map/side unless the team sets sample_maps (None = every game)
+    legacy.TARGET_MAP_COUNT = cfg.get("sample_maps", 3)
     matches, times = load_local(site_jsonl(pre))
     maps_present = Counter(m["matchInfo"]["map"] for m in matches.values())
     out_dir = legacy.OUTPUT_DIR

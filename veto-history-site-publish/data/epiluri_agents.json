@@ -1,0 +1,853 @@
+{
+  "team": "Enterprise Esports (iluri)",
+  "Bind": [
+    {
+      "agents": [
+        "Waylay",
+        "Skye",
+        "Brimstone",
+        "Viper",
+        "Chamber"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7"
+      ],
+      "games": [
+        {
+          "date": "2026-05-14",
+          "opponent": "TLA",
+          "matchId": "6a353029-a0d5-4f3e-a527-52d727890a4e",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        },
+        {
+          "date": "2026-04-13",
+          "opponent": "BG",
+          "matchId": "e64ebdea-c6b5-4a91-b257-e98a99f9e88b",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        },
+        {
+          "date": "2026-04-04",
+          "opponent": "PXL",
+          "matchId": "affd485e-0231-4bcd-9eca-52bddb537e01",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        },
+        {
+          "date": "2026-03-29",
+          "opponent": "MDR",
+          "matchId": "4b4a1e89-0e49-4c88-b24d-14b83a357980",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "opponent": "FKS",
+          "matchId": "995243f6-943b-4ea3-98f0-2be7a292c796",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "opponent": "BAR",
+          "matchId": "5e8c7871-73b1-4f22-ac3a-779f6682cd63",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM",
+            "EP Lime"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Yoru",
+        "Fade",
+        "Brimstone",
+        "Viper"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-03-06",
+          "opponent": "TL",
+          "matchId": "41b694e1-8ede-44b7-ba0c-6491c1bc124f",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-03-02",
+          "opponent": "VR2",
+          "matchId": "3635a3bd-7d2c-4f9f-b14b-750691a31da7",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-03-01",
+          "opponent": "BONK",
+          "matchId": "09180a36-e592-4689-9a15-0e5142ea10b9",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-25",
+          "opponent": "FUT",
+          "matchId": "c4276ee3-262e-4621-ab69-55dbb99ea989",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-21",
+          "opponent": "KC",
+          "matchId": "0235ea99-e7f4-43fd-a95a-3dab48a2d614",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-19",
+          "opponent": "STS",
+          "matchId": "eeb600ff-948b-4463-b4b0-87a24b8c50e8",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "opponent": "VR2",
+          "matchId": "fb97ad1e-9b4f-41a3-9f92-7a60a2cd0e86",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-15",
+          "opponent": "TSE",
+          "matchId": "8ab9417a-d268-4784-9412-fc46085a88df",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-11",
+          "opponent": "PXL",
+          "matchId": "ff62cf9d-5a66-44dc-824d-97b2fe2355fa",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-08",
+          "opponent": "CLS",
+          "matchId": "1d748204-6ba4-4d24-b730-68d6eb76e30f",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "MIR",
+          "matchId": "3f18e5a1-59d9-44ca-a428-6c0d2b8a3a77",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-01-29",
+          "opponent": "CLS",
+          "matchId": "0448496d-d99f-46e6-bc46-9be2c54fe91a",
+          "players": [
+            "EP swagzor",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Jett",
+        "Phoenix",
+        "Sova",
+        "Astra",
+        "Harbor"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "eb93336a-449b-9c1b-0a54-a891f7921d69",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152"
+      ],
+      "games": [
+        {
+          "date": "2026-08-23",
+          "opponent": "TL",
+          "matchId": "6b8c7235-ca61-4045-ac4c-adc55b801ea9",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP MAGNUM",
+            "EP paTiTek"
+          ]
+        },
+        {
+          "date": "2026-08-21",
+          "opponent": "KC",
+          "matchId": "170c7ad2-59d0-4178-bcc2-5d2d145d96f7",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP MAGNUM",
+            "EP paTiTek"
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "opponent": "VIT",
+          "matchId": "e11f874d-43e5-4b4b-9a3b-4dc198a176c9",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP MAGNUM",
+            "EP paTiTek"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Waylay",
+        "Sova",
+        "Tejo",
+        "Astra",
+        "Omen"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "b444168c-4e35-8076-db47-ef9bf368f384",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "8e253930-4c05-31dd-1b6c-968525494517"
+      ],
+      "games": [
+        {
+          "date": "2026-03-27",
+          "opponent": "UCAM",
+          "matchId": "f77ddba8-1e59-4dcd-a363-09fdb0eb0380",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Lime",
+            "EP MAGNUM",
+            "EP Proxh"
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "MISA",
+          "matchId": "7bcd576f-0fe8-4777-af6b-c781cf832861",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Lime",
+            "EP MAGNUM",
+            "EP Proxh"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Waylay",
+        "Breach",
+        "Tejo",
+        "Astra",
+        "Omen"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "5f8d3a7f-467b-97f3-062c-13acf203c006",
+        "b444168c-4e35-8076-db47-ef9bf368f384",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "8e253930-4c05-31dd-1b6c-968525494517"
+      ],
+      "games": [
+        {
+          "date": "2026-02-15",
+          "opponent": "TSE",
+          "matchId": "13cfb850-e4b8-4e0e-a2e1-469fc6bd4af3",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP MAGNUM",
+            "EP Proxh"
+          ]
+        },
+        {
+          "date": "2026-02-14",
+          "opponent": "200",
+          "matchId": "c21944d1-9f30-463b-94b8-a29c9b53b689",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP MAGNUM",
+            "EP Proxh"
+          ]
+        },
+        {
+          "date": "2026-01-29",
+          "opponent": "CLS",
+          "matchId": "cbdf046c-6487-4309-80ad-3b5c646198e2",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP MAGNUM",
+            "EP Proxh"
+          ]
+        }
+      ]
+    }
+  ],
+  "Corrode": [
+    {
+      "agents": [
+        "Waylay",
+        "Fade",
+        "KAY/O",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-03-08",
+          "opponent": "TL",
+          "matchId": "ce66cb90-2779-4f57-a49e-c05fd4cdeac1",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-03-06",
+          "opponent": "TL",
+          "matchId": "2a6dfa85-e5b5-44a2-9f18-2c400159e50e",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "KAY/O",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "601dbbe7-43ce-be57-2a40-4abd24953621",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-02-19",
+          "opponent": "STS",
+          "matchId": "cabe37fe-13ac-40a2-8747-5ab113274a9a",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-18",
+          "opponent": "VR2",
+          "matchId": "9d416176-3c80-4667-b384-a158adbecf37",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-12",
+          "opponent": "EVO",
+          "matchId": "66a33485-e76f-4afc-b65e-a0054dc1f822",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-07",
+          "opponent": "BOA",
+          "matchId": "abe38ca7-cfc4-438a-9762-76e60f162aa2",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-02-02",
+          "opponent": "PXL",
+          "matchId": "def2ad5f-f292-4f6e-bf1c-a81c237dc8cd",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-01-31",
+          "opponent": "MIR",
+          "matchId": "50da155d-acb9-46c4-8361-f773ef7e1de8",
+          "players": [
+            "EP swagzor",
+            "EP iluri",
+            "EP Lime",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Skye",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-08-23",
+          "opponent": "TL",
+          "matchId": "20ed84ac-4ded-44d7-af51-9dda8a9bb75a",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-21",
+          "opponent": "KC",
+          "matchId": "8c8335aa-50bf-4191-919b-ba64e68dbe8b",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-20",
+          "opponent": "VIT",
+          "matchId": "a8f73b5f-c567-431a-bb23-21a79fc8348f",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-15",
+          "opponent": "FF",
+          "matchId": "933a46dd-07cb-4ab9-b4a1-4fec4966166e",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "opponent": "M8",
+          "matchId": "12630fdc-a748-4c20-950f-f1e6fb0276a9",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-07",
+          "opponent": "FNC",
+          "matchId": "cf8d9e6e-98e0-4a79-998d-a95cf930922b",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "opponent": "RB",
+          "matchId": "a3df0500-e497-4e8a-8398-31da4cd11b94",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-06-24",
+          "opponent": "JL",
+          "matchId": "563aa5b1-2323-4337-8adb-239f5755821d",
+          "players": [
+            "EP Lime",
+            "EP kozzy",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Jett",
+        "Raze",
+        "Skye",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "add6443a-41bd-e414-f6ad-e58d267f4e95",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-05-14",
+          "opponent": "TLA",
+          "matchId": "f0978843-27a9-4fdc-aae7-fc4a9977cd7d",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Raze",
+        "Fade",
+        "Omen",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-05-05",
+          "opponent": "TLA",
+          "matchId": "3754acb1-a8e0-4f3b-8024-75c57a73e353",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-04-27",
+          "opponent": "BONK",
+          "matchId": "bd6ed93c-ab91-4106-8596-5d7a3fe6ebc4",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP Proxh",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Fade",
+        "Omen",
+        "Viper",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-04-21",
+          "opponent": "M1R",
+          "matchId": "dc10f95e-f612-4055-aa43-6ab6d84574e0",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP Lime",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-04-18",
+          "opponent": "EVOP",
+          "matchId": "17579034-6872-439d-ac68-9814654f566c",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP Lime",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-04-12",
+          "opponent": "FMG",
+          "matchId": "35a083c3-e2e8-463a-a299-c6abc586de0a",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP Lime",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-04-06",
+          "opponent": "BONK",
+          "matchId": "7bd0da9b-c3fe-404b-bcb7-cbcfb4edd421",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP Lime",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-04-05",
+          "opponent": "NVJ",
+          "matchId": "17808f01-4f29-4207-8d90-1953ba3d5549",
+          "players": [
+            "EP kozzy",
+            "EP iluri",
+            "EP Proxh",
+            "EP Lime",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Sova",
+        "Brimstone",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-08-20",
+          "opponent": "VIT",
+          "matchId": "94ef136d-dc45-4ec2-992b-2a715d00d3e7",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        },
+        {
+          "date": "2026-08-09",
+          "opponent": "M8",
+          "matchId": "f4fb9476-a9f6-4cc2-a214-eb3a146c97a7",
+          "players": [
+            "EP kozzy",
+            "EP Lime",
+            "EP iluri",
+            "EP paTiTek",
+            "EP MAGNUM"
+          ]
+        }
+      ]
+    }
+  ]
+}

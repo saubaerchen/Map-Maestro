@@ -1,0 +1,167 @@
+{
+  "t_side": {
+    "total_rounds": 165,
+    "rounds_won": 89,
+    "pct_rounds_won": 53.9,
+    "won_by_kills": 72,
+    "pct_won_by_kills": 43.6,
+    "won_by_explosion": 17,
+    "pct_won_by_explosion": 10.3,
+    "avg_fk_time": 32.2,
+    "sites": {
+      "A": {
+        "plant_count": 47,
+        "pct_plant": 39.5,
+        "pct_win": 78.7,
+        "avg_plant_time": 51.0,
+        "min_plant_time": 19.0,
+        "max_plant_time": 99.3,
+        "fk_to_plant_avg": 27.6,
+        "fk_to_plant_n": 39
+      },
+      "B": {
+        "plant_count": 22,
+        "pct_plant": 18.5,
+        "pct_win": 50.0,
+        "avg_plant_time": 71.3,
+        "min_plant_time": 27.1,
+        "max_plant_time": 103.1,
+        "fk_to_plant_avg": 39.4,
+        "fk_to_plant_n": 19
+      },
+      "C": {
+        "plant_count": 50,
+        "pct_plant": 42.0,
+        "pct_win": 72.0,
+        "avg_plant_time": 62.0,
+        "min_plant_time": 27.2,
+        "max_plant_time": 96.4,
+        "fk_to_plant_avg": 32.3,
+        "fk_to_plant_n": 46
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 174,
+    "rounds_won": 79,
+    "pct_rounds_won": 45.4,
+    "won_by_kills": 41,
+    "pct_won_by_kills": 23.6,
+    "won_by_defuse": 38,
+    "pct_won_by_defuse": 21.8,
+    "avg_fk_time": 35.3,
+    "sites": {
+      "A": {
+        "plant_count": 57,
+        "defuse_count": 19,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 28.3,
+        "fk_after_plant_avg": 11.4,
+        "fk_after_plant_n": 39
+      },
+      "B": {
+        "plant_count": 25,
+        "defuse_count": 11,
+        "pct_defuse_win": 44.0,
+        "pct_defuse_share": 28.9,
+        "avg_defuse_time": 27.4,
+        "fk_after_plant_avg": 12.2,
+        "fk_after_plant_n": 22
+      },
+      "C": {
+        "plant_count": 41,
+        "defuse_count": 8,
+        "pct_defuse_win": 19.5,
+        "pct_defuse_share": 21.1,
+        "avg_defuse_time": 31.3,
+        "fk_after_plant_avg": 12.1,
+        "fk_after_plant_n": 31
+      }
+    }
+  },
+  "team": "Enterprise Esports (iluri)",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-08-23",
+      "opponent": "TL",
+      "matchId": "20ed84ac-4ded-44d7-af51-9dda8a9bb75a"
+    },
+    {
+      "date": "2026-08-21",
+      "opponent": "KC",
+      "matchId": "8c8335aa-50bf-4191-919b-ba64e68dbe8b"
+    },
+    {
+      "date": "2026-08-20",
+      "opponent": "VIT",
+      "matchId": "a8f73b5f-c567-431a-bb23-21a79fc8348f"
+    },
+    {
+      "date": "2026-08-15",
+      "opponent": "FF",
+      "matchId": "933a46dd-07cb-4ab9-b4a1-4fec4966166e"
+    },
+    {
+      "date": "2026-08-09",
+      "opponent": "M8",
+      "matchId": "12630fdc-a748-4c20-950f-f1e6fb0276a9"
+    },
+    {
+      "date": "2026-08-07",
+      "opponent": "FNC",
+      "matchId": "cf8d9e6e-98e0-4a79-998d-a95cf930922b"
+    },
+    {
+      "date": "2026-07-02",
+      "opponent": "RB",
+      "matchId": "a3df0500-e497-4e8a-8398-31da4cd11b94"
+    },
+    {
+      "date": "2026-06-24",
+      "opponent": "JL",
+      "matchId": "563aa5b1-2323-4337-8adb-239f5755821d"
+    },
+    {
+      "date": "2026-05-14",
+      "opponent": "TLA",
+      "matchId": "f0978843-27a9-4fdc-aae7-fc4a9977cd7d"
+    },
+    {
+      "date": "2026-05-05",
+      "opponent": "TLA",
+      "matchId": "3754acb1-a8e0-4f3b-8024-75c57a73e353"
+    },
+    {
+      "date": "2026-04-27",
+      "opponent": "BONK",
+      "matchId": "bd6ed93c-ab91-4106-8596-5d7a3fe6ebc4"
+    },
+    {
+      "date": "2026-04-21",
+      "opponent": "M1R",
+      "matchId": "dc10f95e-f612-4055-aa43-6ab6d84574e0"
+    },
+    {
+      "date": "2026-04-18",
+      "opponent": "EVOP",
+      "matchId": "17579034-6872-439d-ac68-9814654f566c"
+    },
+    {
+      "date": "2026-04-12",
+      "opponent": "FMG",
+      "matchId": "35a083c3-e2e8-463a-a299-c6abc586de0a"
+    },
+    {
+      "date": "2026-04-06",
+      "opponent": "BONK",
+      "matchId": "7bd0da9b-c3fe-404b-bcb7-cbcfb4edd421"
+    },
+    {
+      "date": "2026-04-05",
+      "opponent": "NVJ",
+      "matchId": "17808f01-4f29-4207-8d90-1953ba3d5549"
+    }
+  ]
+}

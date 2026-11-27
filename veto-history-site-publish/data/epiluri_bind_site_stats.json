@@ -1,0 +1,158 @@
+{
+  "t_side": {
+    "total_rounds": 166,
+    "rounds_won": 98,
+    "pct_rounds_won": 59.0,
+    "won_by_kills": 80,
+    "pct_won_by_kills": 48.2,
+    "won_by_explosion": 18,
+    "pct_won_by_explosion": 10.8,
+    "avg_fk_time": 28.8,
+    "sites": {
+      "A": {
+        "plant_count": 60,
+        "pct_plant": 52.6,
+        "pct_win": 85.0,
+        "avg_plant_time": 60.1,
+        "min_plant_time": 18.8,
+        "max_plant_time": 98.4,
+        "fk_to_plant_avg": 36.3,
+        "fk_to_plant_n": 55
+      },
+      "B": {
+        "plant_count": 54,
+        "pct_plant": 47.4,
+        "pct_win": 75.9,
+        "avg_plant_time": 64.3,
+        "min_plant_time": 22.5,
+        "max_plant_time": 100.1,
+        "fk_to_plant_avg": 33.1,
+        "fk_to_plant_n": 53
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 217,
+    "rounds_won": 115,
+    "pct_rounds_won": 53.0,
+    "won_by_kills": 70,
+    "pct_won_by_kills": 32.3,
+    "won_by_defuse": 45,
+    "pct_won_by_defuse": 20.7,
+    "avg_fk_time": 24.6,
+    "sites": {
+      "A": {
+        "plant_count": 73,
+        "defuse_count": 29,
+        "pct_defuse_win": 39.7,
+        "pct_defuse_share": 64.4,
+        "avg_defuse_time": 29.9,
+        "fk_after_plant_avg": 10.1,
+        "fk_after_plant_n": 52
+      },
+      "B": {
+        "plant_count": 58,
+        "defuse_count": 16,
+        "pct_defuse_win": 27.6,
+        "pct_defuse_share": 35.6,
+        "avg_defuse_time": 28.6,
+        "fk_after_plant_avg": 13.6,
+        "fk_after_plant_n": 37
+      }
+    }
+  },
+  "team": "Enterprise Esports (iluri)",
+  "map": "Bind",
+  "matches": [
+    {
+      "date": "2026-05-14",
+      "opponent": "TLA",
+      "matchId": "6a353029-a0d5-4f3e-a527-52d727890a4e"
+    },
+    {
+      "date": "2026-04-13",
+      "opponent": "BG",
+      "matchId": "e64ebdea-c6b5-4a91-b257-e98a99f9e88b"
+    },
+    {
+      "date": "2026-04-04",
+      "opponent": "PXL",
+      "matchId": "affd485e-0231-4bcd-9eca-52bddb537e01"
+    },
+    {
+      "date": "2026-03-29",
+      "opponent": "MDR",
+      "matchId": "4b4a1e89-0e49-4c88-b24d-14b83a357980"
+    },
+    {
+      "date": "2026-03-20",
+      "opponent": "FKS",
+      "matchId": "995243f6-943b-4ea3-98f0-2be7a292c796"
+    },
+    {
+      "date": "2026-03-19",
+      "opponent": "BAR",
+      "matchId": "5e8c7871-73b1-4f22-ac3a-779f6682cd63"
+    },
+    {
+      "date": "2026-03-06",
+      "opponent": "TL",
+      "matchId": "41b694e1-8ede-44b7-ba0c-6491c1bc124f"
+    },
+    {
+      "date": "2026-03-02",
+      "opponent": "VR2",
+      "matchId": "3635a3bd-7d2c-4f9f-b14b-750691a31da7"
+    },
+    {
+      "date": "2026-03-01",
+      "opponent": "BONK",
+      "matchId": "09180a36-e592-4689-9a15-0e5142ea10b9"
+    },
+    {
+      "date": "2026-02-25",
+      "opponent": "FUT",
+      "matchId": "c4276ee3-262e-4621-ab69-55dbb99ea989"
+    },
+    {
+      "date": "2026-02-21",
+      "opponent": "KC",
+      "matchId": "0235ea99-e7f4-43fd-a95a-3dab48a2d614"
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "STS",
+      "matchId": "eeb600ff-948b-4463-b4b0-87a24b8c50e8"
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "VR2",
+      "matchId": "fb97ad1e-9b4f-41a3-9f92-7a60a2cd0e86"
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "TSE",
+      "matchId": "8ab9417a-d268-4784-9412-fc46085a88df"
+    },
+    {
+      "date": "2026-02-11",
+      "opponent": "PXL",
+      "matchId": "ff62cf9d-5a66-44dc-824d-97b2fe2355fa"
+    },
+    {
+      "date": "2026-02-08",
+      "opponent": "CLS",
+      "matchId": "1d748204-6ba4-4d24-b730-68d6eb76e30f"
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "MIR",
+      "matchId": "3f18e5a1-59d9-44ca-a428-6c0d2b8a3a77"
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "CLS",
+      "matchId": "0448496d-d99f-46e6-bc46-9be2c54fe91a"
+    }
+  ]
+}

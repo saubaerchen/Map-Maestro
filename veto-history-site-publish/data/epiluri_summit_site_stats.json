@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 7,
+    "pct_rounds_won": 29.2,
+    "won_by_kills": 5,
+    "pct_won_by_kills": 20.8,
+    "won_by_explosion": 2,
+    "pct_won_by_explosion": 8.3,
+    "avg_fk_time": 35.6,
+    "sites": {
+      "A": {
+        "plant_count": 10,
+        "pct_plant": 66.7,
+        "pct_win": 50.0,
+        "avg_plant_time": 44.8,
+        "min_plant_time": 21.5,
+        "max_plant_time": 72.2,
+        "fk_to_plant_avg": 25.7,
+        "fk_to_plant_n": 9
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 33.3,
+        "pct_win": 20.0,
+        "avg_plant_time": 60.7,
+        "min_plant_time": 26.5,
+        "max_plant_time": 83.1,
+        "fk_to_plant_avg": 18.0,
+        "fk_to_plant_n": 5
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 17,
+    "rounds_won": 12,
+    "pct_rounds_won": 70.6,
+    "won_by_kills": 7,
+    "pct_won_by_kills": 41.2,
+    "won_by_defuse": 5,
+    "pct_won_by_defuse": 29.4,
+    "avg_fk_time": 37.2,
+    "sites": {
+      "A": {
+        "plant_count": 5,
+        "defuse_count": 3,
+        "pct_defuse_win": 60.0,
+        "pct_defuse_share": 60.0,
+        "avg_defuse_time": 28.4,
+        "fk_after_plant_avg": 14.9,
+        "fk_after_plant_n": 5
+      },
+      "B": {
+        "plant_count": 3,
+        "defuse_count": 2,
+        "pct_defuse_win": 66.7,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 31.4,
+        "fk_after_plant_avg": 15.7,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "Enterprise Esports (iluri)",
+  "map": "Summit",
+  "matches": [
+    {
+      "date": "2026-08-20",
+      "opponent": "VIT",
+      "matchId": "94ef136d-dc45-4ec2-992b-2a715d00d3e7"
+    },
+    {
+      "date": "2026-08-09",
+      "opponent": "M8",
+      "matchId": "f4fb9476-a9f6-4cc2-a214-eb3a146c97a7"
+    }
+  ]
+}

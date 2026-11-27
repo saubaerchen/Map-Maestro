@@ -1,0 +1,108 @@
+{
+  "t_side": {
+    "total_rounds": 104,
+    "rounds_won": 62,
+    "pct_rounds_won": 59.6,
+    "won_by_kills": 48,
+    "pct_won_by_kills": 46.2,
+    "won_by_explosion": 14,
+    "pct_won_by_explosion": 13.5,
+    "avg_fk_time": 29.7,
+    "sites": {
+      "A": {
+        "plant_count": 31,
+        "pct_plant": 38.3,
+        "pct_win": 74.2,
+        "avg_plant_time": 54.1,
+        "min_plant_time": 19.3,
+        "max_plant_time": 97.9,
+        "fk_to_plant_avg": 25.4,
+        "fk_to_plant_n": 29
+      },
+      "B": {
+        "plant_count": 50,
+        "pct_plant": 61.7,
+        "pct_win": 74.0,
+        "avg_plant_time": 49.0,
+        "min_plant_time": 14.2,
+        "max_plant_time": 97.5,
+        "fk_to_plant_avg": 26.7,
+        "fk_to_plant_n": 45
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 107,
+    "rounds_won": 54,
+    "pct_rounds_won": 50.5,
+    "won_by_kills": 23,
+    "pct_won_by_kills": 21.5,
+    "won_by_defuse": 31,
+    "pct_won_by_defuse": 29.0,
+    "avg_fk_time": 28.5,
+    "sites": {
+      "A": {
+        "plant_count": 39,
+        "defuse_count": 16,
+        "pct_defuse_win": 41.0,
+        "pct_defuse_share": 51.6,
+        "avg_defuse_time": 31.4,
+        "fk_after_plant_avg": 16.2,
+        "fk_after_plant_n": 31
+      },
+      "B": {
+        "plant_count": 37,
+        "defuse_count": 15,
+        "pct_defuse_win": 40.5,
+        "pct_defuse_share": 48.4,
+        "avg_defuse_time": 26.3,
+        "fk_after_plant_avg": 7.8,
+        "fk_after_plant_n": 27
+      }
+    }
+  },
+  "team": "Enterprise Esports (iluri)",
+  "map": "Abyss",
+  "matches": [
+    {
+      "date": "2026-08-23",
+      "opponent": "TL",
+      "matchId": "6b8c7235-ca61-4045-ac4c-adc55b801ea9"
+    },
+    {
+      "date": "2026-08-21",
+      "opponent": "KC",
+      "matchId": "170c7ad2-59d0-4178-bcc2-5d2d145d96f7"
+    },
+    {
+      "date": "2026-08-20",
+      "opponent": "VIT",
+      "matchId": "e11f874d-43e5-4b4b-9a3b-4dc198a176c9"
+    },
+    {
+      "date": "2026-03-27",
+      "opponent": "UCAM",
+      "matchId": "f77ddba8-1e59-4dcd-a363-09fdb0eb0380"
+    },
+    {
+      "date": "2026-03-26",
+      "opponent": "MISA",
+      "matchId": "7bcd576f-0fe8-4777-af6b-c781cf832861"
+    },
+    {
+      "date": "2026-02-15",
+      "opponent": "TSE",
+      "matchId": "13cfb850-e4b8-4e0e-a2e1-469fc6bd4af3"
+    },
+    {
+      "date": "2026-02-14",
+      "opponent": "200",
+      "matchId": "c21944d1-9f30-463b-94b8-a29c9b53b689"
+    },
+    {
+      "date": "2026-01-29",
+      "opponent": "CLS",
+      "matchId": "cbdf046c-6487-4309-80ad-3b5c646198e2"
+    }
+  ]
+}

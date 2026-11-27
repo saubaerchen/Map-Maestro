@@ -1,0 +1,108 @@
+{
+  "t_side": {
+    "total_rounds": 96,
+    "rounds_won": 68,
+    "pct_rounds_won": 70.8,
+    "won_by_kills": 48,
+    "pct_won_by_kills": 50.0,
+    "won_by_explosion": 20,
+    "pct_won_by_explosion": 20.8,
+    "avg_fk_time": 25.0,
+    "sites": {
+      "A": {
+        "plant_count": 33,
+        "pct_plant": 45.2,
+        "pct_win": 87.9,
+        "avg_plant_time": 53.1,
+        "min_plant_time": 18.9,
+        "max_plant_time": 96.8,
+        "fk_to_plant_avg": 34.2,
+        "fk_to_plant_n": 30
+      },
+      "B": {
+        "plant_count": 40,
+        "pct_plant": 54.8,
+        "pct_win": 85.0,
+        "avg_plant_time": 56.2,
+        "min_plant_time": 24.6,
+        "max_plant_time": 101.9,
+        "fk_to_plant_avg": 31.3,
+        "fk_to_plant_n": 39
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 77,
+    "rounds_won": 30,
+    "pct_rounds_won": 39.0,
+    "won_by_kills": 20,
+    "pct_won_by_kills": 26.0,
+    "won_by_defuse": 10,
+    "pct_won_by_defuse": 13.0,
+    "avg_fk_time": 30.4,
+    "sites": {
+      "A": {
+        "plant_count": 27,
+        "defuse_count": 6,
+        "pct_defuse_win": 22.2,
+        "pct_defuse_share": 60.0,
+        "avg_defuse_time": 34.4,
+        "fk_after_plant_avg": 14.6,
+        "fk_after_plant_n": 16
+      },
+      "B": {
+        "plant_count": 23,
+        "defuse_count": 4,
+        "pct_defuse_win": 17.4,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 24.1,
+        "fk_after_plant_avg": 13.7,
+        "fk_after_plant_n": 13
+      }
+    }
+  },
+  "team": "Enterprise Esports (iluri)",
+  "map": "Corrode",
+  "matches": [
+    {
+      "date": "2026-03-08",
+      "opponent": "TL",
+      "matchId": "ce66cb90-2779-4f57-a49e-c05fd4cdeac1"
+    },
+    {
+      "date": "2026-03-06",
+      "opponent": "TL",
+      "matchId": "2a6dfa85-e5b5-44a2-9f18-2c400159e50e"
+    },
+    {
+      "date": "2026-02-19",
+      "opponent": "STS",
+      "matchId": "cabe37fe-13ac-40a2-8747-5ab113274a9a"
+    },
+    {
+      "date": "2026-02-18",
+      "opponent": "VR2",
+      "matchId": "9d416176-3c80-4667-b384-a158adbecf37"
+    },
+    {
+      "date": "2026-02-12",
+      "opponent": "EVO",
+      "matchId": "66a33485-e76f-4afc-b65e-a0054dc1f822"
+    },
+    {
+      "date": "2026-02-07",
+      "opponent": "BOA",
+      "matchId": "abe38ca7-cfc4-438a-9762-76e60f162aa2"
+    },
+    {
+      "date": "2026-02-02",
+      "opponent": "PXL",
+      "matchId": "def2ad5f-f292-4f6e-bf1c-a81c237dc8cd"
+    },
+    {
+      "date": "2026-01-31",
+      "opponent": "MIR",
+      "matchId": "50da155d-acb9-46c4-8361-f773ef7e1de8"
+    }
+  ]
+}

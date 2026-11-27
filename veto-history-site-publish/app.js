@@ -179,15 +179,24 @@ const TEAMS_CONFIG = {
     playerOrder:  ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
     displayName:  "UCAM (OLD)",
   },
+  epiluri: {
+    filePrefix:   "epiluri",
+    mapControl:   typeof epiluriMapControlData !== "undefined" ? epiluriMapControlData : {},
+    statMaps:     ["Abyss", "Bind", "Corrode", "Lotus", "Summit"],
+    retakeMaps:   ["Abyss", "Bind", "Corrode", "Lotus", "Summit"],
+    playerColors: {"iluri": "#1565C0", "Lime": "#F9A825", "MAGNUM": "#C62828", "Proxh": "#2E7D32", "kozzy": "#E91E63", "swagzor": "#9E9E9E", "paTiTek": "#9E9E9E"},
+    playerOrder:  ["iluri", "Lime", "MAGNUM", "Proxh", "kozzy", "swagzor", "paTiTek"],
+    displayName:  "Enterprise Esports (iluri)",
+  },
 };
 // Derived — do not edit these directly; update TEAMS_CONFIG above instead
 const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "202611270834";
-const AGENTS_DATA_VERSION = "202611270834";
-const ECONOMY_DATA_VERSION = "202611270834";
+const RETAKE_DATA_VERSION = "202611270855";
+const AGENTS_DATA_VERSION = "202611270855";
+const ECONOMY_DATA_VERSION = "202611270855";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -198,7 +207,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     }))
   )
 );
-  const MAP_IMAGE_VERSION = "202611270834";
+  const MAP_IMAGE_VERSION = "202611270855";
   const MAP_IMAGE_ASPECTS = {
     Abyss: 1,
     Summit: 1,
@@ -246,7 +255,7 @@ const calibrationOverrides = {
   "dortmund|Haven|t": []
 };
 
-const ACTIVE_TEAMS = new Set(["eintracht", "mir", "joblife", "nvjunior", "barca", "f9eicar", "wip", "aurora", "pixellumina", "mpmt", "lamasia", "giantx", "ucam", "mandatory", "enterprise", "ucamold"]);
+const ACTIVE_TEAMS = new Set(["eintracht", "mir", "joblife", "nvjunior", "barca", "f9eicar", "wip", "aurora", "pixellumina", "lamasia", "giantx", "ucam", "mandatory", "enterprise", "epiluri"]);
 // Alphabetical (case/accent-insensitive); teams without data at the bottom
 const teamOrder = Object.keys(TEAMS_CONFIG)
   .filter((key) => allVetoHistoryData[key] && ACTIVE_TEAMS.has(key))

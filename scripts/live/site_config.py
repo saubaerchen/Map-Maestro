@@ -72,7 +72,8 @@ TEAMS = {
                     "roster": ["Boo", "B1SK", "chiwa", "trexx", "Derke"]},
     "pixellumina": {"prefix": "pxl", "tag": "PXL", "name": "Pixel Lumina",
                     "roster": ["MOLSI", "Chadi", "nataNk", "Kamisseq", "Saiz"]},
-    "mpmt":        {"prefix": "mpmt", "tag": "MPMT", "name": "xXxMasterProMegaTeamxXx",
+    # hidden: built as usual (its vetoes are still mirrored to opponents) but not in the team dropdown
+    "mpmt":        {"prefix": "mpmt", "tag": "MPMT", "name": "xXxMasterProMegaTeamxXx", "hidden": True,
                     "roster": ["adore", "Michel", "moner", "ORI4K", "shawN"]},
     "lamasia":     {"prefix": "lam", "tag": "MSA", "name": "La Masia",
                     "roster": ["soren", "izana", "nayte", "lux9", "askoo"]},
@@ -93,7 +94,7 @@ TEAMS = {
     # --- Special data sets (bypass the baseline-core + 2026-09-01 rules on purpose) ---
     # UCAM (OLD): UCAM's tournament-account games 2026-05-01..2026-07-09 (old roster), any roster,
     # from scripts/live/fetch_ucam_esports.py. Kickoff map pool only (Bind/Haven/Lotus). Requested by Vincent 2026-11-24.
-    "ucamold":     {"prefix": "ucamold", "tag": "UCAM", "name": "UCAM (OLD)",
+    "ucamold":     {"prefix": "ucamold", "tag": "UCAM", "name": "UCAM (OLD)", "hidden": True,
                     "roster": ["B1SK", "BULD", "Famsii", "Jesse", "OLIZERA"],
                     "esports_source": os.path.join(ROOT, "data", "raw", "ucam_esports_since_2026-05_raw_responses.jsonl"),
                     "ignore_core": True, "min_date": "2026-05-01",   # maps: Kickoff pool only
@@ -104,6 +105,18 @@ TEAMS = {
                     #          --out data/staging/ucam_vetoes_2026
                     "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "ucam_vetoes_2026.json"),
                     "veto_subtitle": "Old roster — all 2026 official vetoes (Liquipedia), map pool per tournament"},
+    # Enterprise (iluri): EP's official 2026 games before the Kickoff (2026-01-29..2026-08-23), all with
+    # iluri (IGL), on the 5 Kickoff maps they played. Requested by Vincent 2026-11-27. All games are used
+    # (no last-3 sample). Source = Liquipedia map ids -> Valolytics esports details (+ local old-season data).
+    "epiluri":     {"prefix": "epiluri", "tag": "EP", "name": "Enterprise Esports (iluri)",
+                    "roster": ["iluri", "Lime", "MAGNUM", "Proxh", "kozzy"],
+                    "esports_source": os.path.join(ROOT, "data", "staging", "ep_iluri_2026_preNov_raw_responses.jsonl"),
+                    "ignore_core": True, "min_date": "2026-01-01",
+                    "maps": ["Abyss", "Bind", "Corrode", "Lotus", "Summit"],
+                    "sample_maps": None,
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "ep_vetoes_2026.json"),
+                    "veto_before": "2026-11-01",
+                    "veto_subtitle": "Enterprise 2026 before the Kickoff — official vetoes (Liquipedia)"},
 }
 
 
