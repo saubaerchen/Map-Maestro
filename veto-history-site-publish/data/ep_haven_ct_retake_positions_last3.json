@@ -1,0 +1,657 @@
+{
+  "map": "Haven",
+  "side": "ct",
+  "selectedMaps": [
+    {
+      "date": "2026-11-25",
+      "opponent": "MPMT",
+      "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+      "score": "13-8"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 2,
+      "pointCount": 9,
+      "points": [
+        {
+          "site": "A",
+          "player": "koshmaras",
+          "normX": 46.24,
+          "normY": 49.3178,
+          "roundNum": 4,
+          "plantRoundTimeMs": 58507,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "sh1n",
+          "normX": 39.0475,
+          "normY": 75.9653,
+          "roundNum": 4,
+          "plantRoundTimeMs": 58507,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "iluri",
+          "normX": 64.45,
+          "normY": 54.9578,
+          "roundNum": 4,
+          "plantRoundTimeMs": 58507,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "stonezy",
+          "normX": 64.78,
+          "normY": 47.8928,
+          "roundNum": 4,
+          "plantRoundTimeMs": 58507,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "rexxtoned",
+          "normX": 29.4025,
+          "normY": 33.7628,
+          "roundNum": 4,
+          "plantRoundTimeMs": 58507,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "koshmaras",
+          "normX": 31.63,
+          "normY": 16.4603,
+          "roundNum": 5,
+          "plantRoundTimeMs": 19709,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "sh1n",
+          "normX": 36.5875,
+          "normY": 46.7903,
+          "roundNum": 5,
+          "plantRoundTimeMs": 19709,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "stonezy",
+          "normX": 43.2025,
+          "normY": 50.5103,
+          "roundNum": 5,
+          "plantRoundTimeMs": 19709,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "A",
+          "player": "rexxtoned",
+          "normX": 42.8125,
+          "normY": 46.0478,
+          "roundNum": 5,
+          "plantRoundTimeMs": 19709,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 3,
+      "pointCount": 13,
+      "points": [
+        {
+          "site": "B",
+          "player": "koshmaras",
+          "normX": 37.18,
+          "normY": 83.0828,
+          "roundNum": 6,
+          "plantRoundTimeMs": 17038,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "sh1n",
+          "normX": 23.38,
+          "normY": 26.9228,
+          "roundNum": 6,
+          "plantRoundTimeMs": 17038,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "iluri",
+          "normX": 37.0675,
+          "normY": 61.5278,
+          "roundNum": 6,
+          "plantRoundTimeMs": 17038,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "stonezy",
+          "normX": 42.4825,
+          "normY": 76.7828,
+          "roundNum": 6,
+          "plantRoundTimeMs": 17038,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 32.5975,
+          "normY": 15.2678,
+          "roundNum": 6,
+          "plantRoundTimeMs": 17038,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "koshmaras",
+          "normX": 31.45,
+          "normY": 64.2428,
+          "roundNum": 8,
+          "plantRoundTimeMs": 20487,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "sh1n",
+          "normX": 42.34,
+          "normY": 66.6278,
+          "roundNum": 8,
+          "plantRoundTimeMs": 20487,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "iluri",
+          "normX": 32.5825,
+          "normY": 33.2078,
+          "roundNum": 8,
+          "plantRoundTimeMs": 20487,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "stonezy",
+          "normX": 40.57,
+          "normY": 68.4503,
+          "roundNum": 8,
+          "plantRoundTimeMs": 20487,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 45.1675,
+          "normY": 40.0853,
+          "roundNum": 8,
+          "plantRoundTimeMs": 20487,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "sh1n",
+          "normX": 35.0125,
+          "normY": 68.4428,
+          "roundNum": 9,
+          "plantRoundTimeMs": 28876,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "stonezy",
+          "normX": 38.5,
+          "normY": 67.0778,
+          "roundNum": 9,
+          "plantRoundTimeMs": 28876,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 33.0025,
+          "normY": 30.1553,
+          "roundNum": 9,
+          "plantRoundTimeMs": 28876,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        }
+      ]
+    },
+    "C": {
+      "roundCount": 1,
+      "pointCount": 4,
+      "points": [
+        {
+          "site": "C",
+          "player": "koshmaras",
+          "normX": 25.6,
+          "normY": 65.9303,
+          "roundNum": 10,
+          "plantRoundTimeMs": 27656,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "C",
+          "player": "sh1n",
+          "normX": 36.925,
+          "normY": 45.6653,
+          "roundNum": 10,
+          "plantRoundTimeMs": 27656,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "C",
+          "player": "iluri",
+          "normX": 24.97,
+          "normY": 60.6428,
+          "roundNum": 10,
+          "plantRoundTimeMs": 27656,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        },
+        {
+          "site": "C",
+          "player": "stonezy",
+          "normX": 30.085,
+          "normY": 64.7303,
+          "roundNum": 10,
+          "plantRoundTimeMs": 27656,
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "score": "13-8"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 4,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14261,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 24.1675,
+                  "normY": 29.5253
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 38.1175,
+                  "normY": 62.6603
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 68.515,
+                  "normY": 38.9078
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 34.735,
+                  "normY": 30.2303
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 5,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16805,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 41.695,
+                  "normY": 26.6003
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 29.71,
+                  "normY": 27.3653
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 29.8825,
+                  "normY": 21.5453
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17224,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 43.1425,
+                  "normY": 26.5028
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 29.8825,
+                  "normY": 25.5953
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19403,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 29.68,
+                  "normY": 22.8653
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19863,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 29.665,
+                  "normY": 22.7378
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 6,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 16492,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 21.565,
+                  "normY": 38.4353
+                },
+                {
+                  "player": "iluri",
+                  "normX": 35.9575,
+                  "normY": 62.6528
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 28.0525,
+                  "normY": 64.1303
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 18260,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 23.155,
+                  "normY": 35.9078
+                },
+                {
+                  "player": "iluri",
+                  "normX": 37.33,
+                  "normY": 58.7828
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 34.72,
+                  "normY": 63.3053
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 8,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 11804,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 37.0075,
+                  "normY": 47.1578
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 36.8425,
+                  "normY": 59.8928
+                },
+                {
+                  "player": "iluri",
+                  "normX": 37.7575,
+                  "normY": 37.1003
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 38.7175,
+                  "normY": 34.6328
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 12398,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 38.11,
+                  "normY": 44.8778
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 36.5875,
+                  "normY": 59.1203
+                },
+                {
+                  "player": "iluri",
+                  "normX": 36.9325,
+                  "normY": 38.5553
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 39.6925,
+                  "normY": 35.2253
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 13500,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 43.3525,
+                  "normY": 46.6853
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 36.2275,
+                  "normY": 58.6553
+                },
+                {
+                  "player": "iluri",
+                  "normX": 36.9175,
+                  "normY": 39.4103
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 37.24,
+                  "normY": 37.6028
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        },
+        {
+          "roundNum": 9,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10503,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 37.72,
+                  "normY": 54.1928
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 38.26,
+                  "normY": 36.8453
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 15899,
+              "players": [
+                {
+                  "player": "rexxtoned",
+                  "normX": 37.255,
+                  "normY": 38.8328
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        }
+      ]
+    },
+    "C": {
+      "rounds": [
+        {
+          "roundNum": 10,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10971,
+              "players": [
+                {
+                  "player": "koshmaras",
+                  "normX": 42.9325,
+                  "normY": 77.5853
+                },
+                {
+                  "player": "sh1n",
+                  "normX": 27.925,
+                  "normY": 67.6853
+                },
+                {
+                  "player": "iluri",
+                  "normX": 31.8775,
+                  "normY": 77.9678
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 44.4625,
+                  "normY": 75.7328
+                }
+              ]
+            }
+          ],
+          "matchId": "497d6bd9-19b2-449a-93da-c443b4894e0f",
+          "date": "2026-11-25",
+          "opponent": "MPMT",
+          "score": "13-8"
+        }
+      ]
+    }
+  }
+}

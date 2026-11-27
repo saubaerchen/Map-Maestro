@@ -164,12 +164,11 @@ const TEAMS_CONFIG = {
   enterprise: {
     filePrefix:   "ep",
     mapControl:   typeof epMapControlData !== "undefined" ? epMapControlData : {},
-    statMaps:     [],
-    retakeMaps:   [],
-    playerColors: {},
-    playerOrder:  [],
+    statMaps:     ["Bind", "Corrode", "Haven", "Lotus"],
+    retakeMaps:   ["Bind", "Corrode", "Haven", "Lotus"],
+    playerColors: {"sh1n": "#1565C0", "rexxtoned": "#F9A825", "iluri": "#C62828", "koshmaras": "#2E7D32", "stonezy": "#E91E63"},
+    playerOrder:  ["sh1n", "rexxtoned", "iluri", "koshmaras", "stonezy"],
     displayName:  "Enterprise Esports",
-    noData:       true,
   },
   ucamold: {
     filePrefix:   "ucamold",
@@ -186,9 +185,9 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "202611260928";
-const AGENTS_DATA_VERSION = "202611260928";
-const ECONOMY_DATA_VERSION = "202611260928";
+const RETAKE_DATA_VERSION = "202611270834";
+const AGENTS_DATA_VERSION = "202611270834";
+const ECONOMY_DATA_VERSION = "202611270834";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -199,7 +198,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     }))
   )
 );
-  const MAP_IMAGE_VERSION = "202611260928";
+  const MAP_IMAGE_VERSION = "202611270834";
   const MAP_IMAGE_ASPECTS = {
     Abyss: 1,
     Summit: 1,

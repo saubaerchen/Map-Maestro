@@ -1,0 +1,73 @@
+{
+  "t_side": {
+    "total_rounds": 10,
+    "rounds_won": 5,
+    "pct_rounds_won": 50.0,
+    "won_by_kills": 1,
+    "pct_won_by_kills": 10.0,
+    "won_by_explosion": 4,
+    "pct_won_by_explosion": 40.0,
+    "avg_fk_time": 20.5,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "pct_plant": 50.0,
+        "pct_win": 66.7,
+        "avg_plant_time": 74.8,
+        "min_plant_time": 55.8,
+        "max_plant_time": 84.7,
+        "fk_to_plant_avg": 52.5,
+        "fk_to_plant_n": 3
+      },
+      "B": {
+        "plant_count": 3,
+        "pct_plant": 50.0,
+        "pct_win": 100.0,
+        "avg_plant_time": 48.3,
+        "min_plant_time": 22.4,
+        "max_plant_time": 89.6,
+        "fk_to_plant_avg": 36.4,
+        "fk_to_plant_n": 3
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 12,
+    "rounds_won": 4,
+    "pct_rounds_won": 33.3,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 16.7,
+    "won_by_defuse": 2,
+    "pct_won_by_defuse": 16.7,
+    "avg_fk_time": 39.1,
+    "sites": {
+      "A": {
+        "plant_count": 6,
+        "defuse_count": 2,
+        "pct_defuse_win": 33.3,
+        "pct_defuse_share": 100.0,
+        "avg_defuse_time": 34.0,
+        "fk_after_plant_avg": 14.0,
+        "fk_after_plant_n": 5
+      },
+      "B": {
+        "plant_count": 4,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": 0.0,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 30.8,
+        "fk_after_plant_n": 2
+      }
+    }
+  },
+  "team": "Enterprise Esports",
+  "map": "Bind",
+  "matches": [
+    {
+      "date": "2026-11-26",
+      "opponent": "UCAM",
+      "matchId": "4013a671-544b-4486-a1f4-054787d8dee0"
+    }
+  ]
+}

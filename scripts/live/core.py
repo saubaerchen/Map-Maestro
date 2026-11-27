@@ -35,6 +35,8 @@ ROSTER_CORE = {
     "gx": ["globeX", "sickrey", "Vitie", "WACKIE", "ZachKappa"],
     "ucam": ["BULD", "Filu", "Flickless", "kamyk", "waddle"],
     "mdr": ["Veqaj", "starxo", "runneR", "Kicks", "MiniBoo"],
+    # Enterprise: the five who played every Qualifier Playoffs map (VLR, 2026-11-25/26); added 2026-11-27
+    "ep": ["sh1n", "rexxtoned", "iluri", "koshmaras", "stonezy"],
 }
 
 

@@ -1,0 +1,446 @@
+{
+  "map": "Bind",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-11-26",
+      "opponent": "UCAM",
+      "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+      "score": "9-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 3,
+      "pointCount": 11,
+      "points": [
+        {
+          "site": "A",
+          "player": "sh1n",
+          "normX": 64.0956,
+          "normY": 39.7626,
+          "roundNum": 15,
+          "plantRoundTimeMs": 83963,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "iluri",
+          "normX": 68.4085,
+          "normY": 36.435,
+          "roundNum": 15,
+          "plantRoundTimeMs": 83963,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "stonezy",
+          "normX": 58.5968,
+          "normY": 35.0013,
+          "roundNum": 15,
+          "plantRoundTimeMs": 83963,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "sh1n",
+          "normX": 67.848,
+          "normY": 36.14,
+          "roundNum": 17,
+          "plantRoundTimeMs": 55822,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "koshmaras",
+          "normX": 63.9658,
+          "normY": 28.47,
+          "roundNum": 17,
+          "plantRoundTimeMs": 55822,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "iluri",
+          "normX": 57.6705,
+          "normY": 36.0869,
+          "roundNum": 17,
+          "plantRoundTimeMs": 55822,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "rexxtoned",
+          "normX": 62.6324,
+          "normY": 45.7275,
+          "roundNum": 17,
+          "plantRoundTimeMs": 55822,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "sh1n",
+          "normX": 69.1165,
+          "normY": 35.0957,
+          "roundNum": 19,
+          "plantRoundTimeMs": 84670,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "koshmaras",
+          "normX": 63.0572,
+          "normY": 43.4088,
+          "roundNum": 19,
+          "plantRoundTimeMs": 84670,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "stonezy",
+          "normX": 65.0042,
+          "normY": 37.6386,
+          "roundNum": 19,
+          "plantRoundTimeMs": 84670,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "A",
+          "player": "rexxtoned",
+          "normX": 81.0109,
+          "normY": 27.2841,
+          "roundNum": 19,
+          "plantRoundTimeMs": 84670,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 3,
+      "pointCount": 13,
+      "points": [
+        {
+          "site": "B",
+          "player": "sh1n",
+          "normX": 33.1383,
+          "normY": 42.8365,
+          "roundNum": 12,
+          "plantRoundTimeMs": 22390,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "koshmaras",
+          "normX": 34.0292,
+          "normY": 20.1097,
+          "roundNum": 12,
+          "plantRoundTimeMs": 22390,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "iluri",
+          "normX": 27.0495,
+          "normY": 30.8359,
+          "roundNum": 12,
+          "plantRoundTimeMs": 22390,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 17.7629,
+          "normY": 60.2474,
+          "roundNum": 12,
+          "plantRoundTimeMs": 22390,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "koshmaras",
+          "normX": 25.7515,
+          "normY": 24.8651,
+          "roundNum": 13,
+          "plantRoundTimeMs": 89613,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "iluri",
+          "normX": 28.6425,
+          "normY": 31.3138,
+          "roundNum": 13,
+          "plantRoundTimeMs": 89613,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "stonezy",
+          "normX": 20.6598,
+          "normY": 41.5975,
+          "roundNum": 13,
+          "plantRoundTimeMs": 89613,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 16.046,
+          "normY": 29.0659,
+          "roundNum": 13,
+          "plantRoundTimeMs": 89613,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "sh1n",
+          "normX": 29.6278,
+          "normY": 47.173,
+          "roundNum": 16,
+          "plantRoundTimeMs": 32948,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "koshmaras",
+          "normX": 30.3476,
+          "normY": 31.1132,
+          "roundNum": 16,
+          "plantRoundTimeMs": 32948,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "iluri",
+          "normX": 30.1588,
+          "normY": 32.3758,
+          "roundNum": 16,
+          "plantRoundTimeMs": 32948,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "stonezy",
+          "normX": 22.4593,
+          "normY": 34.8125,
+          "roundNum": 16,
+          "plantRoundTimeMs": 32948,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        },
+        {
+          "site": "B",
+          "player": "rexxtoned",
+          "normX": 26.3061,
+          "normY": 30.6943,
+          "roundNum": 16,
+          "plantRoundTimeMs": 32948,
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "score": "9-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10892,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 32.0409,
+                  "normY": 41.1609
+                },
+                {
+                  "player": "koshmaras",
+                  "normX": 34.9791,
+                  "normY": 21.3959
+                },
+                {
+                  "player": "iluri",
+                  "normX": 20.7778,
+                  "normY": 22.1275
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 19.4385,
+                  "normY": 54.4064
+                }
+              ]
+            }
+          ],
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "score": "9-13"
+        },
+        {
+          "roundNum": 16,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10308,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 30.2001,
+                  "normY": 47.9282
+                },
+                {
+                  "player": "iluri",
+                  "normX": 28.6189,
+                  "normY": 32.6177
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 15.2023,
+                  "normY": 27.5437
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 17.4443,
+                  "normY": 29.6146
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14444,
+              "players": [
+                {
+                  "player": "sh1n",
+                  "normX": 33.4156,
+                  "normY": 43.2377
+                },
+                {
+                  "player": "iluri",
+                  "normX": 28.1351,
+                  "normY": 33.957
+                },
+                {
+                  "player": "stonezy",
+                  "normX": 14.9545,
+                  "normY": 26.5289
+                },
+                {
+                  "player": "rexxtoned",
+                  "normX": 17.5564,
+                  "normY": 29.5379
+                }
+              ]
+            }
+          ],
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "score": "9-13"
+        }
+      ]
+    },
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 15,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10271,
+              "players": [
+                {
+                  "player": "stonezy",
+                  "normX": 64.4378,
+                  "normY": 33.8272
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 11678,
+              "players": [
+                {
+                  "player": "stonezy",
+                  "normX": 63.5587,
+                  "normY": 32.5115
+                }
+              ]
+            }
+          ],
+          "matchId": "4013a671-544b-4486-a1f4-054787d8dee0",
+          "date": "2026-11-26",
+          "opponent": "UCAM",
+          "score": "9-13"
+        }
+      ]
+    }
+  }
+}

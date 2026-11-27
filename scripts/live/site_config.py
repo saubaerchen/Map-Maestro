@@ -83,7 +83,8 @@ TEAMS = {
                     "roster": ["BULD", "Filu", "Flickless", "kamyk", "waddle"]},
     "mandatory":   {"prefix": "mdr", "tag": "MDR", "name": "Mandatory",
                     "roster": ["Veqaj", "starxo", "runneR", "Kicks", "MiniBoo"]},
-    "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports", "roster": [],
+    "enterprise":  {"prefix": "ep", "tag": "EP", "name": "Enterprise Esports",
+                    "roster": ["sh1n", "rexxtoned", "iluri", "koshmaras", "stonezy"],
                     # Veto view: every 2026 veto from Liquipedia (+ tournament map pool), requested 2026-11-26.
                     # Refresh: python scripts/fetch_liquipedia_team_vetoes.py --page Enterprise_Esports --year 2026
                     #          --tag EP --out data/staging/ep_vetoes_2026

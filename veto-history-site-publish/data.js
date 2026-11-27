@@ -1418,7 +1418,7 @@ const vetoHistoryData = {
         "mapPoolNote": "",
         "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
         "decider": "Corrode",
-        "deciderScore": "",
+        "deciderScore": "10:13",
         "deciderLabel": "DECIDER",
         "deciderTeamStartSide": "",
         "playedMaps": [
@@ -1444,7 +1444,7 @@ const vetoHistoryData = {
           "type": "pick",
           "ownerLabel": "EP",
           "ownerKind": "team",
-          "score": "",
+          "score": "15:13",
           "pickLabel": "EP PICK",
           "teamStartSide": ""
         },
@@ -1453,7 +1453,7 @@ const vetoHistoryData = {
           "type": "pick",
           "ownerLabel": "UCAM",
           "ownerKind": "opp",
-          "score": "",
+          "score": "9:13",
           "pickLabel": "OPPONENT PICK",
           "teamStartSide": ""
         },
