@@ -175,18 +175,18 @@
   "Haven": [
     {
       "agents": [
+        "Hush",
         "Neon",
         "Sova",
         "Omen",
-        "Cypher",
-        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+        "Cypher"
       ],
       "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
         "bb2a4828-46eb-8cd1-e765-15848195d751",
         "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
         "8e253930-4c05-31dd-1b6c-968525494517",
-        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
-        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
       ],
       "games": [
         {
@@ -194,11 +194,11 @@
           "opponent": "Krom",
           "matchId": "bbe724d9-b035-4e0c-9169-9446fb16ed28",
           "players": [
+            "MSA soren",
             "MSA lux9",
             "MSA askoo",
             "MSA nayte",
-            "MSA izana",
-            "MSA soren"
+            "MSA izana"
           ]
         },
         {
@@ -206,11 +206,11 @@
           "opponent": "Bpip",
           "matchId": "92c8ed50-71dd-4899-88e1-e7a0d0ca7d8b",
           "players": [
+            "MSA soren",
             "MSA lux9",
             "MSA askoo",
             "MSA nayte",
-            "MSA izana",
-            "MSA soren"
+            "MSA izana"
           ]
         }
       ]
@@ -281,18 +281,18 @@
   "Abyss": [
     {
       "agents": [
+        "Hush",
         "Waylay",
         "Sova",
         "Astra",
-        "Cypher",
-        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+        "Cypher"
       ],
       "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
         "df1cb487-4902-002e-5c17-d28e83e78588",
         "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
         "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
-        "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
-        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04"
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
       ],
       "games": [
         {
@@ -300,11 +300,11 @@
           "opponent": "CGN",
           "matchId": "84567ed5-28e3-4dc5-9104-c8d3a80753c2",
           "players": [
+            "MSA soren",
             "MSA lux9",
             "MSA askoo",
             "MSA nayte",
-            "MSA izana",
-            "MSA soren"
+            "MSA izana"
           ]
         },
         {
@@ -312,11 +312,11 @@
           "opponent": "HBT",
           "matchId": "9036d12e-719e-4323-8e30-ffcb3faeba82",
           "players": [
+            "MSA soren",
             "MSA lux9",
             "MSA askoo",
             "MSA nayte",
-            "MSA izana",
-            "MSA soren"
+            "MSA izana"
           ]
         }
       ]

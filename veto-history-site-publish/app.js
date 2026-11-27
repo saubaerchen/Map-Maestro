@@ -195,7 +195,7 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
 );
 const allDefensiveRetake = {};
 const RETAKE_DATA_VERSION = "202611270855";
-const AGENTS_DATA_VERSION = "202611270855";
+const AGENTS_DATA_VERSION = "202611271138";
 const ECONOMY_DATA_VERSION = "202611270855";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
@@ -1389,12 +1389,12 @@ function renderDefensivePanels(info) {
 
   const sniperSvgLines = sniperVisual
     .filter(e => e.victim)
-    .map(e => `<line class="heat-link" x1="${e.killer.x}" y1="${e.killer.y}" x2="${e.victim.x}" y2="${e.victim.y}"></line>`)
+    .map(e => `<line class="heat-link" data-match-id="${e.point.matchId}" x1="${e.killer.x}" y1="${e.killer.y}" x2="${e.victim.x}" y2="${e.victim.y}"></line>`)
     .join("");
 
   const sniperVictimDots = sniperVisual
     .filter(e => e.victim)
-    .map(e => `<span class="heat-victim-point" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}"></span>`)
+    .map(e => `<span class="heat-victim-point" data-match-id="${e.point.matchId}" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}"></span>`)
     .join("");
 
   const sniperKillerDots = sniperVisual
@@ -1402,8 +1402,8 @@ function renderDefensivePanels(info) {
       const color = getPlayerColor(e.point.player);
       const agent = agentIconMode ? currentAgentLookup[e.point.matchId]?.[e.point.player] : null;
       const title = `${e.point.player} -> ${e.point.victim ?? "?"} | ${e.point.date} vs ${e.point.opponent} | R${e.point.roundNum + 1}`;
-      if (agent) return `<span class="heat-point heat-point--icon" data-match-id="${e.point.matchId}" style="left:${e.killer.x}%; top:${e.killer.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`;
-      return `<span class="heat-point" data-match-id="${e.point.matchId}" style="left:${e.killer.x}%; top:${e.killer.y}%; background:${color};" title="${title}"></span>`;
+      if (agent) return `<span class="heat-point heat-point--icon fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`;
+      return `<span class="heat-point fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background:${color};" title="${title}"></span>`;
     })
     .join("");
 
@@ -1415,7 +1415,7 @@ function renderDefensivePanels(info) {
     : "";
 
   const sniperMarkup = `
-    <article class="defensive-card">
+    <article class="defensive-card" data-fk-card="sniper">
       <div class="defensive-card-head">
         <h3>All Sniper Kills</h3>
         <p class="defensive-card-meta">Rounds: ${sniperRoundCount} | Points: ${sniperPoints.length}/${sniperAllPoints.length}</p>
@@ -1451,16 +1451,16 @@ function renderDefensivePanels(info) {
     return { point, killer, victim };
   });
   const allFkSvgLines = allFkVisual.filter(e => e.victim)
-    .map(e => `<line class="heat-link" x1="${e.killer.x}" y1="${e.killer.y}" x2="${e.victim.x}" y2="${e.victim.y}"></line>`).join("");
+    .map(e => `<line class="heat-link" data-match-id="${e.point.matchId}" x1="${e.killer.x}" y1="${e.killer.y}" x2="${e.victim.x}" y2="${e.victim.y}"></line>`).join("");
   const allFkVictimDots = allFkVisual.filter(e => e.victim)
-    .map(e => `<span class="heat-victim-point" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}"></span>`).join("");
+    .map(e => `<span class="heat-victim-point" data-match-id="${e.point.matchId}" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}"></span>`).join("");
   const allFkKillerDots = allFkVisual
     .map(e => {
       const color = getPlayerColor(e.point.player);
       const agent = agentIconMode ? currentAgentLookup[e.point.matchId]?.[e.point.player] : null;
       const title = `${e.point.player} -> ${e.point.victim ?? "?"} | ${e.point.date} vs ${e.point.opponent} | R${e.point.roundNum + 1} | ${fmtRoundTime(e.point.timeSinceRoundStartMillis)}`;
-      if (agent) return `<span class="heat-point heat-point--icon" data-match-id="${e.point.matchId}" style="left:${e.killer.x}%; top:${e.killer.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`;
-      return `<span class="heat-point" data-match-id="${e.point.matchId}" style="left:${e.killer.x}%; top:${e.killer.y}%; background:${color};" title="${title}"></span>`;
+      if (agent) return `<span class="heat-point heat-point--icon fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`;
+      return `<span class="heat-point fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background:${color};" title="${title}"></span>`;
     }).join("");
   const allFkLegendPlayers = sortByPlayerOrder([...new Set(allFkAllPoints.map(p => canonicalPlayerName(p.player)))]);
   const allFkLegendMarkup = allFkLegendPlayers.length
@@ -1469,7 +1469,7 @@ function renderDefensivePanels(info) {
       ).join("")}</div>`
     : "";
   const allFkMarkup = `
-    <article class="defensive-card">
+    <article class="defensive-card" data-fk-card="allfk">
       <div class="defensive-card-head">
         <div style="display:flex;align-items:center;gap:8px;">
           <h3>All First Kills</h3>
@@ -1900,6 +1900,19 @@ function updateEarlyDotsInPlace(info, selectedPlayers) {
 
   panels.querySelectorAll(".heat-point:not([data-player])[data-match-id]").forEach(dot => {
     dot.style.display = isMatchActive(dot.dataset.matchId) ? "" : "none";
+  });
+  // A deselected game removes the whole kill: killer, victim and the line between them
+  panels.querySelectorAll(".heat-victim-point[data-match-id], .heat-link[data-match-id]").forEach(el => {
+    el.style.display = isMatchActive(el.dataset.matchId) ? "" : "none";
+  });
+  panels.querySelectorAll("[data-fk-card]").forEach(card => {
+    const all = [...card.querySelectorAll(".fk-killer")];
+    const vis = all.filter(d => isMatchActive(d.dataset.matchId));
+    const rounds = new Set(vis.map(d => `${d.dataset.matchId}|${d.dataset.round}`)).size;
+    const meta = card.querySelector(".defensive-card-meta");
+    if (meta) meta.textContent = card.dataset.fkCard === "sniper"
+      ? `Rounds: ${rounds} | Points: ${vis.length}/${all.length}`
+      : `Rounds: ${rounds} | Points: ${vis.length}`;
   });
 
   [["lt10s"], ["lt20s"], ["lt30s"]].forEach(([key]) => {

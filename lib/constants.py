@@ -33,11 +33,13 @@ AGENT_MAP = {
     'eb93336a-449b-9c1b-0a54-a891f7921d69': 'Phoenix',
     'efba5359-4016-a1e5-7626-b1ae76895940': 'Vyse',
     'f94c3b30-42be-e959-889c-5aa313dba261': 'Raze',
+    '7c8a4701-4de6-9355-b254-e09bc2a34b72': 'Miks',   # valorant-api.com, added 2026-11-27
+    'ddd5a15c-4fbe-42fa-3789-11a55ca5ee04': 'Hush',   # valorant-api.com, added 2026-11-27
 }
 
 AGENT_ROLE = {
     'Iso': 'Duelist', 'Jett': 'Duelist', 'Neon': 'Duelist', 'Phoenix': 'Duelist',
-    'Raze': 'Duelist', 'Reyna': 'Duelist', 'Waylay': 'Duelist', 'Yoru': 'Duelist',
+    'Raze': 'Duelist', 'Reyna': 'Duelist', 'Waylay': 'Duelist', 'Yoru': 'Duelist', 'Hush': 'Duelist',
     'Breach': 'Initiator', 'Fade': 'Initiator', 'Gekko': 'Initiator', 'KAY/O': 'Initiator',
     'Skye': 'Initiator', 'Sova': 'Initiator', 'Tejo': 'Initiator',
     'Astra': 'Controller', 'Brimstone': 'Controller', 'Clove': 'Controller', 'Harbor': 'Controller',
