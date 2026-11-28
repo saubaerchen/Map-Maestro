@@ -18,6 +18,30 @@
       ],
       "games": [
         {
+          "date": "2026-11-27",
+          "opponent": "MIR",
+          "matchId": "fb7e394f-6512-41b3-8c53-408b36b7dbe0",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "opponent": "PXL",
+          "matchId": "17bd5c21-26a6-4710-a73c-9e576db8b0d1",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        },
+        {
           "date": "2026-11-07",
           "opponent": "baco",
           "matchId": "6d258619-346b-40ee-9253-7cebdbca6e60",
@@ -226,6 +250,30 @@
       ],
       "games": [
         {
+          "date": "2026-11-27",
+          "opponent": "MIR",
+          "matchId": "f196afce-9772-4d49-8fb4-4a5663d1941e",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "opponent": "SGE",
+          "matchId": "270af6c5-288d-42fd-87e0-269b4816f2ab",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        },
+        {
           "date": "2026-11-10",
           "opponent": "MPMT",
           "matchId": "da067b6f-b6db-4a1e-87df-bb4a22af9b27",
@@ -265,6 +313,66 @@
     }
   ],
   "Summit": [
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Fade",
+        "Astra",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-26",
+          "opponent": "PXL",
+          "matchId": "b0862f1a-5ce1-4573-a3e1-4f7e9ad8d417",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Neon",
+        "Yoru",
+        "Fade",
+        "Astra",
+        "Vyse"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "7f94d92c-4234-0a36-9646-3a87eb8b5c89",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "efba5359-4016-a1e5-7626-b1ae76895940"
+      ],
+      "games": [
+        {
+          "date": "2026-11-25",
+          "opponent": "SGE",
+          "matchId": "39f8f9e0-d1cf-40d1-89e5-b253203c4d65",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        }
+      ]
+    },
     {
       "agents": [
         "Hush",
@@ -329,6 +437,48 @@
     }
   ],
   "Sunset": [
+    {
+      "agents": [
+        "Hush",
+        "Neon",
+        "Fade",
+        "Omen",
+        "Cypher"
+      ],
+      "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "117ed9e3-49f3-6512-3ccf-0cada7e3823b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-27",
+          "opponent": "MIR",
+          "matchId": "da798f3c-af7a-4b65-bb78-6f308320fab8",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "opponent": "SGE",
+          "matchId": "27875275-fd30-426b-a54e-c3130bfa66c0",
+          "players": [
+            "F9 Yohpa",
+            "F9 TITOUNE",
+            "F9 H1ber",
+            "F9 Kajuks",
+            "F9 poeth"
+          ]
+        }
+      ]
+    },
     {
       "agents": [
         "Hush",

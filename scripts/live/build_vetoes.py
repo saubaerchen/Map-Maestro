@@ -246,6 +246,8 @@ def main():
         merge_manual(data[key], manual_rows(key, cfg))
         if cfg.get("veto_before"):
             data[key]["rows"] = [r for r in data[key]["rows"] if r["date"] < cfg["veto_before"]]
+        if cfg.get("veto_since"):
+            data[key]["rows"] = [r for r in data[key]["rows"] if r["date"] >= cfg["veto_since"]]
         print(f"{key:10} vetoes: {len(data[key]['rows'])}" + (f"  skipped: {skipped}" if skipped else ""))
     open(os.path.join(PUBLISH_DIR, "data.js"), "w", encoding="utf-8").write(
         "const vetoHistoryData = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n")

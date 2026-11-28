@@ -65,7 +65,13 @@ TEAMS = {
     "barca":       {"prefix": "bar", "tag": "BAR", "name": "Barça eSports",
                     "roster": ["purp0", "Fit1nho", "Pa1ze", "MONSTEERR", "Proxh"]},
     "f9eicar":     {"prefix": "f9", "tag": "F9", "name": "F9 EICAR",
-                    "roster": ["TITOUNE", "Kajuks", "Yohpa", "poeth", "H1ber"]},
+                    "roster": ["TITOUNE", "Kajuks", "Yohpa", "poeth", "H1ber"],
+                    # Veto view from Liquipedia (date rule: since 2026-09-01). Requested 2026-11-28.
+                    # Refresh: python scripts/fetch_liquipedia_team_vetoes.py --page F9_EICAR --year 2026
+                    #          --tag F9 --names "F9 EICAR" "F9 Eicar" "F9" --out data/staging/f9_vetoes_2026
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "f9_vetoes_2026.json"),
+                    "veto_since": "2026-09-01",
+                    "veto_subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (Liquipedia)"},
     "wip":         {"prefix": "wip", "tag": "WIP", "name": "WIP Esports",
                     "roster": ["Vorwenn", "mepeezy", "TakaS", "Jesse", "wtex"]},
     "aurora":      {"prefix": "aur", "tag": "AURA", "name": "Aurora Gaming",

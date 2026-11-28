@@ -1,88 +1,98 @@
 {
   "t_side": {
-    "total_rounds": 30,
-    "rounds_won": 18,
-    "pct_rounds_won": 60.0,
-    "won_by_kills": 15,
-    "pct_won_by_kills": 50.0,
-    "won_by_explosion": 3,
-    "pct_won_by_explosion": 10.0,
-    "avg_fk_time": 31.2,
+    "total_rounds": 55,
+    "rounds_won": 35,
+    "pct_rounds_won": 63.6,
+    "won_by_kills": 29,
+    "pct_won_by_kills": 52.7,
+    "won_by_explosion": 6,
+    "pct_won_by_explosion": 10.9,
+    "avg_fk_time": 33.7,
     "sites": {
       "A": {
-        "plant_count": 9,
-        "pct_plant": 37.5,
-        "pct_win": 66.7,
-        "avg_plant_time": 57.8,
+        "plant_count": 14,
+        "pct_plant": 32.6,
+        "pct_win": 71.4,
+        "avg_plant_time": 59.1,
         "min_plant_time": 29.6,
-        "max_plant_time": 76.3,
-        "fk_to_plant_avg": 20.9,
-        "fk_to_plant_n": 8
+        "max_plant_time": 80.9,
+        "fk_to_plant_avg": 26.4,
+        "fk_to_plant_n": 12
       },
       "B": {
-        "plant_count": 6,
-        "pct_plant": 25.0,
+        "plant_count": 12,
+        "pct_plant": 27.9,
         "pct_win": 83.3,
-        "avg_plant_time": 57.6,
+        "avg_plant_time": 62.5,
         "min_plant_time": 39.9,
         "max_plant_time": 90.9,
-        "fk_to_plant_avg": 31.9,
-        "fk_to_plant_n": 6
+        "fk_to_plant_avg": 27.6,
+        "fk_to_plant_n": 11
       },
       "C": {
-        "plant_count": 9,
-        "pct_plant": 37.5,
-        "pct_win": 77.8,
-        "avg_plant_time": 50.2,
+        "plant_count": 17,
+        "pct_plant": 39.5,
+        "pct_win": 82.4,
+        "avg_plant_time": 54.3,
         "min_plant_time": 24.8,
-        "max_plant_time": 64.3,
-        "fk_to_plant_avg": 26.2,
-        "fk_to_plant_n": 8
+        "max_plant_time": 93.4,
+        "fk_to_plant_avg": 28.5,
+        "fk_to_plant_n": 15
       }
     }
   },
   "ct_side": {
-    "total_rounds": 36,
-    "rounds_won": 21,
-    "pct_rounds_won": 58.3,
-    "won_by_kills": 11,
-    "pct_won_by_kills": 30.6,
-    "won_by_defuse": 10,
-    "pct_won_by_defuse": 27.8,
-    "avg_fk_time": 25.5,
+    "total_rounds": 61,
+    "rounds_won": 31,
+    "pct_rounds_won": 50.8,
+    "won_by_kills": 17,
+    "pct_won_by_kills": 27.9,
+    "won_by_defuse": 14,
+    "pct_won_by_defuse": 23.0,
+    "avg_fk_time": 30.4,
     "sites": {
       "A": {
-        "plant_count": 11,
-        "defuse_count": 3,
-        "pct_defuse_win": 27.3,
-        "pct_defuse_share": 30.0,
-        "avg_defuse_time": 29.5,
-        "fk_after_plant_avg": 14.9,
-        "fk_after_plant_n": 10
+        "plant_count": 21,
+        "defuse_count": 5,
+        "pct_defuse_win": 23.8,
+        "pct_defuse_share": 35.7,
+        "avg_defuse_time": 32.9,
+        "fk_after_plant_avg": 18.8,
+        "fk_after_plant_n": 15
       },
       "B": {
-        "plant_count": 6,
-        "defuse_count": 4,
-        "pct_defuse_win": 66.7,
-        "pct_defuse_share": 40.0,
-        "avg_defuse_time": 30.4,
-        "fk_after_plant_avg": 8.3,
-        "fk_after_plant_n": 5
+        "plant_count": 11,
+        "defuse_count": 5,
+        "pct_defuse_win": 45.5,
+        "pct_defuse_share": 35.7,
+        "avg_defuse_time": 32.0,
+        "fk_after_plant_avg": 8.1,
+        "fk_after_plant_n": 9
       },
       "C": {
-        "plant_count": 7,
-        "defuse_count": 3,
-        "pct_defuse_win": 42.9,
-        "pct_defuse_share": 30.0,
-        "avg_defuse_time": 20.1,
-        "fk_after_plant_avg": 6.0,
-        "fk_after_plant_n": 4
+        "plant_count": 10,
+        "defuse_count": 4,
+        "pct_defuse_win": 40.0,
+        "pct_defuse_share": 28.6,
+        "avg_defuse_time": 25.1,
+        "fk_after_plant_avg": 12.2,
+        "fk_after_plant_n": 7
       }
     }
   },
   "team": "F9 EICAR",
   "map": "Lotus",
   "matches": [
+    {
+      "date": "2026-11-27",
+      "opponent": "MIR",
+      "matchId": "f196afce-9772-4d49-8fb4-4a5663d1941e"
+    },
+    {
+      "date": "2026-11-25",
+      "opponent": "SGE",
+      "matchId": "270af6c5-288d-42fd-87e0-269b4816f2ab"
+    },
     {
       "date": "2026-11-10",
       "opponent": "MPMT",
