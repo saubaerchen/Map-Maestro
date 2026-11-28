@@ -2084,7 +2084,7 @@ function renderMapInfo() {
         </div>
       ` : ""}
       <div class="sample-eco-filter">
-        <div class="sample-eco-row">
+        <div class="sample-eco-row sample-eco-row--tiers">
           <button class="sample-eco-btn${activeEcoTiers.has('eco') ? ' active' : ''}" data-eco-tier="eco" data-tip="Eco: team inventory value under 5,000 credits in total (all five players together; pistol rounds not included)" aria-label="Eco: team total under 5,000 credits" type="button">$</button>
           <button class="sample-eco-btn${activeEcoTiers.has('semieco') ? ' active' : ''}" data-eco-tier="semieco" data-tip="Semi-eco: team inventory value 5,000 to 9,999 credits in total" aria-label="Semi-eco: team total 5,000 to 9,999 credits" type="button">$$</button>
           <button class="sample-eco-btn${activeEcoTiers.has('semibuy') ? ' active' : ''}" data-eco-tier="semibuy" data-tip="Semi-buy: team inventory value 10,000 to 19,999 credits in total" aria-label="Semi-buy: team total 10,000 to 19,999 credits" type="button">$$$</button>

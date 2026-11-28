@@ -1545,6 +1545,17 @@ polyline.pp-round-sel {
   gap: 5px;
 }
 
+/* Four buy buttons share ~36px each in the fixed-width card: keep "$$$$" on one line
+   (no side padding / letter-spacing) without widening the card. */
+.sample-eco-row--tiers .sample-eco-btn {
+  min-width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  font-size: 0.7rem;
+}
+
 .sample-eco-btn {
   flex: 1;
   padding: 4px 5px;
