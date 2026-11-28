@@ -122,6 +122,15 @@ const TEAMS_CONFIG = {
     playerOrder:  ["adore", "Michel", "moner", "ORI4K", "shawN"],
     displayName:  "xXxMasterProMegaTeamxXx",
   },
+  cgn: {
+    filePrefix:   "cgn",
+    mapControl:   typeof cgnMapControlData !== "undefined" ? cgnMapControlData : {},
+    statMaps:     ["Abyss", "Bind", "Lotus", "Summit", "Sunset"],
+    retakeMaps:   ["Abyss", "Bind", "Lotus", "Summit", "Sunset"],
+    playerColors: {"Wolfen": "#1565C0", "Serial": "#F9A825", "shinnok": "#C62828", "samed": "#2E7D32", "Vince": "#E91E63"},
+    playerOrder:  ["Wolfen", "Serial", "shinnok", "samed", "Vince"],
+    displayName:  "CGN Esports",
+  },
   lamasia: {
     filePrefix:   "lam",
     mapControl:   typeof lamMapControlData !== "undefined" ? lamMapControlData : {},
@@ -194,9 +203,9 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.mapControl])
 );
 const allDefensiveRetake = {};
-const RETAKE_DATA_VERSION = "202611280723";
-const AGENTS_DATA_VERSION = "202611280723";
-const ECONOMY_DATA_VERSION = "202611280723";
+const RETAKE_DATA_VERSION = "202611280835";
+const AGENTS_DATA_VERSION = "202611280835";
+const ECONOMY_DATA_VERSION = "202611280835";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -207,7 +216,7 @@ const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =
     }))
   )
 );
-  const MAP_IMAGE_VERSION = "202611280723";
+  const MAP_IMAGE_VERSION = "202611280835";
   const MAP_IMAGE_ASPECTS = {
     Abyss: 1,
     Summit: 1,
@@ -255,7 +264,7 @@ const calibrationOverrides = {
   "dortmund|Haven|t": []
 };
 
-const ACTIVE_TEAMS = new Set(["eintracht", "mir", "joblife", "nvjunior", "barca", "f9eicar", "wip", "aurora", "pixellumina", "lamasia", "giantx", "ucam", "mandatory", "enterprise", "epiluri"]);
+const ACTIVE_TEAMS = new Set(["eintracht", "mir", "joblife", "nvjunior", "barca", "f9eicar", "wip", "aurora", "pixellumina", "cgn", "lamasia", "giantx", "ucam", "mandatory", "enterprise", "epiluri"]);
 // Alphabetical (case/accent-insensitive); teams without data at the bottom
 const teamOrder = Object.keys(TEAMS_CONFIG)
   .filter((key) => allVetoHistoryData[key] && ACTIVE_TEAMS.has(key))

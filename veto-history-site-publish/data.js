@@ -1968,6 +1968,231 @@ const vetoHistoryData = {
       }
     ]
   },
+  "cgn": {
+    "name": "CGN Esports",
+    "ownerLabel": "CGN",
+    "subtitle": "VCT 2027 Kickoff Qualifier Playoffs — official vetoes (Liquipedia)",
+    "rows": [
+      {
+        "date": "2026-11-27",
+        "opponent": "Enterprise Esports",
+        "opponentAbbr": "EP",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_RmxcsCgYth_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Mid (1-1)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Lotus",
+        "deciderScore": "13:10",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Abyss",
+          "Summit",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Abyss",
+          "type": "pick",
+          "ownerLabel": "CGN",
+          "ownerKind": "team",
+          "score": "10:13",
+          "pickLabel": "CGN PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "EP",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "EP",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-11-26",
+        "opponent": "XXxMasterProMegaTeamxXx",
+        "opponentAbbr": "MPMT",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_RS8cj2quBQ_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Low (0-1)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Abyss",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Bind"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp",
+          "score": "13:8",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "CGN",
+          "ownerKind": "team",
+          "score": "13:0",
+          "pickLabel": "CGN PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-25",
+        "opponent": "UCAM Esports Club",
+        "opponentAbbr": "UCAM",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_vxROdQ0rom_0001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Round 1 (0-0)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Bind",
+        "deciderScore": "6:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Sunset",
+          "Lotus",
+          "Bind"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp",
+          "score": "8:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "CGN",
+          "ownerKind": "team",
+          "score": "13:9",
+          "pickLabel": "CGN PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "UCAM",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "CGN",
+          "ownerKind": "team"
+        }
+      }
+    ]
+  },
   "lamasia": {
     "name": "La Masia",
     "ownerLabel": "MSA",

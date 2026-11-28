@@ -17,7 +17,9 @@ from common import VLR_DIR
 MIN_CORE = 3
 CORE_EVENT = ("Kickoff", "Open Quali")
 CUTOFF_DATE = "2026-09-01"   # rule (Vincent, 2026-11-24): never use games before this, even with the core
-EXCLUDED_TEAMS = {"cgn"}     # rule (Vincent, 2026-11-24): CGN is not analysed
+# rule (Vincent, 2026-11-24): CGN was not analysed; lifted 2026-11-28 for the Qualifier Playoffs only
+# (site_config TEAMS['cgn'] min_date 2026-11-25). Not referenced by code.
+EXCLUDED_TEAMS = set()
 
 
 def _own_tag(vlr):

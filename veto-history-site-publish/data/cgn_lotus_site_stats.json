@@ -1,0 +1,102 @@
+{
+  "t_side": {
+    "total_rounds": 33,
+    "rounds_won": 18,
+    "pct_rounds_won": 54.5,
+    "won_by_kills": 15,
+    "pct_won_by_kills": 45.5,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 9.1,
+    "avg_fk_time": 30.9,
+    "sites": {
+      "A": {
+        "plant_count": 8,
+        "pct_plant": 32.0,
+        "pct_win": 87.5,
+        "avg_plant_time": 47.2,
+        "min_plant_time": 19.0,
+        "max_plant_time": 88.6,
+        "fk_to_plant_avg": 38.3,
+        "fk_to_plant_n": 6
+      },
+      "B": {
+        "plant_count": 5,
+        "pct_plant": 20.0,
+        "pct_win": 40.0,
+        "avg_plant_time": 55.7,
+        "min_plant_time": 31.4,
+        "max_plant_time": 88.8,
+        "fk_to_plant_avg": 21.8,
+        "fk_to_plant_n": 4
+      },
+      "C": {
+        "plant_count": 12,
+        "pct_plant": 48.0,
+        "pct_win": 75.0,
+        "avg_plant_time": 58.4,
+        "min_plant_time": 23.6,
+        "max_plant_time": 87.1,
+        "fk_to_plant_avg": 39.7,
+        "fk_to_plant_n": 10
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 33,
+    "rounds_won": 21,
+    "pct_rounds_won": 63.6,
+    "won_by_kills": 8,
+    "pct_won_by_kills": 24.2,
+    "won_by_defuse": 13,
+    "pct_won_by_defuse": 39.4,
+    "avg_fk_time": 34.0,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "defuse_count": 6,
+        "pct_defuse_win": 54.5,
+        "pct_defuse_share": 46.2,
+        "avg_defuse_time": 31.9,
+        "fk_after_plant_avg": 15.1,
+        "fk_after_plant_n": 11
+      },
+      "B": {
+        "plant_count": 7,
+        "defuse_count": 4,
+        "pct_defuse_win": 57.1,
+        "pct_defuse_share": 30.8,
+        "avg_defuse_time": 30.0,
+        "fk_after_plant_avg": 5.8,
+        "fk_after_plant_n": 7
+      },
+      "C": {
+        "plant_count": 7,
+        "defuse_count": 3,
+        "pct_defuse_win": 42.9,
+        "pct_defuse_share": 23.1,
+        "avg_defuse_time": 28.1,
+        "fk_after_plant_avg": 8.6,
+        "fk_after_plant_n": 5
+      }
+    }
+  },
+  "team": "CGN Esports",
+  "map": "Lotus",
+  "matches": [
+    {
+      "date": "2026-11-27",
+      "opponent": "EP",
+      "matchId": "59f2a674-0d11-4e9d-9376-1bfa5893f7d6"
+    },
+    {
+      "date": "2026-11-26",
+      "opponent": "MPMT",
+      "matchId": "22c2df62-f353-4a3b-99df-bd94d18b3b40"
+    },
+    {
+      "date": "2026-11-25",
+      "opponent": "UCAM",
+      "matchId": "840d869b-6c4f-4908-a01f-21b3bf9e69f2"
+    }
+  ]
+}

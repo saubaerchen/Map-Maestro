@@ -81,6 +81,17 @@ TEAMS = {
     # hidden: built as usual (its vetoes are still mirrored to opponents) but not in the team dropdown
     "mpmt":        {"prefix": "mpmt", "tag": "MPMT", "name": "xXxMasterProMegaTeamxXx", "hidden": True,
                     "roster": ["adore", "Michel", "moner", "ORI4K", "shawN"]},
+    # CGN: Map-Info only from the Kickoff Qualifier Playoffs (Swiss stage, tournament accounts):
+    # vs UCAM 11-25, MPMT 11-26, EP 11-27 = 8 maps, all used (no last-3 cut). Requested by Vincent 2026-11-28.
+    "cgn":         {"prefix": "cgn", "tag": "CGN", "name": "CGN Esports",
+                    "roster": ["Wolfen", "Serial", "shinnok", "samed", "Vince"],
+                    "min_date": "2026-11-25", "sample_maps": None,
+                    # Refresh: python scripts/fetch_liquipedia_team_vetoes.py --page CGN_Esports --year 2026
+                    #          --tag CGN --names "CGN Esports" "CGN" --out data/staging/cgn_vetoes_2026
+                    # Veto view: the same 3 Playoffs series only (Liquipedia), requested 2026-11-28.
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "cgn_vetoes_2026.json"),
+                    "veto_since": "2026-11-25",
+                    "veto_subtitle": "VCT 2027 Kickoff Qualifier Playoffs — official vetoes (Liquipedia)"},
     "lamasia":     {"prefix": "lam", "tag": "MSA", "name": "La Masia",
                     "roster": ["soren", "izana", "nayte", "lux9", "askoo"]},
     # --- Invited teams without usable official data (shown with a 'no data yet' note) ---

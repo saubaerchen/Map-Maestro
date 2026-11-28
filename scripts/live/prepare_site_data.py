@@ -55,6 +55,8 @@ def main():
         for mid, meta in reg["teams"].get(pre, {}).get("official", {}).items():
             if not passes(info, meta["gameId"], meta.get("date")):
                 continue
+            if meta.get("date") and not in_team_window(cfg, meta["date"], meta.get("map")):
+                continue   # team-specific window (min_date / extra_windows), e.g. CGN = Qualifier Playoffs only
             route = meta.get("route", "eu")
             d = match_detail(mid, route)
             if route == "esports":

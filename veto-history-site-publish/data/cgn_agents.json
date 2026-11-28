@@ -1,0 +1,217 @@
+{
+  "team": "CGN Esports",
+  "Sunset": [
+    {
+      "agents": [
+        "Neon",
+        "Sova",
+        "Omen",
+        "Chamber",
+        "Deadlock"
+      ],
+      "agent_ids": [
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+        "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235"
+      ],
+      "games": [
+        {
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+          "players": [
+            "CGN samed",
+            "CGN Wolfen",
+            "CGN Vince",
+            "CGN shinnok",
+            "CGN Serial"
+          ]
+        }
+      ]
+    }
+  ],
+  "Lotus": [
+    {
+      "agents": [
+        "Hush",
+        "Neon",
+        "Skye",
+        "Omen",
+        "Viper"
+      ],
+      "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "8e253930-4c05-31dd-1b6c-968525494517",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "59f2a674-0d11-4e9d-9376-1bfa5893f7d6",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Serial",
+            "CGN Vince",
+            "CGN Wolfen"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "opponent": "MPMT",
+          "matchId": "22c2df62-f353-4a3b-99df-bd94d18b3b40",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Serial",
+            "CGN Vince",
+            "CGN Wolfen"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "840d869b-6c4f-4908-a01f-21b3bf9e69f2",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Serial",
+            "CGN Vince",
+            "CGN Wolfen"
+          ]
+        }
+      ]
+    }
+  ],
+  "Bind": [
+    {
+      "agents": [
+        "Hush",
+        "Raze",
+        "Skye",
+        "Brimstone",
+        "Viper"
+      ],
+      "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-26",
+          "opponent": "MPMT",
+          "matchId": "dd6ac4f3-ae96-488d-86c4-a46d92f0b565",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Serial",
+            "CGN Vince",
+            "CGN Wolfen"
+          ]
+        }
+      ]
+    },
+    {
+      "agents": [
+        "Raze",
+        "Fade",
+        "Brimstone",
+        "Viper",
+        "Deadlock"
+      ],
+      "agent_ids": [
+        "f94c3b30-42be-e959-889c-5aa313dba261",
+        "dade69b4-4f5a-8528-247b-219e5a1facd6",
+        "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+        "707eab51-4836-f488-046a-cda6bf494859",
+        "cc8b64c8-4b25-4ff9-6e7f-37b4da43d235"
+      ],
+      "games": [
+        {
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "f2e2db34-505d-4c2a-bbd4-9ea91e0a1c03",
+          "players": [
+            "CGN samed",
+            "CGN shinnok",
+            "CGN Vince",
+            "CGN Wolfen",
+            "CGN Serial"
+          ]
+        }
+      ]
+    }
+  ],
+  "Abyss": [
+    {
+      "agents": [
+        "Hush",
+        "Waylay",
+        "Sova",
+        "Astra",
+        "Veto"
+      ],
+      "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+        "df1cb487-4902-002e-5c17-d28e83e78588",
+        "320b2a48-4d9b-a075-30f1-1f93a9b638fa",
+        "41fb69c1-4189-7b37-f117-bcaf1e96f1bf",
+        "92eeef5d-43b5-1d4a-8d03-b3927a09034b"
+      ],
+      "games": [
+        {
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Wolfen",
+            "CGN Vince",
+            "CGN Serial"
+          ]
+        }
+      ]
+    }
+  ],
+  "Summit": [
+    {
+      "agents": [
+        "Hush",
+        "Neon",
+        "Skye",
+        "Harbor",
+        "Viper"
+      ],
+      "agent_ids": [
+        "ddd5a15c-4fbe-42fa-3789-11a55ca5ee04",
+        "bb2a4828-46eb-8cd1-e765-15848195d751",
+        "6f2a04ca-43e0-be17-7f36-b3908627744d",
+        "95b78ed7-4637-86d9-7e41-71ba8c293152",
+        "707eab51-4836-f488-046a-cda6bf494859"
+      ],
+      "games": [
+        {
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "e6af5799-ac88-41b4-a680-f0375340ccae",
+          "players": [
+            "CGN shinnok",
+            "CGN samed",
+            "CGN Serial",
+            "CGN Vince",
+            "CGN Wolfen"
+          ]
+        }
+      ]
+    }
+  ]
+}

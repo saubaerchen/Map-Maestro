@@ -1,0 +1,78 @@
+{
+  "t_side": {
+    "total_rounds": 24,
+    "rounds_won": 17,
+    "pct_rounds_won": 70.8,
+    "won_by_kills": 14,
+    "pct_won_by_kills": 58.3,
+    "won_by_explosion": 3,
+    "pct_won_by_explosion": 12.5,
+    "avg_fk_time": 25.5,
+    "sites": {
+      "A": {
+        "plant_count": 7,
+        "pct_plant": 46.7,
+        "pct_win": 100.0,
+        "avg_plant_time": 53.2,
+        "min_plant_time": 33.1,
+        "max_plant_time": 69.3,
+        "fk_to_plant_avg": 25.9,
+        "fk_to_plant_n": 7
+      },
+      "B": {
+        "plant_count": 8,
+        "pct_plant": 53.3,
+        "pct_win": 100.0,
+        "avg_plant_time": 42.9,
+        "min_plant_time": 21.6,
+        "max_plant_time": 74.3,
+        "fk_to_plant_avg": 21.2,
+        "fk_to_plant_n": 8
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 8,
+    "rounds_won": 2,
+    "pct_rounds_won": 25.0,
+    "won_by_kills": 2,
+    "pct_won_by_kills": 25.0,
+    "won_by_defuse": 0,
+    "pct_won_by_defuse": 0.0,
+    "avg_fk_time": 53.0,
+    "sites": {
+      "A": {
+        "plant_count": 3,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 6.1,
+        "fk_after_plant_n": 3
+      },
+      "B": {
+        "plant_count": 2,
+        "defuse_count": 0,
+        "pct_defuse_win": 0.0,
+        "pct_defuse_share": null,
+        "avg_defuse_time": null,
+        "fk_after_plant_avg": 12.7,
+        "fk_after_plant_n": 1
+      }
+    }
+  },
+  "team": "CGN Esports",
+  "map": "Bind",
+  "matches": [
+    {
+      "date": "2026-11-26",
+      "opponent": "MPMT",
+      "matchId": "dd6ac4f3-ae96-488d-86c4-a46d92f0b565"
+    },
+    {
+      "date": "2026-11-25",
+      "opponent": "UCAM",
+      "matchId": "f2e2db34-505d-4c2a-bbd4-9ea91e0a1c03"
+    }
+  ]
+}

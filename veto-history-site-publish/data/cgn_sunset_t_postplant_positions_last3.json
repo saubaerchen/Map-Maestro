@@ -1,0 +1,106 @@
+{
+  "map": "Sunset",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-11-25",
+      "opponent": "UCAM",
+      "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+      "score": "8-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 1,
+      "pointCount": 3,
+      "points": [
+        {
+          "site": "A",
+          "player": "Serial",
+          "normX": 83.969,
+          "normY": 47.9901,
+          "roundNum": 14,
+          "plantRoundTimeMs": 74684,
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "samed",
+          "normX": 83.5166,
+          "normY": 41.0013,
+          "roundNum": 14,
+          "plantRoundTimeMs": 74684,
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+          "score": "8-13"
+        },
+        {
+          "site": "A",
+          "player": "Wolfen",
+          "normX": 84.1484,
+          "normY": 40.5021,
+          "roundNum": 14,
+          "plantRoundTimeMs": 74684,
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+          "score": "8-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 0,
+      "pointCount": 0,
+      "points": []
+    }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 18791,
+              "players": [
+                {
+                  "player": "Serial",
+                  "normX": 86.5508,
+                  "normY": 32.4057
+                },
+                {
+                  "player": "Wolfen",
+                  "normX": 83.9612,
+                  "normY": 40.6035
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19657,
+              "players": [
+                {
+                  "player": "Serial",
+                  "normX": 85.9814,
+                  "normY": 31.1265
+                },
+                {
+                  "player": "Wolfen",
+                  "normX": 84.125,
+                  "normY": 40.8297
+                }
+              ]
+            }
+          ],
+          "matchId": "4ad74586-38fc-458b-b054-882f33ac24dd",
+          "date": "2026-11-25",
+          "opponent": "UCAM",
+          "score": "8-13"
+        }
+      ]
+    }
+  }
+}

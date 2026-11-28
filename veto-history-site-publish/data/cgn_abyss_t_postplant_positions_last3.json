@@ -1,0 +1,539 @@
+{
+  "map": "Abyss",
+  "side": "t",
+  "selectedMaps": [
+    {
+      "date": "2026-11-27",
+      "opponent": "EP",
+      "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+      "score": "10-13"
+    }
+  ],
+  "sites": {
+    "A": {
+      "roundCount": 5,
+      "pointCount": 18,
+      "points": [
+        {
+          "site": "A",
+          "player": "shinnok",
+          "normX": 43.9007,
+          "normY": 18.6044,
+          "roundNum": 12,
+          "plantRoundTimeMs": 65826,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Vince",
+          "normX": 47.9831,
+          "normY": 15.5588,
+          "roundNum": 12,
+          "plantRoundTimeMs": 65826,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "samed",
+          "normX": 47.7806,
+          "normY": 16.1501,
+          "roundNum": 12,
+          "plantRoundTimeMs": 65826,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Wolfen",
+          "normX": 45.3911,
+          "normY": 18.6449,
+          "roundNum": 12,
+          "plantRoundTimeMs": 65826,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "shinnok",
+          "normX": 36.8375,
+          "normY": 68.6381,
+          "roundNum": 13,
+          "plantRoundTimeMs": 27307,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Wolfen",
+          "normX": 47.3351,
+          "normY": 12.6509,
+          "roundNum": 13,
+          "plantRoundTimeMs": 27307,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Serial",
+          "normX": 78.4877,
+          "normY": 29.507,
+          "roundNum": 17,
+          "plantRoundTimeMs": 26153,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "shinnok",
+          "normX": 35.7683,
+          "normY": 15.1214,
+          "roundNum": 17,
+          "plantRoundTimeMs": 26153,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Vince",
+          "normX": 47.9102,
+          "normY": 13.8659,
+          "roundNum": 17,
+          "plantRoundTimeMs": 26153,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "samed",
+          "normX": 50.0486,
+          "normY": 18.734,
+          "roundNum": 17,
+          "plantRoundTimeMs": 26153,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Wolfen",
+          "normX": 52.997,
+          "normY": 11.9543,
+          "roundNum": 17,
+          "plantRoundTimeMs": 26153,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Serial",
+          "normX": 41.0252,
+          "normY": 8.2202,
+          "roundNum": 20,
+          "plantRoundTimeMs": 56221,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Vince",
+          "normX": 53.3129,
+          "normY": 13.2422,
+          "roundNum": 20,
+          "plantRoundTimeMs": 56221,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Wolfen",
+          "normX": 47.8049,
+          "normY": 11.9138,
+          "roundNum": 20,
+          "plantRoundTimeMs": 56221,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Serial",
+          "normX": 35.3795,
+          "normY": 10.8527,
+          "roundNum": 22,
+          "plantRoundTimeMs": 62907,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "shinnok",
+          "normX": 37.4288,
+          "normY": 6.6812,
+          "roundNum": 22,
+          "plantRoundTimeMs": 62907,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "Vince",
+          "normX": 39.9155,
+          "normY": 14.9675,
+          "roundNum": 22,
+          "plantRoundTimeMs": 62907,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "A",
+          "player": "samed",
+          "normX": 43.8683,
+          "normY": 14.1089,
+          "roundNum": 22,
+          "plantRoundTimeMs": 62907,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        }
+      ]
+    },
+    "B": {
+      "roundCount": 3,
+      "pointCount": 8,
+      "points": [
+        {
+          "site": "B",
+          "player": "Serial",
+          "normX": 54.2687,
+          "normY": 84.5303,
+          "roundNum": 14,
+          "plantRoundTimeMs": 49595,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "samed",
+          "normX": 63.1706,
+          "normY": 96.8099,
+          "roundNum": 14,
+          "plantRoundTimeMs": 49595,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "Wolfen",
+          "normX": 40.7255,
+          "normY": 95.603,
+          "roundNum": 14,
+          "plantRoundTimeMs": 49595,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "samed",
+          "normX": 37.3883,
+          "normY": 96.0242,
+          "roundNum": 15,
+          "plantRoundTimeMs": 47951,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "Wolfen",
+          "normX": 46.4198,
+          "normY": 68.5328,
+          "roundNum": 15,
+          "plantRoundTimeMs": 47951,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "Serial",
+          "normX": 25.4651,
+          "normY": 62.1824,
+          "roundNum": 19,
+          "plantRoundTimeMs": 95918,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "Vince",
+          "normX": 43.763,
+          "normY": 82.805,
+          "roundNum": 19,
+          "plantRoundTimeMs": 95918,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        },
+        {
+          "site": "B",
+          "player": "samed",
+          "normX": 43.4633,
+          "normY": 96.0485,
+          "roundNum": 19,
+          "plantRoundTimeMs": 95918,
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "score": "10-13"
+        }
+      ]
+    }
+  },
+  "postPlant10_20": {
+    "A": {
+      "rounds": [
+        {
+          "roundNum": 12,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 14275,
+              "players": [
+                {
+                  "player": "Vince",
+                  "normX": 32.99,
+                  "normY": 12.3836
+                },
+                {
+                  "player": "samed",
+                  "normX": 30.9245,
+                  "normY": 12.2297
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19204,
+              "players": [
+                {
+                  "player": "Vince",
+                  "normX": 35.8493,
+                  "normY": 17.357
+                },
+                {
+                  "player": "samed",
+                  "normX": 33.0629,
+                  "normY": 12.3269
+                }
+              ]
+            }
+          ],
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "score": "10-13"
+        },
+        {
+          "roundNum": 17,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 12545,
+              "players": [
+                {
+                  "player": "Serial",
+                  "normX": 60.4004,
+                  "normY": 17.8511
+                },
+                {
+                  "player": "shinnok",
+                  "normX": 38.8787,
+                  "normY": 5.2394
+                },
+                {
+                  "player": "Vince",
+                  "normX": 45.1076,
+                  "normY": 16.709
+                },
+                {
+                  "player": "Wolfen",
+                  "normX": 55.2731,
+                  "normY": 9.905
+                }
+              ]
+            }
+          ],
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "score": "10-13"
+        },
+        {
+          "roundNum": 22,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 10284,
+              "players": [
+                {
+                  "player": "shinnok",
+                  "normX": 32.0342,
+                  "normY": 11.5007
+                },
+                {
+                  "player": "Vince",
+                  "normX": 34.8368,
+                  "normY": 10.9013
+                },
+                {
+                  "player": "samed",
+                  "normX": 52.9484,
+                  "normY": 15.8666
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 14685,
+              "players": [
+                {
+                  "player": "shinnok",
+                  "normX": 39.9155,
+                  "normY": 11.7518
+                },
+                {
+                  "player": "Vince",
+                  "normX": 36.554,
+                  "normY": 12.7481
+                },
+                {
+                  "player": "samed",
+                  "normX": 49.3844,
+                  "normY": 17.4947
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17512,
+              "players": [
+                {
+                  "player": "shinnok",
+                  "normX": 36.6998,
+                  "normY": 16.0367
+                },
+                {
+                  "player": "Vince",
+                  "normX": 35.7845,
+                  "normY": 18.8231
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 19048,
+              "players": [
+                {
+                  "player": "shinnok",
+                  "normX": 39.4376,
+                  "normY": 13.4123
+                }
+              ]
+            }
+          ],
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "score": "10-13"
+        }
+      ]
+    },
+    "B": {
+      "rounds": [
+        {
+          "roundNum": 14,
+          "snapshots": [
+            {
+              "timeSincePlantMs": 13535,
+              "players": [
+                {
+                  "player": "Serial",
+                  "normX": 60.8702,
+                  "normY": 83.8256
+                },
+                {
+                  "player": "samed",
+                  "normX": 33.3383,
+                  "normY": 87.3977
+                },
+                {
+                  "player": "Wolfen",
+                  "normX": 33.4598,
+                  "normY": 93.7886
+                }
+              ]
+            },
+            {
+              "timeSincePlantMs": 17049,
+              "players": [
+                {
+                  "player": "Serial",
+                  "normX": 71.546,
+                  "normY": 77.4833
+                },
+                {
+                  "player": "Wolfen",
+                  "normX": 33.4598,
+                  "normY": 96.899
+                }
+              ]
+            }
+          ],
+          "matchId": "6af01c70-6e05-48c1-9320-72c412e04d01",
+          "date": "2026-11-27",
+          "opponent": "EP",
+          "score": "10-13"
+        }
+      ]
+    }
+  }
+}
