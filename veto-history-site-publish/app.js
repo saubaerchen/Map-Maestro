@@ -1081,6 +1081,9 @@ function endHeatmapDrag() {
     `;
   }
 
+// Teams whose Sniper Kills hover text includes the kill time; add keys here to extend it.
+const SNIPER_TIME_TEAMS = new Set(["f9eicar", "f9victim"]);
+
 function fmtRoundTime(ms) {
   const s = Math.max(0, 100 - Math.round(ms / 1000));
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
@@ -1434,16 +1437,20 @@ function renderDefensivePanels(info) {
     .map(e => `<line class="heat-link" data-match-id="${e.point.matchId}" x1="${e.killer.x}" y1="${e.killer.y}" x2="${e.victim.x}" y2="${e.victim.y}"></line>`)
     .join("");
 
+  // Kill time (round clock) in the hover text — F9 only for now (Vincent, 2026-11-28)
+  const sniperShowTime = SNIPER_TIME_TEAMS.has(activeTeam);
+  const sniperTime = (p) => (sniperShowTime && p.timeSinceRoundStartMillis != null ? ` | ${fmtRoundTime(p.timeSinceRoundStartMillis)}` : "");
+
   const sniperVictimDots = sniperVisual
     .filter(e => e.victim)
-    .map(e => `<span class="heat-victim-point" data-match-id="${e.point.matchId}" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}"></span>`)
+    .map(e => `<span class="heat-victim-point" data-match-id="${e.point.matchId}" style="left:${e.victim.x}%; top:${e.victim.y}%;" title="Victim: ${e.point.victim ?? "?"} | R${e.point.roundNum + 1} | ${e.point.date} vs ${e.point.opponent}${sniperTime(e.point)}"></span>`)
     .join("");
 
   const sniperKillerDots = sniperVisual
     .map(e => {
       const color = getPlayerColor(e.point.player);
       const agent = agentIconMode ? currentAgentLookup[e.point.matchId]?.[e.point.player] : null;
-      const title = `${e.point.player} -> ${e.point.victim ?? "?"} | ${e.point.date} vs ${e.point.opponent} | R${e.point.roundNum + 1}`;
+      const title = `${e.point.player} -> ${e.point.victim ?? "?"} | ${e.point.date} vs ${e.point.opponent} | R${e.point.roundNum + 1}${sniperTime(e.point)}`;
       if (agent) return `<span class="heat-point heat-point--icon fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background-image:url('${agentIconUrl(agent)}');outline:2px solid ${color};" title="${title} (${agent})"></span>`;
       return `<span class="heat-point fk-killer" data-match-id="${e.point.matchId}" data-round="${e.point.roundNum}" style="left:${e.killer.x}%; top:${e.killer.y}%; background:${color};" title="${title}"></span>`;
     })
