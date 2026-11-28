@@ -7,17 +7,19 @@ For each team, reads the raw JSONL and outputs one JSON file:
 Structure:
   {
     "matchId": {
-      "0":  { "teamTier": "pistol", "oppTier": "pistol", "teamHasOp": false },
-      "1":  { "teamTier": "eco",    "oppTier": "full",   "teamHasOp": false },
-      "5":  { "teamTier": "full",   "oppTier": "full",   "teamHasOp": true  }
+      "0":  { "teamTier": "pistol",  "oppTier": "pistol",  "teamHasOp": false },
+      "1":  { "teamTier": "eco",     "oppTier": "semibuy", "teamHasOp": false },
+      "5":  { "teamTier": "full",    "oppTier": "full",    "teamHasOp": true  }
     }
   }
 
-Tier thresholds (team average loadoutValue per player):
-  pistol  — roundNum 0 or 12 (first round of each half)
-  eco     — avg < 2000  (and not pistol)
-  force   — 2000 <= avg < 3800
-  full    — avg >= 3800
+Tier thresholds = VLR's economy scale, on the TEAM TOTAL loadoutValue
+(sum of the five players' inventory value after the buy phase; since 2026-11-28):
+  pistol   — roundNum 0 or 12 (first round of each half), whatever was bought
+  eco      — total <  5,000
+  semieco  —  5,000 <= total < 10,000
+  semibuy  — 10,000 <= total < 20,000
+  full     — total >= 20,000
 
 teamHasOp — any team player's economy.weapon UUID matches OPERATOR_UUID
 
@@ -81,13 +83,16 @@ def load_jsonl(path: Path) -> list[dict]:
     return rows
 
 
-def classify_tier(avg_loadout: float, round_num: int) -> str:
+def classify_tier(team_total: float, round_num: int) -> str:
+    """VLR economy tiers on the team's total inventory value (see module docstring)."""
     if round_num in PISTOL_ROUNDS:
         return "pistol"
-    if avg_loadout < 2000:
+    if team_total < 5000:
         return "eco"
-    if avg_loadout < 3800:
-        return "force"
+    if team_total < 10000:
+        return "semieco"
+    if team_total < 20000:
+        return "semibuy"
     return "full"
 
 
@@ -136,8 +141,9 @@ def build_for_team(cfg: dict) -> dict:
             team_loadouts = [ps.get("economy", {}).get("loadoutValue", 0) for ps in team_stats]
             opp_loadouts  = [ps.get("economy", {}).get("loadoutValue", 0) for ps in opp_stats] if opp_stats else [0]
 
-            team_avg = sum(team_loadouts) / len(team_loadouts)
-            opp_avg  = sum(opp_loadouts)  / len(opp_loadouts)
+            # team total on a 5-player basis (average x 5), so a missing playerStats row can't push a team down a tier
+            team_total = sum(team_loadouts) / len(team_loadouts) * 5
+            opp_total  = sum(opp_loadouts)  / len(opp_loadouts) * 5
 
             team_has_op = any(
                 ps.get("economy", {}).get("weapon", "").upper() == OPERATOR_UUID_UPPER
@@ -145,8 +151,8 @@ def build_for_team(cfg: dict) -> dict:
             )
 
             match_data[str(round_num)] = {
-                "teamTier":   classify_tier(team_avg, round_num),
-                "oppTier":    classify_tier(opp_avg,  round_num),
+                "teamTier":   classify_tier(team_total, round_num),
+                "oppTier":    classify_tier(opp_total,  round_num),
                 "teamHasOp":  team_has_op,
             }
 

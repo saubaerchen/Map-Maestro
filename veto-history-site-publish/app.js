@@ -205,7 +205,7 @@ const TEAM_MAP_CONTROL_DATA = Object.fromEntries(
 const allDefensiveRetake = {};
 const RETAKE_DATA_VERSION = "202611280835";
 const AGENTS_DATA_VERSION = "202611280835";
-const ECONOMY_DATA_VERSION = "202611280835";
+const ECONOMY_DATA_VERSION = "202611280847";
 const RETAKE_DATA_SOURCES = Object.entries(TEAMS_CONFIG).flatMap(([team, cfg]) =>
   ["ct", "t"].flatMap(side =>
     cfg.retakeMaps.map(map => ({
@@ -314,9 +314,9 @@ let sniperFilterAllFK = false;
 let sniperFilterRotation = false;
 let activePlantSites = new Set(); // "A" | "B" | "C" — empty = show all
 const MAPS_WITH_C_SITE = new Set(["Lotus", "Haven"]);
-let activeEcoTiers = new Set(); // any of "pistol" | "eco" | "force" | "full" — multi-select (OR); empty = all buys
+let activeEcoTiers = new Set(); // any of "pistol" | "eco" | "semieco" | "semibuy" | "full" (VLR scale, team total) — multi-select (OR); empty = all buys
 let activeEcoOp = false;     // only rounds where team had an Operator
-let activeEnemyEco = false;  // only rounds where opponent was on eco/pistol
+let activeEnemyEco = false;  // only rounds where opponent was on eco/semi-eco (< 10k total) or pistol
 
 function applyPlantSiteFilter(items) {
   if (activePlantSites.size === 0) return items;
@@ -332,7 +332,7 @@ function passesEconomyFilter(matchId, roundNum) {
   if (!econ) return true;
   if (activeEcoTiers.size && !activeEcoTiers.has(econ.teamTier)) return false;
   if (activeEcoOp && !econ.teamHasOp) return false;
-  if (activeEnemyEco && econ.oppTier !== "eco" && econ.oppTier !== "pistol") return false;
+  if (activeEnemyEco && !["eco", "semieco", "pistol"].includes(econ.oppTier)) return false;
   return true;
 }
 
@@ -2085,16 +2085,17 @@ function renderMapInfo() {
       ` : ""}
       <div class="sample-eco-filter">
         <div class="sample-eco-row">
-          <button class="sample-eco-btn${activeEcoTiers.has('eco')   ? ' active' : ''}" data-eco-tier="eco"   data-tip="Eco: team avg. inventory value under 2,000 credits per player (pistol rounds not included)" aria-label="Eco: average inventory under 2,000 credits" type="button">$</button>
-          <button class="sample-eco-btn${activeEcoTiers.has('force') ? ' active' : ''}" data-eco-tier="force" data-tip="Mixed / force buy: team avg. inventory value 2,000 to 3,799 credits per player" aria-label="Mixed buy: average inventory 2,000 to 3,799 credits" type="button">$$</button>
-          <button class="sample-eco-btn${activeEcoTiers.has('full')  ? ' active' : ''}" data-eco-tier="full"  data-tip="Full buy: team avg. inventory value 3,800 credits or more per player" aria-label="Full buy: average inventory 3,800 credits or more" type="button">$$$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('eco') ? ' active' : ''}" data-eco-tier="eco" data-tip="Eco: team inventory value under 5,000 credits in total (all five players together; pistol rounds not included)" aria-label="Eco: team total under 5,000 credits" type="button">$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('semieco') ? ' active' : ''}" data-eco-tier="semieco" data-tip="Semi-eco: team inventory value 5,000 to 9,999 credits in total" aria-label="Semi-eco: team total 5,000 to 9,999 credits" type="button">$$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('semibuy') ? ' active' : ''}" data-eco-tier="semibuy" data-tip="Semi-buy: team inventory value 10,000 to 19,999 credits in total" aria-label="Semi-buy: team total 10,000 to 19,999 credits" type="button">$$$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('full') ? ' active' : ''}" data-eco-tier="full" data-tip="Full buy: team inventory value 20,000 credits or more in total" aria-label="Full buy: team total 20,000 credits or more" type="button">$$$$</button>
         </div>
         <div class="sample-eco-row">
           <button class="sample-eco-btn${activeEcoTiers.has('pistol') ? ' active' : ''}" data-eco-tier="pistol" data-tip="Pistol rounds: round 1 and round 13, whatever was bought" aria-label="Pistol rounds" type="button">P</button>
           <button class="sample-eco-btn sample-eco-op-btn${activeEcoOp ? ' active' : ''}" data-eco-op data-tip="Only rounds where the team had an Operator (combines with the buy buttons)" aria-label="Only rounds with an Operator" type="button">OP</button>
         </div>
         <div class="sample-eco-row">
-          <button class="sample-eco-btn sample-eco-enemy-btn${activeEnemyEco ? ' active' : ''}" data-eco-enemy data-tip="Only rounds where the opponent was on eco (avg. under 2,000 credits) or a pistol round" type="button">Enemy ECO</button>
+          <button class="sample-eco-btn sample-eco-enemy-btn${activeEnemyEco ? ' active' : ''}" data-eco-enemy data-tip="Only rounds where the opponent was on eco or semi-eco (under 10,000 credits in total) or a pistol round" type="button">Enemy ECO</button>
         </div>
       </div>
       <button class="sample-agent-btn${agentIconMode ? ' active' : ''}" type="button">Agent Icons</button>

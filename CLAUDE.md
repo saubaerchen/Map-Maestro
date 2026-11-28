@@ -249,12 +249,12 @@ This is how the plant site A/B/C buttons work — introduced 2026-06-07.
 ### Economy filter
 
 All panels (both CT and T) have an economy filter in the floating sample card, below the A/B/C plant site buttons. Key facts:
-- **UI layout**: Row 1: `$` `$$` `$$$` (eco/force/full), Row 2: `P` (pistol) `OP` (operator modifier), Row 3: `Enemy ECO`
-- **State**: `activeEcoTiers` (a `Set` of "pistol" | "eco" | "force" | "full" — **multi-select, OR**; empty = all buys; since 2026-11-28), `activeEcoOp` (bool), `activeEnemyEco` (bool) — OP and Enemy ECO are AND modifiers on top
+- **UI layout**: Row 1: `$` `$$` `$$$` `$$$$` (eco / semi-eco / semi-buy / full — VLR's scale), Row 2: `P` (pistol) `OP` (operator modifier), Row 3: `Enemy ECO`
+- **State**: `activeEcoTiers` (a `Set` of "pistol" | "eco" | "semieco" | "semibuy" | "full" — **multi-select, OR**; empty = all buys; since 2026-11-28), `activeEcoOp` (bool), `activeEnemyEco` (bool) — OP and Enemy ECO are AND modifiers on top
 - **Hover**: each economy button has a `data-tip` (instant CSS tooltip) stating its inventory-value range — keep it in sync with `classify_tier` if thresholds change
-- **Tier thresholds** (team avg loadout/player): pistol = roundNum 0 or 12; eco < 2000; force 2000–3799; full ≥ 3800
+- **Tier thresholds** (VLR scale on the **team total** loadoutValue = 5 × player average; since 2026-11-28): pistol = roundNum 0 or 12; eco < 5,000; semieco 5,000–9,999; semibuy 10,000–19,999; full ≥ 20,000
 - **OP modifier**: additive on top of tier — P + OP yields nothing (no OP in pistol rounds, by design)
-- **Enemy ECO**: requires opponent tier = "eco" OR "pistol"
+- **Enemy ECO**: requires opponent tier = "eco", "semieco" or "pistol" (opponent under 10k total)
 - **Filter functions**: `passesEconomyFilter(matchId, roundNum)` and `applyEconomyFilter(items)`
 - **Data source**: `{prefix}_economy.json` per team — built by `scripts/build_economy_bundle.py`; preloaded at startup via `preloadEconomyData(teamKey)`; versioned with `ECONOMY_DATA_VERSION`
 - Resets on team change, side switch, map change
