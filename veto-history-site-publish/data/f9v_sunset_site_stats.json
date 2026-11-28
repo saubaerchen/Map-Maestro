@@ -1,0 +1,88 @@
+{
+  "t_side": {
+    "total_rounds": 30,
+    "rounds_won": 8,
+    "pct_rounds_won": 26.7,
+    "won_by_kills": 7,
+    "pct_won_by_kills": 23.3,
+    "won_by_explosion": 1,
+    "pct_won_by_explosion": 3.3,
+    "avg_fk_time": 27.0,
+    "sites": {
+      "A": {
+        "plant_count": 7,
+        "pct_plant": 41.2,
+        "pct_win": 42.9,
+        "avg_plant_time": 61.7,
+        "min_plant_time": 35.0,
+        "max_plant_time": 94.3,
+        "fk_to_plant_avg": 37.2,
+        "fk_to_plant_n": 7
+      },
+      "B": {
+        "plant_count": 10,
+        "pct_plant": 58.8,
+        "pct_win": 40.0,
+        "avg_plant_time": 45.1,
+        "min_plant_time": 22.4,
+        "max_plant_time": 89.4,
+        "fk_to_plant_avg": 24.1,
+        "fk_to_plant_n": 10
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 45,
+    "rounds_won": 13,
+    "pct_rounds_won": 28.9,
+    "won_by_kills": 8,
+    "pct_won_by_kills": 17.8,
+    "won_by_defuse": 5,
+    "pct_won_by_defuse": 11.1,
+    "avg_fk_time": 30.8,
+    "sites": {
+      "A": {
+        "plant_count": 11,
+        "defuse_count": 2,
+        "pct_defuse_win": 18.2,
+        "pct_defuse_share": 40.0,
+        "avg_defuse_time": 30.2,
+        "fk_after_plant_avg": 25.2,
+        "fk_after_plant_n": 6
+      },
+      "B": {
+        "plant_count": 23,
+        "defuse_count": 3,
+        "pct_defuse_win": 13.0,
+        "pct_defuse_share": 60.0,
+        "avg_defuse_time": 25.6,
+        "fk_after_plant_avg": 9.2,
+        "fk_after_plant_n": 15
+      }
+    }
+  },
+  "team": "F9 Eicar (VictimLoc)",
+  "map": "Sunset",
+  "matches": [
+    {
+      "date": "2026-11-27",
+      "opponent": "MIR",
+      "matchId": "da798f3c-af7a-4b65-bb78-6f308320fab8"
+    },
+    {
+      "date": "2026-11-25",
+      "opponent": "SGE",
+      "matchId": "27875275-fd30-426b-a54e-c3130bfa66c0"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "MPMT",
+      "matchId": "60c96064-5e17-49fa-9a2f-0622beda5398"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "AURA",
+      "matchId": "f023702b-0fdf-45cb-9e09-d9d548a73a9a"
+    }
+  ]
+}

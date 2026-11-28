@@ -1505,6 +1505,668 @@ const vetoHistoryData = {
       }
     ]
   },
+  "f9victim": {
+    "name": "F9 Eicar (VictimLoc)",
+    "ownerLabel": "F9",
+    "subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (Liquipedia)",
+    "rows": [
+      {
+        "date": "2026-11-27",
+        "opponent": "MIR",
+        "opponentAbbr": "MIR",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_RmxcsCgYth_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Mid (1-1)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Corrode",
+        "deciderScore": "13:4",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Sunset",
+          "Corrode"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "13:11",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp",
+          "score": "5:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "MIR",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-11-26",
+        "opponent": "Pixel Lumina",
+        "opponentAbbr": "PXL",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_RS8cj2quBQ_0002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Low (0-1)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Haven",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Summit",
+          "Corrode"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp",
+          "score": "13:10",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "13:6",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "PXL",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-25",
+        "opponent": "Eintracht Frankfurt",
+        "opponentAbbr": "SGE",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_vxROdQ0rom_0005",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - Round 1 (0-0)",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe",
+        "decider": "Sunset",
+        "deciderScore": "4:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Summit",
+          "Lotus",
+          "Sunset"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Haven",
+          "type": "ban",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp",
+          "score": "9:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "14:12",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "SGE",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "opponent": "Aurora Gaming",
+        "opponentAbbr": "AURR",
+        "score": "1 - 2",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R06-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Sunset",
+        "deciderScore": "6:13",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Lotus",
+          "Haven",
+          "Sunset"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "AURR",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Lotus",
+          "type": "pick",
+          "ownerLabel": "AURR",
+          "ownerKind": "opp",
+          "score": "13:11",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "7:13",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "AURR",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "opponent": "XXxMasterProMegaTeamxXx",
+        "opponentAbbr": "MPMT",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R05-M001",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Lotus",
+        "deciderScore": "13:5",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Haven",
+          "Sunset",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Corrode",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp",
+          "score": "13:5",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Sunset",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "8:13",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "MPMT",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-07",
+        "opponent": "Barça eSports",
+        "opponentAbbr": "FCB",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R04-M002",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Haven",
+        "deciderScore": "13:10",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Bind",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "FCB",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "13:9",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Bind",
+          "type": "pick",
+          "ownerLabel": "FCB",
+          "ownerKind": "opp",
+          "score": "8:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "FCB",
+          "ownerKind": "opp"
+        }
+      },
+      {
+        "date": "2026-11-07",
+        "opponent": "Bacon and eggs",
+        "opponentAbbr": "BAE",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R03-M004",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Haven",
+        "deciderScore": "13:5",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Summit",
+          "Corrode",
+          "Haven"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "BAE",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Summit",
+          "type": "pick",
+          "ownerLabel": "BAE",
+          "ownerKind": "opp",
+          "score": "6:13",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "13:5",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "BAE",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "opponent": "Privateer Gaming",
+        "opponentAbbr": "PRG",
+        "score": "2 - 1",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R02-M008",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Lotus",
+        "deciderScore": "13:11",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Haven",
+          "Lotus"
+        ],
+        "deciderPlayed": true,
+        "ban1": {
+          "map": "Sunset",
+          "type": "ban",
+          "ownerLabel": "PRG",
+          "ownerKind": "opp"
+        },
+        "ban2": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "pick1": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "PRG",
+          "ownerKind": "opp",
+          "score": "13:3",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "8:13",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "PRG",
+          "ownerKind": "opp"
+        },
+        "ban4": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        }
+      },
+      {
+        "date": "2026-11-06",
+        "opponent": "Glacial Guardians",
+        "opponentAbbr": "GG",
+        "score": "2 - 0",
+        "source": "https://liquipedia.net/valorant/Match:ID_Tsv3qlOzUP_R01-M016",
+        "sourceLabel": "liquipedia",
+        "event": "VCT EMEA: Kickoff EU - OQ #1",
+        "format": "Bo3",
+        "mapPool": [
+          "Abyss",
+          "Bind",
+          "Corrode",
+          "Haven",
+          "Lotus",
+          "Summit",
+          "Sunset"
+        ],
+        "mapPoolNote": "",
+        "mapPoolSource": "https://liquipedia.net/valorant/VCT/2027/EMEA/Kickoff/Europe/Qualifier_1",
+        "decider": "Sunset",
+        "deciderScore": "",
+        "deciderLabel": "DECIDER",
+        "deciderTeamStartSide": "",
+        "playedMaps": [
+          "Corrode",
+          "Haven"
+        ],
+        "deciderPlayed": false,
+        "ban1": {
+          "map": "Abyss",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban2": {
+          "map": "Summit",
+          "type": "ban",
+          "ownerLabel": "GG",
+          "ownerKind": "opp"
+        },
+        "pick1": {
+          "map": "Corrode",
+          "type": "pick",
+          "ownerLabel": "F9",
+          "ownerKind": "team",
+          "score": "13:10",
+          "pickLabel": "F9 PICK",
+          "teamStartSide": ""
+        },
+        "pick2": {
+          "map": "Haven",
+          "type": "pick",
+          "ownerLabel": "GG",
+          "ownerKind": "opp",
+          "score": "13:10",
+          "pickLabel": "OPPONENT PICK",
+          "teamStartSide": ""
+        },
+        "ban3": {
+          "map": "Bind",
+          "type": "ban",
+          "ownerLabel": "F9",
+          "ownerKind": "team"
+        },
+        "ban4": {
+          "map": "Lotus",
+          "type": "ban",
+          "ownerLabel": "GG",
+          "ownerKind": "opp"
+        }
+      }
+    ]
+  },
   "wip": {
     "name": "WIP Esports",
     "ownerLabel": "WIP",

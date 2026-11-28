@@ -1,0 +1,127 @@
+{
+  "t_side": {
+    "total_rounds": 88,
+    "rounds_won": 52,
+    "pct_rounds_won": 59.1,
+    "won_by_kills": 42,
+    "pct_won_by_kills": 47.7,
+    "won_by_explosion": 10,
+    "pct_won_by_explosion": 11.4,
+    "avg_fk_time": 27.1,
+    "sites": {
+      "A": {
+        "plant_count": 31,
+        "pct_plant": 44.9,
+        "pct_win": 77.4,
+        "avg_plant_time": 47.8,
+        "min_plant_time": 15.8,
+        "max_plant_time": 84.5,
+        "fk_to_plant_avg": 26.5,
+        "fk_to_plant_n": 28
+      },
+      "B": {
+        "plant_count": 12,
+        "pct_plant": 17.4,
+        "pct_win": 66.7,
+        "avg_plant_time": 53.6,
+        "min_plant_time": 11.6,
+        "max_plant_time": 90.5,
+        "fk_to_plant_avg": 29.8,
+        "fk_to_plant_n": 11
+      },
+      "C": {
+        "plant_count": 26,
+        "pct_plant": 37.7,
+        "pct_win": 73.1,
+        "avg_plant_time": 54.4,
+        "min_plant_time": 17.0,
+        "max_plant_time": 99.3,
+        "fk_to_plant_avg": 27.0,
+        "fk_to_plant_n": 24
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 68,
+    "rounds_won": 38,
+    "pct_rounds_won": 55.9,
+    "won_by_kills": 29,
+    "pct_won_by_kills": 42.6,
+    "won_by_defuse": 9,
+    "pct_won_by_defuse": 13.2,
+    "avg_fk_time": 27.1,
+    "sites": {
+      "A": {
+        "plant_count": 9,
+        "defuse_count": 4,
+        "pct_defuse_win": 44.4,
+        "pct_defuse_share": 44.4,
+        "avg_defuse_time": 36.5,
+        "fk_after_plant_avg": 18.5,
+        "fk_after_plant_n": 6
+      },
+      "B": {
+        "plant_count": 10,
+        "defuse_count": 1,
+        "pct_defuse_win": 10.0,
+        "pct_defuse_share": 11.1,
+        "avg_defuse_time": 32.7,
+        "fk_after_plant_avg": 9.7,
+        "fk_after_plant_n": 8
+      },
+      "C": {
+        "plant_count": 15,
+        "defuse_count": 4,
+        "pct_defuse_win": 26.7,
+        "pct_defuse_share": 44.4,
+        "avg_defuse_time": 28.6,
+        "fk_after_plant_avg": 16.4,
+        "fk_after_plant_n": 13
+      }
+    }
+  },
+  "team": "F9 Eicar (VictimLoc)",
+  "map": "Haven",
+  "matches": [
+    {
+      "date": "2026-11-10",
+      "opponent": "MPMT",
+      "matchId": "979bcf7a-df19-41ea-8934-1d46203ce785"
+    },
+    {
+      "date": "2026-11-10",
+      "opponent": "AURA",
+      "matchId": "802651d2-3100-4ac4-9f39-9b868cb8d88b"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "baco",
+      "matchId": "3d074d78-f062-480e-bad8-a9eea9388347"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "BAR",
+      "matchId": "739d85be-2f48-42de-b854-501e97e4ff49"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "GG",
+      "matchId": "9a9519b6-8646-4da7-b76a-b2a08dd827b7"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "Priv",
+      "matchId": "0c2c7854-8eb7-470d-99df-553bc8cfc778"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "FL",
+      "matchId": "94beddb6-6bad-4a78-b1ee-f83cb1740d5e"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "DMNX",
+      "matchId": "f169e02c-859f-4bd6-8241-ff8bd5a5fc10"
+    }
+  ]
+}

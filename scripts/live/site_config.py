@@ -72,6 +72,17 @@ TEAMS = {
                     "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "f9_vetoes_2026.json"),
                     "veto_since": "2026-09-01",
                     "veto_subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (Liquipedia)"},
+    # Example team requested by Vincent 2026-11-28: F9's exact games (copied from F9's prepared site data),
+    # but each F9 death's victimLocation is added to that kill's playerLocations (prepare_site_data
+    # add_victim_locations), so Position at First Kill, Map Control, Rotation Patterns and Post-plant
+    # also show where F9 players died. Run prepare_site_data for f9eicar first.
+    "f9victim":    {"prefix": "f9v", "tag": "F9", "name": "F9 Eicar (VictimLoc)",
+                    "roster": ["TITOUNE", "Kajuks", "Yohpa", "poeth", "H1ber"],
+                    "esports_source": os.path.join(SITE_RAW_DIR, "f9_2026_raw_responses.jsonl"),
+                    "victim_loc": True,
+                    "liquipedia_vetoes": os.path.join(ROOT, "data", "staging", "f9_vetoes_2026.json"),
+                    "veto_since": "2026-09-01",
+                    "veto_subtitle": "VCT 2027 Kickoff prep — official vetoes since 2026-09-01 (Liquipedia)"},
     "wip":         {"prefix": "wip", "tag": "WIP", "name": "WIP Esports",
                     "roster": ["Vorwenn", "mepeezy", "TakaS", "Jesse", "wtex"]},
     "aurora":      {"prefix": "aur", "tag": "AURA", "name": "Aurora Gaming",

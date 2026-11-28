@@ -1,0 +1,108 @@
+{
+  "t_side": {
+    "total_rounds": 87,
+    "rounds_won": 58,
+    "pct_rounds_won": 66.7,
+    "won_by_kills": 41,
+    "pct_won_by_kills": 47.1,
+    "won_by_explosion": 17,
+    "pct_won_by_explosion": 19.5,
+    "avg_fk_time": 25.4,
+    "sites": {
+      "A": {
+        "plant_count": 38,
+        "pct_plant": 54.3,
+        "pct_win": 76.3,
+        "avg_plant_time": 46.7,
+        "min_plant_time": 22.9,
+        "max_plant_time": 91.2,
+        "fk_to_plant_avg": 24.7,
+        "fk_to_plant_n": 37
+      },
+      "B": {
+        "plant_count": 32,
+        "pct_plant": 45.7,
+        "pct_win": 87.5,
+        "avg_plant_time": 51.2,
+        "min_plant_time": 16.8,
+        "max_plant_time": 91.1,
+        "fk_to_plant_avg": 24.7,
+        "fk_to_plant_n": 32
+      }
+    }
+  },
+  "ct_side": {
+    "total_rounds": 60,
+    "rounds_won": 45,
+    "pct_rounds_won": 75.0,
+    "won_by_kills": 33,
+    "pct_won_by_kills": 55.0,
+    "won_by_defuse": 12,
+    "pct_won_by_defuse": 20.0,
+    "avg_fk_time": 22.5,
+    "sites": {
+      "A": {
+        "plant_count": 12,
+        "defuse_count": 6,
+        "pct_defuse_win": 50.0,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 28.2,
+        "fk_after_plant_avg": 14.2,
+        "fk_after_plant_n": 7
+      },
+      "B": {
+        "plant_count": 13,
+        "defuse_count": 6,
+        "pct_defuse_win": 46.2,
+        "pct_defuse_share": 50.0,
+        "avg_defuse_time": 30.5,
+        "fk_after_plant_avg": 15.3,
+        "fk_after_plant_n": 7
+      }
+    }
+  },
+  "team": "F9 Eicar (VictimLoc)",
+  "map": "Corrode",
+  "matches": [
+    {
+      "date": "2026-11-27",
+      "opponent": "MIR",
+      "matchId": "fb7e394f-6512-41b3-8c53-408b36b7dbe0"
+    },
+    {
+      "date": "2026-11-26",
+      "opponent": "PXL",
+      "matchId": "17bd5c21-26a6-4710-a73c-9e576db8b0d1"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "baco",
+      "matchId": "6d258619-346b-40ee-9253-7cebdbca6e60"
+    },
+    {
+      "date": "2026-11-07",
+      "opponent": "BAR",
+      "matchId": "ab027e87-6711-495a-84d8-91712e4fa5b6"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "GG",
+      "matchId": "a45cdb14-b030-449e-bbfd-f8945cb70ebd"
+    },
+    {
+      "date": "2026-11-06",
+      "opponent": "Priv",
+      "matchId": "c389db7e-d9ac-45aa-b1a6-faac88d7512d"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "FL",
+      "matchId": "02f88193-b6a7-4fb1-b476-5e2151189b50"
+    },
+    {
+      "date": "2026-11-05",
+      "opponent": "DMNX",
+      "matchId": "312065c3-9101-49f0-8072-1f25575e9516"
+    }
+  ]
+}

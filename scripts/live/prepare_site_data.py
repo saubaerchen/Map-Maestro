@@ -21,6 +21,20 @@ from core import core_info, passes  # noqa: E402
 from site_config import NAME_ALIASES, SITE_RAW_DIR, TEAMS, in_team_window, site_jsonl  # noqa: E402
 
 
+def add_victim_locations(d, tag):
+    """Riot lists a kill's victim only in victimLocation, never in playerLocations (the living players).
+    Position builders read playerLocations only, so a team player's death spot never shows. For teams with
+    victim_loc=True, append each own-team victim to that kill's playerLocations (enemy victims unchanged)."""
+    own = {p["puuid"] for p in d["players"] if p["gameName"].startswith(tag + " ")}
+    for rnd in d["roundResults"]:
+        for ps in rnd["playerStats"]:
+            for k in ps["kills"]:
+                v, loc = k.get("victim"), k.get("victimLocation")
+                locs = k.get("playerLocations")
+                if v in own and loc and locs is not None and not any(e.get("puuid") == v for e in locs):
+                    locs.append({"puuid": v, "location": loc, "isVictim": True})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--team", action="append")
@@ -41,6 +55,8 @@ def main():
                     # tournament lobbies list admins/observers ('VCT Observer 11', isObserver, teamId Neutral);
                     # drop them, otherwise they outvote the 5 enemy players when the opponent tag is derived
                     d["players"] = [p for p in d["players"] if not p.get("isObserver") and p.get("teamId") in ("Red", "Blue")]
+                    if cfg.get("victim_loc"):
+                        add_victim_locations(d, tag)
                     rows.append((ts, d))
             rows.sort(key=lambda r: r[0])
             with open(site_jsonl(pre), "w", encoding="utf-8") as f:
