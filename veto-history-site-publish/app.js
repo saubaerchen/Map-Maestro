@@ -299,7 +299,7 @@ const TEAM_STAT_MAPS = Object.fromEntries(
   Object.entries(TEAMS_CONFIG).map(([key, cfg]) => [key, cfg.statMaps])
 );
 let activeRotationTrail = null;
-let activeRotationWindow = null; // "140_120" | "120_100" | "100_end" | "afterplant" | null
+let activeRotationWindows = new Set(); // any of "140_120" | "120_100" | "100_end" | "afterplant" — multi-select (union); empty = whole round
 let fksNewRosterFilter = false;
 let agentIconMode = false;
 let activeSampleMatches = new Set(); // matchIds currently shown; empty = show all
@@ -1155,15 +1155,37 @@ const ROTATION_WINDOWS = [
   { key: "afterplant", label: "Afterplant / Retake", minMs: null, maxMs: null },
 ];
 
-function filterSnapshotsByWindow(snaps, windowKey, plantTimeMs) {
-  if (!windowKey) return snaps;
-  if (windowKey === "afterplant") {
-    if (!plantTimeMs) return [];
-    return snaps.filter(s => s.timeMs >= plantTimeMs);
-  }
+function snapInWindow(snap, windowKey, plantTimeMs) {
+  if (windowKey === "afterplant") return !!plantTimeMs && snap.timeMs >= plantTimeMs;
   const w = ROTATION_WINDOWS.find(w => w.key === windowKey);
-  if (!w) return snaps;
-  return snaps.filter(s => s.timeMs >= w.minMs && s.timeMs < w.maxMs);
+  return !!w && snap.timeMs >= w.minMs && snap.timeMs < w.maxMs;
+}
+
+// Snapshots inside ANY selected window, split into contiguous pieces: a trail only connects
+// snapshots that follow each other directly, so two non-adjacent windows (e.g. 1:40–1:20 +
+// 1:00–End) are drawn as separate pieces instead of one line jumping across the gap.
+function rotationSegments(snaps, windowKeys, plantTimeMs) {
+  if (!windowKeys.size) return snaps.length ? [snaps] : [];
+  const timeWins = ROTATION_WINDOWS.filter(w => w.minMs !== null);
+  const slot = (s) => timeWins.findIndex(w => s.timeMs >= w.minMs && s.timeMs < w.maxMs);
+  const afterPlant = (s) => windowKeys.has("afterplant") && !!plantTimeMs && s.timeMs >= plantTimeMs;
+  // snapshots are event-based (irregular gaps, e.g. 11s -> 61s): cut the line when an
+  // unselected time window lies between two consecutive positions, unless both are post-plant
+  const crossesUnselected = (a, b) => {
+    if (afterPlant(a) && afterPlant(b)) return false;
+    for (let i = slot(a) + 1; i < slot(b); i++) if (!windowKeys.has(timeWins[i].key)) return true;
+    return false;
+  };
+  const segments = [];
+  let cur = [];
+  for (const snap of snaps) {
+    if ([...windowKeys].some(k => snapInWindow(snap, k, plantTimeMs))) {
+      if (cur.length && crossesUnselected(cur[cur.length - 1], snap)) { segments.push(cur); cur = []; }
+      cur.push(snap);
+    } else if (cur.length) { segments.push(cur); cur = []; }
+  }
+  if (cur.length) segments.push(cur);
+  return segments;
 }
 
 function computeRotationLayers(mapName, side, selectedPlayers) {
@@ -1184,7 +1206,8 @@ function computeRotationLayers(mapName, side, selectedPlayers) {
       const trailName = canonicalPlayerName(trail.player);
       if (!selectedPlayers.has(trailName)) continue;
       if (!isMatchActive(trail.matchId)) continue;
-      const snaps = filterSnapshotsByWindow(trail.snapshots, activeRotationWindow, trail.plantTimeMs);
+      const segments = rotationSegments(trail.snapshots, activeRotationWindows, trail.plantTimeMs);
+      const snaps = segments.flat();
       if (!snaps.length) continue;
       visiblePlayers.add(trailName);
       const color = getPlayerColor(trailName);
@@ -1194,8 +1217,9 @@ function computeRotationLayers(mapName, side, selectedPlayers) {
       const dotOpacity  = hasSelection ? (isActive ? 1.0 : 0.1)  : 0.75;
       const strokeW     = isActive ? 0.6 : 0.35;
 
-      if (snaps.length >= 2) {
-        const pts = snaps.map(s => {
+      for (const seg of segments) {
+        if (seg.length < 2) continue;
+        const pts = seg.map(s => {
           const [rx, ry] = toCanvasXY(mapName, s.normX, s.normY);
           return `${rx},${ry}`;
         }).join(" ");
@@ -1244,7 +1268,7 @@ function updateRotationCardInPlace(mapName, side, selectedPlayers) {
     if (btn.dataset.sniperPanel) {
       btn.classList.toggle("active", sniperFilterRotation);
     } else {
-      btn.classList.toggle("active", btn.dataset.rotationWindow === activeRotationWindow);
+      btn.classList.toggle("active", activeRotationWindows.has(btn.dataset.rotationWindow));
     }
   });
 }
@@ -1260,7 +1284,7 @@ function buildRotationMarkup(mapName, side, frameClassList, frameStyle, mapImage
   const legendMarkup = buildPlayerLegendMarkup(sortByPlayerOrder([...visiblePlayers]));
 
   const windowButtonsMarkup = ROTATION_WINDOWS.map(w => {
-    const isActive = activeRotationWindow === w.key;
+    const isActive = activeRotationWindows.has(w.key);
     return `<button class="rotation-window-btn${isActive ? " active" : ""}" data-rotation-window="${w.key}" type="button">${w.label}</button>`;
   }).join("");
   const rotSniperBtnMarkup = isTestMode
@@ -2735,7 +2759,7 @@ teamSelect.addEventListener("change", (event) => {
 sideCtButton?.addEventListener("click", () => {
   activeSideView = "ct";
   activeRotationTrail = null;
-  activeRotationWindow = null;
+  activeRotationWindows.clear();
   activePlantSites = new Set();
   activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
   retakeActiveSites = new Set(["A", "B", "C"]);
@@ -2748,7 +2772,7 @@ sideCtButton?.addEventListener("click", () => {
 sideTButton?.addEventListener("click", () => {
   activeSideView = "t";
   activeRotationTrail = null;
-  activeRotationWindow = null;
+  activeRotationWindows.clear();
   activePlantSites = new Set();
   activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
   retakeActiveSites = new Set(["A", "B", "C"]);
@@ -2870,7 +2894,7 @@ if (defensivePanels) {
     const rotationWindowBtn = event.target.closest(".rotation-window-btn[data-rotation-window]");
     if (rotationWindowBtn) {
       const windowKey = rotationWindowBtn.dataset.rotationWindow;
-      activeRotationWindow = activeRotationWindow === windowKey ? null : windowKey;
+      if (activeRotationWindows.has(windowKey)) activeRotationWindows.delete(windowKey); else activeRotationWindows.add(windowKey);
       activeRotationTrail = null;
       updateRotationCardInPlace(activeInfo.map, activeSideView, getSelectedDefensiveSet(activeInfo, collectDefensivePlayers(activeInfo)));
       return;
@@ -2896,7 +2920,7 @@ if (defensiveMapSelect) {
   defensiveMapSelect.addEventListener("change", (event) => {
     activeDefensiveMap = event.target.value;
     activeRotationTrail = null;
-    activeRotationWindow = null;
+    activeRotationWindows.clear();
     activePlantSites = new Set();
     activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
     renderMapInfo();
