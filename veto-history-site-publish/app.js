@@ -314,7 +314,7 @@ let sniperFilterAllFK = false;
 let sniperFilterRotation = false;
 let activePlantSites = new Set(); // "A" | "B" | "C" — empty = show all
 const MAPS_WITH_C_SITE = new Set(["Lotus", "Haven"]);
-let activeEcoTier = null;    // null | "pistol" | "eco" | "force" | "full"
+let activeEcoTiers = new Set(); // any of "pistol" | "eco" | "force" | "full" — multi-select (OR); empty = all buys
 let activeEcoOp = false;     // only rounds where team had an Operator
 let activeEnemyEco = false;  // only rounds where opponent was on eco/pistol
 
@@ -327,17 +327,17 @@ function applyPlantSiteFilter(items) {
 }
 
 function passesEconomyFilter(matchId, roundNum) {
-  if (!activeEcoTier && !activeEcoOp && !activeEnemyEco) return true;
+  if (!activeEcoTiers.size && !activeEcoOp && !activeEnemyEco) return true;
   const econ = allEconomyData[activeTeam]?.[matchId]?.[String(roundNum)];
   if (!econ) return true;
-  if (activeEcoTier && econ.teamTier !== activeEcoTier) return false;
+  if (activeEcoTiers.size && !activeEcoTiers.has(econ.teamTier)) return false;
   if (activeEcoOp && !econ.teamHasOp) return false;
   if (activeEnemyEco && econ.oppTier !== "eco" && econ.oppTier !== "pistol") return false;
   return true;
 }
 
 function applyEconomyFilter(items) {
-  if (!activeEcoTier && !activeEcoOp && !activeEnemyEco) return items;
+  if (!activeEcoTiers.size && !activeEcoOp && !activeEnemyEco) return items;
   return items.filter(item => {
     if (Array.isArray(item)) return passesEconomyFilter(item[0]?.matchId, item[0]?.roundNum);
     return passesEconomyFilter(item.matchId, item.roundNum);
@@ -1927,7 +1927,9 @@ function updateEarlyDotsInPlace(info, selectedPlayers) {
   [["lt10s"], ["lt20s"], ["lt30s"]].forEach(([key]) => {
     const card = panels.querySelector(`[data-threshold="${key}"]`);
     if (!card) return;
-    const allPoints = applyNewRosterFilter(info.thresholds?.[key]?.points ?? []);
+    // same filters as the rendered dots: buy / plant site / deselected samples
+    const allPoints = applyEconomyFilter(applyPlantSiteFilter(applyNewRosterFilter(info.thresholds?.[key]?.points ?? [])))
+      .filter(p => isMatchActive(p.matchId));
     const visibleCount = allPoints.filter(p => selectedPlayers.has(canonicalPlayerName(p.player))).length;
     const roundCount = new Set(allPoints.map(p => `${p.matchId}|${p.roundNum}`)).size;
     const meta = card.querySelector(".defensive-card-meta");
@@ -2083,16 +2085,16 @@ function renderMapInfo() {
       ` : ""}
       <div class="sample-eco-filter">
         <div class="sample-eco-row">
-          <button class="sample-eco-btn${activeEcoTier === 'eco'   ? ' active' : ''}" data-eco-tier="eco"   type="button">$</button>
-          <button class="sample-eco-btn${activeEcoTier === 'force' ? ' active' : ''}" data-eco-tier="force" type="button">$$</button>
-          <button class="sample-eco-btn${activeEcoTier === 'full'  ? ' active' : ''}" data-eco-tier="full"  type="button">$$$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('eco')   ? ' active' : ''}" data-eco-tier="eco"   data-tip="Eco: team avg. inventory value under 2,000 credits per player (pistol rounds not included)" aria-label="Eco: average inventory under 2,000 credits" type="button">$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('force') ? ' active' : ''}" data-eco-tier="force" data-tip="Mixed / force buy: team avg. inventory value 2,000 to 3,799 credits per player" aria-label="Mixed buy: average inventory 2,000 to 3,799 credits" type="button">$$</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('full')  ? ' active' : ''}" data-eco-tier="full"  data-tip="Full buy: team avg. inventory value 3,800 credits or more per player" aria-label="Full buy: average inventory 3,800 credits or more" type="button">$$$</button>
         </div>
         <div class="sample-eco-row">
-          <button class="sample-eco-btn${activeEcoTier === 'pistol' ? ' active' : ''}" data-eco-tier="pistol" type="button">P</button>
-          <button class="sample-eco-btn sample-eco-op-btn${activeEcoOp ? ' active' : ''}" data-eco-op type="button">OP</button>
+          <button class="sample-eco-btn${activeEcoTiers.has('pistol') ? ' active' : ''}" data-eco-tier="pistol" data-tip="Pistol rounds: round 1 and round 13, whatever was bought" aria-label="Pistol rounds" type="button">P</button>
+          <button class="sample-eco-btn sample-eco-op-btn${activeEcoOp ? ' active' : ''}" data-eco-op data-tip="Only rounds where the team had an Operator (combines with the buy buttons)" aria-label="Only rounds with an Operator" type="button">OP</button>
         </div>
         <div class="sample-eco-row">
-          <button class="sample-eco-btn sample-eco-enemy-btn${activeEnemyEco ? ' active' : ''}" data-eco-enemy type="button">Enemy ECO</button>
+          <button class="sample-eco-btn sample-eco-enemy-btn${activeEnemyEco ? ' active' : ''}" data-eco-enemy data-tip="Only rounds where the opponent was on eco (avg. under 2,000 credits) or a pistol round" type="button">Enemy ECO</button>
         </div>
       </div>
       <button class="sample-agent-btn${agentIconMode ? ' active' : ''}" type="button">Agent Icons</button>
@@ -2635,7 +2637,7 @@ window.addEventListener('scroll', positionSampleCard, { passive: true });
 
 function syncEcoButtons() {
   defensiveSampleCard.querySelectorAll("[data-eco-tier]").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.ecoTier === activeEcoTier);
+    btn.classList.toggle("active", activeEcoTiers.has(btn.dataset.ecoTier));
   });
   const opBtn = defensiveSampleCard.querySelector("[data-eco-op]");
   if (opBtn) opBtn.classList.toggle("active", activeEcoOp);
@@ -2652,7 +2654,7 @@ document.getElementById("defensive-sample-card")?.addEventListener("click", (e) 
   const ecoTierBtn = e.target.closest("[data-eco-tier]");
   if (ecoTierBtn) {
     const tier = ecoTierBtn.dataset.ecoTier;
-    activeEcoTier = activeEcoTier === tier ? null : tier;
+    if (activeEcoTiers.has(tier)) activeEcoTiers.delete(tier); else activeEcoTiers.add(tier);
     syncEcoButtons();
     if (lastDefensiveInfo) {
       renderDefensivePanels(lastDefensiveInfo);
@@ -2717,7 +2719,7 @@ teamSelect.addEventListener("change", (event) => {
   activeDefensiveMap = "Bind";
   fksNewRosterFilter = false;
   agentIconMode = false;
-  activeEcoTier = null; activeEcoOp = false; activeEnemyEco = false;
+  activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
   retakeActiveSites = new Set(["A", "B", "C"]);
   ppInlineActiveSites = new Set(["A", "B", "C"]);
   if (activeTeam === "eco") {
@@ -2734,7 +2736,7 @@ sideCtButton?.addEventListener("click", () => {
   activeRotationTrail = null;
   activeRotationWindow = null;
   activePlantSites = new Set();
-  activeEcoTier = null; activeEcoOp = false; activeEnemyEco = false;
+  activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
   retakeActiveSites = new Set(["A", "B", "C"]);
   ppInlineActiveSites = new Set(["A", "B", "C"]);
   renderHero(allVetoHistoryData[activeTeam]);
@@ -2747,7 +2749,7 @@ sideTButton?.addEventListener("click", () => {
   activeRotationTrail = null;
   activeRotationWindow = null;
   activePlantSites = new Set();
-  activeEcoTier = null; activeEcoOp = false; activeEnemyEco = false;
+  activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
   retakeActiveSites = new Set(["A", "B", "C"]);
   ppInlineActiveSites = new Set(["A", "B", "C"]);
   renderHero(allVetoHistoryData[activeTeam]);
@@ -2895,7 +2897,7 @@ if (defensiveMapSelect) {
     activeRotationTrail = null;
     activeRotationWindow = null;
     activePlantSites = new Set();
-    activeEcoTier = null; activeEcoOp = false; activeEnemyEco = false;
+    activeEcoTiers.clear(); activeEcoOp = false; activeEnemyEco = false;
     renderMapInfo();
   });
 }

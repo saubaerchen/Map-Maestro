@@ -1565,6 +1565,34 @@ polyline.pp-round-sel {
   color: rgba(0, 0, 0, 0.85);
 }
 
+/* Instant hover explanation (inventory-value range etc.). Opens above the button and
+   to the left, because the sample card sits against the right edge of the screen. */
+.sample-eco-btn[data-tip] {
+  position: relative;
+}
+
+.sample-eco-btn[data-tip]:hover::after,
+.sample-eco-btn[data-tip]:focus-visible::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  right: 0;
+  width: 210px;
+  padding: 7px 9px;
+  border-radius: 6px;
+  background: #11161c;
+  color: #f3f4f6;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.35;
+  text-align: left;
+  white-space: normal;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  z-index: 120;
+  pointer-events: none;
+}
+
 .sample-eco-btn.active {
   background: #d1fae5;
   border-color: #34d399;
