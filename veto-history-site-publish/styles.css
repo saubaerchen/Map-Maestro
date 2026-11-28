@@ -1956,6 +1956,13 @@ polyline.pp-round-sel {
   filter: brightness(1.15);
 }
 
+/* Maps drawn as a 90° CW-rotated frame (Abyss, Corrode, Haven, Split): turn agent icons
+   back upright. The rotation follows the centring translate, so each icon spins around its
+   own centre and its position on the map stays exactly the same. */
+.heat-layer-frame.rotate-cw .heat-point--icon {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
 .heat-point.calibration-enabled {
   cursor: grab;
   z-index: 8;
