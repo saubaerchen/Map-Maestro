@@ -250,7 +250,8 @@ This is how the plant site A/B/C buttons work — introduced 2026-06-07.
 
 All panels (both CT and T) have an economy filter in the floating sample card, below the A/B/C plant site buttons. Key facts:
 - **UI layout**: Row 1: `$` `$$` `$$$` (eco/force/full), Row 2: `P` (pistol) `OP` (operator modifier), Row 3: `Enemy ECO`
-- **State**: `activeEcoTier` (null | "pistol" | "eco" | "force" | "full"), `activeEcoOp` (bool), `activeEnemyEco` (bool)
+- **State**: `activeEcoTiers` (a `Set` of "pistol" | "eco" | "force" | "full" — **multi-select, OR**; empty = all buys; since 2026-11-28), `activeEcoOp` (bool), `activeEnemyEco` (bool) — OP and Enemy ECO are AND modifiers on top
+- **Hover**: each economy button has a `data-tip` (instant CSS tooltip) stating its inventory-value range — keep it in sync with `classify_tier` if thresholds change
 - **Tier thresholds** (team avg loadout/player): pistol = roundNum 0 or 12; eco < 2000; force 2000–3799; full ≥ 3800
 - **OP modifier**: additive on top of tier — P + OP yields nothing (no OP in pistol rounds, by design)
 - **Enemy ECO**: requires opponent tier = "eco" OR "pistol"
